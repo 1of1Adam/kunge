@@ -1,0 +1,23 @@
+{
+  "title": "额外视频",
+  "root": true,
+  "pages": [
+    "---额外内容---",
+    "bonus-01-end-of-day-traps",
+    "bonus-02-trading-patterns-open",
+    "bonus-03-trading-final-hour",
+    "bonus-04-trading-bear-channels",
+    "bonus-05-tight-ranges-open",
+    "bonus-06-3-patterns",
+    "bonus-07-bull-channel",
+    "bonus-08-psychology-1",
+    "bonus-09-scalping-rules",
+    "bonus-10-scalping-2min",
+    "bonus-11-options-day-trades",
+    "bonus-12-options-daily",
+    "bonus-13-finding-trades",
+    "bonus-14-15sec-scalps",
+    "bonus-15-ii-ioi-oo-definitions",
+    "bonus-16-ii-ioi-oo-examples"
+  ]
+}
