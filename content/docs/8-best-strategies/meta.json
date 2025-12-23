@@ -1,0 +1,20 @@
+{
+  "title": "高胜率策略",
+  "description": "八种 60-80% 胜率入场策略",
+  "root": true,
+  "pages": [
+    "index",
+    "introduction",
+    "---策略详解---",
+    "01-pullback-in-trend",
+    "02-strong-breakout",
+    "03-fade-weak-signals",
+    "04-stop-entry-reversal",
+    "05-wedge-flags",
+    "06-flag-breakout-pullback",
+    "07-boundary-breakout-pullback",
+    "08-micro-trendline",
+    "------",
+    "conclusion"
+  ]
+}

@@ -1,6 +1,10 @@
 {
-  "title": "Al Brooks Course",
+  "title": "价格行为",
+  "description": "Al Brooks 价格行为完整课程",
+  "root": true,
   "pages": [
+    "index",
+    "---课程模块---",
     "price-action-fundamentals",
     "how-to-trade",
     "bonus-videos"
