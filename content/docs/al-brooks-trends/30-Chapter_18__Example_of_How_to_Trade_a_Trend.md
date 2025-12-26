@@ -286,8 +286,8 @@ title: 第 18 章：趋势交易实例
 ***
 
 **Figure 18.1 GS 的强趋势日**
+![nc18f001](./images/nc18f001.jpg)
 
-![ch18fig001.eps](./images/nc18f001.jpg)
 
 ***
 

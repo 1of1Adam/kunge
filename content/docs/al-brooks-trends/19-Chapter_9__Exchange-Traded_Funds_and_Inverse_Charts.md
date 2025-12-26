@@ -28,8 +28,8 @@ ETF 既然是基金，基金公司自然以盈利为目的，这意味着它们�
 *   **实际影响**：尽管如此，SPY 全天走势依然会与 Emini 几乎逐 tick 同步，交易者无须顾虑此类偏差。
 
 **[Figure 9.1]** Emini 与 SPY 走势相近
+![nc09f001](./images/nc09f001.jpg)
 
-![ch09fig001.eps](./images/nc09f001.jpg)
 
 如图 9.1 所示，上方的 Emini 图表与中间的 SPY 图表走势基本一致。
 
@@ -39,8 +39,8 @@ ETF 既然是基金，基金公司自然以盈利为目的，这意味着它们�
 ***
 
 **图 9.2 三巫日的 SPY 价格调整**
+![nc09f002](./images/nc09f002.jpg)
 
-![ch09fig002.eps](./images/nc09f002.jpg)
 
 如图 9.2 所示，每逢“三巫日”（Triple Witching Days），SPY 的价格都会进行调整。
 

@@ -656,8 +656,8 @@ title: 第一部分：价格行为
 > 没错，极端终有尽头。但除非你对自己的研判有着十足把握，否则切勿轻易对 **趋势** **押注失败**——因为市场维持其异常行为的时间，往往比你账户资金能支撑的时间更长。
 
 ### Figure PI.1 两段式回调
+![nc01f001](./images/nc01f001.jpg)
 
-![ch01fig001.eps](./images/nc01f001.jpg)
 
 > Figure PI.1 及本书所有图表均可在 www.wiley.com/go/tradingtrends 下载，以便放大查看细节。
 

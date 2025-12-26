@@ -32,8 +32,8 @@ title: 第 10 章：二次入场 (Second Entries)
 3.  在市场**第二次**尝试反转时再进场。
 
 [Figure 10.1] Second Entries
+![nc10f001](./images/nc10f001.jpg)
 
-![ch10fig001.eps](./images/nc10f001.jpg)
 
 今天有不少第二入场（second-entry）的交易机会（见 Figure 10.1）。你会发现，除了那一笔例外，剩下的第二入场点，价格要么跟第一入场一样，要么更糟。
 
@@ -51,8 +51,8 @@ title: 第 10 章：二次入场 (Second Entries)
 ---
 
 **Figure 10.2 强劲走势中，静候二次反转**
+![nc10f002](./images/nc10f002.jpg)
 
-![ch10fig002.eps](./images/nc10f002.jpg)
 
 只要动能强劲，想做逆势就得沉住气，等二次反转（second reversal）的入场策略出来再说（见 Figure 10.2）。
 

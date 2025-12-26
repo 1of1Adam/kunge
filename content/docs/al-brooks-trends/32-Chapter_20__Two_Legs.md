@@ -74,8 +74,8 @@ title: 第 20 章：两条腿 (Two Legs)
 ***
 
 **[Figure 20.1] Every Leg Is Made of Smaller Legs**
+![nc20f001](./images/nc20f001.jpg)
 
-![ch20fig001.eps](./images/nc20f001.jpg)
 
 *   每一次趋势线突破，每一次回调，都是一条“腿”，而且大级别的腿由小级别的腿构成（见 Figure 20.1）。
 
