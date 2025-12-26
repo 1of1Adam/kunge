@@ -1,5 +1,11 @@
 import Link from 'next/link';
 
+const bookIcon = (
+  <svg className="w-5 h-5 md:w-6 md:h-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5a10.5 10.5 0 00-3 .45v13.5A10.5 10.5 0 017.5 18c1.746 0 3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5a10.5 10.5 0 013 .45v13.5A10.5 10.5 0 0016.5 18c-1.746 0-3.332.477-4.5 1.253" />
+  </svg>
+);
+
 const courses = [
   {
     title: 'Al Brooks 价格行为',
@@ -22,6 +28,27 @@ const courses = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
+  },
+  {
+    title: '价格行为三部曲·趋势',
+    description: '第一卷：基础与趋势。已上线前言与总体框架。',
+    href: '/docs/al-brooks-trends',
+    tag: '已上线',
+    icon: bookIcon,
+  },
+  {
+    title: '价格行为三部曲·交易区间',
+    description: '第二卷：交易区间、订单管理、交易数学。内容建设中。',
+    href: '/docs/al-brooks-trading-ranges',
+    tag: '建设中',
+    icon: bookIcon,
+  },
+  {
+    title: '价格行为三部曲·反转',
+    description: '第三卷：趋势反转、日内交易、日线图、期权与最佳入场策略。内容建设中。',
+    href: '/docs/al-brooks-reversals',
+    tag: '建设中',
+    icon: bookIcon,
   },
 ];
 
