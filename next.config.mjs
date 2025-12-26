@@ -11,6 +11,31 @@ const config = {
   turbopack: {
     root,
   },
+  async redirects() {
+    return [
+      {
+        source:
+          '/docs/al-brooks-trends/12-Chapter_2__Trend_Bars,_Doji_Bars,_and_Climaxes',
+        destination:
+          '/docs/al-brooks-trends/12-Chapter_2__Trend_Bars_Doji_Bars_and_Climaxes',
+        permanent: true,
+      },
+      {
+        source:
+          '/docs/al-brooks-trends/13-Chapter_3__Breakouts,_Trading_Ranges,_Tests,_and_Reversals',
+        destination:
+          '/docs/al-brooks-trends/13-Chapter_3__Breakouts_Trading_Ranges_Tests_and_Reversals',
+        permanent: true,
+      },
+      {
+        source:
+          '/docs/al-brooks-trends/14-Chapter_4__Bar_Basics__Signal_Bars,_Entry_Bars,_Setups,_and_Candle_Patterns',
+        destination:
+          '/docs/al-brooks-trends/14-Chapter_4__Bar_Basics__Signal_Bars_Entry_Bars_Setups_and_Candle_Patterns',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withMDX(config);
