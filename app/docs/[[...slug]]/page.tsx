@@ -9,6 +9,7 @@ import { notFound, redirect } from 'next/navigation';
 import { getMDXComponents } from '@/mdx-components';
 import type { Metadata } from 'next';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
+import ReadingPosition from './ReadingPosition';
 
 export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const params = await props.params;
@@ -28,12 +29,14 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
       <DocsTitle>{page.data.pageTitle || page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX
-          components={getMDXComponents({
-            // this allows you to link to other pages with relative file paths
-            a: createRelativeLink(source, page),
-          })}
-        />
+        <ReadingPosition>
+          <MDX
+            components={getMDXComponents({
+              // this allows you to link to other pages with relative file paths
+              a: createRelativeLink(source, page),
+            })}
+          />
+        </ReadingPosition>
       </DocsBody>
     </DocsPage>
   );
