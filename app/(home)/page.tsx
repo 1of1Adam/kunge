@@ -30,6 +30,13 @@ const courses = [
     ),
   },
   {
+    title: '突破研究白皮书',
+    description: '突破与反转的统计研究与交易启发。',
+    href: '/docs/breakouts-whitepaper',
+    tag: '研究报告',
+    icon: bookIcon,
+  },
+  {
     title: '价格行为三部曲·趋势',
     description: '第一卷：基础与趋势。已上线前言与总体框架。',
     href: '/docs/al-brooks-trends',
