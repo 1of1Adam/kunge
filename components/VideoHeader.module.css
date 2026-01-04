@@ -1,0 +1,102 @@
+.container {
+  margin-bottom: 1.5rem;
+  container-type: inline-size;
+}
+
+.player {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.container :global(.plyr) {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+.container :global(.plyr__video-wrapper) {
+  background: #000;
+}
+
+.container :global(.plyr__captions) {
+  bottom: 8%;
+  left: 0;
+  right: 0;
+  transform: none;
+  text-align: center;
+  padding: 0.16em 0.44em;
+  pointer-events: none;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.18em;
+  width: fit-content;
+  max-width: min(90%, 960px);
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 0.22em;
+  box-shadow: none;
+}
+
+.container :global(.plyr__captions:empty) {
+  display: none;
+}
+
+@supports selector(:has(*)) {
+  .container :global(.plyr__captions:not(:has(.plyr__caption))) {
+    display: none;
+  }
+}
+
+.container :global(.plyr__caption:empty) {
+  display: none;
+}
+
+.container :global(.plyr__captions:not(.has-captions)) {
+  display: none;
+}
+
+.container :global(.plyr__captions.has-captions) {
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.38);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.container :global(.plyr__caption) {
+  color: #fff;
+  font-family: 'PingFang SC', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: clamp(15px, 2.2cqi, 26px);
+  line-height: 1.25;
+  background: transparent;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
+  padding: 0;
+  border-radius: 0;
+  display: block;
+  white-space: pre-line;
+  max-width: 100%;
+}
+
+.container :global(.plyr--full-ui input[type='range']) {
+  color: #fff;
+}
+
+.container :global(.plyr__control--overlaid) {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+@supports (font-size: 1cqi) {
+  .container :global(.plyr__caption) {
+    font-size: clamp(15px, 2.2cqi, 26px);
+  }
+}
+
+.container :global(.plyr--fullscreen-fallback) {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  border-radius: 0;
+  background: #000;
+}

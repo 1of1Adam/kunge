@@ -10,6 +10,7 @@ import { getMDXComponents } from '@/mdx-components';
 import type { Metadata } from 'next';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 import ReadingPosition from './ReadingPosition';
+import VideoHeader from '@/components/VideoHeader';
 
 export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const params = await props.params;
@@ -24,8 +25,11 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
 
   const MDX = page.data.body;
 
+  const slugKey = params.slug?.join('/') ?? '';
+
   return (
     <DocsPage toc={page.data.toc} full={page.data.full}>
+      <VideoHeader slug={slugKey} />
       <DocsTitle>{page.data.pageTitle || page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
