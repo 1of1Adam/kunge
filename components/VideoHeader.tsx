@@ -121,7 +121,6 @@ export default function VideoHeader({ slug }: { slug: string }) {
         if (typeof track.addEventListener === 'function') {
           track.addEventListener('cuechange', updateCaptionState);
         } else {
-          // @ts-expect-error legacy fallback
           track.oncuechange = updateCaptionState;
         }
       });
@@ -255,7 +254,6 @@ export default function VideoHeader({ slug }: { slug: string }) {
         if (typeof track.removeEventListener === 'function') {
           track.removeEventListener('cuechange', updateCaptionState);
         } else {
-          // @ts-expect-error legacy fallback
           track.oncuechange = null;
         }
       });
