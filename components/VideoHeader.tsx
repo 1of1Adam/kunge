@@ -77,6 +77,8 @@ export default function VideoHeader({ slug }: { slug: string }) {
   useEffect(() => {
     let cancelled = false;
     let boundTracks: TextTrack[] = [];
+    let boundTrackList: TextTrackList | null = null;
+    let boundPlyr: any = null;
 
     const applyPreferredTrack = () => {
       const video = videoRef.current;
@@ -99,8 +101,9 @@ export default function VideoHeader({ slug }: { slug: string }) {
       if (!plyrContainer) return;
       const captionsEl = plyrContainer.querySelector('.plyr__captions');
       if (!captionsEl) return;
+      const captionsActive = plyrContainer.classList.contains('plyr--captions-active');
       const tracks = Array.from(video.textTracks || []);
-      const hasActive = tracks.some((track) => {
+      const hasActive = captionsActive && tracks.some((track) => {
         const cues = track.activeCues;
         if (!cues || cues.length === 0) return false;
         for (let i = 0; i < cues.length; i += 1) {
@@ -112,11 +115,14 @@ export default function VideoHeader({ slug }: { slug: string }) {
       captionsEl.classList.toggle('has-captions', hasActive);
     };
 
+    const handleCaptionToggle = () => updateCaptionState();
+
     const bindCueListeners = () => {
       const video = videoRef.current;
       if (!video) return;
       const tracks = Array.from(video.textTracks || []);
       boundTracks = tracks;
+      boundTrackList = video.textTracks || null;
       tracks.forEach((track) => {
         if (typeof track.addEventListener === 'function') {
           track.addEventListener('cuechange', updateCaptionState);
@@ -124,6 +130,13 @@ export default function VideoHeader({ slug }: { slug: string }) {
           track.oncuechange = updateCaptionState;
         }
       });
+      if (boundTrackList) {
+        if (typeof boundTrackList.addEventListener === 'function') {
+          boundTrackList.addEventListener('change', handleCaptionToggle);
+        } else {
+          boundTrackList.onchange = handleCaptionToggle as EventListener;
+        }
+      }
       updateCaptionState();
     };
 
@@ -215,6 +228,12 @@ export default function VideoHeader({ slug }: { slug: string }) {
             },
           },
         });
+        boundPlyr = plyrRef.current;
+        if (boundPlyr && typeof boundPlyr.on === 'function') {
+          boundPlyr.on('captionsenabled', handleCaptionToggle);
+          boundPlyr.on('captionsdisabled', handleCaptionToggle);
+          boundPlyr.on('captionsupdate', handleCaptionToggle);
+        }
       }
 
       const source = proxyUrl(entry.hls);
@@ -257,6 +276,18 @@ export default function VideoHeader({ slug }: { slug: string }) {
           track.oncuechange = null;
         }
       });
+      if (boundTrackList) {
+        if (typeof boundTrackList.removeEventListener === 'function') {
+          boundTrackList.removeEventListener('change', handleCaptionToggle);
+        } else {
+          boundTrackList.onchange = null;
+        }
+      }
+      if (boundPlyr && typeof boundPlyr.off === 'function') {
+        boundPlyr.off('captionsenabled', handleCaptionToggle);
+        boundPlyr.off('captionsdisabled', handleCaptionToggle);
+        boundPlyr.off('captionsupdate', handleCaptionToggle);
+      }
       if (hlsRef.current) {
         hlsRef.current.destroy();
         hlsRef.current = null;

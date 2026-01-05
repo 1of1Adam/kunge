@@ -13,6 +13,7 @@
   border-radius: 12px;
   overflow: hidden;
   background: #000;
+  container-type: inline-size;
 }
 
 .container :global(.plyr__video-wrapper) {
@@ -27,7 +28,7 @@
   text-align: center;
   padding: 0.16em 0.44em;
   pointer-events: none;
-  display: inline-flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 0.18em;
@@ -53,11 +54,7 @@
   display: none;
 }
 
-.container :global(.plyr__captions:not(.has-captions)) {
-  display: none;
-}
-
-.container :global(.plyr__captions.has-captions) {
+.container :global(.plyr--captions-active .plyr__captions.has-captions) {
   display: inline-flex;
   background: rgba(0, 0, 0, 0.38);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
@@ -67,7 +64,7 @@
   color: #fff;
   font-family: 'PingFang SC', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
-  font-size: clamp(15px, 2.2cqi, 26px);
+  font-size: clamp(15px, 2.2cqi, 48px);
   line-height: 1.25;
   background: transparent;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
@@ -89,7 +86,7 @@
 
 @supports (font-size: 1cqi) {
   .container :global(.plyr__caption) {
-    font-size: clamp(15px, 2.2cqi, 26px);
+    font-size: clamp(15px, 2.2cqi, 48px);
   }
 }
 
