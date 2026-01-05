@@ -67,6 +67,27 @@ function proxyUrl(url: string) {
   return `/api/proxy?url=${encodeURIComponent(url)}`;
 }
 
+function isProbablyPhone() {
+  if (typeof window === 'undefined') return false;
+
+  const nav = navigator as Navigator & { userAgentData?: { mobile?: boolean } };
+  if (typeof nav.userAgentData?.mobile === 'boolean') {
+    return nav.userAgentData.mobile;
+  }
+
+  const ua = navigator.userAgent || '';
+  if (/iPad/i.test(ua)) return false;
+  if (/iPhone|iPod/i.test(ua)) return true;
+  if (/Android/i.test(ua)) return /Mobile/i.test(ua);
+  if (/Windows Phone|IEMobile|Opera Mini/i.test(ua)) return true;
+
+  if (!window.matchMedia) return false;
+  const coarse = window.matchMedia('(pointer: coarse)').matches;
+  const noHover = window.matchMedia('(hover: none)').matches;
+  const small = window.matchMedia('(max-width: 600px)').matches;
+  return coarse && noHover && small;
+}
+
 export default function VideoHeader({ slug }: { slug: string }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const hlsRef = useRef<any>(null);
@@ -165,6 +186,7 @@ export default function VideoHeader({ slug }: { slug: string }) {
       const video = videoRef.current;
       const Plyr = (window as any).Plyr;
       if (Plyr) {
+        const isPhone = isProbablyPhone();
         plyrRef.current = new Plyr(video, {
           controls: [
             'play-large',
@@ -180,8 +202,14 @@ export default function VideoHeader({ slug }: { slug: string }) {
             'fullscreen',
           ],
           settings: ['captions', 'speed'],
+          seekTime: 5,
+          keyboard: { focused: true, global: true },
           captions: { active: true, update: true, language: 'zh' },
-          fullscreen: { enabled: true, fallback: 'force' },
+          fullscreen: {
+            enabled: true,
+            fallback: isPhone ? false : 'force',
+            iosNative: isPhone,
+          },
           i18n: {
             restart: '重新播放',
             rewind: '后退 {seektime} 秒',
