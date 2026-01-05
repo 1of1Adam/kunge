@@ -1,0 +1,4168 @@
+[
+  {
+    "slideNum": 1,
+    "title": "Part 3 - D to F",
+    "children": []
+  },
+  {
+    "slideNum": 2,
+    "title": "Data: Adjusted",
+    "children": [
+      {
+        "slideNum": 3,
+        "title": "Close on Daily Chart: Can Be Different from 5-Min Chart"
+      },
+      {
+        "slideNum": 4,
+        "title": "Close of Day, Bonds: Different on 5-min Chart and Daily Chart"
+      },
+      {
+        "slideNum": 5,
+        "title": "Adjusted Data: Bond Futures"
+      },
+      {
+        "slideNum": 6,
+        "title": "Yesterday Was Holiday: Disappeared in Middle of Day"
+      },
+      {
+        "slideNum": 7,
+        "title": "Yesterday Was Holiday: Disappeared in Middle of Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 8,
+    "title": "Data: sampled",
+    "children": [
+      {
+        "slideNum": 9,
+        "title": "Your Data Is Sampled: CME Data Is Always Correct"
+      },
+      {
+        "slideNum": 10,
+        "title": "Chart Data Is Often Sampled: Sometimes Not Exact"
+      }
+    ]
+  },
+  {
+    "slideNum": 11,
+    "title": "Double Bottom",
+    "children": [
+      {
+        "slideNum": 12,
+        "title": "DB: 2nd Leg Down Is Often S Climax or Wedge Bottom"
+      },
+      {
+        "slideNum": 13,
+        "title": "3 Building Blocks for All Trading: Wedges, Doubles, and Breakout"
+      },
+      {
+        "slideNum": 14,
+        "title": "All Patterns Can Fail: Creates 3 More Building Blocks"
+      },
+      {
+        "slideNum": 15,
+        "title": "LL DB: After Strong Bear Trend So Trading Range Likely"
+      },
+      {
+        "slideNum": 16,
+        "title": "Lower Low Double Bottom: Then Trading Range"
+      },
+      {
+        "slideNum": 17,
+        "title": "HL DB: After Sell Climax"
+      },
+      {
+        "slideNum": 18,
+        "title": "HL DB: Bull Breakout"
+      },
+      {
+        "slideNum": 19,
+        "title": "LL DB: After Sell Climax"
+      },
+      {
+        "slideNum": 20,
+        "title": "LL DB: Expanding Triangle Then Trading Range"
+      },
+      {
+        "slideNum": 21,
+        "title": "Double Bottom: Failed Bear Breakout"
+      },
+      {
+        "slideNum": 22,
+        "title": "LL DB: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 23,
+        "title": "DB: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 24,
+        "title": "Double Bottom: Then Bull Trend From The Open"
+      },
+      {
+        "slideNum": 25,
+        "title": "Double Bottom: Rally, Then Trading Range"
+      },
+      {
+        "slideNum": 26,
+        "title": "LL DB: Bar 47 Midday Reversal"
+      },
+      {
+        "slideNum": 27,
+        "title": "DB: HL DB, MM Up"
+      },
+      {
+        "slideNum": 28,
+        "title": "HL DB: Wedge Bottom"
+      },
+      {
+        "slideNum": 29,
+        "title": "HL DB: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 30,
+        "title": "HL DB: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 31,
+        "title": "Double Bottom: Then Bull Channel"
+      },
+      {
+        "slideNum": 32,
+        "title": "DB: Possible MM Up"
+      },
+      {
+        "slideNum": 33,
+        "title": "LL DB: Also, Wedge Bottom and Expanding Triangle"
+      },
+      {
+        "slideNum": 34,
+        "title": "LL DB: After Failed HH DT"
+      },
+      {
+        "slideNum": 35,
+        "title": "HL DB: HL MTR"
+      },
+      {
+        "slideNum": 36,
+        "title": "HL DB: HL MTR"
+      },
+      {
+        "slideNum": 37,
+        "title": "Double Bottom: Measured Move Up from Either Bottom"
+      },
+      {
+        "slideNum": 38,
+        "title": "DB: MM Up"
+      },
+      {
+        "slideNum": 39,
+        "title": "DB Pullback: In Bull Channel"
+      },
+      {
+        "slideNum": 40,
+        "title": "Double Bottom: Then Bull Channel"
+      },
+      {
+        "slideNum": 41,
+        "title": "DB: Then Strong Bull Trend From The Open"
+      },
+      {
+        "slideNum": 42,
+        "title": "HL DB: HL MTR"
+      },
+      {
+        "slideNum": 43,
+        "title": "HL DB: HL MTR, MM Up"
+      },
+      {
+        "slideNum": 44,
+        "title": "HL DB: Swing Up"
+      },
+      {
+        "slideNum": 45,
+        "title": "DB: Wedge Selloff to HL DB, Then Trading Range"
+      },
+      {
+        "slideNum": 46,
+        "title": "Double Bottom: Failed Breakout below Wedge Bottom"
+      },
+      {
+        "slideNum": 47,
+        "title": "Higher Low Double Bottom: Then Trading Range"
+      },
+      {
+        "slideNum": 48,
+        "title": "HL DB: 2nd Leg Down Was Wedge"
+      },
+      {
+        "slideNum": 49,
+        "title": "HL DB: Bull Trending Trading Range"
+      },
+      {
+        "slideNum": 50,
+        "title": "LL DB: Then Trading Range Day"
+      },
+      {
+        "slideNum": 51,
+        "title": "LL DB: Bear Trap, Then Bull Trend Trading Range Day"
+      },
+      {
+        "slideNum": 52,
+        "title": "HL DB: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 53,
+        "title": "HL DB: Then MM Up"
+      },
+      {
+        "slideNum": 54,
+        "title": "HL DB: HL MTR, Broad Bull Channel"
+      },
+      {
+        "slideNum": 55,
+        "title": "DB: Small Pullback Bull Trend and MM Up"
+      },
+      {
+        "slideNum": 56,
+        "title": "DB: Small Pullback Bull Trend From The Open"
+      },
+      {
+        "slideNum": 57,
+        "title": "LL DB: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 58,
+        "title": "LL DB: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 59,
+        "title": "LL DB: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 60,
+        "title": "LL DB: Wedge Bottom, Then Trading Range Day"
+      },
+      {
+        "slideNum": 61,
+        "title": "DB: 2nd Leg Was Wedge HL"
+      },
+      {
+        "slideNum": 62,
+        "title": "DB: Then Trading Range Day"
+      },
+      {
+        "slideNum": 63,
+        "title": "DB: Then Trading Range Day"
+      },
+      {
+        "slideNum": 64,
+        "title": "HL DB: 2nd Leg Down Was Wedge Midday Bull Trend Reversal"
+      },
+      {
+        "slideNum": 65,
+        "title": "HL DB: Bull Channel, Then Wedge Top"
+      },
+      {
+        "slideNum": 66,
+        "title": "DB in Trading Range Day: Late Bull Breakout"
+      },
+      {
+        "slideNum": 67,
+        "title": "Double Bottom: 2nd Leg Down Was Sell Climax"
+      },
+      {
+        "slideNum": 68,
+        "title": "LL DB: 2nd Leg Down Was Sell Climax"
+      },
+      {
+        "slideNum": 69,
+        "title": "DB: 2nd Leg Down Was Wedge"
+      },
+      {
+        "slideNum": 70,
+        "title": "DB: 2nd Leg Down Was Small Wedge"
+      },
+      {
+        "slideNum": 71,
+        "title": "DB: 2nd Leg Down Was Wedge"
+      },
+      {
+        "slideNum": 72,
+        "title": "DB: Small Pullback Bull Trend From The Open, Then Trading Range"
+      },
+      {
+        "slideNum": 73,
+        "title": "LL DB: Spike and Channel Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 74,
+        "title": "2nd Leg of DT or DB: Often Is Wedge"
+      },
+      {
+        "slideNum": 75,
+        "title": "DB: 2nd Leg Down Is Often Wedge"
+      },
+      {
+        "slideNum": 76,
+        "title": "DB: Strong 2nd Leg Down"
+      },
+      {
+        "slideNum": 77,
+        "title": "Failed Reversal Down: High 2 PB"
+      },
+      {
+        "slideNum": 78,
+        "title": "MTR Top: DB MTR"
+      },
+      {
+        "slideNum": 79,
+        "title": "DB MTR: End of Day Profit Taking"
+      },
+      {
+        "slideNum": 80,
+        "title": "DB Pullback: HL MTR Then Wedge Top"
+      },
+      {
+        "slideNum": 81,
+        "title": "DB PB to EMA: Opening Reversal Up"
+      },
+      {
+        "slideNum": 82,
+        "title": "S The Close (STC) Bears Giving Up: Created Micro DB"
+      }
+    ]
+  },
+  {
+    "slideNum": 83,
+    "title": "Failed Double Bottom",
+    "children": [
+      {
+        "slideNum": 84,
+        "title": "DB: Wedge Selloff to DB"
+      },
+      {
+        "slideNum": 85,
+        "title": "DB: Failed"
+      },
+      {
+        "slideNum": 86,
+        "title": "LL DB Failed: Then Trading Range"
+      },
+      {
+        "slideNum": 87,
+        "title": "Double Bottom Failed: Trading Range Day"
+      },
+      {
+        "slideNum": 88,
+        "title": "Minor DB Bottom Failed: Too Many Bear Bars, Far above EMA"
+      },
+      {
+        "slideNum": 89,
+        "title": "LL DB Failed: Wedge Top"
+      },
+      {
+        "slideNum": 90,
+        "title": "Head and Shoulders Top: After Wedge Top"
+      },
+      {
+        "slideNum": 91,
+        "title": "Gap Up: DB Opening Reversal Failed"
+      },
+      {
+        "slideNum": 92,
+        "title": "Double Bottom Failed: Measured Move Down"
+      },
+      {
+        "slideNum": 93,
+        "title": "LL DB Failed: Led to DT LH MTR and Trending TR Day"
+      },
+      {
+        "slideNum": 94,
+        "title": "LL DB Failed: Minor Reversal Up"
+      },
+      {
+        "slideNum": 95,
+        "title": "Double Bottom at EMA Failed: LH MTR"
+      },
+      {
+        "slideNum": 96,
+        "title": "Failed DB: MM Down"
+      }
+    ]
+  },
+  {
+    "slideNum": 97,
+    "title": "Double Bottom Bull Flag",
+    "children": [
+      {
+        "slideNum": 98,
+        "title": "DB: 2nd Leg Down Is Often S Climax or Wedge Bottom"
+      },
+      {
+        "slideNum": 99,
+        "title": "DB Bull Flag: Measured Move Up"
+      },
+      {
+        "slideNum": 100,
+        "title": "Double Bottom Bull Flag: Failed Parabolic Wedge Top"
+      },
+      {
+        "slideNum": 101,
+        "title": "Double Bottom Bull Flag: Rally but Not MM Up"
+      },
+      {
+        "slideNum": 102,
+        "title": "DB Bull Flag: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 103,
+        "title": "Double Bottom Bull Flag: MM Up"
+      },
+      {
+        "slideNum": 104,
+        "title": "DB Bull Flag: Then Late Bull Breakout"
+      },
+      {
+        "slideNum": 105,
+        "title": "DB Bull Flag: MM Up"
+      },
+      {
+        "slideNum": 106,
+        "title": "DB Bull Flag: MM Up"
+      },
+      {
+        "slideNum": 107,
+        "title": "DB Bull Flag: Then Broad Bull Channel"
+      },
+      {
+        "slideNum": 108,
+        "title": "DB Bull Flag: Then Test of High"
+      },
+      {
+        "slideNum": 109,
+        "title": "DB Bull Flag: Trend Resumption Up"
+      },
+      {
+        "slideNum": 110,
+        "title": "DB Bull Flag: DB HL MTR"
+      },
+      {
+        "slideNum": 111,
+        "title": "DB Bull Flag: Resumption of Bull Trend From The Open"
+      },
+      {
+        "slideNum": 112,
+        "title": "DB Bull Flag: In TR with DT"
+      },
+      {
+        "slideNum": 113,
+        "title": "DB Bull Flag: TR Open"
+      },
+      {
+        "slideNum": 114,
+        "title": "DB HL or Bull Flag: TR Open"
+      },
+      {
+        "slideNum": 115,
+        "title": "LL DB Bull Flag: Trend Resumption Up"
+      },
+      {
+        "slideNum": 116,
+        "title": "DB HL: TR Open"
+      },
+      {
+        "slideNum": 117,
+        "title": "Big DB Bull Flag: 3-hour TR"
+      },
+      {
+        "slideNum": 118,
+        "title": "DB Bull Flag: Then DB PB"
+      },
+      {
+        "slideNum": 119,
+        "title": "DB Bull Flag: Buy Since Bull Trend or TR Likely"
+      },
+      {
+        "slideNum": 120,
+        "title": "Double Bottom Bull Flag: DB Test of BO Point"
+      },
+      {
+        "slideNum": 121,
+        "title": "DB Bull Flag: DB HL MTR after S Climax"
+      },
+      {
+        "slideNum": 122,
+        "title": "DB Bull Flag: Also Expanding Triangle"
+      },
+      {
+        "slideNum": 123,
+        "title": "DB Bull Flag: Small PB Bull Trend after Big Gap Up"
+      },
+      {
+        "slideNum": 124,
+        "title": "DT: Evolved into DB Bull Flag"
+      },
+      {
+        "slideNum": 125,
+        "title": "DB Bull Flag: B Reversal Up"
+      },
+      {
+        "slideNum": 126,
+        "title": "DB Bull Flag: After 2nd Leg Bear Trap"
+      },
+      {
+        "slideNum": 127,
+        "title": "Gap Up: DB Bull Flag"
+      },
+      {
+        "slideNum": 128,
+        "title": "DB Bull Flag: Look for MM Up"
+      },
+      {
+        "slideNum": 129,
+        "title": "DB Bull Flag: Look for MM Up"
+      },
+      {
+        "slideNum": 130,
+        "title": "DB Bull Flag: MM Up"
+      },
+      {
+        "slideNum": 131,
+        "title": "DB Bull Flag: After Big Gap Up"
+      }
+    ]
+  },
+  {
+    "slideNum": 132,
+    "title": "Double Bottom Bull Flag, 2nd Buy Signal",
+    "children": [
+      {
+        "slideNum": 133,
+        "title": "DB Bull Flag: 2nd B Signal Signal"
+      },
+      {
+        "slideNum": 134,
+        "title": "LL DB: 2nd Leg Was Sell Climax"
+      }
+    ]
+  },
+  {
+    "slideNum": 135,
+    "title": "Double Bottom Bull Flag, But Bear BO",
+    "children": [
+      {
+        "slideNum": 136,
+        "title": "DB Bull Flag Failed: After Wedge Top"
+      },
+      {
+        "slideNum": 137,
+        "title": "DB Failure: Head and Shoulders Top"
+      },
+      {
+        "slideNum": 138,
+        "title": "DB Bull Flag Failed: Reversal Down"
+      },
+      {
+        "slideNum": 139,
+        "title": "Exhaustion Gap: Strong Bull BO Late in Bull Trend"
+      },
+      {
+        "slideNum": 140,
+        "title": "DB Bull Flag: Possible L of Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 141,
+    "title": "Failed Bo Below Double Bottom so wedge bottom",
+    "children": [
+      {
+        "slideNum": 142,
+        "title": "Triple Bottoms: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 143,
+        "title": "Wedge Bottom: Failed BO below DB"
+      },
+      {
+        "slideNum": 144,
+        "title": "Failed Breakout below DB: Minor Reversal Up"
+      },
+      {
+        "slideNum": 145,
+        "title": "Failed Double Bottom: Buy above Bull Bar"
+      },
+      {
+        "slideNum": 146,
+        "title": "Failed BO below DB: Micro DB, High 2"
+      },
+      {
+        "slideNum": 147,
+        "title": "Failed Breakout below DB: LL MTR"
+      },
+      {
+        "slideNum": 148,
+        "title": "Failed Breakout below Double Bottom: Wedge Bottom"
+      },
+      {
+        "slideNum": 149,
+        "title": "LL DB: Failed Breakout below Wedge Bottom"
+      },
+      {
+        "slideNum": 150,
+        "title": "Failed Breakout below Wedge Bottom: Weak Bull Trend"
+      },
+      {
+        "slideNum": 151,
+        "title": "Failed BO Below DB: Wedge Bottom"
+      }
+    ]
+  },
+  {
+    "slideNum": 152,
+    "title": "Micro Double Bottom",
+    "children": [
+      {
+        "slideNum": 153,
+        "title": "Micro Double Bottom (DB): DB on Smaller Time Frame"
+      },
+      {
+        "slideNum": 154,
+        "title": "Double Bottom (DB): Micro DBT on Higher Time Frame"
+      },
+      {
+        "slideNum": 155,
+        "title": "Disappointed Bears: Either Exit at Lowest C, or Hold for BO"
+      },
+      {
+        "slideNum": 156,
+        "title": "Micro Double Bottom: Reversal Up from Sell Climax"
+      },
+      {
+        "slideNum": 157,
+        "title": "Micro Double Bottom: Sell Climax"
+      },
+      {
+        "slideNum": 158,
+        "title": "Micro DT and DB: Full Size Pattern on Smaller Time Frame"
+      },
+      {
+        "slideNum": 159,
+        "title": "S Climax Test of C of Last Year: B Reversal Up"
+      },
+      {
+        "slideNum": 160,
+        "title": "Micro Wedge: 3 Legs Within 4 – 7 Bars"
+      },
+      {
+        "slideNum": 161,
+        "title": "Micro DB: Exhaustive Sell Climax"
+      },
+      {
+        "slideNum": 162,
+        "title": "Micro DB: Parabolic Wedge Bottom"
+      }
+    ]
+  },
+  {
+    "slideNum": 163,
+    "title": "Double Bottom pullback",
+    "children": [
+      {
+        "slideNum": 164,
+        "title": "Triple Bottoms: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 165,
+        "title": "DB PB: After LL DB Had Weak Buy Setup"
+      },
+      {
+        "slideNum": 166,
+        "title": "DB PB: Type of Triangle Buy Setup"
+      },
+      {
+        "slideNum": 167,
+        "title": "DB PB: Type of Triangle B Setup"
+      },
+      {
+        "slideNum": 168,
+        "title": "DB PB: Bull Channel"
+      },
+      {
+        "slideNum": 169,
+        "title": "DB after Failed DT: Rally, Then Tight Trading Range"
+      },
+      {
+        "slideNum": 170,
+        "title": "DB PB: HSB"
+      },
+      {
+        "slideNum": 171,
+        "title": "DB Pullback: 2nd Attempt Was HL MTR"
+      },
+      {
+        "slideNum": 172,
+        "title": "DB PB: Bull Channel"
+      },
+      {
+        "slideNum": 173,
+        "title": "DB PB: HL MTR"
+      },
+      {
+        "slideNum": 174,
+        "title": "DB PB and HL MTR: Bull Trend"
+      },
+      {
+        "slideNum": 175,
+        "title": "DB PB: Trend Resumption Up"
+      },
+      {
+        "slideNum": 176,
+        "title": "DB PB: Minor Rally in Small Trading Range Day"
+      },
+      {
+        "slideNum": 177,
+        "title": "DB PB in Trading Range Open: Bull Breakout"
+      },
+      {
+        "slideNum": 178,
+        "title": "DB PB: Strong Bull Bars"
+      },
+      {
+        "slideNum": 179,
+        "title": "Double Bottom Pullback: Triangle"
+      },
+      {
+        "slideNum": 180,
+        "title": "Double Bottom Pullback: Bull Flag"
+      },
+      {
+        "slideNum": 181,
+        "title": "DB PB: Also HL MTR"
+      },
+      {
+        "slideNum": 182,
+        "title": "DB PB: Then Trading Range with Bull Breakout"
+      },
+      {
+        "slideNum": 183,
+        "title": "DB PB: Sell Climax Tested Yesterday’s DB"
+      },
+      {
+        "slideNum": 184,
+        "title": "DB PB: Bull Trend Reversal"
+      },
+      {
+        "slideNum": 185,
+        "title": "DB Pullback: Also Triangle"
+      },
+      {
+        "slideNum": 186,
+        "title": "DB PB: Weak Bull Channel"
+      },
+      {
+        "slideNum": 187,
+        "title": "DB PB: HL MTR"
+      },
+      {
+        "slideNum": 188,
+        "title": "DB PB: B for Swing Up"
+      },
+      {
+        "slideNum": 189,
+        "title": "Gap Down: DB PB"
+      },
+      {
+        "slideNum": 190,
+        "title": "DB PB: B above Bull Bar Closing near Its High"
+      },
+      {
+        "slideNum": 191,
+        "title": "DB PB: After Wedge Bottom and DB MTR"
+      },
+      {
+        "slideNum": 192,
+        "title": "DB PB: After Tight Bear Channel, Needed TR before Bull"
+      },
+      {
+        "slideNum": 193,
+        "title": "DB PB: Type of Triangle B Setup"
+      },
+      {
+        "slideNum": 194,
+        "title": "DB PB: Buy for BO and MM Up"
+      },
+      {
+        "slideNum": 195,
+        "title": "DB HL MTR: After HL Minor Reversal"
+      },
+      {
+        "slideNum": 196,
+        "title": "DB PB: Type of Triangle B Setup"
+      },
+      {
+        "slideNum": 197,
+        "title": "DB PB: Type of Triangle"
+      },
+      {
+        "slideNum": 198,
+        "title": "DB PB: Variation of a Triangle"
+      },
+      {
+        "slideNum": 199,
+        "title": "DB PB: HL MTR"
+      },
+      {
+        "slideNum": 200,
+        "title": "DB PB: After Big DB"
+      },
+      {
+        "slideNum": 201,
+        "title": "Nested DB PB: Expect 2 Legs Sideways to Up"
+      },
+      {
+        "slideNum": 202,
+        "title": "DB PB: HL MTR after Wedge Bottom"
+      },
+      {
+        "slideNum": 203,
+        "title": "DB Pullback: HL MTR Then Wedge Top"
+      }
+    ]
+  },
+  {
+    "slideNum": 204,
+    "title": "Failed Double Bottom pullback",
+    "children": [
+      {
+        "slideNum": 205,
+        "title": "Failed DB PB: DT Bear Flag"
+      },
+      {
+        "slideNum": 206,
+        "title": "Failed DB PB: Big Bear Breakout"
+      },
+      {
+        "slideNum": 207,
+        "title": "Failed DT PB and DB PB: Became Trading Range"
+      },
+      {
+        "slideNum": 208,
+        "title": "Double Bottom PB Failed: Bear Channel"
+      },
+      {
+        "slideNum": 209,
+        "title": "DB PB: Failed, Bear Trend Resumed"
+      },
+      {
+        "slideNum": 210,
+        "title": "DB PB: HL after DB, but Failed"
+      },
+      {
+        "slideNum": 211,
+        "title": "DB PB: Failed, Became Bear Flag"
+      }
+    ]
+  },
+  {
+    "slideNum": 212,
+    "title": "Disappointed Bulls",
+    "children": [
+      {
+        "slideNum": 213,
+        "title": "Bad Follow-Through in Buy The Close: Then Up or Down?"
+      },
+      {
+        "slideNum": 214,
+        "title": "Disappointed Bulls: Buy More Lower"
+      },
+      {
+        "slideNum": 215,
+        "title": "Buy The Close: Deep PB, and Scale-In, Limit Order Bulls Lost"
+      },
+      {
+        "slideNum": 216,
+        "title": "Disappointed Bull: 80% Chance of Not Losing Money"
+      },
+      {
+        "slideNum": 217,
+        "title": "Buy The Close: Scale In"
+      },
+      {
+        "slideNum": 218,
+        "title": "Disappointed Bulls: Bull Trap"
+      },
+      {
+        "slideNum": 219,
+        "title": "Micro DT: Disappointed Bulls Exited"
+      },
+      {
+        "slideNum": 220,
+        "title": "Disappointed Bulls: Exit around Breakeven"
+      },
+      {
+        "slideNum": 221,
+        "title": "Disappointed Bulls: 80% Chance of Avoiding Loss"
+      },
+      {
+        "slideNum": 222,
+        "title": "Disappointed Bulls: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 223,
+        "title": "Reasonable Bottom or Bull Flag That Fails: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 224,
+        "title": "B The Close: Deep PB, and Scale-In, Limit Order Bulls Lost"
+      },
+      {
+        "slideNum": 225,
+        "title": "Buy The Close: Scale In"
+      },
+      {
+        "slideNum": 226,
+        "title": "Disappointed Bulls: Scale in to Avoid Loss"
+      },
+      {
+        "slideNum": 227,
+        "title": "Reasonable Buy: 60% Chance of Making Money"
+      },
+      {
+        "slideNum": 228,
+        "title": "Reasonable Buy: 60% Chance of Profit"
+      },
+      {
+        "slideNum": 229,
+        "title": "Reasonable Buy The Close: 60% Chance of Profit"
+      },
+      {
+        "slideNum": 230,
+        "title": "Reasonable Buy The Close: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 231,
+        "title": "Reasonable Buy: 80% Chance of Not Losing Money"
+      },
+      {
+        "slideNum": 232,
+        "title": "Reasonable Buy: 80% Chance of Avoiding Loss"
+      },
+      {
+        "slideNum": 233,
+        "title": "Reasonable Buy: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 234,
+        "title": "Reasonable Buy: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 235,
+        "title": "Reasonable Buy: Avoid Loss"
+      },
+      {
+        "slideNum": 236,
+        "title": "Reasonable Buy: Disappointed Bulls"
+      },
+      {
+        "slideNum": 237,
+        "title": "Reasonable Buy: Magnet Above"
+      },
+      {
+        "slideNum": 238,
+        "title": "Not Strong Reasonable Buy: Just a Test of 1st High of DT"
+      },
+      {
+        "slideNum": 239,
+        "title": "Reasonable Buy: Then Disappointment Bar"
+      },
+      {
+        "slideNum": 240,
+        "title": "Reasonable Buy: Buy More Lower"
+      },
+      {
+        "slideNum": 241,
+        "title": "Reasonable Buy: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 242,
+        "title": "Reasonable Buy: Expect Bounce If There Is a Selloff"
+      },
+      {
+        "slideNum": 243,
+        "title": "Reasonable Buy: Expect Test"
+      },
+      {
+        "slideNum": 244,
+        "title": "Reasonable Buy Signals: 80% Chance of Avoiding Loss"
+      },
+      {
+        "slideNum": 245,
+        "title": "Reasonable Buy: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 246,
+        "title": "Reasonable Buy: 80% Chance of Not Losing Money"
+      },
+      {
+        "slideNum": 247,
+        "title": "Reasonable Buy: 80% of Avoiding Loss If Scale In"
+      },
+      {
+        "slideNum": 248,
+        "title": "Disappointed Bulls: Deep Pullback after Reasonable Buy Signal"
+      },
+      {
+        "slideNum": 249,
+        "title": "Reasonable Buy The Close: Exit Breakeven"
+      },
+      {
+        "slideNum": 250,
+        "title": "Reasonable Buy Signal Bars: Targets for Scale-in Bulls"
+      },
+      {
+        "slideNum": 251,
+        "title": "Reasonable Buy: If Scale in Correctly, 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 252,
+        "title": "Reasonable Limit Order Buy: Scale In Bulls Made Money"
+      },
+      {
+        "slideNum": 253,
+        "title": "Reasonable Buy: Scale In Bulls Should Make Money"
+      },
+      {
+        "slideNum": 254,
+        "title": "Reasonable Buy: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 255,
+        "title": "Reasonable Buy: Can Avoid Loss"
+      },
+      {
+        "slideNum": 256,
+        "title": "Reasonable Buy: Expect Test after Selloff"
+      },
+      {
+        "slideNum": 257,
+        "title": "Reasonable Buy Signal: Scale in Bulls Usually Avoid Loss"
+      },
+      {
+        "slideNum": 258,
+        "title": "Reasonable Buy: Scale in Lower and Expect Test Back Up"
+      },
+      {
+        "slideNum": 259,
+        "title": "Reasonable Buy: Magnet after Bear BO"
+      },
+      {
+        "slideNum": 260,
+        "title": "Scale In Bulls: Make Profit"
+      },
+      {
+        "slideNum": 261,
+        "title": "Scale In Bulls: Avoided Loss"
+      },
+      {
+        "slideNum": 262,
+        "title": "B The Close: Deep PB"
+      }
+    ]
+  },
+  {
+    "slideNum": 263,
+    "title": "Disappointed Bears",
+    "children": [
+      {
+        "slideNum": 264,
+        "title": "Bad Follow-Through in Sell The Close: Then Up or Down?"
+      },
+      {
+        "slideNum": 265,
+        "title": "Sell The Close: Disappointed Bears"
+      },
+      {
+        "slideNum": 266,
+        "title": "STC Disappointed Bears: Sell Again below Bear Bar"
+      },
+      {
+        "slideNum": 267,
+        "title": "Disappointed Bears: Exit around Breakeven"
+      },
+      {
+        "slideNum": 268,
+        "title": "Reasonable Top or Bear Flag That Fails: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 269,
+        "title": "Reasonable Sell: 80% Chance of Not Losing Money"
+      },
+      {
+        "slideNum": 270,
+        "title": "Reasonable Sell: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 271,
+        "title": "Reasonable Sell Signal: Failed, but Magnet"
+      },
+      {
+        "slideNum": 272,
+        "title": "Reasonable Sell: Magnet after Bull BO"
+      },
+      {
+        "slideNum": 273,
+        "title": "Failed Reasonable Sell: Expect Test so Bears Can Avoid Loss"
+      },
+      {
+        "slideNum": 274,
+        "title": "Reasonable Limit Order Sell: Scale In Bears Made Money"
+      },
+      {
+        "slideNum": 275,
+        "title": "Reasonable Sell: Scale in Bear Avoided Loss"
+      },
+      {
+        "slideNum": 276,
+        "title": "Reasonable Sell: Avoid Loss"
+      },
+      {
+        "slideNum": 277,
+        "title": "Reasonable Sell: Magnet Below"
+      },
+      {
+        "slideNum": 278,
+        "title": "Reasonable S: Might Get Tested Later in Day"
+      },
+      {
+        "slideNum": 279,
+        "title": "S The Close: Deep PB"
+      },
+      {
+        "slideNum": 280,
+        "title": "Sell The Close (STC): Deep PB"
+      }
+    ]
+  },
+  {
+    "slideNum": 281,
+    "title": "Doji bar",
+    "children": [
+      {
+        "slideNum": 282,
+        "title": "Doji in Bull Trend: Might soon Evolve into TR"
+      },
+      {
+        "slideNum": 283,
+        "title": "Doji in Sell Climax: Often Start of Trading Range"
+      },
+      {
+        "slideNum": 284,
+        "title": "Doji in Bear Trend: Might soon Evolve into TR"
+      }
+    ]
+  },
+  {
+    "slideNum": 285,
+    "title": "Doji Day",
+    "children": [
+      {
+        "slideNum": 286,
+        "title": "Doji Day: Close Exactly at Open of Day"
+      },
+      {
+        "slideNum": 287,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 288,
+        "title": "Doji Day: Close Near Open"
+      },
+      {
+        "slideNum": 289,
+        "title": "Bull Doji Day: Close Near Open"
+      },
+      {
+        "slideNum": 290,
+        "title": "Doji Day: Trading Range Day with Close near Open"
+      },
+      {
+        "slideNum": 291,
+        "title": "Doji Day: Open in Middle of Day"
+      },
+      {
+        "slideNum": 292,
+        "title": "Doji Day: After End of Day Wedge Top"
+      },
+      {
+        "slideNum": 293,
+        "title": "Doji Day: Close Near The Open"
+      },
+      {
+        "slideNum": 294,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 295,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 296,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 297,
+        "title": "Doji Day: Low was MM Down from High to Open"
+      },
+      {
+        "slideNum": 298,
+        "title": "Doji Day: Trading Range Day with Close near the Open"
+      },
+      {
+        "slideNum": 299,
+        "title": "Doji Day: Close Just above Open"
+      },
+      {
+        "slideNum": 300,
+        "title": "Doji Day: Despite Big Bull and Bear Breakouts"
+      },
+      {
+        "slideNum": 301,
+        "title": "Doji Day: Trading Range with Close Just below Open"
+      },
+      {
+        "slideNum": 302,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 303,
+        "title": "Doji Day: Close near Open"
+      },
+      {
+        "slideNum": 304,
+        "title": "Doji Bar on Daily Chart: Close near Open of Day"
+      },
+      {
+        "slideNum": 305,
+        "title": "Doji Day: Close Just below Open"
+      }
+    ]
+  },
+  {
+    "slideNum": 306,
+    "title": "Double Top",
+    "children": [
+      {
+        "slideNum": 307,
+        "title": "DT: 2nd Leg Up Is Often B Climax or Wedge Top"
+      },
+      {
+        "slideNum": 308,
+        "title": "3 Building Blocks for All Trading: Wedges, Doubles, and Breakout"
+      },
+      {
+        "slideNum": 309,
+        "title": "All Patterns Can Fail: Creates 3 More Building Blocks"
+      },
+      {
+        "slideNum": 310,
+        "title": "DT: Bear Trend From The Open, Then Trading Range"
+      },
+      {
+        "slideNum": 311,
+        "title": "DT: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 312,
+        "title": "DT: Spike and Channel Bear Trend"
+      },
+      {
+        "slideNum": 313,
+        "title": "LH DT: MM Down"
+      },
+      {
+        "slideNum": 314,
+        "title": "Double Top: Then Tight Bear Channel"
+      },
+      {
+        "slideNum": 315,
+        "title": "Double Top: Then Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 316,
+        "title": "LH DT: Then Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 317,
+        "title": "HH DT: MM Down"
+      },
+      {
+        "slideNum": 318,
+        "title": "LH DT: Bear Channel"
+      },
+      {
+        "slideNum": 319,
+        "title": "LH DT: LH MTR and Midday Bar 43 Bear Breakout"
+      },
+      {
+        "slideNum": 320,
+        "title": "LH DT: MM Down"
+      },
+      {
+        "slideNum": 321,
+        "title": "DT: 2nd Leg Up Was Bull Trap (Buy Climax)"
+      },
+      {
+        "slideNum": 322,
+        "title": "DT: Then MM Down"
+      },
+      {
+        "slideNum": 323,
+        "title": "DT: Measured Move Down"
+      },
+      {
+        "slideNum": 324,
+        "title": "DT: Wedge Rally to DT (LH MTR)"
+      },
+      {
+        "slideNum": 325,
+        "title": "HH DT: Bear Reversal Day"
+      },
+      {
+        "slideNum": 326,
+        "title": "HH DT: Major Bear Surprise"
+      },
+      {
+        "slideNum": 327,
+        "title": "DT: Bear Trend From The Open"
+      },
+      {
+        "slideNum": 328,
+        "title": "HH DT Bear Flag: 2nd Leg Up Was Weak Buy Climax"
+      },
+      {
+        "slideNum": 329,
+        "title": "HH DT: 2nd Leg Up Was Parabolic Wedge"
+      },
+      {
+        "slideNum": 330,
+        "title": "Higher High Double Top: Then Trading Range"
+      },
+      {
+        "slideNum": 331,
+        "title": "Double Top: After Wedge Rally"
+      },
+      {
+        "slideNum": 332,
+        "title": "DT: LH DT MTR"
+      },
+      {
+        "slideNum": 333,
+        "title": "LH DT: 2nd Leg Up Was Buy Climax"
+      },
+      {
+        "slideNum": 334,
+        "title": "Double Top: Bear Breakout"
+      },
+      {
+        "slideNum": 335,
+        "title": "DT: Bull Breakout Failed"
+      },
+      {
+        "slideNum": 336,
+        "title": "LH DT: Rally to 2nd Top Was Bull Trap"
+      },
+      {
+        "slideNum": 337,
+        "title": "HH DT: Small Pullback Bear Trend From The Open"
+      },
+      {
+        "slideNum": 338,
+        "title": "DT: Trading Range Day"
+      },
+      {
+        "slideNum": 339,
+        "title": "HH DT: Bear Trend Then Wedge Bottom"
+      },
+      {
+        "slideNum": 340,
+        "title": "LH DT: Swing Down, but Remained Trading Range Day"
+      },
+      {
+        "slideNum": 341,
+        "title": "DT: 2nd Leg Up Was Buy Climax"
+      },
+      {
+        "slideNum": 342,
+        "title": "HH DT: After FOMC, Led to Bear Trend"
+      },
+      {
+        "slideNum": 343,
+        "title": "HH DT: Then Wedge Bottom at EMA"
+      },
+      {
+        "slideNum": 344,
+        "title": "LH DT: Broad Bear Channel, Then Strong Reversal Up"
+      },
+      {
+        "slideNum": 345,
+        "title": "LH DT: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 346,
+        "title": "Nested DT: MM Down"
+      },
+      {
+        "slideNum": 347,
+        "title": "DT: Wedge Rally to DT"
+      },
+      {
+        "slideNum": 348,
+        "title": "Double Top: 2nd Leg Up Was Wedge"
+      },
+      {
+        "slideNum": 349,
+        "title": "HH DT: 2nd Leg Up Was B Climax, 1st Reversal Down Was Minor"
+      },
+      {
+        "slideNum": 350,
+        "title": "DT: 2nd Leg up is often Wedge"
+      },
+      {
+        "slideNum": 351,
+        "title": "DT: 2nd Leg Up Was Buy Climax"
+      },
+      {
+        "slideNum": 352,
+        "title": "DT: LH DT MTR after Big Gap Up"
+      },
+      {
+        "slideNum": 353,
+        "title": "DT: Strong 2nd Leg Up"
+      },
+      {
+        "slideNum": 354,
+        "title": "2nd Leg of DT or DB: Often Is Wedge"
+      },
+      {
+        "slideNum": 355,
+        "title": "DT after Big Gap Down: Strong Rally, Need 2nd S signal"
+      },
+      {
+        "slideNum": 356,
+        "title": "DT Bear Flag: After Selloff from 2 Days Ago"
+      },
+      {
+        "slideNum": 357,
+        "title": "Double Top: Failed Breakout above Parabolic Wedge Buy Climax"
+      },
+      {
+        "slideNum": 358,
+        "title": "MTR Top: DT MTR"
+      }
+    ]
+  },
+  {
+    "slideNum": 359,
+    "title": "Failed Double Top",
+    "children": [
+      {
+        "slideNum": 360,
+        "title": "DT Failed: Bull Breakout"
+      },
+      {
+        "slideNum": 361,
+        "title": "DT Failed: Measured Move Up"
+      },
+      {
+        "slideNum": 362,
+        "title": "DT Failed: Only Minor Reversal"
+      },
+      {
+        "slideNum": 363,
+        "title": "DT Failed: Then HL DB and Bull Channel"
+      },
+      {
+        "slideNum": 364,
+        "title": "HH DT Failed: HL DB and Spike and Channel Bull Trend"
+      },
+      {
+        "slideNum": 365,
+        "title": "HH DT: Failed"
+      },
+      {
+        "slideNum": 366,
+        "title": "HH DT Failed: Trading Range Day"
+      },
+      {
+        "slideNum": 367,
+        "title": "DT MTR: Failed"
+      },
+      {
+        "slideNum": 368,
+        "title": "DT Bear Flag: Failed, Head and Shoulders Bottom"
+      }
+    ]
+  },
+  {
+    "slideNum": 369,
+    "title": "Double Top Bear Flag",
+    "children": [
+      {
+        "slideNum": 370,
+        "title": "DT Bear Flag: Trend Resumption Down"
+      },
+      {
+        "slideNum": 371,
+        "title": "DT: 2nd Leg Up Is Often B Climax or Wedge Top"
+      },
+      {
+        "slideNum": 372,
+        "title": "Double Top Bear Flag: After Final Bear Flag"
+      },
+      {
+        "slideNum": 373,
+        "title": "DT Bear Flag: Bear Trend From The Open"
+      },
+      {
+        "slideNum": 374,
+        "title": "LH DT Bear Flag: Then Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 375,
+        "title": "DT Bear Flag: Bear Breakout"
+      },
+      {
+        "slideNum": 376,
+        "title": "Final Double Top Bear Flag: Expanding Triangle Bottom"
+      },
+      {
+        "slideNum": 377,
+        "title": "DT Bear Flag: 2nd Leg Up Was Buy Climax"
+      },
+      {
+        "slideNum": 378,
+        "title": "DT Bear Flag: Buy Climax and Breakout Test"
+      },
+      {
+        "slideNum": 379,
+        "title": "DT Bear Flag: Failed Wedge Bottom"
+      },
+      {
+        "slideNum": 380,
+        "title": "DT Bear Flag: LH DT MTR"
+      },
+      {
+        "slideNum": 381,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 382,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 383,
+        "title": "DT Bear Flag: More Than MM Down"
+      },
+      {
+        "slideNum": 384,
+        "title": "DT Bear Flag: ii Final Bear Flag Failed"
+      },
+      {
+        "slideNum": 385,
+        "title": "DT Bear Flag: LH DT MTR"
+      },
+      {
+        "slideNum": 386,
+        "title": "DT Bear Flag: LH DT MTR"
+      },
+      {
+        "slideNum": 387,
+        "title": "DT Bear Flag in Bear Trend: 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 388,
+        "title": "Double Top Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 389,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 390,
+        "title": "DT Bear Flag: LH MTR"
+      },
+      {
+        "slideNum": 391,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 392,
+        "title": "DT Bear Flag: Trend Resumption Down"
+      },
+      {
+        "slideNum": 393,
+        "title": "DT Bear Flag: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 394,
+        "title": "DT Bear Flag: Bear Trending Trading Range Day"
+      },
+      {
+        "slideNum": 395,
+        "title": "DT Bear Flag: Trend Resumption Down"
+      },
+      {
+        "slideNum": 396,
+        "title": "LH DT Bear Flag: Trend Resumption Down"
+      },
+      {
+        "slideNum": 397,
+        "title": "LH DT Bear Flag: Also LH DT MTR"
+      },
+      {
+        "slideNum": 398,
+        "title": "DT Bear Flag: 2nd Leg up Was Buy Climax"
+      },
+      {
+        "slideNum": 399,
+        "title": "DT Bear Flag: Bear Channel"
+      },
+      {
+        "slideNum": 400,
+        "title": "DT Bear Flag in Trading Range Open: Late Bear Breakout"
+      },
+      {
+        "slideNum": 401,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 402,
+        "title": "Double Top Bear Flag: Wedge Bear Flag"
+      },
+      {
+        "slideNum": 403,
+        "title": "Double Top Bear Flag: Failed Wedge Bottom"
+      },
+      {
+        "slideNum": 404,
+        "title": "DT Bear Flag: Then about MM Down"
+      },
+      {
+        "slideNum": 405,
+        "title": "DT Bear Flag: About a MM Down"
+      },
+      {
+        "slideNum": 406,
+        "title": "DT Bear Flag: Never Look Good, but 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 407,
+        "title": "DT Bear Flag: Measured Move Down"
+      },
+      {
+        "slideNum": 408,
+        "title": "Bull MC in Extreme B Climax: Expect 2 Legs Down"
+      },
+      {
+        "slideNum": 409,
+        "title": "DT Bear Flag: 2nd Leg Up Usually Is Strong"
+      },
+      {
+        "slideNum": 410,
+        "title": "DT: 2nd Leg Up Was Wedge"
+      },
+      {
+        "slideNum": 411,
+        "title": "DT Bear Flag: Wedge Rally to HH DT"
+      },
+      {
+        "slideNum": 412,
+        "title": "DT Bear Flag: Difficult to Hold Short"
+      },
+      {
+        "slideNum": 413,
+        "title": "DT Bear Flag: Sell below Bear Bar"
+      },
+      {
+        "slideNum": 414,
+        "title": "HH DT Bear Flag: Then LL DB and Trading Range"
+      },
+      {
+        "slideNum": 415,
+        "title": "DT Bear Flag : 2nd Leg Up Wedge"
+      },
+      {
+        "slideNum": 416,
+        "title": "DT Bear Flag: Bear Trend Resumption"
+      },
+      {
+        "slideNum": 417,
+        "title": "Double Top: DT LH MTR"
+      },
+      {
+        "slideNum": 418,
+        "title": "Double Top Bear Flag: Strong 2nd Leg Up"
+      },
+      {
+        "slideNum": 419,
+        "title": "DT Bear Flag: DT in Tight TR Sometimes Is Major Top"
+      },
+      {
+        "slideNum": 420,
+        "title": "DT Bear Flag: Despite Bull Major Surprise Bar"
+      },
+      {
+        "slideNum": 421,
+        "title": "DT Bear Flag: 2nd Leg Up Was B Climax so Bull Trap"
+      },
+      {
+        "slideNum": 422,
+        "title": "DT Bear Flag: 1st High of DT Was Not Obvious"
+      },
+      {
+        "slideNum": 423,
+        "title": "DT Bear Flag: 2nd Leg in DT Was B Climax"
+      },
+      {
+        "slideNum": 424,
+        "title": "DT Bear Flag: S below Bear Bar"
+      },
+      {
+        "slideNum": 425,
+        "title": "DT Bear Flag: Small Wedge Bottom so BO Mode"
+      },
+      {
+        "slideNum": 426,
+        "title": "DT Bear Flag: Failed High 1 and High 2 B Signals Are Common"
+      },
+      {
+        "slideNum": 427,
+        "title": "DT Bear Flag at EMA: Strong 2nd Leg Up"
+      },
+      {
+        "slideNum": 428,
+        "title": "DT Bear Flag: 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 429,
+        "title": "DT Bear Flag: Outside Down Made Big Bear BO Unlikely"
+      },
+      {
+        "slideNum": 430,
+        "title": "DB: 2nd Leg Down Was Wedge"
+      },
+      {
+        "slideNum": 431,
+        "title": "DT Bear Flag: Expect about MM Down"
+      },
+      {
+        "slideNum": 432,
+        "title": "DT Bear Flag: S below Bear Bar Closing near Its L"
+      },
+      {
+        "slideNum": 433,
+        "title": "DT Bear Flag: 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 434,
+        "title": "Strong Rally in Bear: DT Bear Flag"
+      },
+      {
+        "slideNum": 435,
+        "title": "Bear Trend Resumption: DT Bear Flag"
+      },
+      {
+        "slideNum": 436,
+        "title": "DT Bear Flag: 2nd Leg Up Often Strong"
+      },
+      {
+        "slideNum": 437,
+        "title": "DT Bear Flag: 2nd Leg Up Usually Looks Strong"
+      },
+      {
+        "slideNum": 438,
+        "title": "DT Bear Flag: Measured Move Down"
+      },
+      {
+        "slideNum": 439,
+        "title": "DT Bear Flag: LH MTR"
+      },
+      {
+        "slideNum": 440,
+        "title": "DT Bear Flag: About MM Down"
+      },
+      {
+        "slideNum": 441,
+        "title": "DT Bear Flag: Very Big, but Still Got MM Down"
+      },
+      {
+        "slideNum": 442,
+        "title": "Double Top Bear Flag: 2nd Leg Up Is Often Strong"
+      },
+      {
+        "slideNum": 443,
+        "title": "DT Bear Flag: 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 444,
+        "title": "DT Bear Flag: Measured Move Down"
+      },
+      {
+        "slideNum": 445,
+        "title": "DT Bear Flag: Much More Than MM Down"
+      },
+      {
+        "slideNum": 446,
+        "title": "DT Bear Flag: 40% Chance of MM Down"
+      },
+      {
+        "slideNum": 447,
+        "title": "Strong Bear Trend: Reversal Up Formed DT Bear Flag"
+      },
+      {
+        "slideNum": 448,
+        "title": "DT Bear Flag: Bottom of TR Day"
+      },
+      {
+        "slideNum": 449,
+        "title": "DT Bear Flag: Much Lower 2nd H Means Strong Bears"
+      },
+      {
+        "slideNum": 450,
+        "title": "DT Bear Flag: After Bear Trend Reversal"
+      },
+      {
+        "slideNum": 451,
+        "title": "DT LH MTR: 2nd Leg Up Usually Is Strong"
+      },
+      {
+        "slideNum": 452,
+        "title": "DT Bear Flag: 2nd Leg Bear Trap"
+      },
+      {
+        "slideNum": 453,
+        "title": "DT Bear Flag: Did Not Reach MM Target"
+      },
+      {
+        "slideNum": 454,
+        "title": "DT Bear Flag: After Selloff from 2 Days Ago"
+      },
+      {
+        "slideNum": 455,
+        "title": "Wedge Top: PB after 1st Leg Down Was LH MTR"
+      },
+      {
+        "slideNum": 456,
+        "title": "DT Bear Flag: 2nd Top Is Usually Strong Rally so Trap"
+      },
+      {
+        "slideNum": 457,
+        "title": "DT Bear Flag: Never Looks Good Enough"
+      },
+      {
+        "slideNum": 458,
+        "title": "DT LH MTR: 40% Chance of Swing Down"
+      },
+      {
+        "slideNum": 459,
+        "title": "DT Bear Flag: Trading Range Day, but Still MM Down"
+      },
+      {
+        "slideNum": 460,
+        "title": "LH DT Bear Flag: Look for Measured Move Down"
+      },
+      {
+        "slideNum": 461,
+        "title": "DT Bear Flag: Became Bigger DT Bear Flag"
+      },
+      {
+        "slideNum": 462,
+        "title": "DT Bear Flag: S below Bear Bar Closing Near Its L"
+      },
+      {
+        "slideNum": 463,
+        "title": "Double Top Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 464,
+        "title": "DT Bear Flags: S below Bear Bars"
+      },
+      {
+        "slideNum": 465,
+        "title": "DT Bear Flag: Huge Selloff"
+      },
+      {
+        "slideNum": 466,
+        "title": "DT Bear Flag: Reversed Up from MM Down"
+      },
+      {
+        "slideNum": 467,
+        "title": "DT Bear Flag: Strong Rally to EMA Failed"
+      },
+      {
+        "slideNum": 468,
+        "title": "DT Bear Flag: Failed, but Became Bigger DT Bear Flag"
+      },
+      {
+        "slideNum": 469,
+        "title": "DT Bear Flag: Bull Trap"
+      },
+      {
+        "slideNum": 470,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 471,
+        "title": "Double Top Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 472,
+        "title": "DT Bear Flag: Swing Down, but Not Enough Time for MM"
+      },
+      {
+        "slideNum": 473,
+        "title": "Big Wedge DT Bear Flag: Failed Bull Reversal Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 474,
+    "title": "Double Top Bear Flag, 2nd Sell Signal",
+    "children": [
+      {
+        "slideNum": 475,
+        "title": "DT Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 476,
+        "title": "DT Bear Flag: Failed, but Followed by Wedge Top"
+      },
+      {
+        "slideNum": 477,
+        "title": "Bull Reversal Day: Failed, Then Trend Resumption Down"
+      }
+    ]
+  },
+  {
+    "slideNum": 478,
+    "title": "Double Top Bear Flag, But Bull BO",
+    "children": [
+      {
+        "slideNum": 479,
+        "title": "DT Bear Flag: Failed, Head and Shoulders Bottom"
+      },
+      {
+        "slideNum": 480,
+        "title": "DT Bear Flag: Then Trading Range"
+      },
+      {
+        "slideNum": 481,
+        "title": "DT Bear Flag Failed: Then Trading Range"
+      },
+      {
+        "slideNum": 482,
+        "title": "Failed DT Bear Flag: Became HL MTR"
+      },
+      {
+        "slideNum": 483,
+        "title": "Failed Breakout below DT: Buy above Bull Bar"
+      },
+      {
+        "slideNum": 484,
+        "title": "DT Bear Flag Failed: Became Wedge Bottom"
+      },
+      {
+        "slideNum": 485,
+        "title": "DT Bear Flag: Failed after Nested Wedge Bottom"
+      },
+      {
+        "slideNum": 486,
+        "title": "DT Bear Flag: B Climax, but Did Not Reach 1st Top"
+      },
+      {
+        "slideNum": 487,
+        "title": "DT Bear Flag Failed: MM Up"
+      },
+      {
+        "slideNum": 488,
+        "title": "Failed DT Bear Flag: 1st Leg Up Was Strong"
+      },
+      {
+        "slideNum": 489,
+        "title": "DT Bear Flag: Failed Bear Breakout"
+      },
+      {
+        "slideNum": 490,
+        "title": "DT Bear Flag: 2nd S signal"
+      },
+      {
+        "slideNum": 491,
+        "title": "DT Bear Flag: But in Bull Flag, Not Bear Trend"
+      },
+      {
+        "slideNum": 492,
+        "title": "DT Bear Flags: All Failed Since Now TR, Not Bear Trend"
+      },
+      {
+        "slideNum": 493,
+        "title": "DT LH in Tight TR: Failed Bear BO"
+      },
+      {
+        "slideNum": 494,
+        "title": "DT Bear Flag: Failed, Became Head and Shoulders Bottom"
+      },
+      {
+        "slideNum": 495,
+        "title": "DT Bear Flag: Failed, Became Head and Shoulders Bottom"
+      },
+      {
+        "slideNum": 496,
+        "title": "HL MTR: After Strong Minor Reversal Up"
+      },
+      {
+        "slideNum": 497,
+        "title": "DT Bear Flag: Failed, but Became Bigger DT Bear Flag"
+      }
+    ]
+  },
+  {
+    "slideNum": 498,
+    "title": "Failed Bo Above double top so wedge top",
+    "children": [
+      {
+        "slideNum": 499,
+        "title": "Triple Tops: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 500,
+        "title": "Failed Breakout above DT: Trading Range Day Closed near Low"
+      },
+      {
+        "slideNum": 501,
+        "title": "Failed BO above DT: Wedge Top Variation"
+      },
+      {
+        "slideNum": 502,
+        "title": "Failed BO above DT: Wedge Top Variation"
+      },
+      {
+        "slideNum": 503,
+        "title": "Double Top: Failed, Then Wedge Top"
+      },
+      {
+        "slideNum": 504,
+        "title": "Wedge Top: Failed BO above DT"
+      }
+    ]
+  },
+  {
+    "slideNum": 505,
+    "title": "Micro Double Top",
+    "children": [
+      {
+        "slideNum": 506,
+        "title": "Disappointed Bulls: Either Exit at Highest C, or Hold for BO"
+      },
+      {
+        "slideNum": 507,
+        "title": "Bull MC in Extreme B Climax: Expect 2 Legs Down"
+      },
+      {
+        "slideNum": 508,
+        "title": "Micro DT: Disappointed Bulls Exited"
+      },
+      {
+        "slideNum": 509,
+        "title": "Micro DT: Disappointed Bulls Exited"
+      },
+      {
+        "slideNum": 510,
+        "title": "2nd Failed BO H of Yesterday: Micro DT"
+      },
+      {
+        "slideNum": 511,
+        "title": "Buy Climax: Micro DT"
+      }
+    ]
+  },
+  {
+    "slideNum": 512,
+    "title": "Double Top pullback",
+    "children": [
+      {
+        "slideNum": 513,
+        "title": "Triple Tops: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 514,
+        "title": "DT PB: S below Bear Bar Closing near Its Low"
+      },
+      {
+        "slideNum": 515,
+        "title": "DT Pullback: In Trading Range"
+      },
+      {
+        "slideNum": 516,
+        "title": "DT Pullback: Trend Resumption Down"
+      },
+      {
+        "slideNum": 517,
+        "title": "DT PB: Then Failed Bear Breakout"
+      },
+      {
+        "slideNum": 518,
+        "title": "DT Pullback: Then Trading Range"
+      },
+      {
+        "slideNum": 519,
+        "title": "DT Pullback: After Low 2 Top"
+      },
+      {
+        "slideNum": 520,
+        "title": "Double Top PB: After DT MTR"
+      },
+      {
+        "slideNum": 521,
+        "title": "DT PB: After DT LH MTR"
+      },
+      {
+        "slideNum": 522,
+        "title": "DT Pullback: Then Bear Channel"
+      },
+      {
+        "slideNum": 523,
+        "title": "DT PB: Type of Triangle"
+      },
+      {
+        "slideNum": 524,
+        "title": "DT PB: PB Was Smaller DT"
+      },
+      {
+        "slideNum": 525,
+        "title": "DT PB: TR Open, Then Bear BO"
+      },
+      {
+        "slideNum": 526,
+        "title": "DT PB: Failed Twice, but Reversed after Triple Top"
+      },
+      {
+        "slideNum": 527,
+        "title": "DT PB: Low 2 Rally to Just below DT"
+      },
+      {
+        "slideNum": 528,
+        "title": "DT PB: Type of Triangle S Setup"
+      },
+      {
+        "slideNum": 529,
+        "title": "DT PB: S below Bear Bar Closing near Its L"
+      },
+      {
+        "slideNum": 530,
+        "title": "DT PB: S below Bear Bar Closing near Its L"
+      },
+      {
+        "slideNum": 531,
+        "title": "DT PB: Type of Triangle S Setup"
+      }
+    ]
+  },
+  {
+    "slideNum": 532,
+    "title": "Failed Double Top pullback",
+    "children": [
+      {
+        "slideNum": 533,
+        "title": "DT LH in Tight TR: Failed Bear BO"
+      },
+      {
+        "slideNum": 534,
+        "title": "DT Bear Flag: Failed, Became Head and Shoulders Bottom"
+      },
+      {
+        "slideNum": 535,
+        "title": "Failed DT PB and DB PB: Became Trading Range"
+      }
+    ]
+  },
+  {
+    "slideNum": 536,
+    "title": "Early Close (holiday trading)",
+    "children": [
+      {
+        "slideNum": 537,
+        "title": "Early Close: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 538,
+        "title": "Early Close: Usually One Small Swing, Few Entries"
+      },
+      {
+        "slideNum": 539,
+        "title": "Early Close: Easy to Miss Brief Trend in Boring Day"
+      },
+      {
+        "slideNum": 540,
+        "title": "Early Close: DT Bear Flag at EMA, Then Bear Channel"
+      },
+      {
+        "slideNum": 541,
+        "title": "Early Close: 2nd Failed BO of Yesterday’s High"
+      },
+      {
+        "slideNum": 542,
+        "title": "Wedge Rally to DT at EMA: Bear BO, Early Close"
+      },
+      {
+        "slideNum": 543,
+        "title": "Early Close: Sometimes 2 Swings"
+      },
+      {
+        "slideNum": 544,
+        "title": "Early Close: Wedge Bottom, Then Bull Trend Reversal"
+      },
+      {
+        "slideNum": 545,
+        "title": "Early Close: Parabolic Wedge S Climax and Reversal Up"
+      },
+      {
+        "slideNum": 546,
+        "title": "Early Close: Sometimes 2 Swings"
+      },
+      {
+        "slideNum": 547,
+        "title": "Early Close: Rarely 3 Swings"
+      }
+    ]
+  },
+  {
+    "slideNum": 548,
+    "title": "END OF DAY bull BREAKOUT",
+    "children": [
+      {
+        "slideNum": 549,
+        "title": "End of Day: Bull Breakout (After Bear Trap)"
+      },
+      {
+        "slideNum": 550,
+        "title": "End of Day Bull Breakout"
+      },
+      {
+        "slideNum": 551,
+        "title": "Profit Taking: End of Day"
+      },
+      {
+        "slideNum": 552,
+        "title": "Profit Taking in Bear Trend: End of Day"
+      },
+      {
+        "slideNum": 553,
+        "title": "Profit Taking: In Spike and Channel Bear Trend"
+      },
+      {
+        "slideNum": 554,
+        "title": "End of Day Profit Taking: Double Bottom"
+      },
+      {
+        "slideNum": 555,
+        "title": "End of Day: Bull Breakout"
+      },
+      {
+        "slideNum": 556,
+        "title": "End of Day: Bull Breakout"
+      },
+      {
+        "slideNum": 557,
+        "title": "End of Day Bull Breakout: In Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 558,
+        "title": "End of Day Bull Breakout: Trend Resumption Up"
+      },
+      {
+        "slideNum": 559,
+        "title": "Profit Taking: End of Day Reversal Up"
+      },
+      {
+        "slideNum": 560,
+        "title": "End of Day Bull Breakout: Above Trading Range"
+      },
+      {
+        "slideNum": 561,
+        "title": "End Of Day Profit Taking: Bear Trend"
+      },
+      {
+        "slideNum": 562,
+        "title": "Small PB Bear Trend: Strong Profit Taking (Short Covering)"
+      },
+      {
+        "slideNum": 563,
+        "title": "End of Day Bull Breakout: After Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 564,
+        "title": "End of Day Profit Taking: Wedge Bottom"
+      },
+      {
+        "slideNum": 565,
+        "title": "Trading Range: Late Bull Breakout"
+      },
+      {
+        "slideNum": 566,
+        "title": "Trading Range Day: Bull Breakout after Failed Bear Breakout"
+      },
+      {
+        "slideNum": 567,
+        "title": "Trading Range: Late Bull Breakout"
+      },
+      {
+        "slideNum": 568,
+        "title": "Trading Range: BO to New H in Final Hour"
+      },
+      {
+        "slideNum": 569,
+        "title": "Trading Range Day: BO into Bull Trend"
+      },
+      {
+        "slideNum": 570,
+        "title": "Bull Trend From The Open: Then Trading Range"
+      },
+      {
+        "slideNum": 571,
+        "title": "Trading Range Day: Bull Breakout after Failed Bear Breakout"
+      },
+      {
+        "slideNum": 572,
+        "title": "Trading Range: Late Bull Breakout"
+      },
+      {
+        "slideNum": 573,
+        "title": "Early Selloff, Then BO Mode: Trend Reversal Up"
+      },
+      {
+        "slideNum": 574,
+        "title": "Trend Reversal Up: After Triangle"
+      },
+      {
+        "slideNum": 575,
+        "title": "Midday Bull Trend Reversal: Wedge after Bear Trend From The Open"
+      },
+      {
+        "slideNum": 576,
+        "title": "Trend Resumption: After Deep Pullback"
+      },
+      {
+        "slideNum": 577,
+        "title": "Trend Resumption Up: After PB from Bull Trend From The Open"
+      },
+      {
+        "slideNum": 578,
+        "title": "Trend Resumption Up: Spike and Channel Bull Trend"
+      },
+      {
+        "slideNum": 579,
+        "title": "Trend Resumption Up: In Bull Trend From The Open"
+      },
+      {
+        "slideNum": 580,
+        "title": "Trend Resumption Up: Bar 40 Midday Reversal"
+      },
+      {
+        "slideNum": 581,
+        "title": "Failed Trend Reversal Down: Trend Resumption Up"
+      },
+      {
+        "slideNum": 582,
+        "title": "Bull Trend Resumption: Long Time after Brief Bull BO"
+      },
+      {
+        "slideNum": 583,
+        "title": "Trend Resumption Up: Globex High Was Magnet"
+      },
+      {
+        "slideNum": 584,
+        "title": "Early Rally: TR, Then Bull Trend Resumption"
+      },
+      {
+        "slideNum": 585,
+        "title": "Bull Trend Resumption: TR, DB after DT"
+      },
+      {
+        "slideNum": 586,
+        "title": "New Year’s Eve: Bull Trend Resumption"
+      },
+      {
+        "slideNum": 587,
+        "title": "Early Rally: Bull Trend Resumption"
+      },
+      {
+        "slideNum": 588,
+        "title": "Late Bull Trend Resumption: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 589,
+        "title": "Weak Bull Trend: Strong Trend Resumption Up into Close"
+      },
+      {
+        "slideNum": 590,
+        "title": "Late Trend Resumption Up: Late B The Close Rally"
+      },
+      {
+        "slideNum": 591,
+        "title": "End of Day Bull Breakout: Above Bull Channel"
+      },
+      {
+        "slideNum": 592,
+        "title": "BTC at EOD: Trend Resumption Up"
+      },
+      {
+        "slideNum": 593,
+        "title": "Bull Major Surprise on Open: Trend Resumption Up"
+      },
+      {
+        "slideNum": 594,
+        "title": "Early Rally: TR, then Trend Resumption Up"
+      },
+      {
+        "slideNum": 595,
+        "title": "Gap Up, Then TR: Trend Reversal Down"
+      },
+      {
+        "slideNum": 596,
+        "title": "Bear Trend Reversal: DT LH MTR"
+      },
+      {
+        "slideNum": 597,
+        "title": "Bear Trend Reversal : DT MTR"
+      },
+      {
+        "slideNum": 598,
+        "title": "Gap Up: Bear Trend Reversal"
+      },
+      {
+        "slideNum": 599,
+        "title": "Early Rally: Bear Trend Reversal Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 600,
+    "title": "END OF DAY Profit taking in bull trend",
+    "children": [
+      {
+        "slideNum": 601,
+        "title": "Long Liquidation: Bulls Selling Out of Longs"
+      },
+      {
+        "slideNum": 602,
+        "title": "End Of Day Profit Taking: Bull Trend"
+      },
+      {
+        "slideNum": 603,
+        "title": "Profit Taking: Minor Reversal from Parabolic Wedge"
+      },
+      {
+        "slideNum": 604,
+        "title": "End of Day Profit Taking: Nested Wedge Top"
+      },
+      {
+        "slideNum": 605,
+        "title": "Profit Taking in Small Pullback Bull Trend: Minor Wedge Top"
+      },
+      {
+        "slideNum": 606,
+        "title": "Small Pullback Bull Trend: Late Profit Taking"
+      },
+      {
+        "slideNum": 607,
+        "title": "Late Profit Taking: At MM in Small PB Bull Trend"
+      },
+      {
+        "slideNum": 608,
+        "title": "Profit Taking: Exhaustive Buy Climax at End of Day"
+      },
+      {
+        "slideNum": 609,
+        "title": "Late Surprise Bars: Expect Profit Taking PB"
+      },
+      {
+        "slideNum": 610,
+        "title": "End Of Day Profit Taking: S for Swing Down"
+      },
+      {
+        "slideNum": 611,
+        "title": "End Of Day Profit Taking: Small PB Bull Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 612,
+    "title": "END OF DAY BEAR BREAKOUT",
+    "children": [
+      {
+        "slideNum": 613,
+        "title": "End of Day: Bear Breakout, but Failed (Became Bear Trap)"
+      },
+      {
+        "slideNum": 614,
+        "title": "End of Day Bear Breakout: Trading Range Day"
+      },
+      {
+        "slideNum": 615,
+        "title": "Gap Up, Then TR: Trend Reversal Down"
+      },
+      {
+        "slideNum": 616,
+        "title": "End of Day Bear Breakout: DT LH MTR"
+      },
+      {
+        "slideNum": 617,
+        "title": "Bear Trend Reversal: DT LH MTR"
+      },
+      {
+        "slideNum": 618,
+        "title": "End of Day Bear Breakout: Wedge Top"
+      },
+      {
+        "slideNum": 619,
+        "title": "Bear Trend Reversal : DT MTR"
+      },
+      {
+        "slideNum": 620,
+        "title": "Gap Up: Bear Trend Reversal"
+      },
+      {
+        "slideNum": 621,
+        "title": "Early Rally: Bear Trend Reversal Day"
+      },
+      {
+        "slideNum": 622,
+        "title": "End of Day Bear Breakout: Broad Bear Channel"
+      },
+      {
+        "slideNum": 623,
+        "title": "End of Day Bear Breakout: LH DT"
+      },
+      {
+        "slideNum": 624,
+        "title": "End of Day Bear Trend: Late Reversal Down"
+      },
+      {
+        "slideNum": 625,
+        "title": "TR Day: Bear BO"
+      },
+      {
+        "slideNum": 626,
+        "title": "End of Day Bear Trend: Sell Climax"
+      },
+      {
+        "slideNum": 627,
+        "title": "Trading Range: Late Bear Breakout"
+      },
+      {
+        "slideNum": 628,
+        "title": "Trading Range: Late Bear Breakout"
+      },
+      {
+        "slideNum": 629,
+        "title": "Trading Range Day: Late Bear Breakout"
+      },
+      {
+        "slideNum": 630,
+        "title": "Trading Range Day: Late Bear Breakout"
+      },
+      {
+        "slideNum": 631,
+        "title": "TR with Late Bear Breakout: Also Broad Bear Channel"
+      },
+      {
+        "slideNum": 632,
+        "title": "Trading Range: Closed near the Low"
+      },
+      {
+        "slideNum": 633,
+        "title": "Trend Resumption Down: After Big Rally"
+      },
+      {
+        "slideNum": 634,
+        "title": "New Year’s Eve BOM: Trend Resumption Down"
+      },
+      {
+        "slideNum": 635,
+        "title": "Trend Resumption Down: After 3-Hour Rally"
+      },
+      {
+        "slideNum": 636,
+        "title": "Trend Resumption Down: After Bear Trend from the Open"
+      },
+      {
+        "slideNum": 637,
+        "title": "Trend Resumption Down: Bear Trend from the Open"
+      },
+      {
+        "slideNum": 638,
+        "title": "Trend Resumption Down: HH DT"
+      },
+      {
+        "slideNum": 639,
+        "title": "Trend Resumption Down: After Weak Bear Rally"
+      },
+      {
+        "slideNum": 640,
+        "title": "Trend Resumption Down: TR after Bear Trend From The Open"
+      },
+      {
+        "slideNum": 641,
+        "title": "Bear Trend Resumption: Late, Strong Bear Breakout"
+      },
+      {
+        "slideNum": 642,
+        "title": "Trend Resumption Down: Became Outside Down Day"
+      },
+      {
+        "slideNum": 643,
+        "title": "BO Mode: Trend Resumption Down"
+      },
+      {
+        "slideNum": 644,
+        "title": "Bear Trend Resumption: Wedge Rally"
+      },
+      {
+        "slideNum": 645,
+        "title": "Trend Reversal Down: After Trend Reversal Up"
+      },
+      {
+        "slideNum": 646,
+        "title": "Trend Resumption: After Deep Pullback"
+      }
+    ]
+  },
+  {
+    "slideNum": 647,
+    "title": "END OF DAY Profit taking in bear trend",
+    "children": [
+      {
+        "slideNum": 648,
+        "title": "Short Covering: Bears Buying Back Shorts"
+      },
+      {
+        "slideNum": 649,
+        "title": "End Of Day Profit Taking: After Sell Climax"
+      },
+      {
+        "slideNum": 650,
+        "title": "End of Day Profit Taking in Bear Trend"
+      },
+      {
+        "slideNum": 651,
+        "title": "Profit Taking: End of Day"
+      },
+      {
+        "slideNum": 652,
+        "title": "Profit Taking in Bear Trend: End of Day"
+      },
+      {
+        "slideNum": 653,
+        "title": "Strong Profit Taking in Bear Trend: At End of Day"
+      },
+      {
+        "slideNum": 654,
+        "title": "Profit Taking: In Bear Trend at End of Day"
+      },
+      {
+        "slideNum": 655,
+        "title": "End Of Day Profit Taking: Wedge, LL MTR"
+      },
+      {
+        "slideNum": 656,
+        "title": "End Of Day Profit Taking: Bear Trend"
+      },
+      {
+        "slideNum": 657,
+        "title": "Profit Taking: In Spike and Channel Bear Trend"
+      },
+      {
+        "slideNum": 658,
+        "title": "End of Day Profit Taking: Double Bottom"
+      },
+      {
+        "slideNum": 659,
+        "title": "Profit Taking Rally: End Of Day in Bear Trend"
+      },
+      {
+        "slideNum": 660,
+        "title": "Profit Taking: End of Day Reversal Up"
+      },
+      {
+        "slideNum": 661,
+        "title": "End Of Day Profit Taking: Bear Trend"
+      },
+      {
+        "slideNum": 662,
+        "title": "FOMC: Wait for Consecutive Trend Bars"
+      },
+      {
+        "slideNum": 663,
+        "title": "Small PB Bear Trend: Strong Profit Taking (Short Covering)"
+      },
+      {
+        "slideNum": 664,
+        "title": "End of Day Profit Taking: Wedge Bottom"
+      },
+      {
+        "slideNum": 665,
+        "title": "End Of Day Profit Taking: Bear Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 666,
+    "title": "End Of Day CLOSE IN MIDDLE OF DAY",
+    "children": [
+      {
+        "slideNum": 667,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 668,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 669,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 670,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 671,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 672,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 673,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 674,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 675,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 676,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 677,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 678,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 679,
+        "title": "Close in Middle of Day: Trading Range Day"
+      },
+      {
+        "slideNum": 680,
+        "title": "Close in Middle of Day: Trading Range Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 681,
+    "title": "End Of Day TREND RESUMPTION OR TREND REVERSAL",
+    "children": [
+      {
+        "slideNum": 682,
+        "title": "Trend Resumption: After Deep Pullback"
+      },
+      {
+        "slideNum": 683,
+        "title": "End of Day Reversal Down: Trading Range Then Bear Breakout"
+      },
+      {
+        "slideNum": 684,
+        "title": "End of Day Trend Reversal Down: After Trading Range"
+      },
+      {
+        "slideNum": 685,
+        "title": "Bear Trend Resumption: Wedge Rally"
+      },
+      {
+        "slideNum": 686,
+        "title": "Trend Resumption Down: Bear Trend from the Open"
+      }
+    ]
+  },
+  {
+    "slideNum": 687,
+    "title": "End Of Day Tight Trading Range",
+    "children": [
+      {
+        "slideNum": 688,
+        "title": "Tight Trading Range: End of Day So Wait for Tomorrow"
+      },
+      {
+        "slideNum": 689,
+        "title": "Tight Trading Range at Bar 75: Bear Trend"
+      },
+      {
+        "slideNum": 690,
+        "title": "Big Bar in TR: Limit Order Market"
+      }
+    ]
+  },
+  {
+    "slideNum": 691,
+    "title": "End Of Day and End of Month, Quarter, or Year",
+    "children": [
+      {
+        "slideNum": 692,
+        "title": "Last Day of Month: Strong Rally at End Of Day"
+      },
+      {
+        "slideNum": 693,
+        "title": "End of Month: Open of Month Is Magnet"
+      },
+      {
+        "slideNum": 694,
+        "title": "Last Day of Month: Open of Month Was Magnet"
+      },
+      {
+        "slideNum": 695,
+        "title": "Last Day of Quarter: Exhaustive B Climax"
+      },
+      {
+        "slideNum": 696,
+        "title": "End of Quarter: Exhaustive B Climax"
+      },
+      {
+        "slideNum": 697,
+        "title": "End of Month, Quarter: Huge Volume in Last 10 Seconds"
+      },
+      {
+        "slideNum": 698,
+        "title": "End of Month: Test of High of Last Month"
+      },
+      {
+        "slideNum": 699,
+        "title": "End of Day: End of Week and Month"
+      },
+      {
+        "slideNum": 700,
+        "title": "New Year’s Eve: Last Day of Week, Month, Quarter, and Year"
+      },
+      {
+        "slideNum": 701,
+        "title": "New Year’s Eve: Last Day of Week, Month, Quarter, And Year"
+      },
+      {
+        "slideNum": 702,
+        "title": "New Year’s Eve: Last Day of Month, Quarter, and Year"
+      },
+      {
+        "slideNum": 703,
+        "title": "Yearly Support and Resistance: Close Last Year, Open This Year"
+      }
+    ]
+  },
+  {
+    "slideNum": 704,
+    "title": "End of Week Support and Resistance",
+    "children": [
+      {
+        "slideNum": 705,
+        "title": "End of Week: B the Close Rally to L of Last Week"
+      },
+      {
+        "slideNum": 706,
+        "title": "Friday: Test of Open of Week"
+      }
+    ]
+  },
+  {
+    "slideNum": 707,
+    "title": "Exit Losing Trade",
+    "children": [
+      {
+        "slideNum": 708,
+        "title": "Exit Losing Long Trade: If Bears Can Make Scalp"
+      },
+      {
+        "slideNum": 709,
+        "title": "Tuesday, Double Bottom: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 710,
+        "title": "Exit Losing Short Trade: If Bulls Can Make Scalp"
+      }
+    ]
+  },
+  {
+    "slideNum": 711,
+    "title": "Final Bull Flag",
+    "children": [
+      {
+        "slideNum": 712,
+        "title": "Final Bull Flag: ii"
+      },
+      {
+        "slideNum": 713,
+        "title": "Final Bull Flag: Reversal down Ahead of FOMC"
+      },
+      {
+        "slideNum": 714,
+        "title": "Final Bull Flag: And Wedge Top"
+      },
+      {
+        "slideNum": 715,
+        "title": "Final Bull Flag: Reversal down from Wedge Top and DT MTR"
+      },
+      {
+        "slideNum": 716,
+        "title": "Final Bull Flag: Then HH MTR"
+      },
+      {
+        "slideNum": 717,
+        "title": "Final Bull Flag: Then Trading Range"
+      },
+      {
+        "slideNum": 718,
+        "title": "Final Bull Flag: Triangle"
+      },
+      {
+        "slideNum": 719,
+        "title": "Consecutive Final Bull Flags: Triangle and ii"
+      },
+      {
+        "slideNum": 720,
+        "title": "Final Bull Flag: iii Late in Strong Rally"
+      },
+      {
+        "slideNum": 721,
+        "title": "ii Final Bull Flag: After Wedge Top"
+      },
+      {
+        "slideNum": 722,
+        "title": "Final Bull Flag: Then Trading Range"
+      },
+      {
+        "slideNum": 723,
+        "title": "Final Bull Flag: ii"
+      },
+      {
+        "slideNum": 724,
+        "title": "ii in Buy Climax: Final Bull Flag"
+      },
+      {
+        "slideNum": 725,
+        "title": "Triangle in Bull Trend: Final Bull Flag"
+      },
+      {
+        "slideNum": 726,
+        "title": "Final Bull Flag: After Yesterday’s Bull Trend"
+      },
+      {
+        "slideNum": 727,
+        "title": "Final Bull Flag: iii, Minor Reversal in Strong Bull Trend"
+      },
+      {
+        "slideNum": 728,
+        "title": "Final Bull Flag: In Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 729,
+        "title": "Final Bull Flag: ii Late in Bull Trend"
+      },
+      {
+        "slideNum": 730,
+        "title": "ii: Final Bull Flag"
+      },
+      {
+        "slideNum": 731,
+        "title": "Final Bull Flag: Ledge Top"
+      },
+      {
+        "slideNum": 732,
+        "title": "ii after Big Gap Up: Final Bull Flag"
+      },
+      {
+        "slideNum": 733,
+        "title": "ii: Final Bull Flag"
+      },
+      {
+        "slideNum": 734,
+        "title": "Final Bull Flag: Small PB Bull Trend"
+      },
+      {
+        "slideNum": 735,
+        "title": "Final Bull Flag: Tight TR Late in Bull Trend"
+      },
+      {
+        "slideNum": 736,
+        "title": "Final Bull Flag: Triangle Late in Bull Trend"
+      },
+      {
+        "slideNum": 737,
+        "title": "Final Bull Flag: Failed BO"
+      },
+      {
+        "slideNum": 738,
+        "title": "ii Final Flag: After B Climax"
+      },
+      {
+        "slideNum": 739,
+        "title": "iii: Final Bull Flag, But Got 2 Legs Up"
+      },
+      {
+        "slideNum": 740,
+        "title": "Final Bull Flag: Sideways, Late in Bull Trend"
+      },
+      {
+        "slideNum": 741,
+        "title": "Final Bull Flag: Reversed down from Low 4 Top"
+      },
+      {
+        "slideNum": 742,
+        "title": "Final Bull Flag: Tight TR Late in Bull Trend"
+      },
+      {
+        "slideNum": 743,
+        "title": "ii Final Bull Flag: Failed BO above Parabolic Wedge Top"
+      },
+      {
+        "slideNum": 744,
+        "title": "Final Bull Flag: Tight TR Late in Bull Trend"
+      },
+      {
+        "slideNum": 745,
+        "title": "Final Bull Flag: Tight TR or Triangle Late in Bull Trend"
+      },
+      {
+        "slideNum": 746,
+        "title": "Final Bull Flag: Tight TR Late in Bull Trend"
+      },
+      {
+        "slideNum": 747,
+        "title": "Final Bull Flag: Tight TR Late in Bull"
+      },
+      {
+        "slideNum": 748,
+        "title": "Final Bull Flag: After Parabolic Wedge Rally"
+      },
+      {
+        "slideNum": 749,
+        "title": "Final Bull Flag: Often HH MTR"
+      },
+      {
+        "slideNum": 750,
+        "title": "Final Bull Flag: TR Late In Bull Trend, Reversal Down"
+      },
+      {
+        "slideNum": 751,
+        "title": "Final Bull Flag: TR Late In Bull Trend, LH Reversal Down"
+      },
+      {
+        "slideNum": 752,
+        "title": "Triangle Late in Bull Trend: Usually Final Bull Flag"
+      },
+      {
+        "slideNum": 753,
+        "title": "Final Bull Flag: Triangle Late in Bull Trend"
+      },
+      {
+        "slideNum": 754,
+        "title": "Triangle Final Bull Flag: Reversal Down to Apex"
+      },
+      {
+        "slideNum": 755,
+        "title": "Triangle Late in Bull Trend: Final Flag"
+      },
+      {
+        "slideNum": 756,
+        "title": "Final Bull Flag: Tight Channel Up so Minor Reversal"
+      },
+      {
+        "slideNum": 757,
+        "title": "Final Bull Flag: OO Bull Flag Late in Bull Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 758,
+    "title": "Final Bull Flag Failed, and Bull Trend Resumed",
+    "children": [
+      {
+        "slideNum": 759,
+        "title": "Final Bull Flag: Failed to End Bull Trend"
+      },
+      {
+        "slideNum": 760,
+        "title": "Final Bull Flag: Tight TR after B Climax"
+      },
+      {
+        "slideNum": 761,
+        "title": "Final Bull Flag: ii Late in Bull Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 762,
+    "title": "Final Bear Flag",
+    "children": [
+      {
+        "slideNum": 763,
+        "title": "Final Bear Flag: Tight TR Late in Bear Trend"
+      },
+      {
+        "slideNum": 764,
+        "title": "Final Bear Flag: At Bottom of Trading Range Day"
+      },
+      {
+        "slideNum": 765,
+        "title": "Final Bear Flag: ii in Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 766,
+        "title": "Final Bear Flag: ii and Trading Range"
+      },
+      {
+        "slideNum": 767,
+        "title": "ii Final Bear Flag: Minor Reversal Up"
+      },
+      {
+        "slideNum": 768,
+        "title": "ii Final Bear Flag: Minor Reversal Up, Then Trading Range"
+      },
+      {
+        "slideNum": 769,
+        "title": "Final Bear Flag: Minor Reversal Up"
+      },
+      {
+        "slideNum": 770,
+        "title": "Final Bear Flag: iii"
+      },
+      {
+        "slideNum": 771,
+        "title": "ii Final Bear Flag: Bear Trending Trading Range Day"
+      },
+      {
+        "slideNum": 772,
+        "title": "Final Bear Flag: iiii after Sell Climax"
+      },
+      {
+        "slideNum": 773,
+        "title": "Final Bear Flag: LL MTR"
+      },
+      {
+        "slideNum": 774,
+        "title": "Final Flag: Midday Reversal"
+      },
+      {
+        "slideNum": 775,
+        "title": "Final Bear Flag: Trading Range Day"
+      },
+      {
+        "slideNum": 776,
+        "title": "Final Bear Flag: iii Late in Bear Trend"
+      },
+      {
+        "slideNum": 777,
+        "title": "Final Bear Flag: Parabolic Wedge Bottom"
+      },
+      {
+        "slideNum": 778,
+        "title": "ii in Sell Climax: Final Bear Flag"
+      },
+      {
+        "slideNum": 779,
+        "title": "ii: Sell Climax, Final Bear Flag"
+      },
+      {
+        "slideNum": 780,
+        "title": "Final Bear Flag: Failed iii Bottom"
+      },
+      {
+        "slideNum": 781,
+        "title": "Final Bear Flag: Tight Trading Range"
+      },
+      {
+        "slideNum": 782,
+        "title": "Final Bear Flag: Triangle"
+      },
+      {
+        "slideNum": 783,
+        "title": "ii with Huge Bars: Behaved like Ordinary ii"
+      },
+      {
+        "slideNum": 784,
+        "title": "ii at Bottom of TR: Final Bear Flag"
+      },
+      {
+        "slideNum": 785,
+        "title": "ii Final Bear Flag: Failed BO below ii Late in Bear Trend"
+      },
+      {
+        "slideNum": 786,
+        "title": "Final Bear Flag: B Reversal Up"
+      },
+      {
+        "slideNum": 787,
+        "title": "Final Bear Flag: Expect Reversal Back up to Apex"
+      },
+      {
+        "slideNum": 788,
+        "title": "Final Bear Flag: Magnet after Bear BO"
+      },
+      {
+        "slideNum": 789,
+        "title": "Final Bear Flag: Expanding Triangle"
+      },
+      {
+        "slideNum": 790,
+        "title": "ii: Late in Bear Trend so Possible Final Bear Flag"
+      },
+      {
+        "slideNum": 791,
+        "title": "Final Bear Flag: iii Late in Bear Trend"
+      },
+      {
+        "slideNum": 792,
+        "title": "Final Bear Flag: LL MTR"
+      },
+      {
+        "slideNum": 793,
+        "title": "Final Bear Flag: Failed Bear BO"
+      },
+      {
+        "slideNum": 794,
+        "title": "Final Bear Flag: ii Late in Bear Trend"
+      },
+      {
+        "slideNum": 795,
+        "title": "Final Bear Flag: Low 2 Late in Bear Trend"
+      },
+      {
+        "slideNum": 796,
+        "title": "Final Bear Flag: Buy Reversal Up"
+      },
+      {
+        "slideNum": 797,
+        "title": "Final Bear Flag: LL MTR"
+      },
+      {
+        "slideNum": 798,
+        "title": "TR Late in Bear Trend: Likely Final Bear Flag"
+      },
+      {
+        "slideNum": 799,
+        "title": "Final Bear Flag: Trend Resumption Down after Test of Triangle"
+      },
+      {
+        "slideNum": 800,
+        "title": "Final Bear Flag: Low 2 Bear Flag, HL Reversal Up"
+      }
+    ]
+  },
+  {
+    "slideNum": 801,
+    "title": "Final Bear Flag Failed, and Bear Trend Resumed",
+    "children": [
+      {
+        "slideNum": 802,
+        "title": "ii Late in Bear Trend: Possible Final Bear Flag, but Not Here"
+      },
+      {
+        "slideNum": 803,
+        "title": "Final Bear Flag Failed: Bear Trend Resumed"
+      },
+      {
+        "slideNum": 804,
+        "title": "Final Bear Flag Failed: DT Bear Flag"
+      },
+      {
+        "slideNum": 805,
+        "title": "Final Bear Flag Failed: ii"
+      },
+      {
+        "slideNum": 806,
+        "title": "Final Bear Flag Failed: No Reversal Up"
+      },
+      {
+        "slideNum": 807,
+        "title": "ii Final Bear Flag: Failed, and Bear Trend Resumed"
+      },
+      {
+        "slideNum": 808,
+        "title": "iii Late in Bear Trend: Final Bear Flag"
+      },
+      {
+        "slideNum": 809,
+        "title": "Triangle Late in Bear Trend: Final Bear Flag, but Failed"
+      }
+    ]
+  },
+  {
+    "slideNum": 810,
+    "title": "Flag: Bear",
+    "children": [
+      {
+        "slideNum": 811,
+        "title": "Bear Flag: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 812,
+        "title": "Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 813,
+        "title": "iii Bear Flag: After Major Bear Surprise"
+      },
+      {
+        "slideNum": 814,
+        "title": "DT Bear Flag: Then New Low"
+      },
+      {
+        "slideNum": 815,
+        "title": "Low 1 Bear Flag: 5 Consecutive L1 Bear Flags So Strong"
+      },
+      {
+        "slideNum": 816,
+        "title": "Low 1: Strong Bear Trend"
+      },
+      {
+        "slideNum": 817,
+        "title": "Low 1 and Low 2 PB Bear Trend or TR: S below Bear Bar"
+      },
+      {
+        "slideNum": 818,
+        "title": "Wedge Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 819,
+        "title": "Wedge Bear Flag: Trend Resumption Down"
+      },
+      {
+        "slideNum": 820,
+        "title": "Bear Flag: Failed Bull Breakout, Then Trading Range"
+      },
+      {
+        "slideNum": 821,
+        "title": "DT Bear Flag: LH MTR"
+      },
+      {
+        "slideNum": 822,
+        "title": "DT Bear Flag: LH DT MTR"
+      },
+      {
+        "slideNum": 823,
+        "title": "Wedge Bear Flag: Strong Bear BO and Follow-Through"
+      },
+      {
+        "slideNum": 824,
+        "title": "Low 2 Bear Flags: Bottom of TR and Bear Channel"
+      },
+      {
+        "slideNum": 825,
+        "title": "Wedge Bear Flag: Low 3"
+      },
+      {
+        "slideNum": 826,
+        "title": "Triangle: Bear BO"
+      },
+      {
+        "slideNum": 827,
+        "title": "Triangle Bear Flag: Failed DB"
+      },
+      {
+        "slideNum": 828,
+        "title": "Big DT Bear Flag"
+      }
+    ]
+  },
+  {
+    "slideNum": 829,
+    "title": "Failed Bear Flag",
+    "children": [
+      {
+        "slideNum": 830,
+        "title": "Reasonable Top or Bear Flag That Fails: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 831,
+        "title": "Failed Bear Flag: Bull Breakout above Bear Flag"
+      },
+      {
+        "slideNum": 832,
+        "title": "Failed Bear Flag: Bull Breakout above Bear Flag"
+      },
+      {
+        "slideNum": 833,
+        "title": "Wedge Bear Flag Failed: DB Bull Flag"
+      },
+      {
+        "slideNum": 834,
+        "title": "Bear Flag: Bull BO"
+      },
+      {
+        "slideNum": 835,
+        "title": "Wedge Bear Flag: Bull BO"
+      },
+      {
+        "slideNum": 836,
+        "title": "Wedge Bear Flag Failed: Measured Move Up"
+      },
+      {
+        "slideNum": 837,
+        "title": "Failed Wedge Bear Flag: Measured Move Up"
+      },
+      {
+        "slideNum": 838,
+        "title": "Bear Flag: Round Bottom, Bull BO"
+      },
+      {
+        "slideNum": 839,
+        "title": "Gap Down: Bull BO above Bear Flag"
+      },
+      {
+        "slideNum": 840,
+        "title": "Bull Channel Is Bear Flag: Bull BO"
+      }
+    ]
+  },
+  {
+    "slideNum": 841,
+    "title": "Flag: Bull",
+    "children": [
+      {
+        "slideNum": 842,
+        "title": "Bull Flag: Variations, Rarely Perfect"
+      },
+      {
+        "slideNum": 843,
+        "title": "Flag, Bull: Wedge Bull Flag Began before End of Bull Trend"
+      },
+      {
+        "slideNum": 844,
+        "title": "H1 and H2 B Setups: PB in Bull Trend or TR"
+      },
+      {
+        "slideNum": 845,
+        "title": "High 1 Buy Signal: Deep PB after Huge BO"
+      },
+      {
+        "slideNum": 846,
+        "title": "High 1 Bull Flag: 5 Consecutive H1 So Strong Bull Trend"
+      },
+      {
+        "slideNum": 847,
+        "title": "DB Bull Flag: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 848,
+        "title": "High 2 Bull Flag: 20 Gap Bar Buy Signal"
+      },
+      {
+        "slideNum": 849,
+        "title": "PB, High 2 at TR Top: Buy for MM Up"
+      },
+      {
+        "slideNum": 850,
+        "title": "DB Bull Flag: After HL MTR"
+      },
+      {
+        "slideNum": 851,
+        "title": "DB Bull Flag: HL MTR"
+      },
+      {
+        "slideNum": 852,
+        "title": "DB Bull Flag: Then Bull Channel"
+      },
+      {
+        "slideNum": 853,
+        "title": "Wedge Bull Flag: 20 Gap Bar Buy Signal"
+      },
+      {
+        "slideNum": 854,
+        "title": "Wedge Bull Flag: Broad Bull Channel"
+      },
+      {
+        "slideNum": 855,
+        "title": "Wedge Bull Flag: In Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 856,
+        "title": "Wedge Bull Flag: In Trading Range Day"
+      },
+      {
+        "slideNum": 857,
+        "title": "Wedge Bull Flag: Then Trading Range Day"
+      },
+      {
+        "slideNum": 858,
+        "title": "Triangle Bull Flag: Often an ii on a Higher Time Frame"
+      },
+      {
+        "slideNum": 859,
+        "title": "Triangle Bull Flag: 50% Chance 1st BO Will Fail (Here, 1st 2 Failed)"
+      },
+      {
+        "slideNum": 860,
+        "title": "Big High 2 Bull Flag"
+      },
+      {
+        "slideNum": 861,
+        "title": "DB Bull Flag: In TR with DT"
+      }
+    ]
+  },
+  {
+    "slideNum": 862,
+    "title": "Failed Bull Flag",
+    "children": [
+      {
+        "slideNum": 863,
+        "title": "Reasonable Bottom or Bull Flag That Fails: 80% Chance of No Loss"
+      },
+      {
+        "slideNum": 864,
+        "title": "Bull Flag Failed: Bear Trend Fell More than MM Down"
+      },
+      {
+        "slideNum": 865,
+        "title": "Bull Flag Failed: MM Down"
+      },
+      {
+        "slideNum": 866,
+        "title": "Failed Wedge Bull Flag: MM Down"
+      },
+      {
+        "slideNum": 867,
+        "title": "Bull Flag: Round Top, Bear BO"
+      },
+      {
+        "slideNum": 868,
+        "title": "Bull Flag: Bear Breakout"
+      },
+      {
+        "slideNum": 869,
+        "title": "DB Bull Flag Failed: Got Trading Range"
+      },
+      {
+        "slideNum": 870,
+        "title": "Bull Flag: Bear Breakout"
+      },
+      {
+        "slideNum": 871,
+        "title": "Wedge Bull Flag: Bear Breakout"
+      },
+      {
+        "slideNum": 872,
+        "title": "Bull Flag: Bear Breakout"
+      },
+      {
+        "slideNum": 873,
+        "title": "Failed Wedge Bull Flag: Breakout below Bull Flag"
+      },
+      {
+        "slideNum": 874,
+        "title": "2nd Leg Bear Trap: Bear BO below Bull Flag"
+      },
+      {
+        "slideNum": 875,
+        "title": "Failed Bull Flag: MM Down"
+      },
+      {
+        "slideNum": 876,
+        "title": "Failed Wedge Bull Flag: MM Down"
+      },
+      {
+        "slideNum": 877,
+        "title": "Final Bull Flag: Triangle Late in Bull Trend"
+      },
+      {
+        "slideNum": 878,
+        "title": "Bad Bull Flag: S Reversal Down"
+      },
+      {
+        "slideNum": 879,
+        "title": "Bear BO below Bull Flag: Measuring Gap"
+      },
+      {
+        "slideNum": 880,
+        "title": "Bull Flag: Bear BO"
+      },
+      {
+        "slideNum": 881,
+        "title": "Nested Parabolic Wedge Top: Weak Selloff, Then TR"
+      }
+    ]
+  },
+  {
+    "slideNum": 882,
+    "title": "Flag: Bad",
+    "children": [
+      {
+        "slideNum": 883,
+        "title": "PB: Fade Bad Flags"
+      },
+      {
+        "slideNum": 884,
+        "title": "Bad Flags: Fade"
+      }
+    ]
+  },
+  {
+    "slideNum": 885,
+    "title": "FOMC Possible Outcomes",
+    "children": [
+      {
+        "slideNum": 886,
+        "title": "FOMC: Bear Trend"
+      },
+      {
+        "slideNum": 887,
+        "title": "FOMC: Bull Trend"
+      },
+      {
+        "slideNum": 888,
+        "title": "FOMC: Failed Bull BO"
+      },
+      {
+        "slideNum": 889,
+        "title": "FOMC: Failed Bear BO"
+      },
+      {
+        "slideNum": 890,
+        "title": "FOMC: Failed Bear and Then Failed Bull BO, or Vice Versa"
+      },
+      {
+        "slideNum": 891,
+        "title": "FOMC: Tight TR"
+      }
+    ]
+  },
+  {
+    "slideNum": 892,
+    "title": "FOMC Bear BO",
+    "children": [
+      {
+        "slideNum": 893,
+        "title": "FOMC Statement: Bear Breakout"
+      },
+      {
+        "slideNum": 894,
+        "title": "FOMC Minutes: Strong Bear Breakout"
+      },
+      {
+        "slideNum": 895,
+        "title": "FOMC: Expanding Triangle, Small PB Bear Trend"
+      },
+      {
+        "slideNum": 896,
+        "title": "FOMC: Bear Trend"
+      },
+      {
+        "slideNum": 897,
+        "title": "FOMC: Bear Trend"
+      },
+      {
+        "slideNum": 898,
+        "title": "Outside Down: FOMC"
+      },
+      {
+        "slideNum": 899,
+        "title": "FOMC: 20 Point Tall Doji"
+      }
+    ]
+  },
+  {
+    "slideNum": 900,
+    "title": "FOMC Bear BO failed",
+    "children": [
+      {
+        "slideNum": 901,
+        "title": "FOMC: Sell Climax, Reversal Up"
+      },
+      {
+        "slideNum": 902,
+        "title": "FOMC: Failed Bear Breakout"
+      },
+      {
+        "slideNum": 903,
+        "title": "FOMC: Bull Trend Reversal, Outside Up"
+      },
+      {
+        "slideNum": 904,
+        "title": "FOMC: Major Bear Surprise BO, Then TR"
+      },
+      {
+        "slideNum": 905,
+        "title": "FOMC: Sell Climax, Then Bull Trend Reversal"
+      },
+      {
+        "slideNum": 906,
+        "title": "FOMC: Failed Bear Breakout After Failed Bull Breakout"
+      },
+      {
+        "slideNum": 907,
+        "title": "FOMC: Failed Bear Breakout, Then Trading Range"
+      },
+      {
+        "slideNum": 908,
+        "title": "FOMC: Reversal Up from Parabolic Wedge Bottom"
+      },
+      {
+        "slideNum": 909,
+        "title": "FOMC: Reversal Up from Parabolic Wedge Bottom"
+      },
+      {
+        "slideNum": 910,
+        "title": "FOMC: Strong Selloff, Reversal up"
+      },
+      {
+        "slideNum": 911,
+        "title": "FOMC: Brief Selloff, Then Bull Trend Reversal"
+      },
+      {
+        "slideNum": 912,
+        "title": "FOMC: Bear Trend Reversed up Strongly, Then Trading Range"
+      },
+      {
+        "slideNum": 913,
+        "title": "FOMC: Strong Bull Breakout after Failed Bear Breakout"
+      },
+      {
+        "slideNum": 914,
+        "title": "FOMC: LL MTR and Wedge Bottom"
+      },
+      {
+        "slideNum": 915,
+        "title": "FOMC: Failed Reversal Down"
+      },
+      {
+        "slideNum": 916,
+        "title": "FOMC: Expanding Triangle"
+      }
+    ]
+  },
+  {
+    "slideNum": 917,
+    "title": "FOMC Bull BO",
+    "children": [
+      {
+        "slideNum": 918,
+        "title": "FOMC: 5 Consecutive High 1 Bull Flags"
+      },
+      {
+        "slideNum": 919,
+        "title": "FOMC: Big Bull BO, Need Wide Stop"
+      },
+      {
+        "slideNum": 920,
+        "title": "FOMC: Bull Breakout"
+      },
+      {
+        "slideNum": 921,
+        "title": "FOMC: Bull Breakout"
+      },
+      {
+        "slideNum": 922,
+        "title": "FOMC: Major Bull Surprise"
+      },
+      {
+        "slideNum": 923,
+        "title": "FOMC: Strong Bull Breakout after Failed Bear Breakout"
+      },
+      {
+        "slideNum": 924,
+        "title": "FOMC: Bull BO, Deep PB"
+      },
+      {
+        "slideNum": 925,
+        "title": "FOMC: Big Bull Breakout"
+      },
+      {
+        "slideNum": 926,
+        "title": "FOMC: Bull Trend"
+      },
+      {
+        "slideNum": 927,
+        "title": "FOMC Minutes: Bull Trend"
+      },
+      {
+        "slideNum": 928,
+        "title": "FOMC: Strong Bull Breakout"
+      },
+      {
+        "slideNum": 929,
+        "title": "FOMC: Bull Trend"
+      },
+      {
+        "slideNum": 930,
+        "title": "FOMC: Big Bull BO, Then Wedge Top"
+      },
+      {
+        "slideNum": 931,
+        "title": "FOMC: Bull BO"
+      },
+      {
+        "slideNum": 932,
+        "title": "FOMC Day: Bull Channel"
+      },
+      {
+        "slideNum": 933,
+        "title": "FOMC: Bull BO"
+      },
+      {
+        "slideNum": 934,
+        "title": "FOMC: HL MTR"
+      },
+      {
+        "slideNum": 935,
+        "title": "FOMC: Dominant Bull Bar, Then TR"
+      },
+      {
+        "slideNum": 936,
+        "title": "FOMC: Bull BO, Deep PB"
+      },
+      {
+        "slideNum": 937,
+        "title": "FOMC: Dominant Bull Bar"
+      }
+    ]
+  },
+  {
+    "slideNum": 938,
+    "title": "FOMC Bull BO Failed",
+    "children": [
+      {
+        "slideNum": 939,
+        "title": "FOMC: Bull BO Failed"
+      },
+      {
+        "slideNum": 940,
+        "title": "FOMC: Bull BO Failed"
+      },
+      {
+        "slideNum": 941,
+        "title": "FOMC: Bull Breakout Failed"
+      },
+      {
+        "slideNum": 942,
+        "title": "FOMC: Bull Breakout Failed, Then Weak Bear Channel"
+      },
+      {
+        "slideNum": 943,
+        "title": "FOMC: Failed Bull Breakout, Then Failed Bear Breakout"
+      },
+      {
+        "slideNum": 944,
+        "title": "FOMC: Trading Range Day Became Taller after FOMC"
+      },
+      {
+        "slideNum": 945,
+        "title": "FOMC: Dominant Bull Bar"
+      },
+      {
+        "slideNum": 946,
+        "title": "FOMC Report: Reversal Down"
+      },
+      {
+        "slideNum": 947,
+        "title": "FOMC: Bear Reversal"
+      },
+      {
+        "slideNum": 948,
+        "title": "FOMC: Failed Bull BO"
+      },
+      {
+        "slideNum": 949,
+        "title": "FOMC: Trading Range"
+      },
+      {
+        "slideNum": 950,
+        "title": "FOMC: Failed Bull Breakout"
+      },
+      {
+        "slideNum": 951,
+        "title": "FOMC: Failed Bull Breakout"
+      },
+      {
+        "slideNum": 952,
+        "title": "FOMC: Trading Range Day Became Taller after FOMC"
+      },
+      {
+        "slideNum": 953,
+        "title": "FOMC Led to 2 Buy Climaxes: HH DT and Bear Trend"
+      },
+      {
+        "slideNum": 954,
+        "title": "FOMC Minutes: Bull Trap, Then Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 955,
+        "title": "FOMC: Failed Bull Breakout"
+      },
+      {
+        "slideNum": 956,
+        "title": "FOMC: Consecutive Sell Climaxes"
+      },
+      {
+        "slideNum": 957,
+        "title": "FOMC: Bull Breakout Failed"
+      },
+      {
+        "slideNum": 958,
+        "title": "FOMC Minutes: Bull Trap, Then Big Bear Trend"
+      },
+      {
+        "slideNum": 959,
+        "title": "FOMC Minutes: Bull Breakout Failed"
+      },
+      {
+        "slideNum": 960,
+        "title": "FOMC Minutes: Failed Bull Breakout"
+      },
+      {
+        "slideNum": 961,
+        "title": "FOMC: Weak Rally, Then Reversal Down and Trading Range"
+      },
+      {
+        "slideNum": 962,
+        "title": "FOMC: Bull BO, Reversal Down"
+      },
+      {
+        "slideNum": 963,
+        "title": "FOMC: Bull BO Failed"
+      },
+      {
+        "slideNum": 964,
+        "title": "FOMC: Brief Rally, Then Reversal Down"
+      },
+      {
+        "slideNum": 965,
+        "title": "FOMC: Bear Trend"
+      },
+      {
+        "slideNum": 966,
+        "title": "FOMC: Failed Reversal Up"
+      },
+      {
+        "slideNum": 967,
+        "title": "FOMC: Expanding Triangle"
+      },
+      {
+        "slideNum": 968,
+        "title": "FOMC Day: Bull Channel"
+      }
+    ]
+  },
+  {
+    "slideNum": 969,
+    "title": "FOMC, then Trading Range",
+    "children": [
+      {
+        "slideNum": 970,
+        "title": "FOMC: Trading Range"
+      },
+      {
+        "slideNum": 971,
+        "title": "FOMC: Trading Range"
+      },
+      {
+        "slideNum": 972,
+        "title": "FOMC: Trading Range, Then Small Bull Breakout"
+      },
+      {
+        "slideNum": 973,
+        "title": "FOMC: Then Trading Range"
+      },
+      {
+        "slideNum": 974,
+        "title": "FOMC: Trading Range (Failed Bull and Bear Breakouts)"
+      },
+      {
+        "slideNum": 975,
+        "title": "FOMC: Trading Range"
+      },
+      {
+        "slideNum": 976,
+        "title": "FOMC: Trading Range"
+      },
+      {
+        "slideNum": 977,
+        "title": "FOMC: Trading Range Day Became Taller after FOMC"
+      },
+      {
+        "slideNum": 978,
+        "title": "FOMC: Failed Bear Breakout, Then Trading Range"
+      },
+      {
+        "slideNum": 979,
+        "title": "FOMC: 20 Point Tall Doji"
+      },
+      {
+        "slideNum": 980,
+        "title": "FOMC: Big Reversals, TR"
+      },
+      {
+        "slideNum": 981,
+        "title": "FOMC: Bull Trap, but Mostly Sideways"
+      },
+      {
+        "slideNum": 982,
+        "title": "FOMC: Failed Bear Breakout"
+      },
+      {
+        "slideNum": 983,
+        "title": "FOMC: Failed Bear BO"
+      },
+      {
+        "slideNum": 984,
+        "title": "FOMC: OOO Day, 3 Reversals of Yesterday’s Range"
+      },
+      {
+        "slideNum": 985,
+        "title": "FOMC: Weak Rally, Then TR"
+      },
+      {
+        "slideNum": 986,
+        "title": "FOMC: TR, Late Bear BO"
+      },
+      {
+        "slideNum": 987,
+        "title": "FOMC: Minimal Reaction"
+      },
+      {
+        "slideNum": 988,
+        "title": "FOMC: Tight TR"
+      },
+      {
+        "slideNum": 989,
+        "title": "FOMC Minutes: Trade Like FOMC Announcement Day"
+      },
+      {
+        "slideNum": 990,
+        "title": "FOMC: Failed Reversal Down"
+      },
+      {
+        "slideNum": 991,
+        "title": "FOMC Minutes: Remained Trading Range Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 992,
+    "title": "Follow-Through Selling in Bear Trend",
+    "children": [
+      {
+        "slideNum": 993,
+        "title": "Bear Breakout and Bear Follow-Through: Bear Trend"
+      },
+      {
+        "slideNum": 994,
+        "title": "Bear Breakout: Weak Follow-Through Bar"
+      },
+      {
+        "slideNum": 995,
+        "title": "3 Day Bear Channel: Good Follow-Through after Big Bear Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 996,
+    "title": "No Follow-Through Selling in Bear Trend",
+    "children": [
+      {
+        "slideNum": 997,
+        "title": "Sell Climax on Open: Bull Channel for Rest of Day"
+      },
+      {
+        "slideNum": 998,
+        "title": "Small PB Bear: Bad Follow-Through"
+      },
+      {
+        "slideNum": 999,
+        "title": "Small PB Bear Trend: Bull Reversal on Next Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 1000,
+    "title": "Follow-Through Buying in Bull Trend",
+    "children": [
+      {
+        "slideNum": 1001,
+        "title": "Bull Breakout and Follow-Through: Bull Trend"
+      },
+      {
+        "slideNum": 1002,
+        "title": "Breakout Above Trading Range: Weak Follow-Through Bar"
+      },
+      {
+        "slideNum": 1003,
+        "title": "Good Follow-Through: Expect Higher Prices"
+      },
+      {
+        "slideNum": 1004,
+        "title": "Bull Breakout and Doji Follow-Through: Bull Trend"
+      },
+      {
+        "slideNum": 1005,
+        "title": "Bad Follow-Through: Increased Chance of Minor Reversal"
+      },
+      {
+        "slideNum": 1006,
+        "title": "Small PB Bull Trend: Follow-Through Next Day"
+      },
+      {
+        "slideNum": 1007,
+        "title": "Small PB Bull Trend For 2 Days: Then Reversal"
+      },
+      {
+        "slideNum": 1008,
+        "title": "Strong Bull: Then Wedge Top and TR Day"
+      }
+    ]
+  },
+  {
+    "slideNum": 1009,
+    "title": "No Follow-Through Buying in Bull Trend",
+    "children": [
+      {
+        "slideNum": 1010,
+        "title": "Bad Follow-Through: Bull Trap"
+      },
+      {
+        "slideNum": 1011,
+        "title": "Small PB Bull Trend: Bad Follow-Through"
+      },
+      {
+        "slideNum": 1012,
+        "title": "Small PB Bull Trend: Bad Follow-Through"
+      },
+      {
+        "slideNum": 1013,
+        "title": "Bull Trend From The Open: Trading Range, Then Reversal"
+      }
+    ]
+  },
+  {
+    "slideNum": 1014,
+    "title": "Part 3 - D to F",
+    "children": []
+  }
+]

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooks Encyclopedia - 数据差异分析</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            min-height: 100vh;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 24px; margin-bottom: 5px; }
+        .header p { opacity: 0.8; font-size: 14px; }
+
+        .stats {
+            display: flex; justify-content: center; gap: 30px;
+            padding: 20px; background: rgba(255,255,255,0.05);
+        }
+        .stat-box {
+            text-align: center; padding: 15px 25px;
+            background: rgba(255,255,255,0.1); border-radius: 10px;
+        }
+        .stat-box .num { font-size: 28px; font-weight: bold; color: #667eea; }
+        .stat-box .label { font-size: 12px; opacity: 0.7; margin-top: 5px; }
+
+        .tabs {
+            display: flex; background: rgba(0,0,0,0.3); padding: 10px 20px; gap: 10px;
+        }
+        .tab {
+            padding: 10px 20px; border-radius: 8px; cursor: pointer;
+            background: transparent; border: 1px solid rgba(255,255,255,0.2);
+            color: #fff; transition: all 0.3s;
+        }
+        .tab:hover { background: rgba(255,255,255,0.1); }
+        .tab.active { background: #667eea; border-color: #667eea; }
+
+        .content { padding: 20px; }
+        .panel { display: none; }
+        .panel.active { display: block; }
+
+        .filter-bar {
+            display: flex; gap: 15px; margin-bottom: 20px; align-items: center;
+        }
+        .filter-bar select, .filter-bar input {
+            padding: 10px 15px; border-radius: 8px; border: none;
+            background: rgba(255,255,255,0.1); color: #fff;
+        }
+        .filter-bar input { flex: 1; }
+        .filter-bar input::placeholder { color: rgba(255,255,255,0.5); }
+
+        .table-container {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px; overflow: hidden;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th {
+            background: rgba(102,126,234,0.3); padding: 15px;
+            text-align: left; font-weight: 600; font-size: 13px;
+            position: sticky; top: 0;
+        }
+        td {
+            padding: 12px 15px; border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 14px;
+        }
+        tr:hover { background: rgba(255,255,255,0.05); }
+
+        .match-score {
+            display: inline-block; padding: 3px 10px;
+            border-radius: 20px; font-size: 12px; font-weight: 600;
+        }
+        .score-100 { background: #22c55e; color: #fff; }
+        .score-high { background: #84cc16; color: #000; }
+        .score-medium { background: #eab308; color: #000; }
+        .score-low { background: #f97316; color: #fff; }
+        .score-none { background: #ef4444; color: #fff; }
+
+        .abbrev {
+            font-family: monospace; background: rgba(102,126,234,0.2);
+            padding: 2px 8px; border-radius: 4px; font-size: 12px;
+        }
+        .part-badge {
+            display: inline-block; background: #667eea; color: #fff;
+            padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;
+        }
+
+        .compare-view {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+        }
+        .compare-col {
+            background: rgba(255,255,255,0.05); border-radius: 12px; padding: 15px;
+        }
+        .compare-col h3 {
+            font-size: 14px; margin-bottom: 15px; padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .compare-col.csv h3 { color: #22c55e; }
+        .compare-col.hier h3 { color: #3b82f6; }
+
+        .item-card {
+            background: rgba(255,255,255,0.05); border-radius: 8px;
+            padding: 12px; margin-bottom: 10px; font-size: 13px;
+        }
+        .item-card .title { margin-bottom: 5px; }
+        .item-card .meta { font-size: 11px; opacity: 0.6; }
+
+        .highlight { background: rgba(234,179,8,0.3); padding: 0 2px; }
+
+        .empty-state {
+            text-align: center; padding: 60px 20px; opacity: 0.5;
+        }
+        .empty-state svg { width: 60px; height: 60px; margin-bottom: 15px; }
+
+        #loadingOverlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: #1a1a2e; display: flex;
+            justify-content: center; align-items: center; z-index: 1000;
+        }
+        .spinner {
+            width: 50px; height: 50px; border: 3px solid rgba(255,255,255,0.1);
+            border-top-color: #667eea; border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="header">
+        <h1>Brooks Encyclopedia - 数据差异分析</h1>
+        <p>CSV 索引 vs Slide Hierarchy 匹配分析</p>
+    </div>
+
+    <div class="stats" id="statsBar">
+        <div class="stat-box">
+            <div class="num" id="statCsv">-</div>
+            <div class="label">CSV 索引</div>
+        </div>
+        <div class="stat-box">
+            <div class="num" id="statHier">-</div>
+            <div class="label">Hierarchy 组</div>
+        </div>
+        <div class="stat-box">
+            <div class="num" id="statMatched">-</div>
+            <div class="label">完全匹配</div>
+        </div>
+        <div class="stat-box">
+            <div class="num" id="statFuzzy">-</div>
+            <div class="label">模糊匹配</div>
+        </div>
+        <div class="stat-box">
+            <div class="num" id="statUnmatched">-</div>
+            <div class="label">未匹配</div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <div class="tab active" data-panel="all">全部数据</div>
+        <div class="tab" data-panel="matched">已匹配</div>
+        <div class="tab" data-panel="fuzzy">模糊匹配</div>
+        <div class="tab" data-panel="csv-only">仅 CSV</div>
+        <div class="tab" data-panel="hier-only">仅 Hierarchy</div>
+        <div class="tab" data-panel="compare">对比视图</div>
+    </div>
+
+    <div class="content">
+        <!-- 全部数据 -->
+        <div class="panel active" id="panel-all">
+            <div class="filter-bar">
+                <select id="filterPart">
+                    <option value="">全部 Part</option>
+                </select>
+                <input type="text" id="filterSearch" placeholder="搜索 Section 或缩写...">
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part</th>
+                            <th>CSV Section</th>
+                            <th>缩写</th>
+                            <th>Hierarchy 标题</th>
+                            <th>Slide</th>
+                            <th>匹配度</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableAll"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 已匹配 -->
+        <div class="panel" id="panel-matched">
+            <div class="filter-bar">
+                <select id="filterPartMatched"><option value="">全部 Part</option></select>
+                <input type="text" id="filterSearchMatched" placeholder="搜索...">
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part</th>
+                            <th>CSV Section</th>
+                            <th>缩写</th>
+                            <th>Hierarchy 标题</th>
+                            <th>Slide</th>
+                            <th>子页数</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableMatched"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 模糊匹配 -->
+        <div class="panel" id="panel-fuzzy">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part</th>
+                            <th>CSV Section</th>
+                            <th>Hierarchy 标题</th>
+                            <th>相似度</th>
+                            <th>差异</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableFuzzy"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 仅 CSV -->
+        <div class="panel" id="panel-csv-only">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part</th>
+                            <th>Section</th>
+                            <th>缩写</th>
+                            <th>可能原因</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableCsvOnly"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 仅 Hierarchy -->
+        <div class="panel" id="panel-hier-only">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part</th>
+                            <th>Slide</th>
+                            <th>标题</th>
+                            <th>子页数</th>
+                            <th>类型</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableHierOnly"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 对比视图 -->
+        <div class="panel" id="panel-compare">
+            <div class="filter-bar">
+                <select id="comparePart">
+                    <option value="1">Part 1</option>
+                </select>
+            </div>
+            <div class="compare-view">
+                <div class="compare-col csv">
+                    <h3>📄 CSV 索引</h3>
+                    <div id="compareCsv"></div>
+                </div>
+                <div class="compare-col hier">
+                    <h3>📊 Slide Hierarchy</h3>
+                    <div id="compareHier"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 数据存储
+        let csvData = [];
+        let hierData = {};
+        let matchedData = [];
+        let fuzzyMatches = [];
+        let csvOnly = [];
+        let hierOnly = [];
+
+        // 标准化函数
+        function normalize(str) {
+            if (!str) return '';
+            return str.toLowerCase()
+                .replace(/[^\w\s]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        // 计算相似度
+        function similarity(s1, s2) {
+            const set1 = new Set(normalize(s1).split(' '));
+            const set2 = new Set(normalize(s2).split(' '));
+            const intersection = new Set([...set1].filter(x => set2.has(x)));
+            const union = new Set([...set1, ...set2]);
+            return intersection.size / union.size;
+        }
+
+        // 找出差异词
+        function findDiff(s1, s2) {
+            const words1 = normalize(s1).split(' ');
+            const words2 = normalize(s2).split(' ');
+            const set2 = new Set(words2);
+            const diff = words1.filter(w => !set2.has(w));
+            return diff.join(', ') || '-';
+        }
+
+        // 加载 CSV 索引
+        async function loadCsvIndex() {
+            try {
+                const resp = await fetch('csv_index_parsed.json');
+                csvData = await resp.json();
+            } catch (e) {
+                console.error('加载 CSV 索引失败:', e);
+                csvData = [];
+            }
+        }
+
+        // 加载所有 Hierarchy
+        async function loadHierarchies() {
+            for (let i = 1; i <= 16; i++) {
+                const partId = `part${String(i).padStart(2, '0')}`;
+                try {
+                    const resp = await fetch(`${partId}/slide_hierarchy.json`);
+                    hierData[i] = await resp.json();
+                } catch (e) {
+                    console.error(`加载 ${partId} 失败:`, e);
+                    hierData[i] = [];
+                }
+            }
+        }
+
+        // 匹配数据
+        function matchData() {
+            const hierNormMap = {};
+
+            // 创建 Hierarchy 标准化映射
+            for (const [part, groups] of Object.entries(hierData)) {
+                for (const group of groups) {
+                    const key = `${part}:${normalize(group.title)}`;
+                    hierNormMap[key] = { part: parseInt(part), ...group };
+                }
+            }
+
+            const matchedNorm = new Set();
+            matchedData = [];
+            fuzzyMatches = [];
+            csvOnly = [];
+
+            for (const csv of csvData) {
+                const key = `${csv.part}:${csv.normalized}`;
+
+                if (hierNormMap[key]) {
+                    // 完全匹配
+                    matchedData.push({
+                        csv,
+                        hier: hierNormMap[key],
+                        score: 1.0
+                    });
+                    matchedNorm.add(key);
+                } else {
+                    // 尝试模糊匹配
+                    let bestMatch = null;
+                    let bestScore = 0;
+
+                    for (const group of (hierData[csv.part] || [])) {
+                        const score = similarity(csv.section, group.title);
+                        if (score > bestScore && score >= 0.5) {
+                            bestScore = score;
+                            bestMatch = { part: csv.part, ...group };
+                        }
+                    }
+
+                    if (bestMatch && bestScore >= 0.5) {
+                        fuzzyMatches.push({
+                            csv,
+                            hier: bestMatch,
+                            score: bestScore
+                        });
+                        matchedNorm.add(`${csv.part}:${normalize(bestMatch.title)}`);
+                    } else {
+                        csvOnly.push(csv);
+                    }
+                }
+            }
+
+            // 找出仅在 Hierarchy 中的项
+            hierOnly = [];
+            for (const [part, groups] of Object.entries(hierData)) {
+                for (const group of groups) {
+                    const key = `${part}:${normalize(group.title)}`;
+                    if (!matchedNorm.has(key)) {
+                        hierOnly.push({ part: parseInt(part), ...group });
+                    }
+                }
+            }
+        }
+
+        // 更新统计
+        function updateStats() {
+            document.getElementById('statCsv').textContent = csvData.length;
+            document.getElementById('statHier').textContent = Object.values(hierData).flat().length;
+            document.getElementById('statMatched').textContent = matchedData.length;
+            document.getElementById('statFuzzy').textContent = fuzzyMatches.length;
+            document.getElementById('statUnmatched').textContent = csvOnly.length + hierOnly.length;
+        }
+
+        // 获取匹配度样式
+        function getScoreClass(score) {
+            if (score === 1) return 'score-100';
+            if (score >= 0.8) return 'score-high';
+            if (score >= 0.6) return 'score-medium';
+            if (score >= 0.4) return 'score-low';
+            return 'score-none';
+        }
+
+        // 渲染全部数据表格
+        function renderAllTable(filter = {}) {
+            const tbody = document.getElementById('tableAll');
+            let rows = '';
+
+            // 合并所有数据
+            const allItems = [
+                ...matchedData.map(m => ({ ...m, type: 'matched' })),
+                ...fuzzyMatches.map(m => ({ ...m, type: 'fuzzy' })),
+                ...csvOnly.map(c => ({ csv: c, hier: null, score: 0, type: 'csv-only' }))
+            ];
+
+            for (const item of allItems) {
+                if (filter.part && item.csv.part != filter.part) continue;
+                if (filter.search) {
+                    const search = filter.search.toLowerCase();
+                    const match = item.csv.section.toLowerCase().includes(search) ||
+                                  item.csv.abbreviation.toLowerCase().includes(search) ||
+                                  (item.hier?.title || '').toLowerCase().includes(search);
+                    if (!match) continue;
+                }
+
+                rows += `
+                    <tr>
+                        <td><span class="part-badge">Part ${item.csv.part}</span></td>
+                        <td>${item.csv.section}</td>
+                        <td><span class="abbrev">${item.csv.abbreviation}</span></td>
+                        <td>${item.hier?.title || '<span style="opacity:0.3">-</span>'}</td>
+                        <td>${item.hier?.slideNum || '-'}</td>
+                        <td><span class="match-score ${getScoreClass(item.score)}">${Math.round(item.score * 100)}%</span></td>
+                    </tr>
+                `;
+            }
+
+            tbody.innerHTML = rows || '<tr><td colspan="6" class="empty-state">无数据</td></tr>';
+        }
+
+        // 渲染已匹配表格
+        function renderMatchedTable(filter = {}) {
+            const tbody = document.getElementById('tableMatched');
+            let rows = '';
+
+            for (const item of matchedData) {
+                if (filter.part && item.csv.part != filter.part) continue;
+                if (filter.search) {
+                    const search = filter.search.toLowerCase();
+                    if (!item.csv.section.toLowerCase().includes(search)) continue;
+                }
+
+                rows += `
+                    <tr>
+                        <td><span class="part-badge">Part ${item.csv.part}</span></td>
+                        <td>${item.csv.section}</td>
+                        <td><span class="abbrev">${item.csv.abbreviation}</span></td>
+                        <td>${item.hier.title}</td>
+                        <td>${item.hier.slideNum}</td>
+                        <td>${item.hier.children?.length || 0}</td>
+                    </tr>
+                `;
+            }
+
+            tbody.innerHTML = rows || '<tr><td colspan="6" class="empty-state">无数据</td></tr>';
+        }
+
+        // 渲染模糊匹配表格
+        function renderFuzzyTable() {
+            const tbody = document.getElementById('tableFuzzy');
+            let rows = '';
+
+            for (const item of fuzzyMatches.sort((a, b) => a.score - b.score)) {
+                rows += `
+                    <tr>
+                        <td><span class="part-badge">Part ${item.csv.part}</span></td>
+                        <td>${item.csv.section}</td>
+                        <td>${item.hier.title}</td>
+                        <td><span class="match-score ${getScoreClass(item.score)}">${Math.round(item.score * 100)}%</span></td>
+                        <td style="font-size:12px;opacity:0.7">${findDiff(item.csv.section, item.hier.title)}</td>
+                    </tr>
+                `;
+            }
+
+            tbody.innerHTML = rows || '<tr><td colspan="5" class="empty-state">无模糊匹配</td></tr>';
+        }
+
+        // 渲染 CSV Only 表格
+        function renderCsvOnlyTable() {
+            const tbody = document.getElementById('tableCsvOnly');
+            let rows = '';
+
+            for (const item of csvOnly) {
+                const reason = guessReason(item);
+                rows += `
+                    <tr>
+                        <td><span class="part-badge">Part ${item.part}</span></td>
+                        <td>${item.section}</td>
+                        <td><span class="abbrev">${item.abbreviation}</span></td>
+                        <td style="font-size:12px;opacity:0.7">${reason}</td>
+                    </tr>
+                `;
+            }
+
+            tbody.innerHTML = rows || '<tr><td colspan="4" class="empty-state">全部匹配成功</td></tr>';
+        }
+
+        // 猜测未匹配原因
+        function guessReason(item) {
+            const abbrevs = ['BO', 'EOD', 'BL', 'BR', 'HTF', 'TR', 'PB'];
+            for (const abbr of abbrevs) {
+                if (item.abbreviation.includes(abbr) || item.section.includes(abbr)) {
+                    return `可能是缩写差异 (${abbr})`;
+                }
+            }
+            return '标题格式差异';
+        }
+
+        // 渲染 Hierarchy Only 表格
+        function renderHierOnlyTable() {
+            const tbody = document.getElementById('tableHierOnly');
+            let rows = '';
+
+            for (const item of hierOnly) {
+                const type = guessHierType(item);
+                rows += `
+                    <tr>
+                        <td><span class="part-badge">Part ${item.part}</span></td>
+                        <td>${item.slideNum}</td>
+                        <td>${item.title}</td>
+                        <td>${item.children?.length || 0}</td>
+                        <td style="font-size:12px">${type}</td>
+                    </tr>
+                `;
+            }
+
+            tbody.innerHTML = rows || '<tr><td colspan="5" class="empty-state">无额外项</td></tr>';
+        }
+
+        // 猜测 Hierarchy 类型
+        function guessHierType(item) {
+            if (item.title.startsWith('Part ')) return '📁 Part 标题页';
+            if (item.title.includes('Basics') || item.title.includes('Introduction')) return '📚 介绍章节';
+            if (item.title.includes('Trade Entry')) return '📝 交易入门';
+            return '📄 额外章节';
+        }
+
+        // 渲染对比视图
+        function renderCompareView(partNum) {
+            const csvItems = csvData.filter(c => c.part == partNum);
+            const hierItems = hierData[partNum] || [];
+
+            let csvHtml = '';
+            for (const item of csvItems) {
+                csvHtml += `
+                    <div class="item-card">
+                        <div class="title">${item.section}</div>
+                        <div class="meta"><span class="abbrev">${item.abbreviation}</span></div>
+                    </div>
+                `;
+            }
+
+            let hierHtml = '';
+            for (const item of hierItems) {
+                hierHtml += `
+                    <div class="item-card">
+                        <div class="title">${item.title}</div>
+                        <div class="meta">Slide ${item.slideNum} · ${item.children?.length || 0} 子页</div>
+                    </div>
+                `;
+            }
+
+            document.getElementById('compareCsv').innerHTML = csvHtml || '<div class="empty-state">无数据</div>';
+            document.getElementById('compareHier').innerHTML = hierHtml || '<div class="empty-state">无数据</div>';
+        }
+
+        // 初始化过滤器
+        function initFilters() {
+            const partOptions = '<option value="">全部 Part</option>' +
+                Array.from({length: 16}, (_, i) => `<option value="${i+1}">Part ${i+1}</option>`).join('');
+
+            document.getElementById('filterPart').innerHTML = partOptions;
+            document.getElementById('filterPartMatched').innerHTML = partOptions;
+            document.getElementById('comparePart').innerHTML =
+                Array.from({length: 16}, (_, i) => `<option value="${i+1}">Part ${i+1}</option>`).join('');
+        }
+
+        // 绑定事件
+        function bindEvents() {
+            // Tab 切换
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById(`panel-${tab.dataset.panel}`).classList.add('active');
+                });
+            });
+
+            // 过滤器
+            document.getElementById('filterPart').addEventListener('change', e => {
+                renderAllTable({ part: e.target.value, search: document.getElementById('filterSearch').value });
+            });
+            document.getElementById('filterSearch').addEventListener('input', e => {
+                renderAllTable({ part: document.getElementById('filterPart').value, search: e.target.value });
+            });
+
+            document.getElementById('filterPartMatched').addEventListener('change', e => {
+                renderMatchedTable({ part: e.target.value, search: document.getElementById('filterSearchMatched').value });
+            });
+            document.getElementById('filterSearchMatched').addEventListener('input', e => {
+                renderMatchedTable({ part: document.getElementById('filterPartMatched').value, search: e.target.value });
+            });
+
+            document.getElementById('comparePart').addEventListener('change', e => {
+                renderCompareView(e.target.value);
+            });
+        }
+
+        // 初始化
+        async function init() {
+            await loadCsvIndex();
+            await loadHierarchies();
+            matchData();
+            updateStats();
+            initFilters();
+            bindEvents();
+
+            renderAllTable();
+            renderMatchedTable();
+            renderFuzzyTable();
+            renderCsvOnlyTable();
+            renderHierOnlyTable();
+            renderCompareView(1);
+
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        init();
+    </script>
+</body>
+</html>

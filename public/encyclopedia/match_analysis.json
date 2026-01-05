@@ -1,0 +1,1684 @@
+{
+  "matched_count": 521,
+  "csv_only_count": 75,
+  "hier_only_count": 93,
+  "fuzzy_match_count": 62,
+  "csv_only": [
+    {
+      "part": 1,
+      "section": "Introduction",
+      "abbreviation": "Introduction",
+      "note": "",
+      "normalized": "introduction"
+    },
+    {
+      "part": 1,
+      "section": "All Time High Buy Climax",
+      "abbreviation": "ATH BX",
+      "note": "",
+      "normalized": "all time high buy climax"
+    },
+    {
+      "part": 1,
+      "section": "Breakout and Channel Bull Trend",
+      "abbreviation": "BO and CH BL",
+      "note": "",
+      "normalized": "breakout and channel bull trend"
+    },
+    {
+      "part": 1,
+      "section": "Breakout and Channel Bear Trend",
+      "abbreviation": "BO and CH BR",
+      "note": "",
+      "normalized": "breakout and channel bear trend"
+    },
+    {
+      "part": 1,
+      "section": "Bull Breakout (Major) --  New and modified sections now include all \"Surprise\" slides",
+      "abbreviation": "BO BL Major",
+      "note": "",
+      "normalized": "bull breakout major new and modified sections now include all surprise slides"
+    },
+    {
+      "part": 1,
+      "section": "Breakout: Small Bear Breakout below a Small Bear Breakout so Wedge Bottom",
+      "abbreviation": "BO SBO2 D",
+      "note": "",
+      "normalized": "breakout small bear breakout below a small bear breakout so wedge bottom"
+    },
+    {
+      "part": 1,
+      "section": "BO Test in Bull Trend (PB to BO Point), Failed And Reversed Down",
+      "abbreviation": "BO Test BL F",
+      "note": "",
+      "normalized": "bo test in bull trend pb to bo point failed and reversed down"
+    },
+    {
+      "part": 1,
+      "section": "BO of TR, but it Failed",
+      "abbreviation": "BO TR F",
+      "note": "",
+      "normalized": "bo of tr but it failed"
+    },
+    {
+      "part": 1,
+      "section": "Buy The Close in TR so Better to S Close of Bull Bars",
+      "abbreviation": "BTC TR so STC",
+      "note": "",
+      "normalized": "buy the close in tr so better to s close of bull bars"
+    },
+    {
+      "part": 1,
+      "section": "Buy Climaxes",
+      "abbreviation": "BX",
+      "note": "",
+      "normalized": "buy climaxes"
+    },
+    {
+      "part": 2,
+      "section": "Bear Channel, Bull BO",
+      "abbreviation": "CH D BL BO",
+      "note": "",
+      "normalized": "bear channel bull bo"
+    },
+    {
+      "part": 2,
+      "section": "Bull Channel, Bear BO",
+      "abbreviation": "CH U BR BO",
+      "note": "",
+      "normalized": "bull channel bear bo"
+    },
+    {
+      "part": 3,
+      "section": "EOD Bull Breakout",
+      "abbreviation": "EOD BL BO",
+      "note": "",
+      "normalized": "eod bull breakout"
+    },
+    {
+      "part": 3,
+      "section": "EOD Profit Taking in Bull Trend",
+      "abbreviation": "EOD BL Profit Taking",
+      "note": "",
+      "normalized": "eod profit taking in bull trend"
+    },
+    {
+      "part": 3,
+      "section": "EOD Bear Breakout",
+      "abbreviation": "EOD BR BO",
+      "note": "",
+      "normalized": "eod bear breakout"
+    },
+    {
+      "part": 3,
+      "section": "EOD Profit Taking in Bear Trend",
+      "abbreviation": "EOD BR Profit Taking",
+      "note": "",
+      "normalized": "eod profit taking in bear trend"
+    },
+    {
+      "part": 3,
+      "section": "Flag, but Looks Bad",
+      "abbreviation": "Flag Bad",
+      "note": "",
+      "normalized": "flag but looks bad"
+    },
+    {
+      "part": 4,
+      "section": "Gap on 5 Minute Chart",
+      "abbreviation": "G 5 Min",
+      "note": "",
+      "normalized": "gap on 5 minute chart"
+    },
+    {
+      "part": 5,
+      "section": "Gap Down and Then Double Bottom",
+      "abbreviation": "GD DB",
+      "note": "",
+      "normalized": "gap down and then double bottom"
+    },
+    {
+      "part": 6,
+      "section": "Big Gap Down in Stocks",
+      "abbreviation": "GD Stocks",
+      "note": "",
+      "normalized": "big gap down in stocks"
+    },
+    {
+      "part": 6,
+      "section": "Gap Down and TR Open, and Trading Range Day",
+      "abbreviation": "GD TRO and TR Day",
+      "note": "",
+      "normalized": "gap down and tr open and trading range day"
+    },
+    {
+      "part": 6,
+      "section": "Gap Down and Wedge Bottom, but Bull BO Failed",
+      "abbreviation": "GD W D BL BO F",
+      "note": "",
+      "normalized": "gap down and wedge bottom but bull bo failed"
+    },
+    {
+      "part": 6,
+      "section": "Gap Down and Wedge Bottom, but Bear BO, and Bear Trend Resumed",
+      "abbreviation": "GD W D BR BO",
+      "note": "",
+      "normalized": "gap down and wedge bottom but bear bo and bear trend resumed"
+    },
+    {
+      "part": 7,
+      "section": "Gap Up, Then Double Top",
+      "abbreviation": "GU DT",
+      "note": "",
+      "normalized": "gap up then double top"
+    },
+    {
+      "part": 7,
+      "section": "Gap Up, Double Top Failed",
+      "abbreviation": "GU DT F",
+      "note": "",
+      "normalized": "gap up double top failed"
+    },
+    {
+      "part": 8,
+      "section": "Gap Up and TR Open, and Trading Range Day",
+      "abbreviation": "GU TRO and TR Day",
+      "note": "",
+      "normalized": "gap up and tr open and trading range day"
+    },
+    {
+      "part": 9,
+      "section": "Higher Time Frame Buy and Sell Signals",
+      "abbreviation": "HTF B and S Signals",
+      "note": "",
+      "normalized": "higher time frame buy and sell signals"
+    },
+    {
+      "part": 9,
+      "section": "Higher Time Frame Charts",
+      "abbreviation": "HTF Charts",
+      "note": "",
+      "normalized": "higher time frame charts"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bull Trend, Bull Breakout",
+      "abbreviation": "ii BLT BL BO",
+      "note": "",
+      "normalized": "ii consecutive inside bars bull trend bull breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bull Trend, Failed Bull Breakout",
+      "abbreviation": "ii BLT BL BO F",
+      "note": "",
+      "normalized": "ii consecutive inside bars bull trend failed bull breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bull Trend, Bear Breakout",
+      "abbreviation": "ii BLT BR BO",
+      "note": "",
+      "normalized": "ii consecutive inside bars bull trend bear breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bull Trend, Failed Bear Breakout",
+      "abbreviation": "ii BLT BR BO F",
+      "note": "",
+      "normalized": "ii consecutive inside bars bull trend failed bear breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bear Trend, Bull Breakout",
+      "abbreviation": "ii BRT BL BO",
+      "note": "",
+      "normalized": "ii consecutive inside bars bear trend bull breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bear Trend, Failed Bull Breakout",
+      "abbreviation": "ii BRT BL BO F",
+      "note": "",
+      "normalized": "ii consecutive inside bars bear trend failed bull breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bear Trend, Bear Breakout",
+      "abbreviation": "ii BRT BR BO",
+      "note": "",
+      "normalized": "ii consecutive inside bars bear trend bear breakout"
+    },
+    {
+      "part": 9,
+      "section": "ii Consecutive Inside Bars, Bear Trend, Failed Bear Breakout",
+      "abbreviation": "ii BRT BR BO F",
+      "note": "",
+      "normalized": "ii consecutive inside bars bear trend failed bear breakout"
+    },
+    {
+      "part": 10,
+      "section": "Moving Average 20 Gap Bar Buy",
+      "abbreviation": "MA 20 GB B",
+      "note": "",
+      "normalized": "moving average 20 gap bar buy"
+    },
+    {
+      "part": 10,
+      "section": "Moving Average 20 Gap Bar Buy, Failed",
+      "abbreviation": "MA 20 GB B F",
+      "note": "",
+      "normalized": "moving average 20 gap bar buy failed"
+    },
+    {
+      "part": 10,
+      "section": "Moving Average 20 Gap Bar Sell",
+      "abbreviation": "MA 20 GB S",
+      "note": "",
+      "normalized": "moving average 20 gap bar sell"
+    },
+    {
+      "part": 10,
+      "section": "Moving Average 20 Gap Bar Sell, Failed",
+      "abbreviation": "MA 20 GB S F",
+      "note": "",
+      "normalized": "moving average 20 gap bar sell failed"
+    },
+    {
+      "part": 10,
+      "section": "Midpoint of Day's Range",
+      "abbreviation": "Midpoint Range",
+      "note": "",
+      "normalized": "midpoint of days range"
+    },
+    {
+      "part": 10,
+      "section": "Measured Move from High or Low to Open",
+      "abbreviation": "MM from H or L to open",
+      "note": "New section",
+      "normalized": "measured move from high or low to open"
+    },
+    {
+      "part": 10,
+      "section": "Major Trend Reversal Higher Low, Failed",
+      "abbreviation": "MTR HL F",
+      "note": "",
+      "normalized": "major trend reversal higher low failed"
+    },
+    {
+      "part": 11,
+      "section": "Pullback to 5%, 10%, or 20% from all-time high",
+      "abbreviation": "PB 5, 10, or 20%",
+      "note": "",
+      "normalized": "pullback to 5 10 or 20 from alltime high"
+    },
+    {
+      "part": 11,
+      "section": "Pullback to above Bear Breakout Failed and Became Measuring Gap",
+      "abbreviation": "PB Above BR BO F",
+      "note": "",
+      "normalized": "pullback to above bear breakout failed and became measuring gap"
+    },
+    {
+      "part": 11,
+      "section": "Pullback to below Bull Breakout Failed and Became Measuring Gap",
+      "abbreviation": "PB Below BL BO F",
+      "note": "",
+      "normalized": "pullback to below bull breakout failed and became measuring gap"
+    },
+    {
+      "part": 11,
+      "section": "Deep PB in Bull Trend",
+      "abbreviation": "PB Deep BL",
+      "note": "",
+      "normalized": "deep pb in bull trend"
+    },
+    {
+      "part": 11,
+      "section": "Deep PB in Bear Trend",
+      "abbreviation": "PB Deep BR",
+      "note": "",
+      "normalized": "deep pb in bear trend"
+    },
+    {
+      "part": 13,
+      "section": "Sell The Close Bear Trend, but Disappointment Bears",
+      "abbreviation": "STC DBR",
+      "note": "",
+      "normalized": "sell the close bear trend but disappointment bears"
+    },
+    {
+      "part": 13,
+      "section": "Sell The Close Bear Trend, Disappointment Bar, but Bear Trend Continued",
+      "abbreviation": "STC DBR F",
+      "note": "",
+      "normalized": "sell the close bear trend disappointment bar but bear trend continued"
+    },
+    {
+      "part": 13,
+      "section": "Sell The Close in TR so Better to B Close of Bear Bars",
+      "abbreviation": "STC TR so BTC",
+      "note": "",
+      "normalized": "sell the close in tr so better to b close of bear bars"
+    },
+    {
+      "part": 13,
+      "section": "Stopped Out of a Trade and then Reverse",
+      "abbreviation": "Stopped Out and Reverse",
+      "note": "",
+      "normalized": "stopped out of a trade and then reverse"
+    },
+    {
+      "part": 13,
+      "section": "Stop, Breakeven",
+      "abbreviation": "Stop Breakeven",
+      "note": "",
+      "normalized": "stop breakeven"
+    },
+    {
+      "part": 13,
+      "section": "In B The Close, Stop 4 - 8 Ticks below Bull Bar",
+      "abbreviation": "Stop 4t BTC",
+      "note": "",
+      "normalized": "in b the close stop 4 8 ticks below bull bar"
+    },
+    {
+      "part": 13,
+      "section": "In S The Close, Stop 4 - 8 Ticks above Bear Bar",
+      "abbreviation": "Stop 4t STC",
+      "note": "",
+      "normalized": "in s the close stop 4 8 ticks above bear bar"
+    },
+    {
+      "part": 13,
+      "section": "Bull Streak (Bullish Behavior That Repeats for a Long Time)",
+      "abbreviation": "Streak BL",
+      "note": "",
+      "normalized": "bull streak bullish behavior that repeats for a long time"
+    },
+    {
+      "part": 13,
+      "section": "Bear Streak (Bearish Behavior That Repeats for a Long Time)",
+      "abbreviation": "Streak BR",
+      "note": "",
+      "normalized": "bear streak bearish behavior that repeats for a long time"
+    },
+    {
+      "part": 13,
+      "section": "Sell Climax but Failed Reversal",
+      "abbreviation": "SX F",
+      "note": "",
+      "normalized": "sell climax but failed reversal"
+    },
+    {
+      "part": 13,
+      "section": "Sell Climax that Led to Measured Move Up",
+      "abbreviation": "SX MMU",
+      "note": "",
+      "normalized": "sell climax that led to measured move up"
+    },
+    {
+      "part": 14,
+      "section": "Sell Climax based Based on Many Small Bear Bars",
+      "abbreviation": "Time SX",
+      "note": "",
+      "normalized": "sell climax based based on many small bear bars"
+    },
+    {
+      "part": 14,
+      "section": "Tight Trading Range at 12:45 pm PST",
+      "abbreviation": "TT Tight 12:45",
+      "note": "",
+      "normalized": "tight trading range at 1245 pm pst"
+    },
+    {
+      "part": 14,
+      "section": "Traps, 5 Ticks, 9 Ticks, 17 Ticks, 21 ticks, 41 ticks, and 81 Ticks",
+      "abbreviation": "Trap 5t 9t 17t 21t 41t 81t",
+      "note": "",
+      "normalized": "traps 5 ticks 9 ticks 17 ticks 21 ticks 41 ticks and 81 ticks"
+    },
+    {
+      "part": 15,
+      "section": "Trading Range with Midday Breakout Down",
+      "abbreviation": "TRD Midday BO D",
+      "note": "",
+      "normalized": "trading range with midday breakout down"
+    },
+    {
+      "part": 15,
+      "section": "Trading Range with Midday Breakout Up",
+      "abbreviation": "TRD Midday BO U",
+      "note": "",
+      "normalized": "trading range with midday breakout up"
+    },
+    {
+      "part": 15,
+      "section": "Trading Range Day, Close near Open so Doji Day",
+      "abbreviation": "TRD O Doji",
+      "note": "",
+      "normalized": "trading range day close near open so doji day"
+    },
+    {
+      "part": 15,
+      "section": "Trading Range Doji on Weekly Chart",
+      "abbreviation": "TRD OOW Doji",
+      "note": "",
+      "normalized": "trading range doji on weekly chart"
+    },
+    {
+      "part": 15,
+      "section": "Small Day",
+      "abbreviation": "TRD Small Day",
+      "note": "",
+      "normalized": "small day"
+    },
+    {
+      "part": 15,
+      "section": "TR Day, Small Day Then Breakout and MM",
+      "abbreviation": "TRD Small Then MM",
+      "note": "",
+      "normalized": "tr day small day then breakout and mm"
+    },
+    {
+      "part": 15,
+      "section": "Trend Trading Range Up, Then Bear Breakout",
+      "abbreviation": "TTRD U BR BO",
+      "note": "",
+      "normalized": "trend trading range up then bear breakout"
+    },
+    {
+      "part": 15,
+      "section": "V-Bottom Failed",
+      "abbreviation": "V-Bottom F",
+      "note": "",
+      "normalized": "vbottom failed"
+    },
+    {
+      "part": 15,
+      "section": "V-Top Failed",
+      "abbreviation": "V-Top F",
+      "note": "",
+      "normalized": "vtop failed"
+    },
+    {
+      "part": 16,
+      "section": "Wedge Bottom, but Bull Breakout Failed",
+      "abbreviation": "W D BL BO F",
+      "note": "",
+      "normalized": "wedge bottom but bull breakout failed"
+    },
+    {
+      "part": 16,
+      "section": "Wedge Bottom, but Bear BO Failed, Reversed Up",
+      "abbreviation": "W D BR BO F",
+      "note": "",
+      "normalized": "wedge bottom but bear bo failed reversed up"
+    },
+    {
+      "part": 16,
+      "section": "Wedge Top, but Bull Breakout Failed, Reversed Down",
+      "abbreviation": "W U BL BO F",
+      "note": "",
+      "normalized": "wedge top but bull breakout failed reversed down"
+    },
+    {
+      "part": 16,
+      "section": "Wedge Top, but Bear Breakout Failed",
+      "abbreviation": "W U BR BO F",
+      "note": "",
+      "normalized": "wedge top but bear breakout failed"
+    }
+  ],
+  "hier_only": [
+    {
+      "part": 1,
+      "slideNum": 1018,
+      "title": "Part 1 - A to B",
+      "childCount": 0,
+      "normalized": "part 1 a to b"
+    },
+    {
+      "part": 1,
+      "slideNum": 2,
+      "title": "Trade Entry and Management",
+      "childCount": 6,
+      "normalized": "trade entry and management"
+    },
+    {
+      "part": 1,
+      "slideNum": 9,
+      "title": "Basics: be flexible and open to anything",
+      "childCount": 4,
+      "normalized": "basics be flexible and open to anything"
+    },
+    {
+      "part": 1,
+      "slideNum": 43,
+      "title": "ALL-TIME HIGH, BUY CLIMAX",
+      "childCount": 7,
+      "normalized": "alltime high buy climax"
+    },
+    {
+      "part": 1,
+      "slideNum": 217,
+      "title": "BO and Channel Bull Trend",
+      "childCount": 61,
+      "normalized": "bo and channel bull trend"
+    },
+    {
+      "part": 1,
+      "slideNum": 279,
+      "title": "BO and Channel Bear Trend",
+      "childCount": 37,
+      "normalized": "bo and channel bear trend"
+    },
+    {
+      "part": 1,
+      "slideNum": 342,
+      "title": "Bull Breakout major",
+      "childCount": 63,
+      "normalized": "bull breakout major"
+    },
+    {
+      "part": 1,
+      "slideNum": 604,
+      "title": "Breakout: Small Bear Breakout Below a Small Bear Breakout",
+      "childCount": 1,
+      "normalized": "breakout small bear breakout below a small bear breakout"
+    },
+    {
+      "part": 1,
+      "slideNum": 666,
+      "title": "BO Test in Bull Trend, Failed And Reversed Down",
+      "childCount": 3,
+      "normalized": "bo test in bull trend failed and reversed down"
+    },
+    {
+      "part": 1,
+      "slideNum": 695,
+      "title": "Failed BO of TR",
+      "childCount": 3,
+      "normalized": "failed bo of tr"
+    },
+    {
+      "part": 1,
+      "slideNum": 848,
+      "title": "Buy The Close in TR so Better to Sell Close of Bull Bars",
+      "childCount": 3,
+      "normalized": "buy the close in tr so better to sell close of bull bars"
+    },
+    {
+      "part": 1,
+      "slideNum": 871,
+      "title": "Buy Climax",
+      "childCount": 55,
+      "normalized": "buy climax"
+    },
+    {
+      "part": 2,
+      "slideNum": 461,
+      "title": "Part 2 - C",
+      "childCount": 0,
+      "normalized": "part 2 c"
+    },
+    {
+      "part": 2,
+      "slideNum": 145,
+      "title": "Bear Channel, Bull Breakout",
+      "childCount": 14,
+      "normalized": "bear channel bull breakout"
+    },
+    {
+      "part": 2,
+      "slideNum": 303,
+      "title": "Bull Channel, Bear Breakout",
+      "childCount": 3,
+      "normalized": "bull channel bear breakout"
+    },
+    {
+      "part": 3,
+      "slideNum": 1014,
+      "title": "Part 3 - D to F",
+      "childCount": 0,
+      "normalized": "part 3 d to f"
+    },
+    {
+      "part": 3,
+      "slideNum": 548,
+      "title": "END OF DAY bull BREAKOUT",
+      "childCount": 51,
+      "normalized": "end of day bull breakout"
+    },
+    {
+      "part": 3,
+      "slideNum": 600,
+      "title": "END OF DAY Profit taking in bull trend",
+      "childCount": 11,
+      "normalized": "end of day profit taking in bull trend"
+    },
+    {
+      "part": 3,
+      "slideNum": 612,
+      "title": "END OF DAY BEAR BREAKOUT",
+      "childCount": 34,
+      "normalized": "end of day bear breakout"
+    },
+    {
+      "part": 3,
+      "slideNum": 647,
+      "title": "END OF DAY Profit taking in bear trend",
+      "childCount": 18,
+      "normalized": "end of day profit taking in bear trend"
+    },
+    {
+      "part": 3,
+      "slideNum": 882,
+      "title": "Flag: Bad",
+      "childCount": 2,
+      "normalized": "flag bad"
+    },
+    {
+      "part": 4,
+      "slideNum": 293,
+      "title": "Part 4 - G",
+      "childCount": 0,
+      "normalized": "part 4 g"
+    },
+    {
+      "part": 4,
+      "slideNum": 2,
+      "title": "Gap on 5 Min Chart",
+      "childCount": 10,
+      "normalized": "gap on 5 min chart"
+    },
+    {
+      "part": 5,
+      "slideNum": 333,
+      "title": "Part 5 - GD to GD",
+      "childCount": 0,
+      "normalized": "part 5 gd to gd"
+    },
+    {
+      "part": 5,
+      "slideNum": 38,
+      "title": "Gap Down, Then Double Bottom",
+      "childCount": 78,
+      "normalized": "gap down then double bottom"
+    },
+    {
+      "part": 6,
+      "slideNum": 1,
+      "title": "Part 6 - GD to GT",
+      "childCount": 0,
+      "normalized": "part 6 gd to gt"
+    },
+    {
+      "part": 6,
+      "slideNum": 6,
+      "title": "Gap Down in stocks",
+      "childCount": 2,
+      "normalized": "gap down in stocks"
+    },
+    {
+      "part": 6,
+      "slideNum": 384,
+      "title": "Gap Down TR Open and TR Day",
+      "childCount": 20,
+      "normalized": "gap down tr open and tr day"
+    },
+    {
+      "part": 6,
+      "slideNum": 584,
+      "title": "Gap Down and Wedge Bottom, but BULL Breakout FAILED",
+      "childCount": 8,
+      "normalized": "gap down and wedge bottom but bull breakout failed"
+    },
+    {
+      "part": 6,
+      "slideNum": 593,
+      "title": "Gap Down and Wedge Bottom, but Bear Breakout, and bear trend resumed",
+      "childCount": 8,
+      "normalized": "gap down and wedge bottom but bear breakout and bear trend resumed"
+    },
+    {
+      "part": 7,
+      "slideNum": 412,
+      "title": "Part 7 - GU to GU M",
+      "childCount": 0,
+      "normalized": "part 7 gu to gu m"
+    },
+    {
+      "part": 7,
+      "slideNum": 140,
+      "title": "Gap Up and Double Top",
+      "childCount": 62,
+      "normalized": "gap up and double top"
+    },
+    {
+      "part": 7,
+      "slideNum": 203,
+      "title": "Gap Up and Double Top Failed",
+      "childCount": 13,
+      "normalized": "gap up and double top failed"
+    },
+    {
+      "part": 8,
+      "slideNum": 1026,
+      "title": "Part 8 - GU N to G Z",
+      "childCount": 0,
+      "normalized": "part 8 gu n to g z"
+    },
+    {
+      "part": 8,
+      "slideNum": 458,
+      "title": "Gap Up and TR Open and TR Day",
+      "childCount": 23,
+      "normalized": "gap up and tr open and tr day"
+    },
+    {
+      "part": 9,
+      "slideNum": 433,
+      "title": "Part 9 - H to L",
+      "childCount": 0,
+      "normalized": "part 9 h to l"
+    },
+    {
+      "part": 9,
+      "slideNum": 105,
+      "title": "HTF B and S Signals",
+      "childCount": 2,
+      "normalized": "htf b and s signals"
+    },
+    {
+      "part": 9,
+      "slideNum": 108,
+      "title": "HTF Charts",
+      "childCount": 4,
+      "normalized": "htf charts"
+    },
+    {
+      "part": 9,
+      "slideNum": 113,
+      "title": "ii Consecutive Inside Bars, Bull Trend, Bull BO",
+      "childCount": 12,
+      "normalized": "ii consecutive inside bars bull trend bull bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 126,
+      "title": "ii Consecutive Inside Bars, Bull Trend, Failed Bull BO",
+      "childCount": 16,
+      "normalized": "ii consecutive inside bars bull trend failed bull bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 143,
+      "title": "ii: Also OO",
+      "childCount": 9,
+      "normalized": "ii also oo"
+    },
+    {
+      "part": 9,
+      "slideNum": 153,
+      "title": "ii Consecutive Inside Bars, Bull Trend, Bear BO",
+      "childCount": 23,
+      "normalized": "ii consecutive inside bars bull trend bear bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 177,
+      "title": "ii Consecutive Inside Bars, Bull Trend, Failed Bear BO",
+      "childCount": 9,
+      "normalized": "ii consecutive inside bars bull trend failed bear bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 187,
+      "title": "ii Consecutive Inside Bars, Bear Trend, Bull BO",
+      "childCount": 16,
+      "normalized": "ii consecutive inside bars bear trend bull bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 204,
+      "title": "ii Consecutive Inside Bars, Bear Trend, Failed Bull BO",
+      "childCount": 16,
+      "normalized": "ii consecutive inside bars bear trend failed bull bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 221,
+      "title": "ii Consecutive Inside Bars, Bear Trend, Bear BO",
+      "childCount": 8,
+      "normalized": "ii consecutive inside bars bear trend bear bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 230,
+      "title": "ii Consecutive Inside Bars, Bear Trend, Failed Bear BO",
+      "childCount": 26,
+      "normalized": "ii consecutive inside bars bear trend failed bear bo"
+    },
+    {
+      "part": 9,
+      "slideNum": 388,
+      "title": "Ledge Top: At End of Yesterday",
+      "childCount": 14,
+      "normalized": "ledge top at end of yesterday"
+    },
+    {
+      "part": 10,
+      "slideNum": 957,
+      "title": "Part 10 - M",
+      "childCount": 0,
+      "normalized": "part 10 m"
+    },
+    {
+      "part": 10,
+      "slideNum": 2,
+      "title": "Moving Average 20-Gap Bar Buy",
+      "childCount": 78,
+      "normalized": "moving average 20gap bar buy"
+    },
+    {
+      "part": 10,
+      "slideNum": 81,
+      "title": "Moving Average 20-Gap Bar Buy, Failed",
+      "childCount": 15,
+      "normalized": "moving average 20gap bar buy failed"
+    },
+    {
+      "part": 10,
+      "slideNum": 97,
+      "title": "Moving Average 20-Gap Bar Sell",
+      "childCount": 23,
+      "normalized": "moving average 20gap bar sell"
+    },
+    {
+      "part": 10,
+      "slideNum": 121,
+      "title": "Moving Average 20-Gap Bar Sell, Failed",
+      "childCount": 7,
+      "normalized": "moving average 20gap bar sell failed"
+    },
+    {
+      "part": 10,
+      "slideNum": 428,
+      "title": "Midpoint of Range day’s range",
+      "childCount": 2,
+      "normalized": "midpoint of range days range"
+    },
+    {
+      "part": 10,
+      "slideNum": 515,
+      "title": "Measured Move From H or L to OPen",
+      "childCount": 14,
+      "normalized": "measured move from h or l to open"
+    },
+    {
+      "part": 10,
+      "slideNum": 800,
+      "title": "Major Trend Reversal Higher Low, But Failed",
+      "childCount": 16,
+      "normalized": "major trend reversal higher low but failed"
+    },
+    {
+      "part": 11,
+      "slideNum": 695,
+      "title": "Part 11 - N to P",
+      "childCount": 0,
+      "normalized": "part 11 n to p"
+    },
+    {
+      "part": 11,
+      "slideNum": 460,
+      "title": "Pullback to 5, 10, or 20%",
+      "childCount": 2,
+      "normalized": "pullback to 5 10 or 20"
+    },
+    {
+      "part": 11,
+      "slideNum": 484,
+      "title": "Pullback Above Bear BO Failed and became measuring gap",
+      "childCount": 1,
+      "normalized": "pullback above bear bo failed and became measuring gap"
+    },
+    {
+      "part": 11,
+      "slideNum": 518,
+      "title": "Pullback Below Bull BO Failed and became measuring gap",
+      "childCount": 2,
+      "normalized": "pullback below bull bo failed and became measuring gap"
+    },
+    {
+      "part": 11,
+      "slideNum": 521,
+      "title": "Deep Pullback in Bull Trend",
+      "childCount": 22,
+      "normalized": "deep pullback in bull trend"
+    },
+    {
+      "part": 11,
+      "slideNum": 544,
+      "title": "Deep Pullback in Bear Trend",
+      "childCount": 4,
+      "normalized": "deep pullback in bear trend"
+    },
+    {
+      "part": 12,
+      "slideNum": 373,
+      "title": "Part 12 - Q to SL",
+      "childCount": 0,
+      "normalized": "part 12 q to sl"
+    },
+    {
+      "part": 13,
+      "slideNum": 775,
+      "title": "Part 13 - SM to SZ",
+      "childCount": 0,
+      "normalized": "part 13 sm to sz"
+    },
+    {
+      "part": 13,
+      "slideNum": 426,
+      "title": "Sell The Close Bear Trend, but Disappointed Bears",
+      "childCount": 9,
+      "normalized": "sell the close bear trend but disappointed bears"
+    },
+    {
+      "part": 13,
+      "slideNum": 436,
+      "title": "Sell The Close Bear Trend, but Disappointment Bar, then Bear Trend resumed",
+      "childCount": 2,
+      "normalized": "sell the close bear trend but disappointment bar then bear trend resumed"
+    },
+    {
+      "part": 13,
+      "slideNum": 478,
+      "title": "Sell The Close in TR so Better to Buy Close of Bear Bars",
+      "childCount": 2,
+      "normalized": "sell the close in tr so better to buy close of bear bars"
+    },
+    {
+      "part": 13,
+      "slideNum": 487,
+      "title": "Stopped Out of a trade and reverse",
+      "childCount": 2,
+      "normalized": "stopped out of a trade and reverse"
+    },
+    {
+      "part": 13,
+      "slideNum": 490,
+      "title": "Breakeven Stop",
+      "childCount": 5,
+      "normalized": "breakeven stop"
+    },
+    {
+      "part": 13,
+      "slideNum": 496,
+      "title": "In B the close, Stop 4 ticks below bull bar",
+      "childCount": 6,
+      "normalized": "in b the close stop 4 ticks below bull bar"
+    },
+    {
+      "part": 13,
+      "slideNum": 503,
+      "title": "In S the close, Stop 4 ticks above bear bar",
+      "childCount": 1,
+      "normalized": "in s the close stop 4 ticks above bear bar"
+    },
+    {
+      "part": 13,
+      "slideNum": 510,
+      "title": "Bull Streak",
+      "childCount": 16,
+      "normalized": "bull streak"
+    },
+    {
+      "part": 13,
+      "slideNum": 544,
+      "title": "Bear Streak",
+      "childCount": 9,
+      "normalized": "bear streak"
+    },
+    {
+      "part": 13,
+      "slideNum": 720,
+      "title": "Sell Climax Failed but failed reversal",
+      "childCount": 21,
+      "normalized": "sell climax failed but failed reversal"
+    },
+    {
+      "part": 13,
+      "slideNum": 742,
+      "title": "Sell Climax that Led to Measured Move Down",
+      "childCount": 2,
+      "normalized": "sell climax that led to measured move down"
+    },
+    {
+      "part": 14,
+      "slideNum": 541,
+      "title": "Part 14 T to TRV",
+      "childCount": 0,
+      "normalized": "part 14 t to trv"
+    },
+    {
+      "part": 14,
+      "slideNum": 42,
+      "title": "Sell Climax based on Many Small Bear Bars",
+      "childCount": 3,
+      "normalized": "sell climax based on many small bear bars"
+    },
+    {
+      "part": 14,
+      "slideNum": 146,
+      "title": "Tight Trading Range at 12:45 pm PT",
+      "childCount": 6,
+      "normalized": "tight trading range at 1245 pm pt"
+    },
+    {
+      "part": 14,
+      "slideNum": 278,
+      "title": "Traps, 5 Ticks, 9 Ticks, 17 Ticks, 21 ticks, 42 ticks, and 81 ticks ",
+      "childCount": 13,
+      "normalized": "traps 5 ticks 9 ticks 17 ticks 21 ticks 42 ticks and 81 ticks"
+    },
+    {
+      "part": 15,
+      "slideNum": 849,
+      "title": "Part 15 TRD to V",
+      "childCount": 0,
+      "normalized": "part 15 trd to v"
+    },
+    {
+      "part": 15,
+      "slideNum": 177,
+      "title": "TRD with midday BO Down",
+      "childCount": 8,
+      "normalized": "trd with midday bo down"
+    },
+    {
+      "part": 15,
+      "slideNum": 186,
+      "title": "TRD with Midday BO Up",
+      "childCount": 9,
+      "normalized": "trd with midday bo up"
+    },
+    {
+      "part": 15,
+      "slideNum": 196,
+      "title": "Trading Range Day, Close near Open for Doji Day",
+      "childCount": 19,
+      "normalized": "trading range day close near open for doji day"
+    },
+    {
+      "part": 15,
+      "slideNum": 258,
+      "title": "Trading Range Doji bar on Weekly Chart",
+      "childCount": 2,
+      "normalized": "trading range doji bar on weekly chart"
+    },
+    {
+      "part": 15,
+      "slideNum": 264,
+      "title": "TR Day, Small Day",
+      "childCount": 12,
+      "normalized": "tr day small day"
+    },
+    {
+      "part": 15,
+      "slideNum": 277,
+      "title": "TR Day, Small Day Then BO and MM",
+      "childCount": 8,
+      "normalized": "tr day small day then bo and mm"
+    },
+    {
+      "part": 15,
+      "slideNum": 801,
+      "title": "Trending Trading Range day Up, Then Bear Breakout",
+      "childCount": 9,
+      "normalized": "trending trading range day up then bear breakout"
+    },
+    {
+      "part": 15,
+      "slideNum": 823,
+      "title": "Failed V-Bottom",
+      "childCount": 0,
+      "normalized": "failed vbottom"
+    },
+    {
+      "part": 15,
+      "slideNum": 829,
+      "title": "Failed V-Top",
+      "childCount": 0,
+      "normalized": "failed vtop"
+    },
+    {
+      "part": 16,
+      "slideNum": 609,
+      "title": "Part 16 - W to Z",
+      "childCount": 0,
+      "normalized": "part 16 w to z"
+    },
+    {
+      "part": 16,
+      "slideNum": 171,
+      "title": "Wedge Bottom, but Bear Bo Failed, and Reversed Up",
+      "childCount": 31,
+      "normalized": "wedge bottom but bear bo failed and reversed up"
+    },
+    {
+      "part": 16,
+      "slideNum": 374,
+      "title": "Wedge Top, But Bull Bo Failed, and Reversed Down",
+      "childCount": 18,
+      "normalized": "wedge top but bull bo failed and reversed down"
+    },
+    {
+      "part": 16,
+      "slideNum": 458,
+      "title": "Wedge Top, But BEAR Bo Failed",
+      "childCount": 16,
+      "normalized": "wedge top but bear bo failed"
+    }
+  ],
+  "fuzzy_matches": [
+    {
+      "csv_section": "Breakout and Channel Bull Trend",
+      "csv_abbrev": "BO and CH BL",
+      "hier_title": "BO and Channel Bull Trend",
+      "hier_part": 1,
+      "hier_slide": 217,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Breakout and Channel Bear Trend",
+      "csv_abbrev": "BO and CH BR",
+      "hier_title": "BO and Channel Bear Trend",
+      "hier_part": 1,
+      "hier_slide": 279,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Breakout: Small Bear Breakout below a Small Bear Breakout so Wedge Bottom",
+      "csv_abbrev": "BO SBO2 D",
+      "hier_title": "Breakout: Small Bear Breakout Below a Small Bear Breakout",
+      "hier_part": 1,
+      "hier_slide": 604,
+      "similarity": 0.625
+    },
+    {
+      "csv_section": "BO Test in Bull Trend (PB to BO Point), Failed And Reversed Down",
+      "csv_abbrev": "BO Test BL F",
+      "hier_title": "BO Test in Bull Trend, Failed And Reversed Down",
+      "hier_part": 1,
+      "hier_slide": 666,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "BO of TR, but it Failed",
+      "csv_abbrev": "BO TR F",
+      "hier_title": "Failed BO of TR",
+      "hier_part": 1,
+      "hier_slide": 695,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Buy The Close in TR so Better to S Close of Bull Bars",
+      "csv_abbrev": "BTC TR so STC",
+      "hier_title": "Buy The Close in TR so Better to Sell Close of Bull Bars",
+      "hier_part": 1,
+      "hier_slide": 848,
+      "similarity": 0.846
+    },
+    {
+      "csv_section": "Bear Channel, Bull BO",
+      "csv_abbrev": "CH D BL BO",
+      "hier_title": "Bear Channel, Bull Breakout",
+      "hier_part": 2,
+      "hier_slide": 145,
+      "similarity": 0.6
+    },
+    {
+      "csv_section": "Bull Channel, Bear BO",
+      "csv_abbrev": "CH U BR BO",
+      "hier_title": "Bear Channel, Bull Breakout",
+      "hier_part": 2,
+      "hier_slide": 145,
+      "similarity": 0.6
+    },
+    {
+      "csv_section": "EOD Profit Taking in Bull Trend",
+      "csv_abbrev": "EOD BL Profit Taking",
+      "hier_title": "END OF DAY Profit taking in bull trend",
+      "hier_part": 3,
+      "hier_slide": 600,
+      "similarity": 0.556
+    },
+    {
+      "csv_section": "EOD Profit Taking in Bear Trend",
+      "csv_abbrev": "EOD BR Profit Taking",
+      "hier_title": "END OF DAY Profit taking in bear trend",
+      "hier_part": 3,
+      "hier_slide": 647,
+      "similarity": 0.556
+    },
+    {
+      "csv_section": "Gap on 5 Minute Chart",
+      "csv_abbrev": "G 5 Min",
+      "hier_title": "Gap on 5 Min Chart",
+      "hier_part": 4,
+      "hier_slide": 2,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Gap Down and Then Double Bottom",
+      "csv_abbrev": "GD DB",
+      "hier_title": "Gap Down, Then Double Bottom",
+      "hier_part": 5,
+      "hier_slide": 38,
+      "similarity": 0.833
+    },
+    {
+      "csv_section": "Big Gap Down in Stocks",
+      "csv_abbrev": "GD Stocks",
+      "hier_title": "Gap Down in stocks",
+      "hier_part": 6,
+      "hier_slide": 6,
+      "similarity": 0.8
+    },
+    {
+      "csv_section": "Gap Down and TR Open, and Trading Range Day",
+      "csv_abbrev": "GD TRO and TR Day",
+      "hier_title": "Gap Down TR Open and TR Day",
+      "hier_part": 6,
+      "hier_slide": 384,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "Gap Down and Wedge Bottom, but Bull BO Failed",
+      "csv_abbrev": "GD W D BL BO F",
+      "hier_title": "Gap Down and Wedge Bottom, but BULL Breakout FAILED",
+      "hier_part": 6,
+      "hier_slide": 584,
+      "similarity": 0.8
+    },
+    {
+      "csv_section": "Gap Down and Wedge Bottom, but Bear BO, and Bear Trend Resumed",
+      "csv_abbrev": "GD W D BR BO",
+      "hier_title": "Gap Down and Wedge Bottom, but Bear Breakout, and bear trend resumed",
+      "hier_part": 6,
+      "hier_slide": 593,
+      "similarity": 0.818
+    },
+    {
+      "csv_section": "Gap Up, Then Double Top",
+      "csv_abbrev": "GU DT",
+      "hier_title": "Gap Up and Double Top",
+      "hier_part": 7,
+      "hier_slide": 140,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Gap Up, Double Top Failed",
+      "csv_abbrev": "GU DT F",
+      "hier_title": "Gap Up and Double Top Failed",
+      "hier_part": 7,
+      "hier_slide": 203,
+      "similarity": 0.833
+    },
+    {
+      "csv_section": "Gap Up and TR Open, and Trading Range Day",
+      "csv_abbrev": "GU TRO and TR Day",
+      "hier_title": "Gap Up and TR Open and TR Day",
+      "hier_part": 8,
+      "hier_slide": 458,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bull Trend, Bull Breakout",
+      "csv_abbrev": "ii BLT BL BO",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Bull BO",
+      "hier_part": 9,
+      "hier_slide": 113,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bull Trend, Failed Bull Breakout",
+      "csv_abbrev": "ii BLT BL BO F",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Failed Bull BO",
+      "hier_part": 9,
+      "hier_slide": 126,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bull Trend, Bear Breakout",
+      "csv_abbrev": "ii BLT BR BO",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Bear BO",
+      "hier_part": 9,
+      "hier_slide": 153,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bull Trend, Failed Bear Breakout",
+      "csv_abbrev": "ii BLT BR BO F",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Failed Bear BO",
+      "hier_part": 9,
+      "hier_slide": 177,
+      "similarity": 0.8
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bear Trend, Bull Breakout",
+      "csv_abbrev": "ii BRT BL BO",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Bear BO",
+      "hier_part": 9,
+      "hier_slide": 153,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bear Trend, Failed Bull Breakout",
+      "csv_abbrev": "ii BRT BL BO F",
+      "hier_title": "ii Consecutive Inside Bars, Bull Trend, Failed Bear BO",
+      "hier_part": 9,
+      "hier_slide": 177,
+      "similarity": 0.8
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bear Trend, Bear Breakout",
+      "csv_abbrev": "ii BRT BR BO",
+      "hier_title": "ii Consecutive Inside Bars, Bear Trend, Bear BO",
+      "hier_part": 9,
+      "hier_slide": 221,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "ii Consecutive Inside Bars, Bear Trend, Failed Bear Breakout",
+      "csv_abbrev": "ii BRT BR BO F",
+      "hier_title": "ii Consecutive Inside Bars, Bear Trend, Failed Bear BO",
+      "hier_part": 9,
+      "hier_slide": 230,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "Moving Average 20 Gap Bar Buy",
+      "csv_abbrev": "MA 20 GB B",
+      "hier_title": "Moving Average 20-Gap Bar Buy",
+      "hier_part": 10,
+      "hier_slide": 2,
+      "similarity": 0.571
+    },
+    {
+      "csv_section": "Moving Average 20 Gap Bar Buy, Failed",
+      "csv_abbrev": "MA 20 GB B F",
+      "hier_title": "Moving Average 20-Gap Bar Buy, Failed",
+      "hier_part": 10,
+      "hier_slide": 81,
+      "similarity": 0.625
+    },
+    {
+      "csv_section": "Moving Average 20 Gap Bar Sell",
+      "csv_abbrev": "MA 20 GB S",
+      "hier_title": "Moving Average 20-Gap Bar Sell",
+      "hier_part": 10,
+      "hier_slide": 97,
+      "similarity": 0.571
+    },
+    {
+      "csv_section": "Moving Average 20 Gap Bar Sell, Failed",
+      "csv_abbrev": "MA 20 GB S F",
+      "hier_title": "Moving Average 20-Gap Bar Sell, Failed",
+      "hier_part": 10,
+      "hier_slide": 121,
+      "similarity": 0.625
+    },
+    {
+      "csv_section": "Midpoint of Day's Range",
+      "csv_abbrev": "Midpoint Range",
+      "hier_title": "Midpoint of Range day’s range",
+      "hier_part": 10,
+      "hier_slide": 428,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "Measured Move from High or Low to Open",
+      "csv_abbrev": "MM from H or L to open",
+      "hier_title": "Measured Move From H or L to OPen",
+      "hier_part": 10,
+      "hier_slide": 515,
+      "similarity": 0.6
+    },
+    {
+      "csv_section": "Major Trend Reversal Higher Low, Failed",
+      "csv_abbrev": "MTR HL F",
+      "hier_title": "Major Trend Reversal Higher Low, But Failed",
+      "hier_part": 10,
+      "hier_slide": 800,
+      "similarity": 0.857
+    },
+    {
+      "csv_section": "Pullback to 5%, 10%, or 20% from all-time high",
+      "csv_abbrev": "PB 5, 10, or 20%",
+      "hier_title": "Pullback to 5, 10, or 20%",
+      "hier_part": 11,
+      "hier_slide": 460,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Pullback to above Bear Breakout Failed and Became Measuring Gap",
+      "csv_abbrev": "PB Above BR BO F",
+      "hier_title": "Pullback Above Bear BO Failed and became measuring gap",
+      "hier_part": 11,
+      "hier_slide": 484,
+      "similarity": 0.727
+    },
+    {
+      "csv_section": "Pullback to below Bull Breakout Failed and Became Measuring Gap",
+      "csv_abbrev": "PB Below BL BO F",
+      "hier_title": "Pullback Below Bull BO Failed and became measuring gap",
+      "hier_part": 11,
+      "hier_slide": 518,
+      "similarity": 0.727
+    },
+    {
+      "csv_section": "Deep PB in Bull Trend",
+      "csv_abbrev": "PB Deep BL",
+      "hier_title": "Deep Pullback in Bull Trend",
+      "hier_part": 11,
+      "hier_slide": 521,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Deep PB in Bear Trend",
+      "csv_abbrev": "PB Deep BR",
+      "hier_title": "Deep Pullback in Bear Trend",
+      "hier_part": 11,
+      "hier_slide": 544,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Sell The Close Bear Trend, but Disappointment Bears",
+      "csv_abbrev": "STC DBR",
+      "hier_title": "Sell The Close Bear Trend, but Disappointed Bears",
+      "hier_part": 13,
+      "hier_slide": 426,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "Sell The Close Bear Trend, Disappointment Bar, but Bear Trend Continued",
+      "csv_abbrev": "STC DBR F",
+      "hier_title": "Sell The Close Bear Trend, but Disappointment Bar, then Bear Trend resumed",
+      "hier_part": 13,
+      "hier_slide": 436,
+      "similarity": 0.727
+    },
+    {
+      "csv_section": "Sell The Close in TR so Better to B Close of Bear Bars",
+      "csv_abbrev": "STC TR so BTC",
+      "hier_title": "Sell The Close in TR so Better to Buy Close of Bear Bars",
+      "hier_part": 13,
+      "hier_slide": 478,
+      "similarity": 0.846
+    },
+    {
+      "csv_section": "Stopped Out of a Trade and then Reverse",
+      "csv_abbrev": "Stopped Out and Reverse",
+      "hier_title": "Stopped Out of a trade and reverse",
+      "hier_part": 13,
+      "hier_slide": 487,
+      "similarity": 0.875
+    },
+    {
+      "csv_section": "Stop, Breakeven",
+      "csv_abbrev": "Stop Breakeven",
+      "hier_title": "Breakeven Stop",
+      "hier_part": 13,
+      "hier_slide": 490,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "In B The Close, Stop 4 - 8 Ticks below Bull Bar",
+      "csv_abbrev": "Stop 4t BTC",
+      "hier_title": "In B the close, Stop 4 ticks below bull bar",
+      "hier_part": 13,
+      "hier_slide": 496,
+      "similarity": 0.909
+    },
+    {
+      "csv_section": "In S The Close, Stop 4 - 8 Ticks above Bear Bar",
+      "csv_abbrev": "Stop 4t STC",
+      "hier_title": "In S the close, Stop 4 ticks above bear bar",
+      "hier_part": 13,
+      "hier_slide": 503,
+      "similarity": 0.909
+    },
+    {
+      "csv_section": "Sell Climax but Failed Reversal",
+      "csv_abbrev": "SX F",
+      "hier_title": "Sell Climax Failed but failed reversal",
+      "hier_part": 13,
+      "hier_slide": 720,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "Sell Climax that Led to Measured Move Up",
+      "csv_abbrev": "SX MMU",
+      "hier_title": "Sell Climax that Led to Measured Move Down",
+      "hier_part": 13,
+      "hier_slide": 742,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "Sell Climax based Based on Many Small Bear Bars",
+      "csv_abbrev": "Time SX",
+      "hier_title": "Sell Climax based on Many Small Bear Bars",
+      "hier_part": 14,
+      "hier_slide": 42,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "Tight Trading Range at 12:45 pm PST",
+      "csv_abbrev": "TT Tight 12:45",
+      "hier_title": "Tight Trading Range at 12:45 pm PT",
+      "hier_part": 14,
+      "hier_slide": 146,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "Traps, 5 Ticks, 9 Ticks, 17 Ticks, 21 ticks, 41 ticks, and 81 Ticks",
+      "csv_abbrev": "Trap 5t 9t 17t 21t 41t 81t",
+      "hier_title": "Traps, 5 Ticks, 9 Ticks, 17 Ticks, 21 ticks, 42 ticks, and 81 ticks ",
+      "hier_part": 14,
+      "hier_slide": 278,
+      "similarity": 0.8
+    },
+    {
+      "csv_section": "Trading Range Day, Close near Open so Doji Day",
+      "csv_abbrev": "TRD O Doji",
+      "hier_title": "Trading Range Day, Close near Open for Doji Day",
+      "hier_part": 15,
+      "hier_slide": 196,
+      "similarity": 0.778
+    },
+    {
+      "csv_section": "Trading Range Doji on Weekly Chart",
+      "csv_abbrev": "TRD OOW Doji",
+      "hier_title": "Trading Range Doji bar on Weekly Chart",
+      "hier_part": 15,
+      "hier_slide": 258,
+      "similarity": 0.857
+    },
+    {
+      "csv_section": "Small Day",
+      "csv_abbrev": "TRD Small Day",
+      "hier_title": "TR Day, Small Day",
+      "hier_part": 15,
+      "hier_slide": 264,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "TR Day, Small Day Then Breakout and MM",
+      "csv_abbrev": "TRD Small Then MM",
+      "hier_title": "TR Day, Small Day Then BO and MM",
+      "hier_part": 15,
+      "hier_slide": 277,
+      "similarity": 0.75
+    },
+    {
+      "csv_section": "Trend Trading Range Up, Then Bear Breakout",
+      "csv_abbrev": "TTRD U BR BO",
+      "hier_title": "Trending Trading Range day Up, Then Bear Breakout",
+      "hier_part": 15,
+      "hier_slide": 801,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "V-Bottom Failed",
+      "csv_abbrev": "V-Bottom F",
+      "hier_title": "Failed V-Bottom",
+      "hier_part": 15,
+      "hier_slide": 823,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "V-Top Failed",
+      "csv_abbrev": "V-Top F",
+      "hier_title": "Failed V-Top",
+      "hier_part": 15,
+      "hier_slide": 829,
+      "similarity": 1.0
+    },
+    {
+      "csv_section": "Wedge Bottom, but Bull Breakout Failed",
+      "csv_abbrev": "W D BL BO F",
+      "hier_title": "Gap Down and Wedge Bottom, but BULL Breakout FAILED",
+      "hier_part": 6,
+      "hier_slide": 584,
+      "similarity": 0.667
+    },
+    {
+      "csv_section": "Wedge Bottom, but Bear BO Failed, Reversed Up",
+      "csv_abbrev": "W D BR BO F",
+      "hier_title": "Wedge Bottom, but Bear Bo Failed, and Reversed Up",
+      "hier_part": 16,
+      "hier_slide": 171,
+      "similarity": 0.889
+    },
+    {
+      "csv_section": "Wedge Top, but Bull Breakout Failed, Reversed Down",
+      "csv_abbrev": "W U BL BO F",
+      "hier_title": "Wedge Top, But Bull Bo Failed, and Reversed Down",
+      "hier_part": 16,
+      "hier_slide": 374,
+      "similarity": 0.7
+    },
+    {
+      "csv_section": "Wedge Top, but Bear Breakout Failed",
+      "csv_abbrev": "W U BR BO F",
+      "hier_title": "Wedge Top, But BEAR Bo Failed",
+      "hier_part": 16,
+      "hier_slide": 458,
+      "similarity": 0.714
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooks Encyclopedia - Combined Viewer</title>
+    <style>
+@font-face { font-family: 'PFn'; src: url('part01/fonts/fnt0.woff') format('woff'); }
+@font-face { font-family: 'PFnb'; src: url('part01/fonts/fnt1.woff') format('woff'); font-weight: bold; }
+@font-face { font-family: 'fnt4'; src: url('part01/fonts/fnt4.woff') format('woff'); }
+@font-face { font-family: 'fnt5'; src: url('part01/fonts/fnt5.woff') format('woff'); }
+@font-face { font-family: 'fnt6'; src: url('part01/fonts/fnt6.woff') format('woff'); }
+@font-face { font-family: 'fnt7'; src: url('part01/fonts/fnt7.woff') format('woff'); }
+@font-face { font-family: 'fnt8'; src: url('part01/fonts/fnt8.woff') format('woff'); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; }
+body {
+    background: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow: hidden;
+}
+.viewer { position: relative; width: 100vw; height: 100vh; background: #000; overflow: hidden; display: flex; }
+.player-frame {
+    flex: 1; display: flex; align-items: center; justify-content: center; position: relative;
+}
+.playerView {
+    width: 960px; height: 540px; position: relative; background: #000; overflow: hidden;
+    transform-origin: center center;
+}
+.playerView * { position: absolute; }
+.playerView > * { position: absolute; }
+.playerView .slide { position: absolute; width: 960px; height: 540px; top: 0; left: 0; white-space: nowrap; font-size: 0px; }
+.playerView .slide * { transform-origin: 0px 0px; -webkit-transform-origin: 0px 0px; }
+.playerView .slide.relpos, .playerView .slide .relpos { position: relative !important; vertical-align: top !important; }
+.playerView .slide.kern, .playerView .slide .kern { text-rendering: optimizeLegibility; font-feature-settings: "kern" 1, "liga" 0; }
+.playerView .slide.nokern, .playerView .slide .nokern { text-rendering: optimizeSpeed; font-feature-settings: "kern" 0, "liga" 0; }
+.playerView [id^="spr"] { position: absolute; }
+.playerView [id^="svg"] { position: absolute; }
+.playerView [id^="img"] { position: absolute; }
+.playerView span[id^="txt"] { position: absolute; white-space: nowrap; letter-spacing: normal; }
+.nav-zone {
+    position: absolute; top: 0; width: 50%; height: 100%; border: none; background: transparent;
+    padding: 0; margin: 0; cursor: default; z-index: 5; font-size: 0; color: transparent;
+    appearance: none; -webkit-appearance: none; -moz-appearance: none; box-shadow: none;
+    pointer-events: auto;
+}
+.nav-zone:focus-visible { outline: none; }
+.nav-zone.left { left: 0; }
+.nav-zone.right { right: 0; }
+.loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #ccc; font-size: 18px; }
+
+    </style>
+</head>
+<body>
+    <div class="viewer">
+        <div class="player-frame">
+            <div class="playerView" id="slideContainer"><div class="loading">加载中</div></div>
+            <div class="nav-zone left" role="presentation" onclick="prevSlide()"></div>
+            <div class="nav-zone right" role="presentation" onclick="nextSlide()"></div>
+        </div>
+    </div>
+    <script>
+        const PARTS = (() => {
+            const parts = [
+                { name: 'Part 1: A – B', dir: 'part01', slides: 1018 },
+                { name: 'Part 2: C', dir: 'part02', slides: 461 },
+                { name: 'Part 3: D – F', dir: 'part03', slides: 1014 },
+                { name: 'Part 4: G', dir: 'part04', slides: 293 },
+                { name: 'Part 5: GD – GD M', dir: 'part05', slides: 333 },
+                { name: 'Part 6: GD N – GT', dir: 'part06', slides: 833 },
+                { name: 'Part 7: GU – GU M', dir: 'part07', slides: 412 },
+                { name: 'Part 8: GU N – GU Z', dir: 'part08', slides: 1026 },
+                { name: 'Part 9: H – L', dir: 'part09', slides: 433 },
+                { name: 'Part 10: M', dir: 'part10', slides: 957 },
+                { name: 'Part 11: N – P', dir: 'part11', slides: 695 },
+                { name: 'Part 12: Q – SL', dir: 'part12', slides: 373 },
+                { name: 'Part 13: SM – SZ', dir: 'part13', slides: 775 },
+                { name: 'Part 14: T – TRA', dir: 'part14', slides: 541 },
+                { name: 'Part 15: TRD – V', dir: 'part15', slides: 849 },
+                { name: 'Part 16: W – Z', dir: 'part16', slides: 609 }
+            ];
+            let start = 1;
+            return parts.map(part => {
+                const enriched = { ...part, start, end: start + part.slides - 1 };
+                start = enriched.end + 1;
+                return enriched;
+            });
+        })();
+        const TOTAL_SLIDES = PARTS[PARTS.length - 1].end;
+        const BASE_WIDTH = 960;
+        const BASE_HEIGHT = 540;
+        const LAST_SLIDE_KEY = 'brooksCombinedLastSlide';
+
+        let currentSlide = 1;
+        const slideCache = new Map();
+        const cssCache = new Map();
+
+        function extractHtmlFromJs(js) {
+            const m = js.match(/loadHandler\s*\(\s*\d+\s*,\s*'([\s\S]*?)'\s*,\s*'\{/);
+            return m ? m[1].replace(/\\'/g, "'").replace(/\\"/g, '"').replace(/\\\\/g, '\\') : null;
+        }
+
+        function rewriteAssetPaths(content, partDir) {
+            if (!content) return content;
+            const dataPath = `${partDir}/data/`;
+            return content
+                .replace(/((?:src|href)=['"])data\//g, `$1${dataPath}`)
+                .replace(/(url\(\s*['"]?)data\//g, `$1${dataPath}`);
+        }
+
+        function findPart(slideNumber) {
+            return PARTS.find(part => slideNumber >= part.start && slideNumber <= part.end);
+        }
+
+        async function loadSlide(n, { skipPersist = false } = {}) {
+            const targetPart = findPart(n);
+            if (!targetPart) return;
+            const localIndex = n - targetPart.start + 1;
+            const cacheKey = `${targetPart.dir}-${localIndex}`;
+            const container = document.getElementById('slideContainer');
+            container.innerHTML = '<div class="loading">加载中</div>';
+            try {
+                if (!cssCache.has(cacheKey)) {
+                    const cssText = await (await fetch(`${targetPart.dir}/data/slide${localIndex}.css`)).text();
+                    cssCache.set(cacheKey, rewriteAssetPaths(cssText, targetPart.dir));
+                }
+                if (!slideCache.has(cacheKey)) {
+                    const jsText = await (await fetch(`${targetPart.dir}/data/slide${localIndex}.js`)).text();
+                    slideCache.set(cacheKey, rewriteAssetPaths(extractHtmlFromJs(jsText), targetPart.dir));
+                }
+                const old = document.getElementById('dynamicSlideStyle');
+                if (old) old.remove();
+                const style = document.createElement('style');
+                style.id = 'dynamicSlideStyle';
+                style.textContent = cssCache.get(cacheKey);
+                document.head.appendChild(style);
+                container.innerHTML = slideCache.get(cacheKey) || '<div class="loading">无法解析</div>';
+            } catch (err) {
+                container.innerHTML = '<div class="loading">加载失败</div>';
+            }
+            currentSlide = n;
+            updateUI(targetPart, localIndex);
+            if (!skipPersist) {
+                try {
+                    localStorage.setItem(LAST_SLIDE_KEY, String(currentSlide));
+                } catch (storageErr) {
+                    console.warn('无法保存最近浏览页', storageErr);
+                }
+            }
+        }
+
+        function updateUI(part, localIndex) {
+            const label = part ? `${part.name} (${localIndex}/${part.slides})` : '';
+            document.title = `Brooks Encyclopedia - Slide ${currentSlide} / ${TOTAL_SLIDES}${label ? ' - ' + label : ''}`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < TOTAL_SLIDES) {
+                loadSlide(currentSlide + 1);
+            }
+        }
+        function prevSlide() {
+            if (currentSlide > 1) {
+                loadSlide(currentSlide - 1);
+            }
+        }
+        function goToSlide(n) {
+            const target = parseInt(n, 10);
+            if (!Number.isNaN(target) && target >= 1 && target <= TOTAL_SLIDES) {
+                loadSlide(target);
+            }
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            else if (e.key === 'ArrowLeft') prevSlide();
+            else if (e.key === 'Home') goToSlide(1);
+            else if (e.key === 'End') goToSlide(TOTAL_SLIDES);
+        });
+
+        let touchStartX = null;
+        document.addEventListener('touchstart', e => {
+            if (e.touches.length === 1) touchStartX = e.touches[0].clientX;
+        }, { passive: true });
+        document.addEventListener('touchend', e => {
+            if (touchStartX === null) return;
+            const deltaX = e.changedTouches[0].clientX - touchStartX;
+            const threshold = 40;
+            if (deltaX > threshold) prevSlide();
+            else if (deltaX < -threshold) nextSlide();
+            touchStartX = null;
+        }, { passive: true });
+        document.addEventListener('touchcancel', () => { touchStartX = null; }, { passive: true });
+
+        const viewerEl = document.querySelector('.viewer');
+        const playerFrameEl = document.querySelector('.player-frame');
+        const playerEl = document.getElementById('slideContainer');
+        function resizePlayer() {
+            if (!playerFrameEl || !playerEl) return;
+            const availableWidth = playerFrameEl.clientWidth;
+            const availableHeight = playerFrameEl.clientHeight;
+            const scale = Math.min(availableWidth / BASE_WIDTH, availableHeight / BASE_HEIGHT);
+            playerEl.style.transform = `scale(${scale})`;
+        }
+        window.addEventListener('resize', resizePlayer);
+        window.addEventListener('orientationchange', resizePlayer);
+        resizePlayer();
+
+        (async function init() {
+            let initialSlide = 1;
+            try {
+                const saved = parseInt(localStorage.getItem(LAST_SLIDE_KEY), 10);
+                if (!Number.isNaN(saved) && saved >= 1 && saved <= TOTAL_SLIDES) {
+                    initialSlide = saved;
+                }
+            } catch (storageErr) {
+                console.warn('无法读取最近浏览页', storageErr);
+            }
+            loadSlide(initialSlide, { skipPersist: true });
+        })();
+    </script>
+</body>
+</html>

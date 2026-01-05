@@ -1,0 +1,1208 @@
+[
+  {
+    "slideNum": 1,
+    "title": "Part 4 - G",
+    "children": []
+  },
+  {
+    "slideNum": 2,
+    "title": "Gap on 5 Min Chart",
+    "children": [
+      {
+        "slideNum": 3,
+        "title": "Intraday Gap on 5-min Chart: Usually Bad Data"
+      },
+      {
+        "slideNum": 4,
+        "title": "Gap on 5-Min Chart: Sampling Error"
+      },
+      {
+        "slideNum": 5,
+        "title": "Gap on 5 Min Chart: Usually Closes and Usually Bad Data"
+      },
+      {
+        "slideNum": 6,
+        "title": "Small Pullback Bull Trend: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 7,
+        "title": "Bear Trend From The Open: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 8,
+        "title": "Gaps and Body Gaps: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 9,
+        "title": "Gap Down on 5-min Chart: Bear Trend so Sell"
+      },
+      {
+        "slideNum": 10,
+        "title": "Gaps: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 11,
+        "title": "Gaps: Strong Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 12,
+        "title": "Gap on 1-Sec Chart: 0.63% Move in 2 Seconds"
+      }
+    ]
+  },
+  {
+    "slideNum": 13,
+    "title": "Body Gap in Bear",
+    "children": [
+      {
+        "slideNum": 14,
+        "title": "MM Down: MG (Measuring Gap, but Body Gap) in Bear"
+      },
+      {
+        "slideNum": 15,
+        "title": "Gaps and Body Gaps: Small Pullback Bear Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 16,
+    "title": "Closure of Body Gap in Bear",
+    "children": [
+      {
+        "slideNum": 17,
+        "title": "Closure of Body Gap: End of Bull Trend"
+      },
+      {
+        "slideNum": 18,
+        "title": "Closed Body Gap: Expect TR Soon"
+      },
+      {
+        "slideNum": 19,
+        "title": "Body Gaps: Tails Overlap, but Not Bodies"
+      },
+      {
+        "slideNum": 20,
+        "title": "Bear Body Gap: Closed so End of Bear Swing"
+      },
+      {
+        "slideNum": 21,
+        "title": "Closure of Body Gap: End of Bear Trend"
+      },
+      {
+        "slideNum": 22,
+        "title": "Body Gap Closed: End of Bear Trend"
+      },
+      {
+        "slideNum": 23,
+        "title": "Small Pullback Bear Trend: Gaps and Body Gaps"
+      },
+      {
+        "slideNum": 24,
+        "title": "Body Gap Closed: Temporary End of Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 25,
+        "title": "Body Gap Closed: End of Bear Trend"
+      },
+      {
+        "slideNum": 26,
+        "title": "2 Gaps Down Failed: Small Pullback Bear Trend Reversed Up"
+      }
+    ]
+  },
+  {
+    "slideNum": 27,
+    "title": "Body Gap in Bull",
+    "children": [
+      {
+        "slideNum": 28,
+        "title": "Body Gap: Measured Move Up"
+      },
+      {
+        "slideNum": 29,
+        "title": "Body Gap: Gap on Line Chart"
+      },
+      {
+        "slideNum": 30,
+        "title": "Body Gap: Gap on Line Chart"
+      },
+      {
+        "slideNum": 31,
+        "title": "Small Pullback Bull Trend: Gaps and Body Gaps"
+      },
+      {
+        "slideNum": 32,
+        "title": "Gaps and Body Gaps: Small PB Bull Trend"
+      },
+      {
+        "slideNum": 33,
+        "title": "Body Gap Closed: But It Was Bear Trap"
+      },
+      {
+        "slideNum": 34,
+        "title": "Body Gap Closed: End of Strong Bull Trend"
+      },
+      {
+        "slideNum": 35,
+        "title": "Body Gap: Measured Move Up"
+      },
+      {
+        "slideNum": 36,
+        "title": "Body Gaps Up: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 37,
+        "title": "Body Gap: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 38,
+        "title": "Gaps: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 39,
+        "title": "Body Gap: Closed, but Bull Trend Resumed"
+      },
+      {
+        "slideNum": 40,
+        "title": "Gaps: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 41,
+        "title": "Body Gap Closed: Weak Bears"
+      },
+      {
+        "slideNum": 42,
+        "title": "Body Gap Up Closed: End of Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 43,
+        "title": "Body Gap: In Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 44,
+        "title": "Body Gap and Gap: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 45,
+        "title": "Gaps and Body Gaps: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 46,
+        "title": "Small Pullback Bull Trend: Gaps and Body Gaps"
+      },
+      {
+        "slideNum": 47,
+        "title": "Small PB Bull Trend: Gaps and Body (Negative) Gaps"
+      }
+    ]
+  },
+  {
+    "slideNum": 48,
+    "title": "Closure of Body Gap in Bull",
+    "children": [
+      {
+        "slideNum": 49,
+        "title": "Body Gaps Close: End of Strong Bull Trend"
+      },
+      {
+        "slideNum": 50,
+        "title": "Bodies Overlap: TR Likely Soon"
+      },
+      {
+        "slideNum": 51,
+        "title": "Bodies Overlap: TR Likely Soon"
+      },
+      {
+        "slideNum": 52,
+        "title": "Small PB Bull Trend: BO on Higher Time Frame so Only Buy"
+      },
+      {
+        "slideNum": 53,
+        "title": "Body Gap Closed: Bull Trend Resumed"
+      },
+      {
+        "slideNum": 54,
+        "title": "Body Gap Up Failed: Reduced Chance of Big Bull Trend"
+      },
+      {
+        "slideNum": 55,
+        "title": "Bear Body Gap Closed: Then Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 56,
+        "title": "Body Gap Closed: End of Bull Trend"
+      },
+      {
+        "slideNum": 57,
+        "title": "Closed Body Gap: End of Bull Trend"
+      },
+      {
+        "slideNum": 58,
+        "title": "Closure of Body Gap: End of Bull Trend"
+      },
+      {
+        "slideNum": 59,
+        "title": "Failed Body Gap: Exhaustion Gap, Not Measuring Gap"
+      },
+      {
+        "slideNum": 60,
+        "title": "Failed Body Gap: Strong Bull Trend Has Ended"
+      },
+      {
+        "slideNum": 61,
+        "title": "Body Gap Closed: Rally Will Likely End Soon"
+      }
+    ]
+  },
+  {
+    "slideNum": 62,
+    "title": "Gap Down",
+    "children": [
+      {
+        "slideNum": 63,
+        "title": "TR Day or Small PB Trend: Are There Gaps?"
+      },
+      {
+        "slideNum": 64,
+        "title": "Gaps and Body Gaps: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 65,
+        "title": "Small PB Bear Trend: S Every Failed Bottom"
+      },
+      {
+        "slideNum": 66,
+        "title": "Gaps and Body Gaps: Small Pullback Bear Trend"
+      },
+      {
+        "slideNum": 67,
+        "title": "Gap Down Open: 50% Pullback and Nested Wedge Bottom"
+      }
+    ]
+  },
+  {
+    "slideNum": 68,
+    "title": "Gap on Daily Chart",
+    "children": [
+      {
+        "slideNum": 69,
+        "title": "Closed Gap on Daily Chart: Wedge Bottom and Reversal Up"
+      },
+      {
+        "slideNum": 70,
+        "title": "Small Gap Up: Remained Open and Formed Low of Day"
+      },
+      {
+        "slideNum": 71,
+        "title": "Small Gap Up: Usually Closes in the 1st Hour"
+      },
+      {
+        "slideNum": 72,
+        "title": "Small Gap Down: Usually Closes in the 1st Hour"
+      },
+      {
+        "slideNum": 73,
+        "title": "Test of Gap on Daily Chart: Rally from DB"
+      }
+    ]
+  },
+  {
+    "slideNum": 74,
+    "title": "Exhaustion Gap Down",
+    "children": [
+      {
+        "slideNum": 75,
+        "title": "Context Affects Probabilities: Look at Bars to Left"
+      },
+      {
+        "slideNum": 76,
+        "title": "Exhaustive Sell Climax: Failed Reversal"
+      },
+      {
+        "slideNum": 77,
+        "title": "Exhaustive Sell Climax: Biggest Bear Bar Late in Bear"
+      },
+      {
+        "slideNum": 78,
+        "title": "Exhaustive Sell Climax: 4 Big Bear Bars Late in Bear Trend"
+      },
+      {
+        "slideNum": 79,
+        "title": "EG Down: Biggest Bear BO Late in Bear, Reversal Up"
+      },
+      {
+        "slideNum": 80,
+        "title": "Exhaustion: Big Bar Breaking below Bear Channel"
+      },
+      {
+        "slideNum": 81,
+        "title": "Exhaustion Gap: Bear Trap"
+      },
+      {
+        "slideNum": 82,
+        "title": "Exhaustion Gap: Biggest Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 83,
+        "title": "Exhaustion Gap: Exhaustive Sell Climax"
+      },
+      {
+        "slideNum": 84,
+        "title": "Exhaustive Sell Climax: End of Bear Trend"
+      },
+      {
+        "slideNum": 85,
+        "title": "Small Pullback Bear Trend: Then Exhaustive Sell Climax"
+      },
+      {
+        "slideNum": 86,
+        "title": "Exhaustive Sell Climax: Wedge Bottom"
+      },
+      {
+        "slideNum": 87,
+        "title": "Exhaustion Gap: End of Bear Trend"
+      },
+      {
+        "slideNum": 88,
+        "title": "Exhaustive Gap: Strongest Leg Down Late in Trend"
+      },
+      {
+        "slideNum": 89,
+        "title": "Exhaustive Sell Climax: Expect Reversal Up"
+      },
+      {
+        "slideNum": 90,
+        "title": "Exhaustive Sell Climax: Failed Breakout below Trading Range"
+      },
+      {
+        "slideNum": 91,
+        "title": "Exhaustive Sell Climax: Then Trading Range"
+      },
+      {
+        "slideNum": 92,
+        "title": "Late Bear Trap: Failed Strong BO in TR Day"
+      },
+      {
+        "slideNum": 93,
+        "title": "Exhaustive Sell Climax: Late Reversal Up"
+      },
+      {
+        "slideNum": 94,
+        "title": "Biggest Bear BO Late in Bear: Exhaustion Gap"
+      },
+      {
+        "slideNum": 95,
+        "title": "Exhaustion Gap Bar: Huge Bear Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 96,
+        "title": "Exhaustion: Huge Bear Bars"
+      },
+      {
+        "slideNum": 97,
+        "title": "Exhaustive S Climax: Bull Trend Reversal"
+      },
+      {
+        "slideNum": 98,
+        "title": "Bear Exhaustion Gap: Biggest Bear BO Late in Bear Trend"
+      },
+      {
+        "slideNum": 99,
+        "title": "Exhaustive S Climax: Surprise Bear BO Late in Trend"
+      },
+      {
+        "slideNum": 100,
+        "title": "Exhaustive S Climax: Late Bear Trap in TR Day"
+      },
+      {
+        "slideNum": 101,
+        "title": "2nd Leg Bear Trap: Test of 50% Pullback"
+      },
+      {
+        "slideNum": 102,
+        "title": "Exhaustive S Climax: 2 Legs up Likely"
+      },
+      {
+        "slideNum": 103,
+        "title": "Exhaustive S Climax: 60% Chance of Reversal Up"
+      },
+      {
+        "slideNum": 104,
+        "title": "Exhaustion Gap: B Reversal Up"
+      },
+      {
+        "slideNum": 105,
+        "title": "Exhaustion Gap: Biggest Bear Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 106,
+        "title": "S Climax: Expect Profit-Taking for at Least 10 Bars and 2 Legs"
+      },
+      {
+        "slideNum": 107,
+        "title": "Exhaustive S Climax: Consecutive Huge Bear Bars"
+      },
+      {
+        "slideNum": 108,
+        "title": "Bear Exhaustion Gap: Big Bear BO Late in Bear Trend"
+      },
+      {
+        "slideNum": 109,
+        "title": "S Climax: Bears Will Take Profits so Exhaustion Gap Likely"
+      },
+      {
+        "slideNum": 110,
+        "title": "Big Bear BO Late in Bear: Became Exhaustion Gap"
+      },
+      {
+        "slideNum": 111,
+        "title": "Exhaustion Gap: 2nd Leg Bear Trap below Wedge Bottom"
+      },
+      {
+        "slideNum": 112,
+        "title": "Bear Exhaustion Bar: B Reversal Up"
+      },
+      {
+        "slideNum": 113,
+        "title": "Exhaustion Gap: Biggest Bear BO Late in Bear Trend"
+      },
+      {
+        "slideNum": 114,
+        "title": "Bear Exhaustion Gap: Strongest Bear BO after 20 Bars"
+      },
+      {
+        "slideNum": 115,
+        "title": "Biggest Bear Bar: Exhaustive Sell Climax"
+      },
+      {
+        "slideNum": 116,
+        "title": "S Climax: Big Bear Bar Was Exhaustion Gap Bar"
+      },
+      {
+        "slideNum": 117,
+        "title": "Exhaustion Gap: Biggest Bear Bar After 20 Bars in Bear Trend"
+      },
+      {
+        "slideNum": 118,
+        "title": "Exhaustion Gap: Parabolic Wedge, Consecutive S Climaxes"
+      },
+      {
+        "slideNum": 119,
+        "title": "Exhaustion Gap Bar: Biggest Bear Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 120,
+        "title": "Exhaustive S Climax: Biggest Bear Bar Late in Trend"
+      },
+      {
+        "slideNum": 121,
+        "title": "Exhaustion Gap: B After 2nd Leg Down"
+      },
+      {
+        "slideNum": 122,
+        "title": "Bear Exhaustion Gap: End of Bear Trend"
+      },
+      {
+        "slideNum": 123,
+        "title": "Sell Climax: 2nd B Signal"
+      },
+      {
+        "slideNum": 124,
+        "title": "Bear Exhaustion Gap: Biggest Bear Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 125,
+        "title": "Exhaustion in Sell Climax: Bull Trend Reversal"
+      },
+      {
+        "slideNum": 126,
+        "title": "Sell Climax: Do Not Sell The Close"
+      },
+      {
+        "slideNum": 127,
+        "title": "EG Down: Biggest Bear Bar Late in Bear, Reversal Up"
+      },
+      {
+        "slideNum": 128,
+        "title": "Biggest Bear Bar Late in Bear: Likely Exhaustion Gap Bar"
+      },
+      {
+        "slideNum": 129,
+        "title": "Exhaustion Gap: Strong Selling Late in Bear Trend"
+      },
+      {
+        "slideNum": 130,
+        "title": "Exhaustion Gap: Bull Reversal"
+      },
+      {
+        "slideNum": 131,
+        "title": "Biggest Bear Bar in Sell Climax: Exhaustion, Expect Bounce"
+      },
+      {
+        "slideNum": 132,
+        "title": "Biggest Bear BO Late in Bear: Exhaustion Gap Bars"
+      },
+      {
+        "slideNum": 133,
+        "title": "Exhaustion Gap Bar: Got MM Down"
+      },
+      {
+        "slideNum": 134,
+        "title": "Sell Climax: Pause in Bear Trend"
+      },
+      {
+        "slideNum": 135,
+        "title": "EG Down: Biggest Bear Bar Late in Bear, Reversal Up"
+      },
+      {
+        "slideNum": 136,
+        "title": "Exhaustion Gap: 60% Chance Of 2nd Sell Climax"
+      },
+      {
+        "slideNum": 137,
+        "title": "EG Down, Exhaustion Gap: in Bear Trend"
+      },
+      {
+        "slideNum": 138,
+        "title": "EG Down, Exhaustion Gap: in Bear Trend"
+      }
+    ]
+  },
+  {
+    "slideNum": 139,
+    "title": "Exhaustion Gap Down on Daily, Weekly, and Monthly Charts",
+    "children": [
+      {
+        "slideNum": 140,
+        "title": "1987 Crash: Ended with DB HL MTR"
+      }
+    ]
+  },
+  {
+    "slideNum": 141,
+    "title": "Exhaustion Gap Down Failed and Became Measuring Gap",
+    "children": [
+      {
+        "slideNum": 142,
+        "title": "Context Affects Probabilities: Look at Bars to Left"
+      },
+      {
+        "slideNum": 143,
+        "title": "Breakout below Trading Range: Became Measuring Gap"
+      },
+      {
+        "slideNum": 144,
+        "title": "Breakout below Parabolic Wedge: Became Measuring Gap"
+      },
+      {
+        "slideNum": 145,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 146,
+        "title": "Breakout below Trading Range: Small PB Bear Trend"
+      },
+      {
+        "slideNum": 147,
+        "title": "Breakout below Wedge Bottom: MM Down"
+      },
+      {
+        "slideNum": 148,
+        "title": "Exhaustion Gap Failed: Became Measuring Gap"
+      },
+      {
+        "slideNum": 149,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 150,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 151,
+        "title": "Exhaustion Gap Failed: Became Measuring Gap"
+      },
+      {
+        "slideNum": 152,
+        "title": "Exhaustion Gap: Sell Climax, Then HL MTR"
+      },
+      {
+        "slideNum": 153,
+        "title": "Wedge Bottom: Failed, Then MM Down"
+      },
+      {
+        "slideNum": 154,
+        "title": "Measuring Gap: Body Gap in Strong Selloff on Open"
+      },
+      {
+        "slideNum": 155,
+        "title": "S Climax: Became Measuring Gap Instead of Exhaustion Gap"
+      },
+      {
+        "slideNum": 156,
+        "title": "Breakout below Parabolic Wedge: Small PB Bear Trend"
+      },
+      {
+        "slideNum": 157,
+        "title": "Breakout below Parabolic Wedge: Small PB Bear Trend"
+      },
+      {
+        "slideNum": 158,
+        "title": "Breakout below Parabolic Wedge: Small PB Bear Trend"
+      },
+      {
+        "slideNum": 159,
+        "title": "Exhaustive Sell Climax: Became Measuring Gap"
+      },
+      {
+        "slideNum": 160,
+        "title": "Exhaustion Gap: Pause in Bear Trend"
+      },
+      {
+        "slideNum": 161,
+        "title": "Biggest Bear Bars Late in Bear: Temporary Exhaustion Likely"
+      },
+      {
+        "slideNum": 162,
+        "title": "Breakout below Parabolic Wedge: Measuring Gap"
+      },
+      {
+        "slideNum": 163,
+        "title": "Breakout below Parabolic Wedge: Measuring Gap"
+      },
+      {
+        "slideNum": 164,
+        "title": "Trading Range Open: Late Bear Breakout"
+      },
+      {
+        "slideNum": 165,
+        "title": "Breakout below Bear Flag: MM Down"
+      },
+      {
+        "slideNum": 166,
+        "title": "Measuring Gap: BO below TR"
+      },
+      {
+        "slideNum": 167,
+        "title": "BO below Wedge Bottom: Measuring Gap"
+      },
+      {
+        "slideNum": 168,
+        "title": "S Climax Was BO: Measuring Gap, Not Exhaustion Gap"
+      },
+      {
+        "slideNum": 169,
+        "title": "Breakout below Trading Range: Became Measuring Gap"
+      },
+      {
+        "slideNum": 170,
+        "title": "Measuring Gap: Biggest Bear Bar Late in Bear Trend"
+      },
+      {
+        "slideNum": 171,
+        "title": "Breakout below Wedge Bull Flag: Measuring Gap"
+      },
+      {
+        "slideNum": 172,
+        "title": "Breakout below Parabolic Wedge: Measuring Gap"
+      },
+      {
+        "slideNum": 173,
+        "title": "Big Bear Bar Late in Bear: Exhaustion"
+      },
+      {
+        "slideNum": 174,
+        "title": "Late Bear BO: Became MG Since Small PB Bear Trend"
+      },
+      {
+        "slideNum": 175,
+        "title": "Breakout below Trading Range: Became Measuring Gap"
+      },
+      {
+        "slideNum": 176,
+        "title": "Bear BO below Wedge Bull Flag: Became Measuring Gap"
+      },
+      {
+        "slideNum": 177,
+        "title": "Breakout below Trading Range: Became Measuring Gap"
+      },
+      {
+        "slideNum": 178,
+        "title": "Breakout below Wedge Bull Flag: MM Down"
+      }
+    ]
+  },
+  {
+    "slideNum": 179,
+    "title": "Exhaustion Gap Up",
+    "children": [
+      {
+        "slideNum": 180,
+        "title": "Context Affects Probabilities: Look at Bars to Left"
+      },
+      {
+        "slideNum": 181,
+        "title": "Exhaustive Buy Climax: Biggest Bull Bar in 100 Bars"
+      },
+      {
+        "slideNum": 182,
+        "title": "Exhaustive Buy Climax: Breakout and Channel Bull Trend"
+      },
+      {
+        "slideNum": 183,
+        "title": "Exhaustive Buy Climax: Expect at Least 2 Legs Sideways to Down"
+      },
+      {
+        "slideNum": 184,
+        "title": "Exhaustion Gap: Strong Final Leg Up"
+      },
+      {
+        "slideNum": 185,
+        "title": "Exhaustive Buy Climax: Expect Deep Pullback"
+      },
+      {
+        "slideNum": 186,
+        "title": "Exhaustive Buy Climax: Led to Profit Taking for 15 Bars"
+      },
+      {
+        "slideNum": 187,
+        "title": "Exhaustive Buy Climax: Pause in Bull Trend"
+      },
+      {
+        "slideNum": 188,
+        "title": "Exhaustive Buy Climax: Then Trading Range and Reversal Down"
+      },
+      {
+        "slideNum": 189,
+        "title": "Huge Buy Climax: Then Trading Range"
+      },
+      {
+        "slideNum": 190,
+        "title": "Exhaustion Gap Bar: Biggest Bull Bar after 20 Bars"
+      },
+      {
+        "slideNum": 191,
+        "title": "Exhaustion Gap Up: After Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 192,
+        "title": "Exhaustion Gap: Final Leg Up of Wedge Top and Buy Climax"
+      },
+      {
+        "slideNum": 193,
+        "title": "Exhaustion Gap Bar: Then Profit Taking"
+      },
+      {
+        "slideNum": 194,
+        "title": "Exhaustive Buy Climax: At Measured Move"
+      },
+      {
+        "slideNum": 195,
+        "title": "Exhaustive Buy Climax: At MM Up"
+      },
+      {
+        "slideNum": 196,
+        "title": "Exhaustive Buy Climax: Bull Surprise Breakout Failed"
+      },
+      {
+        "slideNum": 197,
+        "title": "Exhaustive Buy Climax: ii Top"
+      },
+      {
+        "slideNum": 198,
+        "title": "Exhaustive Buy Climax: Failed Breakout above Parabolic Wedge"
+      },
+      {
+        "slideNum": 199,
+        "title": "Exhaustive Buy Climax: Biggest Bull Bar Late in Rally"
+      },
+      {
+        "slideNum": 200,
+        "title": "Exhaustion: Biggest Bull Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 201,
+        "title": "Exhaustive Buy Climax: Failed BO above Bull Channel"
+      },
+      {
+        "slideNum": 202,
+        "title": "Exhaustive Bull Climax: Failed Breakout"
+      },
+      {
+        "slideNum": 203,
+        "title": "Exhaustive B Climax: Late Strong BO"
+      },
+      {
+        "slideNum": 204,
+        "title": "Biggest Bull Bars Late in Bull Trend: Exhaustive Buy Climax"
+      },
+      {
+        "slideNum": 205,
+        "title": "Exhaustive Buy Climax: Expect Pause in Bull Trend"
+      },
+      {
+        "slideNum": 206,
+        "title": "Gap Up: 2nd Gap Up Was Exhaustive Buy Climax"
+      },
+      {
+        "slideNum": 207,
+        "title": "Exhaustion Gap Bar: Wedge Top, Midday Reversal"
+      },
+      {
+        "slideNum": 208,
+        "title": "Exhaustion Gap: Biggest Bull Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 209,
+        "title": "Exhaustion Bar: Biggest Bull Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 210,
+        "title": "Exhaustion Gap: Big Pair of Bull Bars Late in B Climax"
+      },
+      {
+        "slideNum": 211,
+        "title": "Exhaustive B Climax: Big Bar Late in Rally"
+      },
+      {
+        "slideNum": 212,
+        "title": "Biggest Bull Bar Late in Rally: Exhaustive B Climax"
+      },
+      {
+        "slideNum": 213,
+        "title": "Exhaustive B Climax: Sideways, Not Down"
+      },
+      {
+        "slideNum": 214,
+        "title": "Exhaustion Gap: Profit Taking and Trading Range"
+      },
+      {
+        "slideNum": 215,
+        "title": "Exhaustion Gap Bar: Small PB Bull Trend, Expect Profit-Taking"
+      },
+      {
+        "slideNum": 216,
+        "title": "Exhaustion Gap: Consecutive Big Bull Bars Late in Bull Trend"
+      },
+      {
+        "slideNum": 217,
+        "title": "Exhaustive B Climax: Biggest Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 218,
+        "title": "Exhaustion Gap: Strong Bull BO Late in Bull Trend"
+      },
+      {
+        "slideNum": 219,
+        "title": "Exhaustion Gap Bar: Biggest Bull Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 220,
+        "title": "Gap Up: Trend From Open and Small PB Bull Trend"
+      },
+      {
+        "slideNum": 221,
+        "title": "Exhaustion Gap: Consecutive B Climaxes"
+      },
+      {
+        "slideNum": 222,
+        "title": "Exhaustion Gap: Failed Late BO Above Bull Channel"
+      },
+      {
+        "slideNum": 223,
+        "title": "Exhaustive B Climax: Big Bull Bar Late in Bull Trend"
+      },
+      {
+        "slideNum": 224,
+        "title": "Exhaustive B Climax: Biggest Bull Bars Late in Rally"
+      },
+      {
+        "slideNum": 225,
+        "title": "Exhaustion Gap: At MM Target"
+      },
+      {
+        "slideNum": 226,
+        "title": "Exhaustion Gap: Late Bull BO"
+      },
+      {
+        "slideNum": 227,
+        "title": "Bull Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 228,
+        "title": "Biggest Bull Bar, Late in Trend: Exhaustion Gap Bar"
+      },
+      {
+        "slideNum": 229,
+        "title": "Gap Up, ORV Down: Buy Climax"
+      },
+      {
+        "slideNum": 230,
+        "title": "Exhaustion Gap Up (EG): Buy Climax"
+      },
+      {
+        "slideNum": 231,
+        "title": "Exhaustive B Climax: S Reversal Down From 2nd Leg Up"
+      },
+      {
+        "slideNum": 232,
+        "title": "Huge Bull Bar Late in Bull Trend: Likely Exhaustion"
+      },
+      {
+        "slideNum": 233,
+        "title": "EG Up: Biggest Bull Bar Late in Bull, Reversal down"
+      },
+      {
+        "slideNum": 234,
+        "title": "Exhaustion Gap: TR Soon"
+      },
+      {
+        "slideNum": 235,
+        "title": "Big Bull Bars Late in Bull Trend: Exhaustive Buy Climax"
+      },
+      {
+        "slideNum": 236,
+        "title": "Biggest Bull Bar at Top of TR: Exhaustion Gap Bar"
+      },
+      {
+        "slideNum": 237,
+        "title": "EG: In bull trend"
+      },
+      {
+        "slideNum": 238,
+        "title": "Biggest Bull Bars Late in Bull Trend: Exhaustive Buy Climax"
+      },
+      {
+        "slideNum": 239,
+        "title": "Exhaustion Gap: ii Sell Signal"
+      },
+      {
+        "slideNum": 240,
+        "title": "Strong BO Late in Bull Trend: Exhaustive Buy Climax"
+      }
+    ]
+  },
+  {
+    "slideNum": 241,
+    "title": "Exhaustion Gap Up on Daily, Weekly, and Monthly Charts",
+    "children": [
+      {
+        "slideNum": 242,
+        "title": "Weekly Chart: Consecutive Exhaustion Gaps"
+      },
+      {
+        "slideNum": 243,
+        "title": "Monthly Chart: Exhaustion Gap Bar"
+      }
+    ]
+  },
+  {
+    "slideNum": 244,
+    "title": "Exhaustion Gap Up Failed and Became Measuring Gap",
+    "children": [
+      {
+        "slideNum": 245,
+        "title": "Context Affects Probabilities: Look at Bars to Left"
+      },
+      {
+        "slideNum": 246,
+        "title": "Consecutive Buy Climaxes: But Became Measuring Gap"
+      },
+      {
+        "slideNum": 247,
+        "title": "Buy Climax but Strong Bull Trend: Became Measuring Gap"
+      },
+      {
+        "slideNum": 248,
+        "title": "Buy Climax Reversal Down Failed: Then MM Up"
+      },
+      {
+        "slideNum": 249,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 250,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 251,
+        "title": "Exhaustion Gap: Became Measuring Gap"
+      },
+      {
+        "slideNum": 252,
+        "title": "Exhaustive Buy Climax: Became Measuring Gap"
+      },
+      {
+        "slideNum": 253,
+        "title": "Exhaustive Buy Climax Failed: Measured Move Up"
+      },
+      {
+        "slideNum": 254,
+        "title": "Exhaustion Gap Failed: Became Measuring Gap"
+      },
+      {
+        "slideNum": 255,
+        "title": "Exhaustion Gap Up Failed: Became Measuring Gap"
+      },
+      {
+        "slideNum": 256,
+        "title": "Exhaustion Gap Failed: Bull Surprise Bar Became Measuring Gap"
+      },
+      {
+        "slideNum": 257,
+        "title": "Exhaustion Gap Failed: MM Up"
+      },
+      {
+        "slideNum": 258,
+        "title": "Failed Exhaustion Gap: Strong Bull Breakout and MM Up"
+      },
+      {
+        "slideNum": 259,
+        "title": "Measuring Gap: Breakout above Parabolic Wedge"
+      },
+      {
+        "slideNum": 260,
+        "title": "Gap Up: Possible Exhaustion Gap Became Measuring Gap"
+      },
+      {
+        "slideNum": 261,
+        "title": "Breakout above Trading Range: MM Up More Likely Than Bear"
+      },
+      {
+        "slideNum": 262,
+        "title": "Breakout above Trading Range: Became Measuring Gap"
+      },
+      {
+        "slideNum": 263,
+        "title": "Exhaustion Gap Up: Minor Reversal, Then Measuring Gap"
+      },
+      {
+        "slideNum": 264,
+        "title": "Exhaustion Gap Failed: Became Measuring Gap"
+      },
+      {
+        "slideNum": 265,
+        "title": "Measuring Gap: Breakout above Bull Flag"
+      },
+      {
+        "slideNum": 266,
+        "title": "Measured Move Up: From Breakout in Strong Trend"
+      },
+      {
+        "slideNum": 267,
+        "title": "Breakout above Trading Range: MM Up"
+      },
+      {
+        "slideNum": 268,
+        "title": "Breakout above Trading Rang: Often Becomes Measuring Gap"
+      },
+      {
+        "slideNum": 269,
+        "title": "End Of Day BTC: Can Start Early if Bull Trend Day"
+      },
+      {
+        "slideNum": 270,
+        "title": "Breakout above Wedge in Small PB Bull: MM Up"
+      }
+    ]
+  },
+  {
+    "slideNum": 271,
+    "title": "Micro Gaps",
+    "children": [
+      {
+        "slideNum": 272,
+        "title": "Micro Gap after Bull Bar: Opens above or below Close"
+      },
+      {
+        "slideNum": 273,
+        "title": "Micro Gap after Bear Bar: Opens above or below Close"
+      }
+    ]
+  },
+  {
+    "slideNum": 274,
+    "title": "Gap Based on Open of Bar and Close of Prior Bar",
+    "children": [
+      {
+        "slideNum": 275,
+        "title": "Micro Gap after Bull Bar: Opens above or below Close"
+      },
+      {
+        "slideNum": 276,
+        "title": "Micro Gap after Bear Bar: Opens above or below Close"
+      },
+      {
+        "slideNum": 277,
+        "title": "Gap Up Bars: Strong Buying"
+      },
+      {
+        "slideNum": 278,
+        "title": "Gap Open Bars: Trend or Reversal?"
+      },
+      {
+        "slideNum": 279,
+        "title": "Buying Pressure: Gap Open Bars"
+      },
+      {
+        "slideNum": 280,
+        "title": "Gap Open Bars: Open of Bar below C of Prior Bar"
+      },
+      {
+        "slideNum": 281,
+        "title": "Gap on 5 Min Chart: Rarely Stays Open"
+      }
+    ]
+  },
+  {
+    "slideNum": 282,
+    "title": "Gap Up",
+    "children": [
+      {
+        "slideNum": 283,
+        "title": "TR Day or Small PB Trend: Are There Gaps?"
+      },
+      {
+        "slideNum": 284,
+        "title": "Bull Trend From The Open: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 285,
+        "title": "Gaps Up: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 286,
+        "title": "Gap and Body Gap: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 287,
+        "title": "Gaps and Body Gaps: Small Pullback Bull Trend"
+      },
+      {
+        "slideNum": 288,
+        "title": "Gap Up in Small Pullback Bull Trend: Acceleration Up"
+      },
+      {
+        "slideNum": 289,
+        "title": "Small Pullback Bull Trend: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 290,
+        "title": "Small Pullback Bull Trend: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 291,
+        "title": "Small Pullback Bull Trend: Bull Trend From The Open"
+      },
+      {
+        "slideNum": 292,
+        "title": "Gap Up: Small Pullback Bull Trend, but Trend Did Not Last"
+      }
+    ]
+  },
+  {
+    "slideNum": 293,
+    "title": "Part 4 - G",
+    "children": []
+  }
+]

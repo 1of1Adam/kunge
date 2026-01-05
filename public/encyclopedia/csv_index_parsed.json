@@ -1,0 +1,4174 @@
+[
+  {
+    "part": 1,
+    "section": "Introduction",
+    "abbreviation": "Introduction",
+    "note": "",
+    "normalized": "introduction"
+  },
+  {
+    "part": 1,
+    "section": "Always In Long",
+    "abbreviation": "AIL",
+    "note": "",
+    "normalized": "always in long"
+  },
+  {
+    "part": 1,
+    "section": "Always In Long, 3 Bear Bars Were Bull Flag",
+    "abbreviation": "AIL 3 BRB",
+    "note": "",
+    "normalized": "always in long 3 bear bars were bull flag"
+  },
+  {
+    "part": 1,
+    "section": "Always In Short",
+    "abbreviation": "AIS",
+    "note": "",
+    "normalized": "always in short"
+  },
+  {
+    "part": 1,
+    "section": "Always In Short, 3 Bull Bars Were Bear Flag",
+    "abbreviation": "AIS 3 BRB",
+    "note": "",
+    "normalized": "always in short 3 bull bars were bear flag"
+  },
+  {
+    "part": 1,
+    "section": "All Time High Buy Climax",
+    "abbreviation": "ATH BX",
+    "note": "",
+    "normalized": "all time high buy climax"
+  },
+  {
+    "part": 1,
+    "section": "Bankruptcy",
+    "abbreviation": "Bankruptcy",
+    "note": "",
+    "normalized": "bankruptcy"
+  },
+  {
+    "part": 1,
+    "section": "Bar Counting",
+    "abbreviation": "Bar Counting",
+    "note": "",
+    "normalized": "bar counting"
+  },
+  {
+    "part": 1,
+    "section": "Bar Numbers",
+    "abbreviation": "Bar Numbers",
+    "note": "",
+    "normalized": "bar numbers"
+  },
+  {
+    "part": 1,
+    "section": "Big Down, Big Up",
+    "abbreviation": "BDBU",
+    "note": "",
+    "normalized": "big down big up"
+  },
+  {
+    "part": 1,
+    "section": "Big Down, Big Up, Big Down",
+    "abbreviation": "BDUD",
+    "note": "",
+    "normalized": "big down big up big down"
+  },
+  {
+    "part": 1,
+    "section": "Big Round Number",
+    "abbreviation": "Big Round Number",
+    "note": "",
+    "normalized": "big round number"
+  },
+  {
+    "part": 1,
+    "section": "Bull Trend Began before Bear Trend Ended",
+    "abbreviation": "BL Began before BR ended",
+    "note": "",
+    "normalized": "bull trend began before bear trend ended"
+  },
+  {
+    "part": 1,
+    "section": "Bear BO of 18 Bar Range",
+    "abbreviation": "BO 18 D",
+    "note": "",
+    "normalized": "bear bo of 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "Failed Bear BO of 18 Bar Range",
+    "abbreviation": "BO 18 D F",
+    "note": "",
+    "normalized": "failed bear bo of 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "BO below Then above 18 Bar Range",
+    "abbreviation": "BO 18 D U",
+    "note": "",
+    "normalized": "bo below then above 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "BO of 18 Bar Range, below, above, and Back Below",
+    "abbreviation": "BO 18 D U D",
+    "note": "",
+    "normalized": "bo of 18 bar range below above and back below"
+  },
+  {
+    "part": 1,
+    "section": "Bull BO of 18 Bar Range",
+    "abbreviation": "BO 18 U",
+    "note": "",
+    "normalized": "bull bo of 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "Failed Bull BO of 18 Bar Range",
+    "abbreviation": "BO 18 U F",
+    "note": "",
+    "normalized": "failed bull bo of 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "BO above Then below 18 Bar Range",
+    "abbreviation": "BO 18 U D",
+    "note": "",
+    "normalized": "bo above then below 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "BO of 18 Bar Range, above, below, and Back Above",
+    "abbreviation": "BO 18 U D U",
+    "note": "",
+    "normalized": "bo of 18 bar range above below and back above"
+  },
+  {
+    "part": 1,
+    "section": "No BO of 18 Bar Range",
+    "abbreviation": "BO 18 No BO",
+    "note": "",
+    "normalized": "no bo of 18 bar range"
+  },
+  {
+    "part": 1,
+    "section": "Breakout and Channel Bull Trend",
+    "abbreviation": "BO and CH BL",
+    "note": "",
+    "normalized": "breakout and channel bull trend"
+  },
+  {
+    "part": 1,
+    "section": "Breakout and Channel Bear Trend",
+    "abbreviation": "BO and CH BR",
+    "note": "",
+    "normalized": "breakout and channel bear trend"
+  },
+  {
+    "part": 1,
+    "section": "Failed Bull Breakout",
+    "abbreviation": "BO BL F",
+    "note": "",
+    "normalized": "failed bull breakout"
+  },
+  {
+    "part": 1,
+    "section": "Bull Breakout (Major) --  New and modified sections now include all \"Surprise\" slides",
+    "abbreviation": "BO BL Major",
+    "note": "",
+    "normalized": "bull breakout major new and modified sections now include all surprise slides"
+  },
+  {
+    "part": 1,
+    "section": "Bull Breakout (Major) Failed",
+    "abbreviation": "BO BL Major F",
+    "note": "",
+    "normalized": "bull breakout major failed"
+  },
+  {
+    "part": 1,
+    "section": "Bull Breakout (Minor)",
+    "abbreviation": "BO BL Minor",
+    "note": "",
+    "normalized": "bull breakout minor"
+  },
+  {
+    "part": 1,
+    "section": "Failed Bear Breakout",
+    "abbreviation": "BO BR F",
+    "note": "",
+    "normalized": "failed bear breakout"
+  },
+  {
+    "part": 1,
+    "section": "Bear Breakout (Major)",
+    "abbreviation": "BO BR Major",
+    "note": "",
+    "normalized": "bear breakout major"
+  },
+  {
+    "part": 1,
+    "section": "Bear Breakout (Major) Failed",
+    "abbreviation": "BO BR Major F",
+    "note": "",
+    "normalized": "bear breakout major failed"
+  },
+  {
+    "part": 1,
+    "section": "Bear Breakout (Minor)",
+    "abbreviation": "BO BR Minor",
+    "note": "",
+    "normalized": "bear breakout minor"
+  },
+  {
+    "part": 1,
+    "section": "Bear BO, Then 2 Legs Down",
+    "abbreviation": "BO D 2LD",
+    "note": "",
+    "normalized": "bear bo then 2 legs down"
+  },
+  {
+    "part": 1,
+    "section": "Breakout: Small Bear Breakout below a Small Bear Breakout so Wedge Bottom",
+    "abbreviation": "BO SBO2 D",
+    "note": "",
+    "normalized": "breakout small bear breakout below a small bear breakout so wedge bottom"
+  },
+  {
+    "part": 1,
+    "section": "Breakout: Small Bear Breakout below a Small Bear Breakout, but Wedge Bottom Failed",
+    "abbreviation": "BO SBO2 D F",
+    "note": "",
+    "normalized": "breakout small bear breakout below a small bear breakout but wedge bottom failed"
+  },
+  {
+    "part": 1,
+    "section": "Breakout: Small Bull Breakout above a Small Bull Breakout so Wedge Top",
+    "abbreviation": "BO SBO2 U",
+    "note": "",
+    "normalized": "breakout small bull breakout above a small bull breakout so wedge top"
+  },
+  {
+    "part": 1,
+    "section": "Breakout: Small Bull Breakout above a Small Bull Breakout, but Wedge Top Failed",
+    "abbreviation": "BO SBO2 U F",
+    "note": "",
+    "normalized": "breakout small bull breakout above a small bull breakout but wedge top failed"
+  },
+  {
+    "part": 1,
+    "section": "BO Test in Bull Trend (PB to BO Point)",
+    "abbreviation": "BO Test BL",
+    "note": "",
+    "normalized": "bo test in bull trend pb to bo point"
+  },
+  {
+    "part": 1,
+    "section": "BO Test in Bull Trend (PB to BO Point), Failed And Reversed Down",
+    "abbreviation": "BO Test BL F",
+    "note": "",
+    "normalized": "bo test in bull trend pb to bo point failed and reversed down"
+  },
+  {
+    "part": 1,
+    "section": "BO Test in Bear Trend (Rally to BO Point)",
+    "abbreviation": "BO Test BR",
+    "note": "",
+    "normalized": "bo test in bear trend rally to bo point"
+  },
+  {
+    "part": 1,
+    "section": "BO Test in Bear Trend (Rally to BO Point), Failed And Reversed Up",
+    "abbreviation": "BO Test BR F",
+    "note": "",
+    "normalized": "bo test in bear trend rally to bo point failed and reversed up"
+  },
+  {
+    "part": 1,
+    "section": "BO of TR, but it Failed",
+    "abbreviation": "BO TR F",
+    "note": "",
+    "normalized": "bo of tr but it failed"
+  },
+  {
+    "part": 1,
+    "section": "Bull BO",
+    "abbreviation": "BO U",
+    "note": "",
+    "normalized": "bull bo"
+  },
+  {
+    "part": 1,
+    "section": "Bull BO, Then 2 Legs Up",
+    "abbreviation": "BO U 2LU",
+    "note": "",
+    "normalized": "bull bo then 2 legs up"
+  },
+  {
+    "part": 1,
+    "section": "Breakout Mode",
+    "abbreviation": "BOM",
+    "note": "",
+    "normalized": "breakout mode"
+  },
+  {
+    "part": 1,
+    "section": "Bear Trend Began before Bull Trend Ended",
+    "abbreviation": "BR Began before BL ended",
+    "note": "",
+    "normalized": "bear trend began before bull trend ended"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close rally",
+    "abbreviation": "BTC",
+    "note": "",
+    "normalized": "buy the close rally"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close, but Disappointed Bulls",
+    "abbreviation": "BTC DBL",
+    "note": "",
+    "normalized": "buy the close but disappointed bulls"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close, but Disappointed Bulls, then Bull Resumed",
+    "abbreviation": "BTC DBL F",
+    "note": "",
+    "normalized": "buy the close but disappointed bulls then bull resumed"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close, but Disappointed Bulls Lost Money",
+    "abbreviation": "BTC DBL Lose",
+    "note": "",
+    "normalized": "buy the close but disappointed bulls lost money"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close, then Deep PB",
+    "abbreviation": "BTC Deep PB",
+    "note": "",
+    "normalized": "buy the close then deep pb"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close Failed and Became Exhaustion Gap",
+    "abbreviation": "BTC EG",
+    "note": "",
+    "normalized": "buy the close failed and became exhaustion gap"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close at End Of Day",
+    "abbreviation": "BTC EOD",
+    "note": "",
+    "normalized": "buy the close at end of day"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close at End Of Day, but Started Too Early",
+    "abbreviation": "BTC EOD Too Early",
+    "note": "",
+    "normalized": "buy the close at end of day but started too early"
+  },
+  {
+    "part": 1,
+    "section": "Buy The Close in TR so Better to S Close of Bull Bars",
+    "abbreviation": "BTC TR so STC",
+    "note": "",
+    "normalized": "buy the close in tr so better to s close of bull bars"
+  },
+  {
+    "part": 1,
+    "section": "Big Up, Big Down so Big Confusion and Likely TR",
+    "abbreviation": "BUDC",
+    "note": "",
+    "normalized": "big up big down so big confusion and likely tr"
+  },
+  {
+    "part": 1,
+    "section": "Big Up, Big Down, Big Up",
+    "abbreviation": "BUDU",
+    "note": "",
+    "normalized": "big up big down big up"
+  },
+  {
+    "part": 1,
+    "section": "Buy Climaxes",
+    "abbreviation": "BX",
+    "note": "",
+    "normalized": "buy climaxes"
+  },
+  {
+    "part": 1,
+    "section": "Consecutive Buy Climaxes",
+    "abbreviation": "BX CC",
+    "note": "",
+    "normalized": "consecutive buy climaxes"
+  },
+  {
+    "part": 1,
+    "section": "Buy Climax, Then Deep Pullback",
+    "abbreviation": "BX Deep PB",
+    "note": "",
+    "normalized": "buy climax then deep pullback"
+  },
+  {
+    "part": 1,
+    "section": "Exhaustive Buy Climax",
+    "abbreviation": "BX E",
+    "note": "",
+    "normalized": "exhaustive buy climax"
+  },
+  {
+    "part": 1,
+    "section": "Buy Climax but Failed Reversal",
+    "abbreviation": "BX F",
+    "note": "",
+    "normalized": "buy climax but failed reversal"
+  },
+  {
+    "part": 1,
+    "section": "Buy Climax and Measured Move Down",
+    "abbreviation": "BX MMD",
+    "note": "",
+    "normalized": "buy climax and measured move down"
+  },
+  {
+    "part": 1,
+    "section": "Buy Climax Yesterday",
+    "abbreviation": "BX Y",
+    "note": "",
+    "normalized": "buy climax yesterday"
+  },
+  {
+    "part": 2,
+    "section": "Consecutive Complex Bottoms",
+    "abbreviation": "CC Bottoms Complex",
+    "note": "",
+    "normalized": "consecutive complex bottoms"
+  },
+  {
+    "part": 2,
+    "section": "Consecutive Complex Bottoms that Failed",
+    "abbreviation": "CC Bottoms F",
+    "note": "",
+    "normalized": "consecutive complex bottoms that failed"
+  },
+  {
+    "part": 2,
+    "section": "Consecutive Complex Tops",
+    "abbreviation": "CC Tops Complex",
+    "note": "",
+    "normalized": "consecutive complex tops"
+  },
+  {
+    "part": 2,
+    "section": "Consecutive Complex Tops that Failed",
+    "abbreviation": "CC Tops F",
+    "note": "",
+    "normalized": "consecutive complex tops that failed"
+  },
+  {
+    "part": 2,
+    "section": "Bear Channel: 4 Types",
+    "abbreviation": "CH D 4 Types",
+    "note": "",
+    "normalized": "bear channel 4 types"
+  },
+  {
+    "part": 2,
+    "section": "Bear Channel",
+    "abbreviation": "CH D",
+    "note": "",
+    "normalized": "bear channel"
+  },
+  {
+    "part": 2,
+    "section": "Bear Channel, Bull BO",
+    "abbreviation": "CH D BL BO",
+    "note": "",
+    "normalized": "bear channel bull bo"
+  },
+  {
+    "part": 2,
+    "section": "Broad Bear Channel",
+    "abbreviation": "CH D Broad",
+    "note": "",
+    "normalized": "broad bear channel"
+  },
+  {
+    "part": 2,
+    "section": "Bear BO below Bear Channel",
+    "abbreviation": "CH D BR BO",
+    "note": "",
+    "normalized": "bear bo below bear channel"
+  },
+  {
+    "part": 2,
+    "section": "Failed BO below Bear Channel",
+    "abbreviation": "CH D BR BO F",
+    "note": "",
+    "normalized": "failed bo below bear channel"
+  },
+  {
+    "part": 2,
+    "section": "Bear Micro Channel",
+    "abbreviation": "CH D MC",
+    "note": "",
+    "normalized": "bear micro channel"
+  },
+  {
+    "part": 2,
+    "section": "Bear Micro Channel Reversed Up",
+    "abbreviation": "CH D MC F",
+    "note": "",
+    "normalized": "bear micro channel reversed up"
+  },
+  {
+    "part": 2,
+    "section": "Tight Bear Channel",
+    "abbreviation": "CH D Tight",
+    "note": "",
+    "normalized": "tight bear channel"
+  },
+  {
+    "part": 2,
+    "section": "Bull Channel: 4 Types",
+    "abbreviation": "CH U 4 Types",
+    "note": "",
+    "normalized": "bull channel 4 types"
+  },
+  {
+    "part": 2,
+    "section": "Bull Channel",
+    "abbreviation": "CH U",
+    "note": "",
+    "normalized": "bull channel"
+  },
+  {
+    "part": 2,
+    "section": "Bull BO above Bull Channel",
+    "abbreviation": "CH U BL BO",
+    "note": "",
+    "normalized": "bull bo above bull channel"
+  },
+  {
+    "part": 2,
+    "section": "Failed BO above Bull Channel",
+    "abbreviation": "CH U BL BO F",
+    "note": "",
+    "normalized": "failed bo above bull channel"
+  },
+  {
+    "part": 2,
+    "section": "Bull Channel, Bear BO",
+    "abbreviation": "CH U BR BO",
+    "note": "",
+    "normalized": "bull channel bear bo"
+  },
+  {
+    "part": 2,
+    "section": "Broad Bull Channel",
+    "abbreviation": "CH U Broad",
+    "note": "",
+    "normalized": "broad bull channel"
+  },
+  {
+    "part": 2,
+    "section": "Bull Micro Channel",
+    "abbreviation": "CH U MC",
+    "note": "",
+    "normalized": "bull micro channel"
+  },
+  {
+    "part": 2,
+    "section": "Bull Micro Channel Reversed Down",
+    "abbreviation": "CH U MC F",
+    "note": "",
+    "normalized": "bull micro channel reversed down"
+  },
+  {
+    "part": 2,
+    "section": "Tight Bull Channel",
+    "abbreviation": "CH U Tight",
+    "note": "",
+    "normalized": "tight bull channel"
+  },
+  {
+    "part": 2,
+    "section": "Charts: Yearly",
+    "abbreviation": "Charts Yearly",
+    "note": "",
+    "normalized": "charts yearly"
+  },
+  {
+    "part": 2,
+    "section": "Crash on 5 min Chart",
+    "abbreviation": "Crash 5 min",
+    "note": "",
+    "normalized": "crash on 5 min chart"
+  },
+  {
+    "part": 2,
+    "section": "Crash Up on 5 min Chart, Extreme Buy Climax",
+    "abbreviation": "Crash Up 5 min",
+    "note": "",
+    "normalized": "crash up on 5 min chart extreme buy climax"
+  },
+  {
+    "part": 2,
+    "section": "Crash on Daily, Weekly, and Monthly Charts",
+    "abbreviation": "Crash D W M",
+    "note": "",
+    "normalized": "crash on daily weekly and monthly charts"
+  },
+  {
+    "part": 2,
+    "section": "Cup and Handle Top",
+    "abbreviation": "CupH D",
+    "note": "",
+    "normalized": "cup and handle top"
+  },
+  {
+    "part": 2,
+    "section": "Cup and Handle Top that Failed",
+    "abbreviation": "CupH D F",
+    "note": "",
+    "normalized": "cup and handle top that failed"
+  },
+  {
+    "part": 2,
+    "section": "Cup and Handle Bottom",
+    "abbreviation": "CupH U",
+    "note": "",
+    "normalized": "cup and handle bottom"
+  },
+  {
+    "part": 2,
+    "section": "Cup and Handle Bottom That Failed",
+    "abbreviation": "CupH U F",
+    "note": "",
+    "normalized": "cup and handle bottom that failed"
+  },
+  {
+    "part": 3,
+    "section": "Data: Adjusted",
+    "abbreviation": "Data Adjusted",
+    "note": "",
+    "normalized": "data adjusted"
+  },
+  {
+    "part": 3,
+    "section": "Data: Sampled",
+    "abbreviation": "Data Sampled",
+    "note": "",
+    "normalized": "data sampled"
+  },
+  {
+    "part": 3,
+    "section": "Double Bottom",
+    "abbreviation": "DB",
+    "note": "",
+    "normalized": "double bottom"
+  },
+  {
+    "part": 3,
+    "section": "Failed Double Bottom",
+    "abbreviation": "DB F",
+    "note": "",
+    "normalized": "failed double bottom"
+  },
+  {
+    "part": 3,
+    "section": "Double Bottom Bull Flag",
+    "abbreviation": "DB BLF",
+    "note": "",
+    "normalized": "double bottom bull flag"
+  },
+  {
+    "part": 3,
+    "section": "Double Bottom Bull Flag, 2nd Buy Signal",
+    "abbreviation": "DB BLF 2BS",
+    "note": "",
+    "normalized": "double bottom bull flag 2nd buy signal"
+  },
+  {
+    "part": 3,
+    "section": "Double Bottom Bull Flag, but Bear BO",
+    "abbreviation": "DB BLF F",
+    "note": "",
+    "normalized": "double bottom bull flag but bear bo"
+  },
+  {
+    "part": 3,
+    "section": "Failed BO Below Double Bottom so Wedge Bottom",
+    "abbreviation": "DB F BO Below",
+    "note": "",
+    "normalized": "failed bo below double bottom so wedge bottom"
+  },
+  {
+    "part": 3,
+    "section": "Micro Double Bottom",
+    "abbreviation": "DB Micro",
+    "note": "",
+    "normalized": "micro double bottom"
+  },
+  {
+    "part": 3,
+    "section": "Double Bottom Pullback",
+    "abbreviation": "DB PB",
+    "note": "",
+    "normalized": "double bottom pullback"
+  },
+  {
+    "part": 3,
+    "section": "Failed Double Bottom Pullback",
+    "abbreviation": "DB PB F",
+    "note": "",
+    "normalized": "failed double bottom pullback"
+  },
+  {
+    "part": 3,
+    "section": "Disappointed Bulls",
+    "abbreviation": "Disappointed BL",
+    "note": "",
+    "normalized": "disappointed bulls"
+  },
+  {
+    "part": 3,
+    "section": "Disappointed Bears",
+    "abbreviation": "Disappointed BR",
+    "note": "",
+    "normalized": "disappointed bears"
+  },
+  {
+    "part": 3,
+    "section": "Doji Bar",
+    "abbreviation": "Doji",
+    "note": "",
+    "normalized": "doji bar"
+  },
+  {
+    "part": 3,
+    "section": "Doji Day",
+    "abbreviation": "Doji Day",
+    "note": "",
+    "normalized": "doji day"
+  },
+  {
+    "part": 3,
+    "section": "Double Top",
+    "abbreviation": "DT",
+    "note": "",
+    "normalized": "double top"
+  },
+  {
+    "part": 3,
+    "section": "Failed Double Top",
+    "abbreviation": "DT F",
+    "note": "",
+    "normalized": "failed double top"
+  },
+  {
+    "part": 3,
+    "section": "Double Top Bear Flag",
+    "abbreviation": "DT BRF",
+    "note": "",
+    "normalized": "double top bear flag"
+  },
+  {
+    "part": 3,
+    "section": "Double Top Bear Flag, 2nd Sell Signal",
+    "abbreviation": "DT BRF 2SS",
+    "note": "",
+    "normalized": "double top bear flag 2nd sell signal"
+  },
+  {
+    "part": 3,
+    "section": "Double Top Bear Flag, but Bull BO",
+    "abbreviation": "DT BRF F",
+    "note": "",
+    "normalized": "double top bear flag but bull bo"
+  },
+  {
+    "part": 3,
+    "section": "Failed BO above Double Top So Wedge Top",
+    "abbreviation": "DT F BO Above",
+    "note": "",
+    "normalized": "failed bo above double top so wedge top"
+  },
+  {
+    "part": 3,
+    "section": "Micro Double Top",
+    "abbreviation": "DT Micro",
+    "note": "",
+    "normalized": "micro double top"
+  },
+  {
+    "part": 3,
+    "section": "Double Top Pullback",
+    "abbreviation": "DT PB",
+    "note": "",
+    "normalized": "double top pullback"
+  },
+  {
+    "part": 3,
+    "section": "Failed Double Top Pullback",
+    "abbreviation": "DT PB F",
+    "note": "",
+    "normalized": "failed double top pullback"
+  },
+  {
+    "part": 3,
+    "section": "Early Close (holiday trading)",
+    "abbreviation": "Early C",
+    "note": "",
+    "normalized": "early close holiday trading"
+  },
+  {
+    "part": 3,
+    "section": "EOD Bull Breakout",
+    "abbreviation": "EOD BL BO",
+    "note": "",
+    "normalized": "eod bull breakout"
+  },
+  {
+    "part": 3,
+    "section": "EOD Profit Taking in Bull Trend",
+    "abbreviation": "EOD BL Profit Taking",
+    "note": "",
+    "normalized": "eod profit taking in bull trend"
+  },
+  {
+    "part": 3,
+    "section": "EOD Bear Breakout",
+    "abbreviation": "EOD BR BO",
+    "note": "",
+    "normalized": "eod bear breakout"
+  },
+  {
+    "part": 3,
+    "section": "EOD Profit Taking in Bear Trend",
+    "abbreviation": "EOD BR Profit Taking",
+    "note": "",
+    "normalized": "eod profit taking in bear trend"
+  },
+  {
+    "part": 3,
+    "section": "End of Day Close in Middle of Day",
+    "abbreviation": "EOD C in Middle of Day",
+    "note": "",
+    "normalized": "end of day close in middle of day"
+  },
+  {
+    "part": 3,
+    "section": "End of Day Trend Resumption or Trend Reversal",
+    "abbreviation": "EOD TRES TREV",
+    "note": "",
+    "normalized": "end of day trend resumption or trend reversal"
+  },
+  {
+    "part": 3,
+    "section": "End Of Day Tight Trading Range",
+    "abbreviation": "EOD TTR",
+    "note": "",
+    "normalized": "end of day tight trading range"
+  },
+  {
+    "part": 3,
+    "section": "End Of Day and End of Month, Quarter, or Year",
+    "abbreviation": "EOD M Qtr Y",
+    "note": "",
+    "normalized": "end of day and end of month quarter or year"
+  },
+  {
+    "part": 3,
+    "section": "End of Week Support and Resistance",
+    "abbreviation": "EOD Week S/R",
+    "note": "",
+    "normalized": "end of week support and resistance"
+  },
+  {
+    "part": 3,
+    "section": "Exit Losing Trade",
+    "abbreviation": "Exit Losing Trade",
+    "note": "",
+    "normalized": "exit losing trade"
+  },
+  {
+    "part": 3,
+    "section": "Final Bull Flag",
+    "abbreviation": "FF BL",
+    "note": "",
+    "normalized": "final bull flag"
+  },
+  {
+    "part": 3,
+    "section": "Final Bull Flag Failed, and Bull Trend Resumed",
+    "abbreviation": "FF BL F",
+    "note": "",
+    "normalized": "final bull flag failed and bull trend resumed"
+  },
+  {
+    "part": 3,
+    "section": "Final Bear Flag",
+    "abbreviation": "FF BR",
+    "note": "",
+    "normalized": "final bear flag"
+  },
+  {
+    "part": 3,
+    "section": "Final Bear Flag Failed, and Bear Trend Resumed",
+    "abbreviation": "FF BR F",
+    "note": "",
+    "normalized": "final bear flag failed and bear trend resumed"
+  },
+  {
+    "part": 3,
+    "section": "Flag: Bear",
+    "abbreviation": "Flag BR",
+    "note": "",
+    "normalized": "flag bear"
+  },
+  {
+    "part": 3,
+    "section": "Failed Bear Flag",
+    "abbreviation": "Flag BR F",
+    "note": "",
+    "normalized": "failed bear flag"
+  },
+  {
+    "part": 3,
+    "section": "Flag: Bull",
+    "abbreviation": "Flag BL",
+    "note": "",
+    "normalized": "flag bull"
+  },
+  {
+    "part": 3,
+    "section": "Failed Bull Flag",
+    "abbreviation": "Flag BL F",
+    "note": "",
+    "normalized": "failed bull flag"
+  },
+  {
+    "part": 3,
+    "section": "Flag, but Looks Bad",
+    "abbreviation": "Flag Bad",
+    "note": "",
+    "normalized": "flag but looks bad"
+  },
+  {
+    "part": 3,
+    "section": "FOMC Possible Outcomes",
+    "abbreviation": "FOMC Possible Outcomes",
+    "note": "",
+    "normalized": "fomc possible outcomes"
+  },
+  {
+    "part": 3,
+    "section": "FOMC Bear BO",
+    "abbreviation": "FOMC BO D",
+    "note": "",
+    "normalized": "fomc bear bo"
+  },
+  {
+    "part": 3,
+    "section": "FOMC Bear BO Failed",
+    "abbreviation": "FOMC BO D F",
+    "note": "",
+    "normalized": "fomc bear bo failed"
+  },
+  {
+    "part": 3,
+    "section": "FOMC Bull BO",
+    "abbreviation": "FOMC BO U",
+    "note": "",
+    "normalized": "fomc bull bo"
+  },
+  {
+    "part": 3,
+    "section": "FOMC Bull BO Failed",
+    "abbreviation": "FOMC BO U F",
+    "note": "",
+    "normalized": "fomc bull bo failed"
+  },
+  {
+    "part": 3,
+    "section": "FOMC then Trading Range",
+    "abbreviation": "FOMC TR",
+    "note": "",
+    "normalized": "fomc then trading range"
+  },
+  {
+    "part": 3,
+    "section": "Follow-Through Selling in Bear Trend",
+    "abbreviation": "FT D",
+    "note": "",
+    "normalized": "followthrough selling in bear trend"
+  },
+  {
+    "part": 3,
+    "section": "No Follow-Through Selling in Bear Trend",
+    "abbreviation": "FT D F",
+    "note": "",
+    "normalized": "no followthrough selling in bear trend"
+  },
+  {
+    "part": 3,
+    "section": "Follow-Through Buying in Bull Trend",
+    "abbreviation": "FT U",
+    "note": "",
+    "normalized": "followthrough buying in bull trend"
+  },
+  {
+    "part": 3,
+    "section": "No Follow-Through Buying in Bull Trend",
+    "abbreviation": "FT U F",
+    "note": "",
+    "normalized": "no followthrough buying in bull trend"
+  },
+  {
+    "part": 4,
+    "section": "Gap on 5 Minute Chart",
+    "abbreviation": "G 5 Min",
+    "note": "",
+    "normalized": "gap on 5 minute chart"
+  },
+  {
+    "part": 4,
+    "section": "Body Gap in Bear",
+    "abbreviation": "G Body D",
+    "note": "",
+    "normalized": "body gap in bear"
+  },
+  {
+    "part": 4,
+    "section": "Closure of Body Gap in Bear",
+    "abbreviation": "G Body D F",
+    "note": "",
+    "normalized": "closure of body gap in bear"
+  },
+  {
+    "part": 4,
+    "section": "Body Gap in Bull",
+    "abbreviation": "G Body U",
+    "note": "",
+    "normalized": "body gap in bull"
+  },
+  {
+    "part": 4,
+    "section": "Closure of Body Gap in Bull",
+    "abbreviation": "G Body U F",
+    "note": "",
+    "normalized": "closure of body gap in bull"
+  },
+  {
+    "part": 4,
+    "section": "Gap Down",
+    "abbreviation": "G D",
+    "note": "",
+    "normalized": "gap down"
+  },
+  {
+    "part": 4,
+    "section": "Gap on Daily Chart",
+    "abbreviation": "G Daily",
+    "note": "",
+    "normalized": "gap on daily chart"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Down",
+    "abbreviation": "G E D",
+    "note": "",
+    "normalized": "exhaustion gap down"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Down on Daily , Weekly, and Monthly Charts",
+    "abbreviation": "G E D DWM",
+    "note": "",
+    "normalized": "exhaustion gap down on daily weekly and monthly charts"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Down Failed and Became Measuring Gap",
+    "abbreviation": "G E D F so MG",
+    "note": "",
+    "normalized": "exhaustion gap down failed and became measuring gap"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Up",
+    "abbreviation": "G E U",
+    "note": "",
+    "normalized": "exhaustion gap up"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Up on Daily, Weekly, and Monthly Charts",
+    "abbreviation": "G E U DWM",
+    "note": "",
+    "normalized": "exhaustion gap up on daily weekly and monthly charts"
+  },
+  {
+    "part": 4,
+    "section": "Exhaustion Gap Up Failed and Became Measuring Gap",
+    "abbreviation": "G E U F so MG",
+    "note": "",
+    "normalized": "exhaustion gap up failed and became measuring gap"
+  },
+  {
+    "part": 4,
+    "section": "Micro Gaps",
+    "abbreviation": "G Micro",
+    "note": "",
+    "normalized": "micro gaps"
+  },
+  {
+    "part": 4,
+    "section": "Gap Based on Open of Bar and Close of Prior Bar",
+    "abbreviation": "G Open Bar",
+    "note": "",
+    "normalized": "gap based on open of bar and close of prior bar"
+  },
+  {
+    "part": 4,
+    "section": "Gap Up",
+    "abbreviation": "G U",
+    "note": "",
+    "normalized": "gap up"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down, 4 Common Outcomes",
+    "abbreviation": "GD 4 Common Outcomes",
+    "note": "",
+    "normalized": "gap down 4 common outcomes"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Rally to a Buy Climax",
+    "abbreviation": "GD BX",
+    "note": "",
+    "normalized": "gap down and rally to a buy climax"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Rally to a Buy Climax, but Became Bull Flag",
+    "abbreviation": "GD BX F",
+    "note": "",
+    "normalized": "gap down and rally to a buy climax but became bull flag"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Then Double Bottom",
+    "abbreviation": "GD DB",
+    "note": "",
+    "normalized": "gap down and then double bottom"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down, Double Bottom Failed",
+    "abbreviation": "GD DB F",
+    "note": "",
+    "normalized": "gap down double bottom failed"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Then Rally to Double Top Bear Flag",
+    "abbreviation": "GD DT",
+    "note": "",
+    "normalized": "gap down and then rally to double top bear flag"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Double Top Bear Flag, but Failed and Reversed Up",
+    "abbreviation": "GD DT F",
+    "note": "",
+    "normalized": "gap down and double top bear flag but failed and reversed up"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and High 2 Buy Setup",
+    "abbreviation": "GD H2",
+    "note": "",
+    "normalized": "gap down and high 2 buy setup"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and High 2 Buy Setup Failed, and Bear Trend Resumed",
+    "abbreviation": "GD H2 F",
+    "note": "",
+    "normalized": "gap down and high 2 buy setup failed and bear trend resumed"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Low 2 Bear Flag",
+    "abbreviation": "GD L2",
+    "note": "",
+    "normalized": "gap down and low 2 bear flag"
+  },
+  {
+    "part": 5,
+    "section": "Gap Down and Low 2 Top, but Failed and Reversed Up",
+    "abbreviation": "GD L2 F",
+    "note": "",
+    "normalized": "gap down and low 2 top but failed and reversed up"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Opening Reversal Down From 60 min EMA",
+    "abbreviation": "GD ORD 60ma",
+    "note": "",
+    "normalized": "gap down and opening reversal down from 60 min ema"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Failed Opening Reversal Down From 60 min EMA",
+    "abbreviation": "GD ORD 60ma F",
+    "note": "",
+    "normalized": "gap down and failed opening reversal down from 60 min ema"
+  },
+  {
+    "part": 6,
+    "section": "Big Gap Down in Stocks",
+    "abbreviation": "GD Stocks",
+    "note": "",
+    "normalized": "big gap down in stocks"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Sell Climax, Then Reversal Up",
+    "abbreviation": "GD SX",
+    "note": "",
+    "normalized": "gap down and sell climax then reversal up"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Sell Climax, Then Reversal Up Failed",
+    "abbreviation": "GD SX F",
+    "note": "",
+    "normalized": "gap down and sell climax then reversal up failed"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bear Trend From The Open",
+    "abbreviation": "GD T1B D",
+    "note": "",
+    "normalized": "gap down and bear trend from the open"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bear Trend From The Open, Then Reversal",
+    "abbreviation": "GD T1B D Rev",
+    "note": "",
+    "normalized": "gap down and bear trend from the open then reversal"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bear Trend From The Open, Then Trading Range",
+    "abbreviation": "GD T1B D TR",
+    "note": "",
+    "normalized": "gap down and bear trend from the open then trading range"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bull Trend From The Open",
+    "abbreviation": "GD T1B U",
+    "note": "",
+    "normalized": "gap down and bull trend from the open"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bull Trend From The Open, Then Reversal",
+    "abbreviation": "GD T1B U Rev",
+    "note": "",
+    "normalized": "gap down and bull trend from the open then reversal"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bull Trend From The Open, Then Trading Range",
+    "abbreviation": "GD T1B U TR",
+    "note": "",
+    "normalized": "gap down and bull trend from the open then trading range"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bull Trap",
+    "abbreviation": "GD Trap BL",
+    "note": "",
+    "normalized": "gap down and bull trap"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Bear Trap",
+    "abbreviation": "GD Trap BR",
+    "note": "",
+    "normalized": "gap down and bear trap"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and TR Open, and Trading Range Day",
+    "abbreviation": "GD TRO and TR Day",
+    "note": "",
+    "normalized": "gap down and tr open and trading range day"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down, TR Open and Bull BO",
+    "abbreviation": "GD TRO BL BO",
+    "note": "",
+    "normalized": "gap down tr open and bull bo"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down, TR Open and Failed Bull BO",
+    "abbreviation": "GD TRO BL BO F",
+    "note": "",
+    "normalized": "gap down tr open and failed bull bo"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down, TR Open and Bear BO",
+    "abbreviation": "GD TRO BR BO",
+    "note": "",
+    "normalized": "gap down tr open and bear bo"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down, TR Open and Failed Bear BO",
+    "abbreviation": "GD TRO BR BO F",
+    "note": "",
+    "normalized": "gap down tr open and failed bear bo"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and TR Open, Triangle, Bull Breakout",
+    "abbreviation": "GD TRO Tri BL BO",
+    "note": "",
+    "normalized": "gap down and tr open triangle bull breakout"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and TR Open, Triangle, Failed Bull Breakout",
+    "abbreviation": "GD TRO Tri BL BO F",
+    "note": "",
+    "normalized": "gap down and tr open triangle failed bull breakout"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and TR Open, Triangle, Bear Breakout",
+    "abbreviation": "GD TRO Tri BR BO",
+    "note": "",
+    "normalized": "gap down and tr open triangle bear breakout"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and TR Open, Triangle, Failed Bear Breakout",
+    "abbreviation": "GD TRO Tri BR BO F",
+    "note": "",
+    "normalized": "gap down and tr open triangle failed bear breakout"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Wedge Bottom",
+    "abbreviation": "GD W D BL BO",
+    "note": "",
+    "normalized": "gap down and wedge bottom"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Wedge Bottom, but Bull BO Failed",
+    "abbreviation": "GD W D BL BO F",
+    "note": "",
+    "normalized": "gap down and wedge bottom but bull bo failed"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Wedge Bottom, but Bear BO, and Bear Trend Resumed",
+    "abbreviation": "GD W D BR BO",
+    "note": "",
+    "normalized": "gap down and wedge bottom but bear bo and bear trend resumed"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Wedge Bottom, but Bear BO Failed, and Reversed Up",
+    "abbreviation": "GD W D BR BO F",
+    "note": "",
+    "normalized": "gap down and wedge bottom but bear bo failed and reversed up"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Parabolic Wedge Bottom",
+    "abbreviation": "GD W D P",
+    "note": "",
+    "normalized": "gap down and parabolic wedge bottom"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Failed Parabolic Wedge Bottom",
+    "abbreviation": "GD W D P F",
+    "note": "",
+    "normalized": "gap down and failed parabolic wedge bottom"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Rally to Wedge Top",
+    "abbreviation": "GD W U BR BO",
+    "note": "",
+    "normalized": "gap down and rally to wedge top"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Rally to Wedge Top, but Bull BO, and Bull Trend Resumed",
+    "abbreviation": "GD W U BL BO",
+    "note": "",
+    "normalized": "gap down and rally to wedge top but bull bo and bull trend resumed"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Rally to Wedge Top, but Bull BO Failed, and Reversed Down",
+    "abbreviation": "GD W U BL BO F",
+    "note": "",
+    "normalized": "gap down and rally to wedge top but bull bo failed and reversed down"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Rally to Wedge Top, but Bear BO Failed",
+    "abbreviation": "GD W U BR BO F",
+    "note": "",
+    "normalized": "gap down and rally to wedge top but bear bo failed"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Parabolic Wedge Top",
+    "abbreviation": "GD W U P",
+    "note": "",
+    "normalized": "gap down and parabolic wedge top"
+  },
+  {
+    "part": 6,
+    "section": "Gap Down and Failed Parabolic Wedge Top",
+    "abbreviation": "GD W U P F",
+    "note": "",
+    "normalized": "gap down and failed parabolic wedge top"
+  },
+  {
+    "part": 6,
+    "section": "Globex Range: Breakout",
+    "abbreviation": "Globex Range BO",
+    "note": "",
+    "normalized": "globex range breakout"
+  },
+  {
+    "part": 6,
+    "section": "Globex Range: No Breakout",
+    "abbreviation": "Globex Range No BO",
+    "note": "",
+    "normalized": "globex range no breakout"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up, 4 Common Outcomes",
+    "abbreviation": "GU 4 Common Outcomes",
+    "note": "",
+    "normalized": "gap up 4 common outcomes"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Reversal Down from Buy Climax",
+    "abbreviation": "GU BX",
+    "note": "",
+    "normalized": "gap up and reversal down from buy climax"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Reversal Down from Buy Climax, but Became Bull Flag",
+    "abbreviation": "GU BX F",
+    "note": "",
+    "normalized": "gap up and reversal down from buy climax but became bull flag"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Double Bottom",
+    "abbreviation": "GU DB",
+    "note": "",
+    "normalized": "gap up and double bottom"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Double Bottom Failed",
+    "abbreviation": "GU DB F",
+    "note": "",
+    "normalized": "gap up and double bottom failed"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up, Then Double Top",
+    "abbreviation": "GU DT",
+    "note": "",
+    "normalized": "gap up then double top"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up, Double Top Failed",
+    "abbreviation": "GU DT F",
+    "note": "",
+    "normalized": "gap up double top failed"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up, Then High 2 Bull Flag",
+    "abbreviation": "GU H2",
+    "note": "",
+    "normalized": "gap up then high 2 bull flag"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Failed High 2 Bull Flag",
+    "abbreviation": "GU H2 F",
+    "note": "",
+    "normalized": "gap up and failed high 2 bull flag"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Low 2 Top",
+    "abbreviation": "GU L2",
+    "note": "",
+    "normalized": "gap up and low 2 top"
+  },
+  {
+    "part": 7,
+    "section": "Gap Up and Failed Low 2 Top, Then Bull Trend Resumed",
+    "abbreviation": "GU L2 F",
+    "note": "",
+    "normalized": "gap up and failed low 2 top then bull trend resumed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Opening Reversal Up From 60 min EMA",
+    "abbreviation": "GU ORU 60ma",
+    "note": "",
+    "normalized": "gap up and opening reversal up from 60 min ema"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Failed Opening Reversal Up From 60 min EMA",
+    "abbreviation": "GU ORU 60ma F",
+    "note": "",
+    "normalized": "gap up and failed opening reversal up from 60 min ema"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Sell Climax, Then Reversal Up",
+    "abbreviation": "GU SX",
+    "note": "",
+    "normalized": "gap up and sell climax then reversal up"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Sell Climax, Then Reversal Up, Failed",
+    "abbreviation": "GU SX F",
+    "note": "",
+    "normalized": "gap up and sell climax then reversal up failed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bear Trend From The Open",
+    "abbreviation": "GU T1B D",
+    "note": "",
+    "normalized": "gap up and bear trend from the open"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bear Trend From The Open, Then Reversal",
+    "abbreviation": "GU T1B D Rev",
+    "note": "",
+    "normalized": "gap up and bear trend from the open then reversal"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bear Trend From The Open Then Trading Range",
+    "abbreviation": "GU T1B D TR",
+    "note": "",
+    "normalized": "gap up and bear trend from the open then trading range"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bull Trend From The Open",
+    "abbreviation": "GU T1B U",
+    "note": "",
+    "normalized": "gap up and bull trend from the open"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bull Trend From The Open, Then Reversal",
+    "abbreviation": "GU T1B U Rev",
+    "note": "",
+    "normalized": "gap up and bull trend from the open then reversal"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bull Trend From The Open, Then Trading Range",
+    "abbreviation": "GU T1B U TR",
+    "note": "",
+    "normalized": "gap up and bull trend from the open then trading range"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bull Trap",
+    "abbreviation": "GU Trap BL",
+    "note": "",
+    "normalized": "gap up and bull trap"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Bear Trap",
+    "abbreviation": "GU Trap BR",
+    "note": "",
+    "normalized": "gap up and bear trap"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and TR Open, and Trading Range Day",
+    "abbreviation": "GU TRO and TR Day",
+    "note": "",
+    "normalized": "gap up and tr open and trading range day"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up, TR Open and Bull BO",
+    "abbreviation": "GU TRO BL BO",
+    "note": "",
+    "normalized": "gap up tr open and bull bo"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up, TR Open and Failed Bull BO",
+    "abbreviation": "GU TRO BL BO F",
+    "note": "",
+    "normalized": "gap up tr open and failed bull bo"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up, TR Open and Bear BO",
+    "abbreviation": "GU TRO BR BO",
+    "note": "",
+    "normalized": "gap up tr open and bear bo"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up, TR Open and Failed Bear BO",
+    "abbreviation": "GU TRO BR BO F",
+    "note": "",
+    "normalized": "gap up tr open and failed bear bo"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and TR Open, Triangle, Bull Breakout",
+    "abbreviation": "GU TRO Tri BL BO",
+    "note": "",
+    "normalized": "gap up and tr open triangle bull breakout"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and TR Open, Triangle, Failed Bull Breakout",
+    "abbreviation": "GU TRO Tri BL BO F",
+    "note": "",
+    "normalized": "gap up and tr open triangle failed bull breakout"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and TR Open, Triangle, Bear Breakout",
+    "abbreviation": "GU TRO Tri BR BO",
+    "note": "",
+    "normalized": "gap up and tr open triangle bear breakout"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and TR Open, Triangle, Failed Bear Breakout",
+    "abbreviation": "GU TRO Tri BR BO F",
+    "note": "",
+    "normalized": "gap up and tr open triangle failed bear breakout"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Selloff to Wedge Bottom",
+    "abbreviation": "GU W D BL BO",
+    "note": "",
+    "normalized": "gap up and selloff to wedge bottom"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Selloff to Wedge Bottom, but Bull BO Failed",
+    "abbreviation": "GU W D BL BO F",
+    "note": "",
+    "normalized": "gap up and selloff to wedge bottom but bull bo failed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Selloff to Wedge Bottom, but Bear BO",
+    "abbreviation": "GU W D BR BO",
+    "note": "",
+    "normalized": "gap up and selloff to wedge bottom but bear bo"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Selloff to Wedge Bottom, but Bear BO Failed, and Bull Trend Resumed",
+    "abbreviation": "GU W D BR BO F",
+    "note": "",
+    "normalized": "gap up and selloff to wedge bottom but bear bo failed and bull trend resumed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Parabolic Wedge Bottom",
+    "abbreviation": "GU W D P",
+    "note": "",
+    "normalized": "gap up and parabolic wedge bottom"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Failed Parabolic Wedge Bottom",
+    "abbreviation": "GU W D P F",
+    "note": "",
+    "normalized": "gap up and failed parabolic wedge bottom"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Wedge Top",
+    "abbreviation": "GU W U BR BO",
+    "note": "",
+    "normalized": "gap up and wedge top"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Wedge Top, but Bull BO and Bull Trend Resumed",
+    "abbreviation": "GU W U BL BO",
+    "note": "",
+    "normalized": "gap up and wedge top but bull bo and bull trend resumed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Wedge Top, but Bull BO Failed, and Reversed Down",
+    "abbreviation": "GU W U BL BO F",
+    "note": "",
+    "normalized": "gap up and wedge top but bull bo failed and reversed down"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Rally to Wedge Top, but Bear BO Failed",
+    "abbreviation": "GD W U BR BO F",
+    "note": "",
+    "normalized": "gap up and rally to wedge top but bear bo failed"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Parabolic Wedge Top",
+    "abbreviation": "GU W U P",
+    "note": "",
+    "normalized": "gap up and parabolic wedge top"
+  },
+  {
+    "part": 8,
+    "section": "Gap Up and Failed Parabolic Wedge Top",
+    "abbreviation": "GU W U P F",
+    "note": "",
+    "normalized": "gap up and failed parabolic wedge top"
+  },
+  {
+    "part": 9,
+    "section": "High 1 Bull Flag",
+    "abbreviation": "H1",
+    "note": "",
+    "normalized": "high 1 bull flag"
+  },
+  {
+    "part": 9,
+    "section": "High 2 and 3 Bull Flags and Bottoms",
+    "abbreviation": "H2 and 3",
+    "note": "",
+    "normalized": "high 2 and 3 bull flags and bottoms"
+  },
+  {
+    "part": 9,
+    "section": "High 4 Bull Flags and Bottoms",
+    "abbreviation": "H4",
+    "note": "",
+    "normalized": "high 4 bull flags and bottoms"
+  },
+  {
+    "part": 9,
+    "section": "Head and Shoulders Bottom",
+    "abbreviation": "HSB",
+    "note": "",
+    "normalized": "head and shoulders bottom"
+  },
+  {
+    "part": 9,
+    "section": "Failed Head and Shoulders Bottom",
+    "abbreviation": "HSB F",
+    "note": "",
+    "normalized": "failed head and shoulders bottom"
+  },
+  {
+    "part": 9,
+    "section": "Head and Shoulders Top",
+    "abbreviation": "HST",
+    "note": "",
+    "normalized": "head and shoulders top"
+  },
+  {
+    "part": 9,
+    "section": "Failed Head and Shoulders Top",
+    "abbreviation": "HST F",
+    "note": "",
+    "normalized": "failed head and shoulders top"
+  },
+  {
+    "part": 9,
+    "section": "Higher Time Frame Buy and Sell Signals",
+    "abbreviation": "HTF B and S Signals",
+    "note": "",
+    "normalized": "higher time frame buy and sell signals"
+  },
+  {
+    "part": 9,
+    "section": "Higher Time Frame Charts",
+    "abbreviation": "HTF Charts",
+    "note": "",
+    "normalized": "higher time frame charts"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bull Trend, Bull Breakout",
+    "abbreviation": "ii BLT BL BO",
+    "note": "",
+    "normalized": "ii consecutive inside bars bull trend bull breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bull Trend, Failed Bull Breakout",
+    "abbreviation": "ii BLT BL BO F",
+    "note": "",
+    "normalized": "ii consecutive inside bars bull trend failed bull breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bull Trend, Bear Breakout",
+    "abbreviation": "ii BLT BR BO",
+    "note": "",
+    "normalized": "ii consecutive inside bars bull trend bear breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bull Trend, Failed Bear Breakout",
+    "abbreviation": "ii BLT BR BO F",
+    "note": "",
+    "normalized": "ii consecutive inside bars bull trend failed bear breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bear Trend, Bull Breakout",
+    "abbreviation": "ii BRT BL BO",
+    "note": "",
+    "normalized": "ii consecutive inside bars bear trend bull breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bear Trend, Failed Bull Breakout",
+    "abbreviation": "ii BRT BL BO F",
+    "note": "",
+    "normalized": "ii consecutive inside bars bear trend failed bull breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bear Trend, Bear Breakout",
+    "abbreviation": "ii BRT BR BO",
+    "note": "",
+    "normalized": "ii consecutive inside bars bear trend bear breakout"
+  },
+  {
+    "part": 9,
+    "section": "ii Consecutive Inside Bars, Bear Trend, Failed Bear Breakout",
+    "abbreviation": "ii BRT BR BO F",
+    "note": "",
+    "normalized": "ii consecutive inside bars bear trend failed bear breakout"
+  },
+  {
+    "part": 9,
+    "section": "ioi Inside, Outside, Inside Sell Signal",
+    "abbreviation": "ioi D",
+    "note": "",
+    "normalized": "ioi inside outside inside sell signal"
+  },
+  {
+    "part": 9,
+    "section": "ioi Inside, Outside, Inside Sell Signal, but Failed",
+    "abbreviation": "ioi D F",
+    "note": "",
+    "normalized": "ioi inside outside inside sell signal but failed"
+  },
+  {
+    "part": 9,
+    "section": "ioi Inside, Outside, Inside Buy Signal",
+    "abbreviation": "ioi U",
+    "note": "",
+    "normalized": "ioi inside outside inside buy signal"
+  },
+  {
+    "part": 9,
+    "section": "ioi Inside, Outside, Inside Buy Signal, but Failed",
+    "abbreviation": "ioi U F",
+    "note": "",
+    "normalized": "ioi inside outside inside buy signal but failed"
+  },
+  {
+    "part": 9,
+    "section": "Inside Day",
+    "abbreviation": "Inside Day",
+    "note": "",
+    "normalized": "inside day"
+  },
+  {
+    "part": 9,
+    "section": "Inside Day But Late Breakout",
+    "abbreviation": "Inside Day F",
+    "note": "",
+    "normalized": "inside day but late breakout"
+  },
+  {
+    "part": 9,
+    "section": "Island Bottom",
+    "abbreviation": "Island Bottom",
+    "note": "",
+    "normalized": "island bottom"
+  },
+  {
+    "part": 9,
+    "section": "Island Bottom, but Gap Up Closed",
+    "abbreviation": "Island Bottom F",
+    "note": "",
+    "normalized": "island bottom but gap up closed"
+  },
+  {
+    "part": 9,
+    "section": "Island Top",
+    "abbreviation": "Island Top",
+    "note": "",
+    "normalized": "island top"
+  },
+  {
+    "part": 9,
+    "section": "Island Top but Gap Down Closed",
+    "abbreviation": "Island Top F",
+    "note": "",
+    "normalized": "island top but gap down closed"
+  },
+  {
+    "part": 9,
+    "section": "Low 1 Bear Flag",
+    "abbreviation": "L1",
+    "note": "",
+    "normalized": "low 1 bear flag"
+  },
+  {
+    "part": 9,
+    "section": "Low 2 and 3 Bear Flags and Tops",
+    "abbreviation": "L2 and 3",
+    "note": "",
+    "normalized": "low 2 and 3 bear flags and tops"
+  },
+  {
+    "part": 9,
+    "section": "Low 4 Bear Flags and Tops",
+    "abbreviation": "L4",
+    "note": "",
+    "normalized": "low 4 bear flags and tops"
+  },
+  {
+    "part": 9,
+    "section": "Ledge Bottom",
+    "abbreviation": "Ledge Bottom",
+    "note": "",
+    "normalized": "ledge bottom"
+  },
+  {
+    "part": 9,
+    "section": "Ledge Top",
+    "abbreviation": "Ledge Top",
+    "note": "",
+    "normalized": "ledge top"
+  },
+  {
+    "part": 9,
+    "section": "Limit Down",
+    "abbreviation": "Limit Down",
+    "note": "",
+    "normalized": "limit down"
+  },
+  {
+    "part": 9,
+    "section": "Limit Order Bears",
+    "abbreviation": "Limit Order Bears",
+    "note": "",
+    "normalized": "limit order bears"
+  },
+  {
+    "part": 9,
+    "section": "Limit Order Bulls",
+    "abbreviation": "Limit Order Bulls",
+    "note": "",
+    "normalized": "limit order bulls"
+  },
+  {
+    "part": 9,
+    "section": "Limit Order Market",
+    "abbreviation": "Limit Order Market",
+    "note": "",
+    "normalized": "limit order market"
+  },
+  {
+    "part": 9,
+    "section": "Limit Up",
+    "abbreviation": "Limit Up",
+    "note": "",
+    "normalized": "limit up"
+  },
+  {
+    "part": 9,
+    "section": "Line Overshoot and Undershoot",
+    "abbreviation": "Line Overshoot and Undershoot",
+    "note": "",
+    "normalized": "line overshoot and undershoot"
+  },
+  {
+    "part": 9,
+    "section": "Long Liquidation",
+    "abbreviation": "Long Liquidation",
+    "note": "",
+    "normalized": "long liquidation"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average 20 Gap Bar Buy",
+    "abbreviation": "MA 20 GB B",
+    "note": "",
+    "normalized": "moving average 20 gap bar buy"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average 20 Gap Bar Buy, Failed",
+    "abbreviation": "MA 20 GB B F",
+    "note": "",
+    "normalized": "moving average 20 gap bar buy failed"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average 20 Gap Bar Sell",
+    "abbreviation": "MA 20 GB S",
+    "note": "",
+    "normalized": "moving average 20 gap bar sell"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average 20 Gap Bar Sell, Failed",
+    "abbreviation": "MA 20 GB S F",
+    "note": "",
+    "normalized": "moving average 20 gap bar sell failed"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Pullback in Bull Trend",
+    "abbreviation": "MA B in BL",
+    "note": "",
+    "normalized": "moving average pullback in bull trend"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Pullback in Bear Trend",
+    "abbreviation": "MA S in BR",
+    "note": "",
+    "normalized": "moving average pullback in bear trend"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Gap Bars in Bull Trend",
+    "abbreviation": "MAG BL",
+    "note": "",
+    "normalized": "moving average gap bars in bull trend"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Gap Bars in Bull Trend, but Became Bear Trend",
+    "abbreviation": "MAG BL F",
+    "note": "",
+    "normalized": "moving average gap bars in bull trend but became bear trend"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Gap Bars in Bear Trend",
+    "abbreviation": "MAG BR",
+    "note": "",
+    "normalized": "moving average gap bars in bear trend"
+  },
+  {
+    "part": 10,
+    "section": "Moving Average Gap Bars in Bear Trend, but Became Bull Trend",
+    "abbreviation": "MAG BR F",
+    "note": "",
+    "normalized": "moving average gap bars in bear trend but became bull trend"
+  },
+  {
+    "part": 10,
+    "section": "Micro Emini",
+    "abbreviation": "Micro Emini",
+    "note": "",
+    "normalized": "micro emini"
+  },
+  {
+    "part": 10,
+    "section": "Micro Patterns",
+    "abbreviation": "Micro Patterns",
+    "note": "",
+    "normalized": "micro patterns"
+  },
+  {
+    "part": 10,
+    "section": "Midday Reversal Up",
+    "abbreviation": "Midday Rev BL",
+    "note": "",
+    "normalized": "midday reversal up"
+  },
+  {
+    "part": 10,
+    "section": "Failed Midday Reversal Up",
+    "abbreviation": "Midday Rev BL F",
+    "note": "",
+    "normalized": "failed midday reversal up"
+  },
+  {
+    "part": 10,
+    "section": "Midday Reversal Up Then Trading Range",
+    "abbreviation": "Midday Rev BL TR",
+    "note": "",
+    "normalized": "midday reversal up then trading range"
+  },
+  {
+    "part": 10,
+    "section": "Midday Reversal Down",
+    "abbreviation": "Midday Rev BR",
+    "note": "",
+    "normalized": "midday reversal down"
+  },
+  {
+    "part": 10,
+    "section": "Failed Midday Reversal Down",
+    "abbreviation": "Midday Rev BR F",
+    "note": "",
+    "normalized": "failed midday reversal down"
+  },
+  {
+    "part": 10,
+    "section": "Midday Reversal Down Then Trading Range",
+    "abbreviation": "Midday Rev BR TR",
+    "note": "",
+    "normalized": "midday reversal down then trading range"
+  },
+  {
+    "part": 10,
+    "section": "Midpoint of Day's Range",
+    "abbreviation": "Midpoint Range",
+    "note": "",
+    "normalized": "midpoint of days range"
+  },
+  {
+    "part": 10,
+    "section": "Minor Bottoms",
+    "abbreviation": "Minor Bottoms",
+    "note": "",
+    "normalized": "minor bottoms"
+  },
+  {
+    "part": 10,
+    "section": "Minor Bottoms Become Major",
+    "abbreviation": "Minor Bottoms Become Major",
+    "note": "",
+    "normalized": "minor bottoms become major"
+  },
+  {
+    "part": 10,
+    "section": "Minor Tops",
+    "abbreviation": "Minor Tops",
+    "note": "",
+    "normalized": "minor tops"
+  },
+  {
+    "part": 10,
+    "section": "Minor Tops Become Major",
+    "abbreviation": "Minor Tops Become Major",
+    "note": "",
+    "normalized": "minor tops become major"
+  },
+  {
+    "part": 10,
+    "section": "Measured Move Down",
+    "abbreviation": "MM D",
+    "note": "",
+    "normalized": "measured move down"
+  },
+  {
+    "part": 10,
+    "section": "Measured Move from High or Low to Open",
+    "abbreviation": "MM from H or L to open",
+    "note": "New section",
+    "normalized": "measured move from high or low to open"
+  },
+  {
+    "part": 10,
+    "section": "Leg 1 = Leg 2 Measured Move",
+    "abbreviation": "MM L1 = L2",
+    "note": "",
+    "normalized": "leg 1 leg 2 measured move"
+  },
+  {
+    "part": 10,
+    "section": "Measured Move up",
+    "abbreviation": "MM U",
+    "note": "",
+    "normalized": "measured move up"
+  },
+  {
+    "part": 10,
+    "section": "Measured Move Based on Actual Risk and Implied Risk",
+    "abbreviation": "MM AR and IR",
+    "note": "",
+    "normalized": "measured move based on actual risk and implied risk"
+  },
+  {
+    "part": 10,
+    "section": "Minor Reversal Down so Bull Flag or Bear Leg in Trading Range",
+    "abbreviation": "MRV D",
+    "note": "",
+    "normalized": "minor reversal down so bull flag or bear leg in trading range"
+  },
+  {
+    "part": 10,
+    "section": "Minor Reversal Up so Bear Flag or Bull Leg in Trading Range",
+    "abbreviation": "MRV U",
+    "note": "",
+    "normalized": "minor reversal up so bear flag or bull leg in trading range"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up from Double Bottom",
+    "abbreviation": "MTR DB",
+    "note": "",
+    "normalized": "major trend reversal up from double bottom"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up from Double Bottom, but Failed",
+    "abbreviation": "MTR DB F",
+    "note": "",
+    "normalized": "major trend reversal up from double bottom but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down from Double Top",
+    "abbreviation": "MTR DT",
+    "note": "",
+    "normalized": "major trend reversal down from double top"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down from Double Top, but Failed",
+    "abbreviation": "MTR DT F",
+    "note": "",
+    "normalized": "major trend reversal down from double top but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down from Higher High",
+    "abbreviation": "MTR HH",
+    "note": "",
+    "normalized": "major trend reversal down from higher high"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Higher High, but Failed",
+    "abbreviation": "MTR HH F",
+    "note": "",
+    "normalized": "major trend reversal down from higher high but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Higher Low",
+    "abbreviation": "MTR HL",
+    "note": "",
+    "normalized": "major trend reversal up from higher low"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Higher Low That Was a Double Bottom",
+    "abbreviation": "MTR HL DB",
+    "note": "",
+    "normalized": "major trend reversal up from higher low that was a double bottom"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Double Bottom Higher Low, but Failed",
+    "abbreviation": "MTR HL DB F",
+    "note": "",
+    "normalized": "major trend reversal up from double bottom higher low but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Higher Low, Failed",
+    "abbreviation": "MTR HL F",
+    "note": "",
+    "normalized": "major trend reversal higher low failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Higher Low and Head And Shoulders Bottom",
+    "abbreviation": "MTR HL HSB",
+    "note": "",
+    "normalized": "major trend reversal up from higher low and head and shoulders bottom"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Lower High",
+    "abbreviation": "MTR LH",
+    "note": "",
+    "normalized": "major trend reversal down from lower high"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Lower High, but Failed",
+    "abbreviation": "MTR LH F",
+    "note": "",
+    "normalized": "major trend reversal down from lower high but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Lower High That Was a Double Top",
+    "abbreviation": "MTR LH DT",
+    "note": "",
+    "normalized": "major trend reversal down from lower high that was a double top"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Double Top Lower High, but Failed",
+    "abbreviation": "MTR LH DT F",
+    "note": "",
+    "normalized": "major trend reversal down from double top lower high but failed"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Down From Lower High and Head And Shoulders Top",
+    "abbreviation": "MTR LH HST",
+    "note": "",
+    "normalized": "major trend reversal down from lower high and head and shoulders top"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Lower Low",
+    "abbreviation": "MTR LL",
+    "note": "",
+    "normalized": "major trend reversal up from lower low"
+  },
+  {
+    "part": 10,
+    "section": "Major Trend Reversal Up From Lower Low, but Failed",
+    "abbreviation": "MTR LL F",
+    "note": "",
+    "normalized": "major trend reversal up from lower low but failed"
+  },
+  {
+    "part": 11,
+    "section": "Nested Pattern",
+    "abbreviation": "Nested",
+    "note": "",
+    "normalized": "nested pattern"
+  },
+  {
+    "part": 11,
+    "section": "Next X Points",
+    "abbreviation": "Next X Points",
+    "note": "",
+    "normalized": "next x points"
+  },
+  {
+    "part": 11,
+    "section": "Open Was the High of the Day",
+    "abbreviation": "O = H",
+    "note": "",
+    "normalized": "open was the high of the day"
+  },
+  {
+    "part": 11,
+    "section": "Open Was the High of the Day, Failed",
+    "abbreviation": "O = H F",
+    "note": "",
+    "normalized": "open was the high of the day failed"
+  },
+  {
+    "part": 11,
+    "section": "Open Was the Low of the Day",
+    "abbreviation": "O = L",
+    "note": "",
+    "normalized": "open was the low of the day"
+  },
+  {
+    "part": 11,
+    "section": "Open Was the Low of the Day, Failed",
+    "abbreviation": "O = L F",
+    "note": "",
+    "normalized": "open was the low of the day failed"
+  },
+  {
+    "part": 11,
+    "section": "Open Had Many Bull Bars",
+    "abbreviation": "O BLB",
+    "note": "",
+    "normalized": "open had many bull bars"
+  },
+  {
+    "part": 11,
+    "section": "Open Had Many Bear Bars",
+    "abbreviation": "O BRB",
+    "note": "",
+    "normalized": "open had many bear bars"
+  },
+  {
+    "part": 11,
+    "section": "Open Was Limit Order Market",
+    "abbreviation": "O LOM",
+    "note": "",
+    "normalized": "open was limit order market"
+  },
+  {
+    "part": 11,
+    "section": "Outside Down Day",
+    "abbreviation": "OD",
+    "note": "",
+    "normalized": "outside down day"
+  },
+  {
+    "part": 11,
+    "section": "Outside Down Day Almost Formed or Test of Yesterday's Low",
+    "abbreviation": "OD Almost or Test LOY",
+    "note": "",
+    "normalized": "outside down day almost formed or test of yesterdays low"
+  },
+  {
+    "part": 11,
+    "section": "Outside Down Day Almost, but Failed and Got Outside Down",
+    "abbreviation": "OD Almost, Failed",
+    "note": "",
+    "normalized": "outside down day almost but failed and got outside down"
+  },
+  {
+    "part": 11,
+    "section": "Outside Down Bar",
+    "abbreviation": "OD Bar",
+    "note": "",
+    "normalized": "outside down bar"
+  },
+  {
+    "part": 11,
+    "section": "Outside Down and Then Outside Up",
+    "abbreviation": "ODU",
+    "note": "",
+    "normalized": "outside down and then outside up"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Bull Flag",
+    "abbreviation": "OO BL Flag",
+    "note": "",
+    "normalized": "consecutive outside bars bull flag"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Bull Flag but Failed",
+    "abbreviation": "OO BL Flag F",
+    "note": "",
+    "normalized": "consecutive outside bars bull flag but failed"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Bottom",
+    "abbreviation": "OO Bottom",
+    "note": "",
+    "normalized": "consecutive outside bars bottom"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Failed Bottom",
+    "abbreviation": "OO Bottom F",
+    "note": "",
+    "normalized": "consecutive outside bars failed bottom"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Bear Flag",
+    "abbreviation": "OO BR Flag",
+    "note": "",
+    "normalized": "consecutive outside bars bear flag"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Bear Flag but Failed",
+    "abbreviation": "OO BR Flag F",
+    "note": "",
+    "normalized": "consecutive outside bars bear flag but failed"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars on Daily Chart",
+    "abbreviation": "OO Day",
+    "note": "",
+    "normalized": "consecutive outside bars on daily chart"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Top",
+    "abbreviation": "OO Top",
+    "note": "",
+    "normalized": "consecutive outside bars top"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars, Failed Top",
+    "abbreviation": "OO Top F",
+    "note": "",
+    "normalized": "consecutive outside bars failed top"
+  },
+  {
+    "part": 11,
+    "section": "Consecutive Outside Bars in Tight Trading Range",
+    "abbreviation": "OO TTR",
+    "note": "",
+    "normalized": "consecutive outside bars in tight trading range"
+  },
+  {
+    "part": 11,
+    "section": "3 or More Consecutive Outside Bars",
+    "abbreviation": "OOO and OOOO",
+    "note": "",
+    "normalized": "3 or more consecutive outside bars"
+  },
+  {
+    "part": 11,
+    "section": "OOO and OOOO Day",
+    "abbreviation": "OOO and OOOO Day",
+    "note": "",
+    "normalized": "ooo and oooo day"
+  },
+  {
+    "part": 11,
+    "section": "Options",
+    "abbreviation": "Options",
+    "note": "",
+    "normalized": "options"
+  },
+  {
+    "part": 11,
+    "section": "Stop and Limit Order Entries",
+    "abbreviation": "Orders Stop and Limit",
+    "note": "",
+    "normalized": "stop and limit order entries"
+  },
+  {
+    "part": 11,
+    "section": "Outside Up Day",
+    "abbreviation": "OU",
+    "note": "",
+    "normalized": "outside up day"
+  },
+  {
+    "part": 11,
+    "section": "Outside Up Day Almost Formed or Test of Yesterday's High",
+    "abbreviation": "OU Almost or Test HOY",
+    "note": "",
+    "normalized": "outside up day almost formed or test of yesterdays high"
+  },
+  {
+    "part": 11,
+    "section": "Outside Up Day Almost, but Failed and Got Outside Up",
+    "abbreviation": "OU Almost, Failed",
+    "note": "",
+    "normalized": "outside up day almost but failed and got outside up"
+  },
+  {
+    "part": 11,
+    "section": "Outside Up Bar",
+    "abbreviation": "OU Bar",
+    "note": "",
+    "normalized": "outside up bar"
+  },
+  {
+    "part": 11,
+    "section": "Outside Up Day and Then Outside Down",
+    "abbreviation": "OUD",
+    "note": "",
+    "normalized": "outside up day and then outside down"
+  },
+  {
+    "part": 11,
+    "section": "Probability Is Low So Risk/Reward is Good",
+    "abbreviation": "P L so Big Reward",
+    "note": "",
+    "normalized": "probability is low so riskreward is good"
+  },
+  {
+    "part": 11,
+    "section": "Pullback",
+    "abbreviation": "PB",
+    "note": "",
+    "normalized": "pullback"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to 5%, 10%, or 20% from all-time high",
+    "abbreviation": "PB 5, 10, or 20%",
+    "note": "",
+    "normalized": "pullback to 5 10 or 20 from alltime high"
+  },
+  {
+    "part": 11,
+    "section": "Pullback 50%",
+    "abbreviation": "PB 50%",
+    "note": "",
+    "normalized": "pullback 50"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to above Bear Breakout",
+    "abbreviation": "PB Above BR BO",
+    "note": "",
+    "normalized": "pullback to above bear breakout"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to above Bear Breakout Failed and Became Measuring Gap",
+    "abbreviation": "PB Above BR BO F",
+    "note": "",
+    "normalized": "pullback to above bear breakout failed and became measuring gap"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to below Bull Breakout",
+    "abbreviation": "PB Below BL BO",
+    "note": "",
+    "normalized": "pullback to below bull breakout"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to below Bull Breakout Failed and Became Measuring Gap",
+    "abbreviation": "PB Below BL BO F",
+    "note": "",
+    "normalized": "pullback to below bull breakout failed and became measuring gap"
+  },
+  {
+    "part": 11,
+    "section": "Deep PB in Bull Trend",
+    "abbreviation": "PB Deep BL",
+    "note": "",
+    "normalized": "deep pb in bull trend"
+  },
+  {
+    "part": 11,
+    "section": "Deep PB in Bear Trend",
+    "abbreviation": "PB Deep BR",
+    "note": "",
+    "normalized": "deep pb in bear trend"
+  },
+  {
+    "part": 11,
+    "section": "Pullback Down In Bull Trend That Is Endless",
+    "abbreviation": "PB Endless D",
+    "note": "",
+    "normalized": "pullback down in bull trend that is endless"
+  },
+  {
+    "part": 11,
+    "section": "Pullback Down In Bull Trend that Is Endless, but Bull Trend Resumed",
+    "abbreviation": "PB Endless D F",
+    "note": "",
+    "normalized": "pullback down in bull trend that is endless but bull trend resumed"
+  },
+  {
+    "part": 11,
+    "section": "Pullback Up In Bear Trend That is Endless",
+    "abbreviation": "PB Endless U",
+    "note": "",
+    "normalized": "pullback up in bear trend that is endless"
+  },
+  {
+    "part": 11,
+    "section": "Pullback Up In Bear Trend That is Endless, but Bear Trend Resumed",
+    "abbreviation": "PB Endless U F",
+    "note": "",
+    "normalized": "pullback up in bear trend that is endless but bear trend resumed"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to Bull Trend Line",
+    "abbreviation": "PB TL BL",
+    "note": "",
+    "normalized": "pullback to bull trend line"
+  },
+  {
+    "part": 11,
+    "section": "Pullback to Bear Trend Line",
+    "abbreviation": "PB TL BR",
+    "note": "",
+    "normalized": "pullback to bear trend line"
+  },
+  {
+    "part": 11,
+    "section": "Buying Pressure",
+    "abbreviation": "Pressure Buying",
+    "note": "",
+    "normalized": "buying pressure"
+  },
+  {
+    "part": 11,
+    "section": "Buying Pressure, Failed, Got Bear BO",
+    "abbreviation": "Pressure Buying F",
+    "note": "",
+    "normalized": "buying pressure failed got bear bo"
+  },
+  {
+    "part": 11,
+    "section": "Selling Pressure",
+    "abbreviation": "Pressure Selling",
+    "note": "",
+    "normalized": "selling pressure"
+  },
+  {
+    "part": 11,
+    "section": "Selling Pressure, Failed, Got Bull BO",
+    "abbreviation": "Pressure Selling F",
+    "note": "",
+    "normalized": "selling pressure failed got bull bo"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Down",
+    "abbreviation": "Rev D",
+    "note": "",
+    "normalized": "reversal down"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Down Failed and Bull Trend Resumed",
+    "abbreviation": "Rev D F",
+    "note": "",
+    "normalized": "reversal down failed and bull trend resumed"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Down and then Reversal Up",
+    "abbreviation": "Rev D U",
+    "note": "",
+    "normalized": "reversal down and then reversal up"
+  },
+  {
+    "part": 12,
+    "section": "Many Abrupt Reversals",
+    "abbreviation": "Rev Many",
+    "note": "",
+    "normalized": "many abrupt reversals"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Up",
+    "abbreviation": "Rev U",
+    "note": "",
+    "normalized": "reversal up"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Up and then Reversal Down",
+    "abbreviation": "Rev U D",
+    "note": "",
+    "normalized": "reversal up and then reversal down"
+  },
+  {
+    "part": 12,
+    "section": "Reversal Up Failed and Bear Trend Resumed",
+    "abbreviation": "Rev U F",
+    "note": "",
+    "normalized": "reversal up failed and bear trend resumed"
+  },
+  {
+    "part": 12,
+    "section": "Reversing Position",
+    "abbreviation": "Reversing Position",
+    "note": "",
+    "normalized": "reversing position"
+  },
+  {
+    "part": 12,
+    "section": "Risk Happens Fast (Type of Fast Reversal)",
+    "abbreviation": "Risk Happens Fast",
+    "note": "",
+    "normalized": "risk happens fast type of fast reversal"
+  },
+  {
+    "part": 12,
+    "section": "Rollover",
+    "abbreviation": "Rollover",
+    "note": "",
+    "normalized": "rollover"
+  },
+  {
+    "part": 12,
+    "section": "Bull BO above Tight TR Bear Flag (Rounding Bottom)",
+    "abbreviation": "Rounding Bottom",
+    "note": "",
+    "normalized": "bull bo above tight tr bear flag rounding bottom"
+  },
+  {
+    "part": 12,
+    "section": "Bear BO below Tight TR Bull Flag (Rounding Top)",
+    "abbreviation": "Rounding Top",
+    "note": "",
+    "normalized": "bear bo below tight tr bull flag rounding top"
+  },
+  {
+    "part": 12,
+    "section": "Bad Buy Signal Bar",
+    "abbreviation": "SB B Bad",
+    "note": "",
+    "normalized": "bad buy signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Buy Signal Bar, but Bad Context",
+    "abbreviation": "SB B Bad Context",
+    "note": "",
+    "normalized": "buy signal bar but bad context"
+  },
+  {
+    "part": 12,
+    "section": "Big Buy Signal Bar",
+    "abbreviation": "SB B Big",
+    "note": "",
+    "normalized": "big buy signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Good Buy Signal Bar",
+    "abbreviation": "SB B Good",
+    "note": "",
+    "normalized": "good buy signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Buy Signal Bar on Higher Time Frame",
+    "abbreviation": "SB B HTF",
+    "note": "",
+    "normalized": "buy signal bar on higher time frame"
+  },
+  {
+    "part": 12,
+    "section": "Small Buy Signal Bar",
+    "abbreviation": "SB B Small",
+    "note": "",
+    "normalized": "small buy signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, 2nd Buy Signal",
+    "abbreviation": "SB B2",
+    "note": "",
+    "normalized": "signal bar 2nd buy signal"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, Failed 2nd Buy Signal",
+    "abbreviation": "SB B2 F",
+    "note": "",
+    "normalized": "signal bar failed 2nd buy signal"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, Avoid 3rd Buy Signal",
+    "abbreviation": "SB B3 Avoid",
+    "note": "",
+    "normalized": "signal bar avoid 3rd buy signal"
+  },
+  {
+    "part": 12,
+    "section": "Outside Down Sell Signal Bar",
+    "abbreviation": "SB OD",
+    "note": "",
+    "normalized": "outside down sell signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Outside Up Buy Signal Bar",
+    "abbreviation": "SB OU",
+    "note": "",
+    "normalized": "outside up buy signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Bad Sell Signal Bar",
+    "abbreviation": "SB S Bad",
+    "note": "",
+    "normalized": "bad sell signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Sell Signal Bar, but Bad Context",
+    "abbreviation": "SB S Bad Context",
+    "note": "",
+    "normalized": "sell signal bar but bad context"
+  },
+  {
+    "part": 12,
+    "section": "Big Sell Signal Bar",
+    "abbreviation": "SB S Big",
+    "note": "",
+    "normalized": "big sell signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Good Sell Signal Bar",
+    "abbreviation": "SB S Good",
+    "note": "",
+    "normalized": "good sell signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Sell Signal Bar on Higher Time Frame",
+    "abbreviation": "SB S HTF",
+    "note": "",
+    "normalized": "sell signal bar on higher time frame"
+  },
+  {
+    "part": 12,
+    "section": "Small Sell Signal Bar",
+    "abbreviation": "SB S Small",
+    "note": "",
+    "normalized": "small sell signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, 2nd Sell Signal",
+    "abbreviation": "SB S2",
+    "note": "",
+    "normalized": "signal bar 2nd sell signal"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, Failed 2nd Sell Signal",
+    "abbreviation": "SB S2 F",
+    "note": "",
+    "normalized": "signal bar failed 2nd sell signal"
+  },
+  {
+    "part": 12,
+    "section": "Signal Bar, Avoid 3rd Sell Signal",
+    "abbreviation": "SB S3 Avoid",
+    "note": "",
+    "normalized": "signal bar avoid 3rd sell signal"
+  },
+  {
+    "part": 12,
+    "section": "Strong Signal Bar",
+    "abbreviation": "SB Strong",
+    "note": "",
+    "normalized": "strong signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Weak Signal Bar",
+    "abbreviation": "SB Weak",
+    "note": "",
+    "normalized": "weak signal bar"
+  },
+  {
+    "part": 12,
+    "section": "Scaling Into Longs",
+    "abbreviation": "Scale in BL",
+    "note": "",
+    "normalized": "scaling into longs"
+  },
+  {
+    "part": 12,
+    "section": "Scaling Into Longs, but Lost Money",
+    "abbreviation": "Scale in BL Lose",
+    "note": "",
+    "normalized": "scaling into longs but lost money"
+  },
+  {
+    "part": 12,
+    "section": "Scaling Into Shorts",
+    "abbreviation": "Scale In BR",
+    "note": "",
+    "normalized": "scaling into shorts"
+  },
+  {
+    "part": 12,
+    "section": "Scaling Into Shorts, but Lost Money",
+    "abbreviation": "Scale in BR Lose",
+    "note": "",
+    "normalized": "scaling into shorts but lost money"
+  },
+  {
+    "part": 12,
+    "section": "Short Covering",
+    "abbreviation": "Short Covering",
+    "note": "",
+    "normalized": "short covering"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bull Trend",
+    "abbreviation": "SPBL",
+    "note": "",
+    "normalized": "small pullback bull trend"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bull Trend That Reversed Down",
+    "abbreviation": "SPBL F",
+    "note": "",
+    "normalized": "small pullback bull trend that reversed down"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bull Trend in Trading Range Day",
+    "abbreviation": "SPBL TRD",
+    "note": "",
+    "normalized": "small pullback bull trend in trading range day"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bear Trend",
+    "abbreviation": "SPBR",
+    "note": "",
+    "normalized": "small pullback bear trend"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bear Trend That Reversed Up",
+    "abbreviation": "SPBR F",
+    "note": "",
+    "normalized": "small pullback bear trend that reversed up"
+  },
+  {
+    "part": 13,
+    "section": "Small Pullback Bear Leg in Trading Range Day",
+    "abbreviation": "SPBR TRD",
+    "note": "",
+    "normalized": "small pullback bear leg in trading range day"
+  },
+  {
+    "part": 13,
+    "section": "Support and Resistance",
+    "abbreviation": "SR",
+    "note": "",
+    "normalized": "support and resistance"
+  },
+  {
+    "part": 13,
+    "section": "Support and Resistance on Daily, Weekly, and Monthly Charts",
+    "abbreviation": "SR DWM",
+    "note": "",
+    "normalized": "support and resistance on daily weekly and monthly charts"
+  },
+  {
+    "part": 13,
+    "section": "Stairs in Bear Trend",
+    "abbreviation": "Stairs D",
+    "note": "",
+    "normalized": "stairs in bear trend"
+  },
+  {
+    "part": 13,
+    "section": "Stairs in Bull Trend and then in Bear Trend",
+    "abbreviation": "Stairs U then D",
+    "note": "",
+    "normalized": "stairs in bull trend and then in bear trend"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Bear Trend",
+    "abbreviation": "STC",
+    "note": "",
+    "normalized": "sell the close bear trend"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Bear Trend, but Disappointment Bears",
+    "abbreviation": "STC DBR",
+    "note": "",
+    "normalized": "sell the close bear trend but disappointment bears"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Bear Trend, Disappointment Bar, but Bear Trend Continued",
+    "abbreviation": "STC DBR F",
+    "note": "",
+    "normalized": "sell the close bear trend disappointment bar but bear trend continued"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close, but Disappointed Bears Lost Money",
+    "abbreviation": "STC DBR Lose",
+    "note": "",
+    "normalized": "sell the close but disappointed bears lost money"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Bear Trend With Deep Pullback",
+    "abbreviation": "STC Deep PB",
+    "note": "",
+    "normalized": "sell the close bear trend with deep pullback"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Failed and Became Exhaustion Gap",
+    "abbreviation": "STC EG",
+    "note": "",
+    "normalized": "sell the close failed and became exhaustion gap"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Selloff at the End Of The Day",
+    "abbreviation": "STC EOD",
+    "note": "",
+    "normalized": "sell the close selloff at the end of the day"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close Selloff at the End, but started Too Early",
+    "abbreviation": "STC EOD Too Early",
+    "note": "",
+    "normalized": "sell the close selloff at the end but started too early"
+  },
+  {
+    "part": 13,
+    "section": "Sell The Close in TR so Better to B Close of Bear Bars",
+    "abbreviation": "STC TR so BTC",
+    "note": "",
+    "normalized": "sell the close in tr so better to b close of bear bars"
+  },
+  {
+    "part": 13,
+    "section": "Stopped Out of a Trade",
+    "abbreviation": "Stopped Out",
+    "note": "",
+    "normalized": "stopped out of a trade"
+  },
+  {
+    "part": 13,
+    "section": "Stopped Out of a Trade and then Reverse",
+    "abbreviation": "Stopped Out and Reverse",
+    "note": "",
+    "normalized": "stopped out of a trade and then reverse"
+  },
+  {
+    "part": 13,
+    "section": "Stop, Breakeven",
+    "abbreviation": "Stop Breakeven",
+    "note": "",
+    "normalized": "stop breakeven"
+  },
+  {
+    "part": 13,
+    "section": "In B The Close, Stop 4 - 8 Ticks below Bull Bar",
+    "abbreviation": "Stop 4t BTC",
+    "note": "",
+    "normalized": "in b the close stop 4 8 ticks below bull bar"
+  },
+  {
+    "part": 13,
+    "section": "In S The Close, Stop 4 - 8 Ticks above Bear Bar",
+    "abbreviation": "Stop 4t STC",
+    "note": "",
+    "normalized": "in s the close stop 4 8 ticks above bear bar"
+  },
+  {
+    "part": 13,
+    "section": "Stop Slippage",
+    "abbreviation": "Stop Slippage",
+    "note": "",
+    "normalized": "stop slippage"
+  },
+  {
+    "part": 13,
+    "section": "Stop that is Wider than Usual",
+    "abbreviation": "Stop Wide",
+    "note": "",
+    "normalized": "stop that is wider than usual"
+  },
+  {
+    "part": 13,
+    "section": "Bull Streak (Bullish Behavior That Repeats for a Long Time)",
+    "abbreviation": "Streak BL",
+    "note": "",
+    "normalized": "bull streak bullish behavior that repeats for a long time"
+  },
+  {
+    "part": 13,
+    "section": "Bull Streak on Higher Time Frames",
+    "abbreviation": "Streak BL HTF",
+    "note": "",
+    "normalized": "bull streak on higher time frames"
+  },
+  {
+    "part": 13,
+    "section": "Bear Streak (Bearish Behavior That Repeats for a Long Time)",
+    "abbreviation": "Streak BR",
+    "note": "",
+    "normalized": "bear streak bearish behavior that repeats for a long time"
+  },
+  {
+    "part": 13,
+    "section": "Bear Streak on Higher Time Frames",
+    "abbreviation": "Streak BR HTF",
+    "note": "",
+    "normalized": "bear streak on higher time frames"
+  },
+  {
+    "part": 13,
+    "section": "Swing Trading",
+    "abbreviation": "Swing Trading",
+    "note": "",
+    "normalized": "swing trading"
+  },
+  {
+    "part": 13,
+    "section": "Sell Climax",
+    "abbreviation": "SX",
+    "note": "",
+    "normalized": "sell climax"
+  },
+  {
+    "part": 13,
+    "section": "Consecutive Sell Climaxes",
+    "abbreviation": "SX CC",
+    "note": "",
+    "normalized": "consecutive sell climaxes"
+  },
+  {
+    "part": 13,
+    "section": "Sell Climax, Then Deep Pullback (bounce)",
+    "abbreviation": "SX Deep PB",
+    "note": "",
+    "normalized": "sell climax then deep pullback bounce"
+  },
+  {
+    "part": 13,
+    "section": "Exhaustive Sell Climax",
+    "abbreviation": "SX E",
+    "note": "",
+    "normalized": "exhaustive sell climax"
+  },
+  {
+    "part": 13,
+    "section": "Sell Climax but Failed Reversal",
+    "abbreviation": "SX F",
+    "note": "",
+    "normalized": "sell climax but failed reversal"
+  },
+  {
+    "part": 13,
+    "section": "Sell Climax that Led to Measured Move Up",
+    "abbreviation": "SX MMU",
+    "note": "",
+    "normalized": "sell climax that led to measured move up"
+  },
+  {
+    "part": 13,
+    "section": "Sell Climax Yesterday",
+    "abbreviation": "SX Y",
+    "note": "",
+    "normalized": "sell climax yesterday"
+  },
+  {
+    "part": 14,
+    "section": "Takeover",
+    "abbreviation": "Takeover",
+    "note": "",
+    "normalized": "takeover"
+  },
+  {
+    "part": 14,
+    "section": "Time Frames",
+    "abbreviation": "TF",
+    "note": "",
+    "normalized": "time frames"
+  },
+  {
+    "part": 14,
+    "section": "Ticks During Stock Market Crashes",
+    "abbreviation": "Ticks Crash",
+    "note": "",
+    "normalized": "ticks during stock market crashes"
+  },
+  {
+    "part": 14,
+    "section": "Ticks Below -1,000 in Bear Trend",
+    "abbreviation": "Ticks D",
+    "note": "",
+    "normalized": "ticks below 1000 in bear trend"
+  },
+  {
+    "part": 14,
+    "section": "Ticks Below -1,000 and Reversal Up Without Divergence",
+    "abbreviation": "Ticks D F",
+    "note": "",
+    "normalized": "ticks below 1000 and reversal up without divergence"
+  },
+  {
+    "part": 14,
+    "section": "Ticks Reaching 1,000 During Bull Trend",
+    "abbreviation": "Ticks U",
+    "note": "",
+    "normalized": "ticks reaching 1000 during bull trend"
+  },
+  {
+    "part": 14,
+    "section": "Ticks Reaching 1,000 and Reversal Down Without Divergence",
+    "abbreviation": "Ticks U F",
+    "note": "",
+    "normalized": "ticks reaching 1000 and reversal down without divergence"
+  },
+  {
+    "part": 14,
+    "section": "Early Bear BO Based on Time (Many Bear Bars)",
+    "abbreviation": "Time BO D",
+    "note": "",
+    "normalized": "early bear bo based on time many bear bars"
+  },
+  {
+    "part": 14,
+    "section": "Early Bull BO Based on Time (Many Bull Bars)",
+    "abbreviation": "Time BO U",
+    "note": "",
+    "normalized": "early bull bo based on time many bull bars"
+  },
+  {
+    "part": 14,
+    "section": "Buy Climax Based on Many Small Bull Bars",
+    "abbreviation": "Time BX",
+    "note": "",
+    "normalized": "buy climax based on many small bull bars"
+  },
+  {
+    "part": 14,
+    "section": "Sell Climax based Based on Many Small Bear Bars",
+    "abbreviation": "Time SX",
+    "note": "",
+    "normalized": "sell climax based based on many small bear bars"
+  },
+  {
+    "part": 14,
+    "section": "Breakout above Bear Trend Line",
+    "abbreviation": "TL BO above BR TL",
+    "note": "",
+    "normalized": "breakout above bear trend line"
+  },
+  {
+    "part": 14,
+    "section": "Breakout below Bull Trend Line",
+    "abbreviation": "TL BO below BL TL",
+    "note": "",
+    "normalized": "breakout below bull trend line"
+  },
+  {
+    "part": 14,
+    "section": "Trend Lines Not The Same On Different Time Frames",
+    "abbreviation": "TL Different TF",
+    "note": "",
+    "normalized": "trend lines not the same on different time frames"
+  },
+  {
+    "part": 14,
+    "section": "Trend Line on Monthly Chart",
+    "abbreviation": "TL Month",
+    "note": "",
+    "normalized": "trend line on monthly chart"
+  },
+  {
+    "part": 14,
+    "section": "Trend Line Overshoots",
+    "abbreviation": "TL Overshoots",
+    "note": "",
+    "normalized": "trend line overshoots"
+  },
+  {
+    "part": 14,
+    "section": "Trading Range Reversals, 2nd B and S Signals",
+    "abbreviation": "TR 2BS 2SS",
+    "note": "",
+    "normalized": "trading range reversals 2nd b and s signals"
+  },
+  {
+    "part": 14,
+    "section": "Trading Range Then Bull BO",
+    "abbreviation": "TR BL BO",
+    "note": "",
+    "normalized": "trading range then bull bo"
+  },
+  {
+    "part": 14,
+    "section": "Trading Range Bull Swing and Then Bear Swing",
+    "abbreviation": "TR BL then BR",
+    "note": "",
+    "normalized": "trading range bull swing and then bear swing"
+  },
+  {
+    "part": 14,
+    "section": "Trading Range Then Bear BO",
+    "abbreviation": "TR BR BO",
+    "note": "",
+    "normalized": "trading range then bear bo"
+  },
+  {
+    "part": 14,
+    "section": "Trading Range Bear Swing and Then Bull Swing",
+    "abbreviation": "TR BR then BL",
+    "note": "",
+    "normalized": "trading range bear swing and then bull swing"
+  },
+  {
+    "part": 14,
+    "section": "Tight Trading Range",
+    "abbreviation": "TR Tight",
+    "note": "",
+    "normalized": "tight trading range"
+  },
+  {
+    "part": 14,
+    "section": "Tight Trading Range at 12:45 pm PST",
+    "abbreviation": "TT Tight 12:45",
+    "note": "",
+    "normalized": "tight trading range at 1245 pm pst"
+  },
+  {
+    "part": 14,
+    "section": "Trader's Equation",
+    "abbreviation": "Trader's Equation",
+    "note": "",
+    "normalized": "traders equation"
+  },
+  {
+    "part": 14,
+    "section": "Trap Is a Failed BO or Failed Signal",
+    "abbreviation": "Trap",
+    "note": "",
+    "normalized": "trap is a failed bo or failed signal"
+  },
+  {
+    "part": 14,
+    "section": "2nd Leg Bull Trap (Failed Bull BO)",
+    "abbreviation": "Trap 2LT BL",
+    "note": "",
+    "normalized": "2nd leg bull trap failed bull bo"
+  },
+  {
+    "part": 14,
+    "section": "2nd Leg Bull Trap, Failed",
+    "abbreviation": "Trap 2LT BL F",
+    "note": "",
+    "normalized": "2nd leg bull trap failed"
+  },
+  {
+    "part": 14,
+    "section": "2nd Leg Bear Trap (Failed Bear BO)",
+    "abbreviation": "Trap 2LT BR",
+    "note": "",
+    "normalized": "2nd leg bear trap failed bear bo"
+  },
+  {
+    "part": 14,
+    "section": "2nd Leg Bear Trap, Failed",
+    "abbreviation": "Trap 2LT BR F",
+    "note": "",
+    "normalized": "2nd leg bear trap failed"
+  },
+  {
+    "part": 14,
+    "section": "Traps, 5 Ticks, 9 Ticks, 17 Ticks, 21 ticks, 41 ticks, and 81 Ticks",
+    "abbreviation": "Trap 5t 9t 17t 21t 41t 81t",
+    "note": "",
+    "normalized": "traps 5 ticks 9 ticks 17 ticks 21 ticks 41 ticks and 81 ticks"
+  },
+  {
+    "part": 14,
+    "section": "Bull Trap",
+    "abbreviation": "Trap BL",
+    "note": "",
+    "normalized": "bull trap"
+  },
+  {
+    "part": 14,
+    "section": "Bull Trap Early in Bear Trend",
+    "abbreviation": "Trap BL Early BR Trend",
+    "note": "",
+    "normalized": "bull trap early in bear trend"
+  },
+  {
+    "part": 14,
+    "section": "Bull Trap, but Failed and Bull Continued",
+    "abbreviation": "Trap BL F",
+    "note": "",
+    "normalized": "bull trap but failed and bull continued"
+  },
+  {
+    "part": 14,
+    "section": "Bear Trap",
+    "abbreviation": "Trap BR",
+    "note": "",
+    "normalized": "bear trap"
+  },
+  {
+    "part": 14,
+    "section": "Bear Trap Early in Bull Trend",
+    "abbreviation": "Trap BR Early BL Trend",
+    "note": "",
+    "normalized": "bear trap early in bull trend"
+  },
+  {
+    "part": 14,
+    "section": "Bear Trap, but Failed and Bear Continued",
+    "abbreviation": "Trap BR F",
+    "note": "",
+    "normalized": "bear trap but failed and bear continued"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day",
+    "abbreviation": "TRD",
+    "note": "",
+    "normalized": "trading range day"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day with Late Bull Breakout",
+    "abbreviation": "TRD BL BO",
+    "note": "",
+    "normalized": "trading range day with late bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day with Failed Late Bull Breakout",
+    "abbreviation": "TRD BL BO F",
+    "note": "",
+    "normalized": "trading range day with failed late bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day with Failed Bull and Bear Breakouts",
+    "abbreviation": "TRD BL BR BO F",
+    "note": "",
+    "normalized": "trading range day with failed bull and bear breakouts"
+  },
+  {
+    "part": 15,
+    "section": "Bull Leg In Trading Range Day",
+    "abbreviation": "TRD BL Leg",
+    "note": "",
+    "normalized": "bull leg in trading range day"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day with Late Bear Breakout",
+    "abbreviation": "TRD BR BO",
+    "note": "",
+    "normalized": "trading range day with late bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day with Failed Late Bear Breakout",
+    "abbreviation": "TRD BR BO F",
+    "note": "",
+    "normalized": "trading range day with failed late bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "Bear Leg In Trading Range Day",
+    "abbreviation": "TRD BR Leg",
+    "note": "",
+    "normalized": "bear leg in trading range day"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range with Midday Breakout Down",
+    "abbreviation": "TRD Midday BO D",
+    "note": "",
+    "normalized": "trading range with midday breakout down"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range with Midday Breakout Up",
+    "abbreviation": "TRD Midday BO U",
+    "note": "",
+    "normalized": "trading range with midday breakout up"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day, Close near Open so Doji Day",
+    "abbreviation": "TRD O Doji",
+    "note": "",
+    "normalized": "trading range day close near open so doji day"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day, Open in Exact Middle of Day's Range",
+    "abbreviation": "TRD O Middle",
+    "note": "",
+    "normalized": "trading range day open in exact middle of days range"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day, Late Rally Up to Test Open",
+    "abbreviation": "TRD O Test BL",
+    "note": "",
+    "normalized": "trading range day late rally up to test open"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Day, Late Selloff Down to Test Open",
+    "abbreviation": "TRD O Test BR",
+    "note": "",
+    "normalized": "trading range day late selloff down to test open"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range Doji on Weekly Chart",
+    "abbreviation": "TRD OOW Doji",
+    "note": "",
+    "normalized": "trading range doji on weekly chart"
+  },
+  {
+    "part": 15,
+    "section": "Trading Range with 2 Support Levels below or 2 Resistance Levels Above",
+    "abbreviation": "TRD S/R x2",
+    "note": "",
+    "normalized": "trading range with 2 support levels below or 2 resistance levels above"
+  },
+  {
+    "part": 15,
+    "section": "Small Day",
+    "abbreviation": "TRD Small Day",
+    "note": "",
+    "normalized": "small day"
+  },
+  {
+    "part": 15,
+    "section": "TR Day, Small Day Then Breakout and MM",
+    "abbreviation": "TRD Small Then MM",
+    "note": "",
+    "normalized": "tr day small day then breakout and mm"
+  },
+  {
+    "part": 15,
+    "section": "Trend: Bull",
+    "abbreviation": "Trend BL",
+    "note": "",
+    "normalized": "trend bull"
+  },
+  {
+    "part": 15,
+    "section": "Bull Trend on Daily Chart",
+    "abbreviation": "Trend BL Daily",
+    "note": "",
+    "normalized": "bull trend on daily chart"
+  },
+  {
+    "part": 15,
+    "section": "Trend: Bear",
+    "abbreviation": "Trend BR",
+    "note": "",
+    "normalized": "trend bear"
+  },
+  {
+    "part": 15,
+    "section": "Bear Trend on Daily Chart",
+    "abbreviation": "Trend BR Daily",
+    "note": "",
+    "normalized": "bear trend on daily chart"
+  },
+  {
+    "part": 15,
+    "section": "Trending Bull Closes",
+    "abbreviation": "Trending BL C",
+    "note": "",
+    "normalized": "trending bull closes"
+  },
+  {
+    "part": 15,
+    "section": "Trending Bear Closes",
+    "abbreviation": "Trending BR C",
+    "note": "",
+    "normalized": "trending bear closes"
+  },
+  {
+    "part": 15,
+    "section": "Trend Resumption Down",
+    "abbreviation": "TRES D",
+    "note": "",
+    "normalized": "trend resumption down"
+  },
+  {
+    "part": 15,
+    "section": "Trend Resumption Down Failed and Reversed Up",
+    "abbreviation": "TRES D F",
+    "note": "",
+    "normalized": "trend resumption down failed and reversed up"
+  },
+  {
+    "part": 15,
+    "section": "Trend Resumption Up",
+    "abbreviation": "TRES U",
+    "note": "",
+    "normalized": "trend resumption up"
+  },
+  {
+    "part": 15,
+    "section": "Trend Resumption Up Failed and Reversed Down",
+    "abbreviation": "TRES U F",
+    "note": "",
+    "normalized": "trend resumption up failed and reversed down"
+  },
+  {
+    "part": 15,
+    "section": "Trend Reversal Down",
+    "abbreviation": "TREV D",
+    "note": "",
+    "normalized": "trend reversal down"
+  },
+  {
+    "part": 15,
+    "section": "Trend Reversal Down Failed",
+    "abbreviation": "TREV D F",
+    "note": "",
+    "normalized": "trend reversal down failed"
+  },
+  {
+    "part": 15,
+    "section": "Trend Reversal Up",
+    "abbreviation": "TREV U",
+    "note": "",
+    "normalized": "trend reversal up"
+  },
+  {
+    "part": 15,
+    "section": "Trend Reversal Up Failed and Reversed Down",
+    "abbreviation": "TREV U F",
+    "note": "",
+    "normalized": "trend reversal up failed and reversed down"
+  },
+  {
+    "part": 15,
+    "section": "Triangle, Bear Breakout",
+    "abbreviation": "Tri BR BO",
+    "note": "",
+    "normalized": "triangle bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "Triangle, Failed Bear Breakout",
+    "abbreviation": "Tri BR BO F",
+    "note": "",
+    "normalized": "triangle failed bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "Triangle, Bull Breakout",
+    "abbreviation": "Tri BL BO",
+    "note": "",
+    "normalized": "triangle bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Triangle, Failed Bull Breakout",
+    "abbreviation": "Tri BL BO F",
+    "note": "",
+    "normalized": "triangle failed bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Expanding Triangle",
+    "abbreviation": "Tri Expanding",
+    "note": "",
+    "normalized": "expanding triangle"
+  },
+  {
+    "part": 15,
+    "section": "Failed Expanding Triangle",
+    "abbreviation": "Tri Expanding F",
+    "note": "",
+    "normalized": "failed expanding triangle"
+  },
+  {
+    "part": 15,
+    "section": "Triple Bottom",
+    "abbreviation": "Triple Bottom",
+    "note": "",
+    "normalized": "triple bottom"
+  },
+  {
+    "part": 15,
+    "section": "Triple Top",
+    "abbreviation": "Triple Top",
+    "note": "",
+    "normalized": "triple top"
+  },
+  {
+    "part": 15,
+    "section": "Trending Trading Range Day Down",
+    "abbreviation": "TTRD D",
+    "note": "",
+    "normalized": "trending trading range day down"
+  },
+  {
+    "part": 15,
+    "section": "Trending Trading Range Day Down, Then Bull Breakout",
+    "abbreviation": "TTRD D BL BO",
+    "note": "",
+    "normalized": "trending trading range day down then bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trending Trading Range Day Down, Then Bear Breakout",
+    "abbreviation": "TTRD D BR BO",
+    "note": "",
+    "normalized": "trending trading range day down then bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trending Trading Range Day Up",
+    "abbreviation": "TTRD U",
+    "note": "",
+    "normalized": "trending trading range day up"
+  },
+  {
+    "part": 15,
+    "section": "Trending Trading Range Day Up, Then Bull Breakout",
+    "abbreviation": "TTRD U BL BO",
+    "note": "",
+    "normalized": "trending trading range day up then bull breakout"
+  },
+  {
+    "part": 15,
+    "section": "Trend Trading Range Up, Then Bear Breakout",
+    "abbreviation": "TTRD U BR BO",
+    "note": "",
+    "normalized": "trend trading range up then bear breakout"
+  },
+  {
+    "part": 15,
+    "section": "V-Bottom",
+    "abbreviation": "V-Bottom",
+    "note": "",
+    "normalized": "vbottom"
+  },
+  {
+    "part": 15,
+    "section": "V-Bottom Failed",
+    "abbreviation": "V-Bottom F",
+    "note": "",
+    "normalized": "vbottom failed"
+  },
+  {
+    "part": 15,
+    "section": "V-Top",
+    "abbreviation": "V-Top",
+    "note": "",
+    "normalized": "vtop"
+  },
+  {
+    "part": 15,
+    "section": "V-Top Failed",
+    "abbreviation": "V-Top F",
+    "note": "",
+    "normalized": "vtop failed"
+  },
+  {
+    "part": 15,
+    "section": "Vacuum Test Selloff To Support",
+    "abbreviation": "Vacuum Test D",
+    "note": "",
+    "normalized": "vacuum test selloff to support"
+  },
+  {
+    "part": 15,
+    "section": "Vacuum Test Rally To Resistance",
+    "abbreviation": "Vacuum Test U",
+    "note": "",
+    "normalized": "vacuum test rally to resistance"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, 2nd Buy Signal",
+    "abbreviation": "W D 2BS",
+    "note": "",
+    "normalized": "wedge bottom 2nd buy signal"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, Bad Shape",
+    "abbreviation": "W D Bad Shape",
+    "note": "",
+    "normalized": "wedge bottom bad shape"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom",
+    "abbreviation": "W D BL BO",
+    "note": "",
+    "normalized": "wedge bottom"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, but Bull Breakout Failed",
+    "abbreviation": "W D BL BO F",
+    "note": "",
+    "normalized": "wedge bottom but bull breakout failed"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom but Bear BO or TR",
+    "abbreviation": "W D BR BO or TR",
+    "note": "",
+    "normalized": "wedge bottom but bear bo or tr"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, but Bear BO Failed, Reversed Up",
+    "abbreviation": "W D BR BO F",
+    "note": "",
+    "normalized": "wedge bottom but bear bo failed reversed up"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom With Double Bottom",
+    "abbreviation": "W D DB",
+    "note": "",
+    "normalized": "wedge bottom with double bottom"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom With Double Bottom, but Bear Breakout",
+    "abbreviation": "W D DB F",
+    "note": "",
+    "normalized": "wedge bottom with double bottom but bear breakout"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom Nested in Bigger Wedge Bottom",
+    "abbreviation": "W D Nested",
+    "note": "",
+    "normalized": "wedge bottom nested in bigger wedge bottom"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Bottom",
+    "abbreviation": "W D P",
+    "note": "",
+    "normalized": "parabolic wedge bottom"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Bottom, 2nd Buy Signal",
+    "abbreviation": "W D P 2BS",
+    "note": "",
+    "normalized": "parabolic wedge bottom 2nd buy signal"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Bottom, but Bear Breakout",
+    "abbreviation": "W D P F",
+    "note": "",
+    "normalized": "parabolic wedge bottom but bear breakout"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, but Tight Bear Channel",
+    "abbreviation": "W D TC",
+    "note": "",
+    "normalized": "wedge bottom but tight bear channel"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, but Truncated",
+    "abbreviation": "W D Truncated",
+    "note": "",
+    "normalized": "wedge bottom but truncated"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Bottom, Truncated, but Failed",
+    "abbreviation": "W D Truncated F",
+    "note": "",
+    "normalized": "wedge bottom truncated but failed"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, 2nd Sell Signal",
+    "abbreviation": "W U 2SS",
+    "note": "",
+    "normalized": "wedge top 2nd sell signal"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, Bad Shape",
+    "abbreviation": "W U Bad Shape",
+    "note": "",
+    "normalized": "wedge top bad shape"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top but Bull BO or TR",
+    "abbreviation": "W U BL BO or TR",
+    "note": "",
+    "normalized": "wedge top but bull bo or tr"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, but Bull Breakout Failed, Reversed Down",
+    "abbreviation": "W U BL BO F",
+    "note": "",
+    "normalized": "wedge top but bull breakout failed reversed down"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top",
+    "abbreviation": "W U BR BO",
+    "note": "",
+    "normalized": "wedge top"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, but Bear Breakout Failed",
+    "abbreviation": "W U BR BO F",
+    "note": "",
+    "normalized": "wedge top but bear breakout failed"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top With Double Top",
+    "abbreviation": "W U DT",
+    "note": "",
+    "normalized": "wedge top with double top"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top With Double Top, but Bull Breakout",
+    "abbreviation": "W U DT F",
+    "note": "",
+    "normalized": "wedge top with double top but bull breakout"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top Nested in Bigger Wedge Top",
+    "abbreviation": "W U Nested",
+    "note": "",
+    "normalized": "wedge top nested in bigger wedge top"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Top",
+    "abbreviation": "W U P",
+    "note": "",
+    "normalized": "parabolic wedge top"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Top, 2nd Sell Signal",
+    "abbreviation": "W U P 2SS",
+    "note": "",
+    "normalized": "parabolic wedge top 2nd sell signal"
+  },
+  {
+    "part": 16,
+    "section": "Parabolic Wedge Top, but Bull Breakout",
+    "abbreviation": "W U P F",
+    "note": "",
+    "normalized": "parabolic wedge top but bull breakout"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, but Tight Bull Channel",
+    "abbreviation": "W U TC",
+    "note": "",
+    "normalized": "wedge top but tight bull channel"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, but Truncated",
+    "abbreviation": "W U Truncated",
+    "note": "",
+    "normalized": "wedge top but truncated"
+  },
+  {
+    "part": 16,
+    "section": "Wedge Top, Truncated, but Failed",
+    "abbreviation": "W U Truncated F",
+    "note": "",
+    "normalized": "wedge top truncated but failed"
+  },
+  {
+    "part": 16,
+    "section": "Walmart Buy Signal",
+    "abbreviation": "Walmart B",
+    "note": "",
+    "normalized": "walmart buy signal"
+  },
+  {
+    "part": 16,
+    "section": "Walmart Sell Signal",
+    "abbreviation": "Walmart S",
+    "note": "",
+    "normalized": "walmart sell signal"
+  },
+  {
+    "part": 16,
+    "section": "Window Dressing",
+    "abbreviation": "Window Dressing",
+    "note": "",
+    "normalized": "window dressing"
+  },
+  {
+    "part": 16,
+    "section": "Workshops",
+    "abbreviation": "Workshops",
+    "note": "",
+    "normalized": "workshops"
+  },
+  {
+    "part": 16,
+    "section": "Yearly Charts",
+    "abbreviation": "Yearly Charts",
+    "note": "",
+    "normalized": "yearly charts"
+  },
+  {
+    "part": 16,
+    "section": "Yesterday Was Similar",
+    "abbreviation": "Yesterday was similar",
+    "note": "",
+    "normalized": "yesterday was similar"
+  }
+]

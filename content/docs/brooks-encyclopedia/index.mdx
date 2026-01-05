@@ -5,8 +5,17 @@ pageTitle: 百科全书
 full: true
 ---
 
+import { Suspense } from 'react';
 import EncyclopediaShell from '@/components/encyclopedia/EncyclopediaShell';
 
 <div className="not-prose w-full h-full">
-  <EncyclopediaShell />
+  <Suspense
+    fallback={
+      <div className="flex h-full min-h-[60vh] items-center justify-center">
+        <p className="text-sm text-fd-muted-foreground">正在加载百科全书...</p>
+      </div>
+    }
+  >
+    <EncyclopediaShell />
+  </Suspense>
 </div>
