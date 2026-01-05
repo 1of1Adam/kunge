@@ -6,7 +6,21 @@ const bookIcon = (
   </svg>
 );
 
+const roadmapIcon = (
+  <svg className="w-5 h-5 md:w-6 md:h-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v16m0-16h12l-2 4 2 4H4" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 14h8l-2 4 2 4H4" />
+  </svg>
+);
+
 const courses = [
+  {
+    title: '成为专业价格行为交易员',
+    description: '学习路线图与刻意练习指南',
+    href: '/docs/professional-price-action-trader',
+    tag: '路线图',
+    icon: roadmapIcon,
+  },
   {
     title: '百科全书',
     description: '10,000+ 张图表模式资料，支持搜索与分级浏览。',

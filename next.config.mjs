@@ -11,6 +11,14 @@ const config = {
   turbopack: {
     root,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.brookstradingcourse.com',
+      },
+    ],
+  },
   async redirects() {
     return [
       {
