@@ -6,3 +6,82 @@
 [data-sidebar] [data-separator] {
   font-weight: 600;
 }
+
+/* Encyclopedia slide fonts (shared across parts) */
+@font-face { font-family: 'PFn'; src: url('/encyclopedia/part01/fonts/fnt0.woff') format('woff'); }
+@font-face { font-family: 'PFnb'; src: url('/encyclopedia/part01/fonts/fnt1.woff') format('woff'); font-weight: bold; }
+@font-face { font-family: 'fnt4'; src: url('/encyclopedia/part01/fonts/fnt4.woff') format('woff'); }
+@font-face { font-family: 'fnt5'; src: url('/encyclopedia/part01/fonts/fnt5.woff') format('woff'); }
+@font-face { font-family: 'fnt6'; src: url('/encyclopedia/part01/fonts/fnt6.woff') format('woff'); }
+@font-face { font-family: 'fnt7'; src: url('/encyclopedia/part01/fonts/fnt7.woff') format('woff'); }
+@font-face { font-family: 'fnt8'; src: url('/encyclopedia/part01/fonts/fnt8.woff') format('woff'); }
+
+/* Encyclopedia slide viewer core styles */
+.playerView {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+.playerView * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.playerView img {
+  max-width: none;
+  height: auto;
+}
+.playerView > * { position: absolute; }
+.playerView .slide {
+  position: absolute;
+  width: 960px;
+  height: 540px;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  font-size: 0px;
+}
+.playerView .slide * {
+  transform-origin: 0px 0px;
+  -webkit-transform-origin: 0px 0px;
+}
+.playerView .slide.relpos,
+.playerView .slide .relpos {
+  position: relative !important;
+  vertical-align: top !important;
+}
+.playerView .slide.kern,
+.playerView .slide .kern {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 0;
+}
+.playerView .slide.nokern,
+.playerView .slide .nokern {
+  text-rendering: optimizeSpeed;
+  font-feature-settings: "kern" 0, "liga" 0;
+}
+.playerView [id^="spr"] { position: absolute; }
+.playerView [id^="svg"] { position: absolute; }
+.playerView [id^="img"] { position: absolute; }
+.playerView span[id^="txt"] {
+  position: absolute;
+  white-space: nowrap;
+  letter-spacing: normal;
+}
+
+/* Encyclopedia layout: remove extra top padding and avoid inner scrollbars */
+body.encyclopedia-view #nd-page {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 0;
+  height: calc(var(--fd-docs-height) - var(--fd-docs-row-2));
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body.encyclopedia-view #nd-page > * {
+  max-width: none !important;
+}
+body.encyclopedia-view {
+  overflow: hidden;
+}

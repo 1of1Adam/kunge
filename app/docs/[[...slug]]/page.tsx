@@ -26,21 +26,39 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const MDX = page.data.body;
 
   const slugKey = params.slug?.join('/') ?? '';
+  const isEncyclopedia = slugKey === 'brooks-encyclopedia';
 
   return (
-    <DocsPage toc={page.data.toc} full={page.data.full}>
-      <VideoHeader slug={slugKey} />
-      <DocsTitle>{page.data.pageTitle || page.data.title}</DocsTitle>
-      <DocsDescription>{page.data.description}</DocsDescription>
-      <DocsBody>
-        <ReadingPosition>
+    <DocsPage
+      toc={page.data.toc}
+      full={page.data.full}
+      tableOfContent={{ enabled: !isEncyclopedia }}
+      tableOfContentPopover={{ enabled: !isEncyclopedia }}
+    >
+      {!isEncyclopedia && <VideoHeader slug={slugKey} />}
+      {!isEncyclopedia && (
+        <>
+          <DocsTitle>{page.data.pageTitle || page.data.title}</DocsTitle>
+          <DocsDescription>{page.data.description}</DocsDescription>
+        </>
+      )}
+      <DocsBody className={isEncyclopedia ? 'max-w-none' : undefined}>
+        {isEncyclopedia ? (
           <MDX
             components={getMDXComponents({
-              // this allows you to link to other pages with relative file paths
               a: createRelativeLink(source, page),
             })}
           />
-        </ReadingPosition>
+        ) : (
+          <ReadingPosition>
+            <MDX
+              components={getMDXComponents({
+                // this allows you to link to other pages with relative file paths
+                a: createRelativeLink(source, page),
+              })}
+            />
+          </ReadingPosition>
+        )}
       </DocsBody>
     </DocsPage>
   );

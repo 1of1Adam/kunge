@@ -1,0 +1,8 @@
+{
+  "title": "百科全书",
+  "description": "10,000+ 张图表模式百科",
+  "root": true,
+  "pages": [
+    "index"
+  ]
+}

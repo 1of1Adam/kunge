@@ -8,6 +8,13 @@ const bookIcon = (
 
 const courses = [
   {
+    title: '百科全书',
+    description: '10,000+ 张图表模式资料，支持搜索与分级浏览。',
+    href: '/docs/brooks-encyclopedia',
+    tag: '10,000+ PPT',
+    icon: bookIcon,
+  },
+  {
     title: 'Al Brooks 价格行为',
     description: '趋势、通道、交易区间。从裸K到完整交易系统。',
     href: '/docs/al-brooks',
