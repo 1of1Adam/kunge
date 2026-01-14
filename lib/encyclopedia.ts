@@ -175,3 +175,44 @@ export function getAncestorIds(
 
   return ancestors;
 }
+
+/**
+ * Flatten tree into array of slides only (items with slideNum)
+ */
+export function flattenSlides(items: TreeItem[]): TreeItem[] {
+  const result: TreeItem[] = [];
+
+  function traverse(nodes: TreeItem[]) {
+    for (const node of nodes) {
+      if (node.slideNum !== undefined) {
+        result.push(node);
+      }
+      if (node.children?.length) {
+        traverse(node.children);
+      }
+    }
+  }
+
+  traverse(items);
+  return result;
+}
+
+/**
+ * Get previous and next slide relative to current item
+ */
+export function getAdjacentSlides(
+  currentId: string,
+  treeData: TreeItem[],
+): { prev: TreeItem | null; next: TreeItem | null } {
+  const slides = flattenSlides(treeData);
+  const currentIndex = slides.findIndex((s) => s.id === currentId);
+
+  if (currentIndex === -1) {
+    return { prev: null, next: null };
+  }
+
+  return {
+    prev: currentIndex > 0 ? slides[currentIndex - 1] : null,
+    next: currentIndex < slides.length - 1 ? slides[currentIndex + 1] : null,
+  };
+}

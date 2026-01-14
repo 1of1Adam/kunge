@@ -1,11 +1,12 @@
 'use client';
 
 import * as React from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import {
   convertToTreeData,
   findItemById,
   findFirstSlide,
+  getAdjacentSlides,
   type EncyclopediaData,
   type TreeItem,
 } from '@/lib/encyclopedia';
@@ -30,6 +31,8 @@ export default function EncyclopediaShell() {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
   const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
 
   React.useEffect(() => {
     document.body.classList.add('encyclopedia-view');
@@ -104,6 +107,66 @@ export default function EncyclopediaShell() {
     }
     return null;
   }, [selectedItem]);
+
+  const handleSelectItem = React.useCallback((item: TreeItem) => {
+    setSelectedItem(item);
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ selectedItemId: item.id }));
+    } catch (err) {
+      console.warn('Failed to save encyclopedia state', err);
+    }
+    // Update URL to sync with fumadocs sidebar
+    const newUrl = `${pathname}?item=${encodeURIComponent(item.id)}`;
+    router.replace(newUrl, { scroll: false });
+  }, [pathname, router]);
+
+  // Sync sidebar highlight with current selection
+  React.useEffect(() => {
+    if (!resolvedItem) return;
+
+    const targetHref = `${pathname}?item=${encodeURIComponent(resolvedItem.id)}`;
+
+    // Find all sidebar links and update data-active
+    const sidebarLinks = document.querySelectorAll<HTMLAnchorElement>(
+      '#nd-sidebar a[href*="brooks-encyclopedia?item="], #nd-sidebar-mobile a[href*="brooks-encyclopedia?item="]'
+    );
+
+    sidebarLinks.forEach((link) => {
+      const isMatch = link.getAttribute('href') === targetHref;
+      link.setAttribute('data-active', String(isMatch));
+    });
+  }, [resolvedItem, pathname]);
+
+  // Keyboard navigation: left/right arrows to switch slides
+  React.useEffect(() => {
+    if (!resolvedItem || treeData.length === 0) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      // Skip if user is typing in an input field
+      const target = event.target as HTMLElement;
+      if (
+        target.tagName === 'INPUT' ||
+        target.tagName === 'TEXTAREA' ||
+        target.isContentEditable
+      ) {
+        return;
+      }
+
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        const { prev, next } = getAdjacentSlides(resolvedItem.id, treeData);
+
+        if (event.key === 'ArrowLeft' && prev) {
+          handleSelectItem(prev);
+        } else if (event.key === 'ArrowRight' && next) {
+          handleSelectItem(next);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [resolvedItem, treeData, handleSelectItem]);
 
   if (loading) {
     return (
