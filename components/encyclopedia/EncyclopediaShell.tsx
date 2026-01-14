@@ -33,6 +33,8 @@ export default function EncyclopediaShell() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
+  // Track internal updates to prevent URL sync effect from overriding
+  const internalUpdateRef = React.useRef<string | null>(null);
 
   React.useEffect(() => {
     document.body.classList.add('encyclopedia-view');
@@ -82,6 +84,16 @@ export default function EncyclopediaShell() {
 
   React.useEffect(() => {
     if (treeData.length === 0) return;
+
+    // Skip if this is an internal update (keyboard navigation)
+    if (internalUpdateRef.current) {
+      // Check if URL has caught up with our internal update
+      if (urlItemId === internalUpdateRef.current) {
+        internalUpdateRef.current = null;
+      }
+      return;
+    }
+
     const urlItem = urlItemId ? findItemById(treeData, urlItemId) : null;
     const fallback = selectedItem ?? findFirstSlide(treeData);
     const nextItem = urlItem ?? fallback;
@@ -109,6 +121,8 @@ export default function EncyclopediaShell() {
   }, [selectedItem]);
 
   const handleSelectItem = React.useCallback((item: TreeItem) => {
+    // Mark as internal update to prevent URL sync effect from reverting
+    internalUpdateRef.current = item.id;
     setSelectedItem(item);
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({ selectedItemId: item.id }));

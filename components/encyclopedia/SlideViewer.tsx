@@ -67,7 +67,6 @@ export function SlideViewer({ item }: SlideViewerProps) {
     if (!containerRef.current) return;
     const { clientWidth, clientHeight } = containerRef.current;
     if (clientWidth === 0 || clientHeight === 0) return;
-    // Use contain scaling to keep the entire slide visible.
     const nextScale = Math.min(
       clientWidth / BASE_WIDTH,
       clientHeight / BASE_HEIGHT,
@@ -109,10 +108,39 @@ export function SlideViewer({ item }: SlideViewerProps) {
     const cacheKey = `${partDir}-${item.slideNum}`;
     let cancelled = false;
 
-    const loadSlide = async () => {
-      setLoading(true);
+    const isCached = slideCache.has(cacheKey) && cssCache.has(cacheKey);
+
+    const applySlide = () => {
+      if (cancelled) return;
+
+      const newCss = cssCache.get(cacheKey) || '';
+      if (styleRef.current) {
+        styleRef.current.id = `encyclopedia-slide-${cacheKey}`;
+        styleRef.current.textContent = newCss;
+      } else {
+        const style = document.createElement('style');
+        style.id = `encyclopedia-slide-${cacheKey}`;
+        style.textContent = newCss;
+        document.head.appendChild(style);
+        styleRef.current = style;
+      }
+
+      setSlideHtml(slideCache.get(cacheKey) || null);
+      setLoading(false);
       setError(null);
 
+      setTimeout(updateScale, 50);
+    };
+
+    if (isCached) {
+      applySlide();
+      return;
+    }
+
+    setLoading(true);
+    setError(null);
+
+    const loadSlide = async () => {
       try {
         if (!cssCache.has(cacheKey)) {
           const cssRes = await fetch(`${ASSET_BASE}/${partDir}/data/slide${item.slideNum}.css`);
@@ -131,22 +159,7 @@ export function SlideViewer({ item }: SlideViewerProps) {
           );
         }
 
-        if (cancelled) return;
-
-        if (styleRef.current) {
-          styleRef.current.remove();
-        }
-
-        const style = document.createElement('style');
-        style.id = `encyclopedia-slide-${cacheKey}`;
-        style.textContent = cssCache.get(cacheKey) || '';
-        document.head.appendChild(style);
-        styleRef.current = style;
-
-        setSlideHtml(slideCache.get(cacheKey) || null);
-        setLoading(false);
-
-        setTimeout(updateScale, 50);
+        applySlide();
       } catch (err) {
         if (cancelled) return;
         console.error('Failed to load slide:', err);
@@ -159,12 +172,17 @@ export function SlideViewer({ item }: SlideViewerProps) {
 
     return () => {
       cancelled = true;
+    };
+  }, [item.id, item.slideNum, updateScale]);
+
+  React.useEffect(() => {
+    return () => {
       if (styleRef.current) {
         styleRef.current.remove();
         styleRef.current = null;
       }
     };
-  }, [item.id, item.slideNum, updateScale]);
+  }, []);
 
   if (loading) {
     return (
