@@ -15,6 +15,18 @@ const roadmapIcon = (
 
 const courses = [
   {
+    title: 'TradingView',
+    description: '私人定制项目，内部用户专享。',
+    href: '/tradingview',
+    tag: '项目',
+    icon: (
+      <svg className="w-5 h-5 md:w-6 md:h-6 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v18h18" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 15l3-3 3 3 4-6" />
+      </svg>
+    ),
+  },
+  {
     title: '成为专业价格行为交易员',
     description: '学习路线图与刻意练习指南',
     href: '/docs/professional-price-action-trader',

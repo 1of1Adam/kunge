@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TradingView 图表</title>
+    <link rel="icon" href="data:," />
+    <script type="text/javascript" src="charting_library/charting_library.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #0d1117;
+        overflow: hidden;
+      }
+
+      #tv_chart_container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #0d1117;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tv_chart_container"></div>
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+        const backendFromQuery = params.get('backend');
+        if (backendFromQuery && backendFromQuery.trim().length) {
+          window.__BACKEND_URL__ = backendFromQuery.trim();
+          return;
+        }
+        window.__BACKEND_URL__ = 'https://tradingview-backend-production-0158.up.railway.app';
+      })();
+    </script>
+    <script type="module">
+      import TradingViewDatafeed from './datafeed.js';
+      import SaveLoadAdapter from './saveLoadAdapter.js';
+
+      function resolveBackendUrl() {
+        const override = window.__BACKEND_URL__;
+        if (typeof override === 'string' && override.trim().length) {
+          return override.trim().replace(/\/$/, '');
+        }
+
+        const { hostname, port, protocol, origin } = window.location;
+        const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
+
+        // 本地开发：前端常跑在 8080，后端跑在 3001
+        if (isLocalhost && port && port !== '3001') {
+          return `${protocol}//${hostname}:3001`;
+        }
+
+        return origin;
+      }
+
+      const BACKEND_URL = resolveBackendUrl();
+      const datafeed = new TradingViewDatafeed(BACKEND_URL);
+      const saveLoadAdapter = new SaveLoadAdapter(BACKEND_URL, {
+        timeout: 15000,
+        maxRetries: 3,
+        debug: false
+      });
+
+      const DEFAULT_SYMBOL = 'SSE:000001';
+      const DEFAULT_INTERVAL = '1D';
+
+      async function initializeWidget() {
+        let hasSavedCharts = false;
+        let initialSettings = {};
+        try {
+          const charts = await saveLoadAdapter.getAllCharts();
+          const chartCount = Array.isArray(charts) ? charts.length : 0;
+          hasSavedCharts = chartCount > 0;
+        } catch (error) {
+          console.warn('[ChartStorage] 检查保存图表失败，使用默认配置:', error.message);
+        }
+
+        try {
+          const response = await fetch(`${BACKEND_URL}/api/settings`);
+          if (response.ok) {
+            const payload = await response.json();
+            if (payload && typeof payload.settings === 'object' && payload.settings !== null) {
+              initialSettings = payload.settings;
+            }
+          }
+        } catch (error) {
+          console.warn('[Settings] 加载用户设置失败，将使用默认设置:', error.message);
+        }
+
+        const widgetOptions = {
+          debug: true,
+          interval: DEFAULT_INTERVAL,
+          container: 'tv_chart_container',
+          datafeed: datafeed,
+          library_path: 'charting_library/',
+          locale: 'zh',
+          timezone: "Asia/Shanghai",
+          fullscreen: true,
+          autosize: false,
+          theme: 'light',
+
+          save_load_adapter: saveLoadAdapter,
+          auto_save_delay: 1,
+          load_last_chart: hasSavedCharts,
+          settings_adapter: {
+            initialSettings,
+            setValue: async (key, value) => {
+              try {
+                await fetch(`${BACKEND_URL}/api/settings`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ key, value }),
+                });
+              } catch (error) {
+                console.warn('[Settings] 保存设置失败:', error.message);
+              }
+            },
+            removeValue: async (key) => {
+              try {
+                await fetch(`${BACKEND_URL}/api/settings/${encodeURIComponent(key)}`, {
+                  method: 'DELETE',
+                });
+              } catch (error) {
+                console.warn('[Settings] 删除设置失败:', error.message);
+              }
+            },
+          },
+
+          enabled_features: [
+            'pre_post_market_sessions',
+            'seconds_resolution',
+            'disable_resolution_rebuild',
+            'dom_widget',
+            'study_templates',
+            'chart_template_storage',
+            'saveload_separate_drawings_storage',
+          ],
+          disabled_features: [
+            'trading_account_manager',
+            // 关闭账户管理器（Trading Panel）默认打开行为
+            // 参考：tradingview-kb/guides/charting-library-docs/latest/trading-terminal/account-manager.md
+            'open_account_manager',
+            // 隐藏底部工具栏（缩放/滚动按钮、时间周期工具栏、时区菜单等）
+            // 参考：tradingview-kb/api/charting/types/button.md
+          ],
+          studies_overrides: {},
+          overrides: {
+          },
+          widgetbar: {
+            watchlist: true,
+
+            watchlist_settings: {
+              default_symbols: [
+                'SSE:000001',
+              ],
+            },
+          }
+        };
+
+        if (!hasSavedCharts) {
+          widgetOptions.symbol = DEFAULT_SYMBOL;
+        }
+
+        if (!window.TradingView || !window.TradingView.widget) {
+          console.error('TradingView 图表库尚未加载');
+          return;
+        }
+
+        const widget = new TradingView.widget(widgetOptions);
+        widget.onChartReady(() => {
+          console.info('TradingView Widget 已准备就绪');
+
+          widget.subscribe('onAutoSaveNeeded', function handleAutoSave() {
+            widget.saveChartToServer(
+              () => console.info('[ChartStorage] 自动保存成功'),
+              () => console.warn('[ChartStorage] 自动保存失败'),
+              { defaultChartName: '自动保存' }
+            );
+          });
+        });
+      }
+
+      initializeWidget();
+    </script>
+  </body>
+</html>

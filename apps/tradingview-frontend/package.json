@@ -1,0 +1,11 @@
+{
+  "name": "tradingview-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx serve public -p 8080",
+    "start": "npx serve public -p 8080"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

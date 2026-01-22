@@ -33,7 +33,8 @@ function ThemeToggle({ className, mode = 'light-dark' }: ThemeAuthEntryProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    const timer = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timer);
   }, []);
 
   const container = cn('inline-flex items-center rounded-full border p-1', className);

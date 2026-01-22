@@ -7,6 +7,8 @@ const eslintConfig = defineConfig([
     '.next/**',
     'out/**',
     'build/**',
+    'public/**',
+    'apps/tradingview-frontend/**',
     'next-env.d.ts',
     '.source/**',
   ]),
