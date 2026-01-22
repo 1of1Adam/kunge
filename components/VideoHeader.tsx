@@ -265,7 +265,8 @@ export default function VideoHeader({ slug }: { slug: string }) {
       }
 
       // 手机端：拦截全屏按钮，使用系统原生全屏
-      if (isPhone && boundPlyr) {
+      const isPhoneDevice = isProbablyPhone();
+      if (isPhoneDevice && boundPlyr) {
         const plyrContainer = video.closest('.plyr');
         if (plyrContainer) {
           const fullscreenBtn = plyrContainer.querySelector('[data-plyr="fullscreen"]');
