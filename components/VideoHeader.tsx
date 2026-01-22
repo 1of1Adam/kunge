@@ -264,6 +264,33 @@ export default function VideoHeader({ slug }: { slug: string }) {
         }
       }
 
+      // 手机端：拦截全屏按钮，使用系统原生全屏
+      if (isPhone && boundPlyr) {
+        const plyrContainer = video.closest('.plyr');
+        if (plyrContainer) {
+          const fullscreenBtn = plyrContainer.querySelector('[data-plyr="fullscreen"]');
+          if (fullscreenBtn) {
+            fullscreenBtn.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              // 优先使用 video 元素的原生全屏（系统全屏）
+              if ((video as any).webkitEnterFullscreen) {
+                // iOS / Safari
+                (video as any).webkitEnterFullscreen();
+              } else if ((video as any).requestFullscreen) {
+                (video as any).requestFullscreen();
+              } else if ((video as any).webkitRequestFullscreen) {
+                (video as any).webkitRequestFullscreen();
+              } else if ((video as any).mozRequestFullScreen) {
+                (video as any).mozRequestFullScreen();
+              } else if ((video as any).msRequestFullscreen) {
+                (video as any).msRequestFullscreen();
+              }
+            }, true);
+          }
+        }
+      }
+
       const source = proxyUrl(entry.hls);
       const Hls = (window as any).Hls;
       if (Hls && Hls.isSupported()) {
