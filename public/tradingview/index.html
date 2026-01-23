@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TradingView 图表</title>
-    <link rel="icon" href="data:," />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="charting_library/charting_library.js"></script>
+    <script type="text/javascript" src="./env.js"></script>
     <style>
       html,
       body {
@@ -25,25 +26,20 @@
   </head>
   <body>
     <div id="tv_chart_container"></div>
-    <script>
-      (function () {
-        const params = new URLSearchParams(window.location.search);
-        const backendFromQuery = params.get('backend');
-        if (backendFromQuery && backendFromQuery.trim().length) {
-          window.__BACKEND_URL__ = backendFromQuery.trim();
-          return;
-        }
-        window.__BACKEND_URL__ = 'https://tradingview-backend-production-0158.up.railway.app';
-      })();
-    </script>
     <script type="module">
       import TradingViewDatafeed from './datafeed.js';
       import SaveLoadAdapter from './saveLoadAdapter.js';
+      import { createSDGIndicator } from './indicators/sdg.js';
 
       function resolveBackendUrl() {
         const override = window.__BACKEND_URL__;
         if (typeof override === 'string' && override.trim().length) {
           return override.trim().replace(/\/$/, '');
+        }
+
+        const envBaseUrl = import.meta?.env?.VITE_API_BASE_URL;
+        if (typeof envBaseUrl === 'string' && envBaseUrl.trim().length) {
+          return envBaseUrl.trim().replace(/\/$/, '');
         }
 
         const { hostname, port, protocol, origin } = window.location;
@@ -98,7 +94,7 @@
           datafeed: datafeed,
           library_path: 'charting_library/',
           locale: 'zh',
-          timezone: "Asia/Shanghai",
+          timezone: 'Asia/Shanghai',
           fullscreen: true,
           autosize: false,
           theme: 'light',
@@ -130,6 +126,11 @@
             },
           },
 
+          // 自定义指标
+          custom_indicators_getter: function(PineJS) {
+            return Promise.resolve([createSDGIndicator(PineJS)]);
+          },
+
           enabled_features: [
             'pre_post_market_sessions',
             'seconds_resolution',
@@ -138,21 +139,19 @@
             'study_templates',
             'chart_template_storage',
             'saveload_separate_drawings_storage',
+            'show_symbol_logos',
+            'show_exchange_logos',
           ],
           disabled_features: [
             'trading_account_manager',
             // 关闭账户管理器（Trading Panel）默认打开行为
-            // 参考：tradingview-kb/guides/charting-library-docs/latest/trading-terminal/account-manager.md
             'open_account_manager',
-            // 隐藏底部工具栏（缩放/滚动按钮、时间周期工具栏、时区菜单等）
-            // 参考：tradingview-kb/api/charting/types/button.md
           ],
           studies_overrides: {},
           overrides: {
           },
           widgetbar: {
             watchlist: true,
-
             watchlist_settings: {
               default_symbols: [
                 'SSE:000001',

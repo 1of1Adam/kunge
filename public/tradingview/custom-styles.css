@@ -1,0 +1,19 @@
+/* SF Pro Rounded 字体配置 - 用于 TradingView 图表 UI 元素 */
+
+/* 全局字体设置 */
+.tv-lightweight-charts,
+.chart-widget,
+[class*="widget-"],
+[class*="tv-"],
+[class*="button-"],
+[class*="menu-"],
+[class*="dialog-"],
+[class*="popup-"],
+[class*="header-"],
+[class*="toolbar-"],
+[class*="control-"],
+[class*="input-"],
+[class*="select-"],
+[class*="dropdown-"] {
+  font-family: 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+}
