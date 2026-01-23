@@ -152,12 +152,76 @@
           },
           widgetbar: {
             watchlist: true,
+            details: true,
+            news: true,
             watchlist_settings: {
               default_symbols: [
                 'SSE:000001',
               ],
             },
-          }
+          },
+
+          // 自定义新闻数据提供商
+          news_provider: function(symbol, callback) {
+            // 解析 symbol 获取完整格式的 Promise
+            // TradingView 可能传入 ticker (如 SSE:000001) 或 description (如 上证综合指数)
+            const resolveSymbol = symbol.includes(':')
+              ? Promise.resolve(symbol)
+              : fetch(`${BACKEND_URL}/api/datafeed/search?query=${encodeURIComponent(symbol)}&limit=1`)
+                  .then(res => res.ok ? res.json() : Promise.reject(new Error('search failed')))
+                  .then(results => {
+                    if (Array.isArray(results) && results.length > 0 && results[0].ticker) {
+                      return results[0].ticker;
+                    }
+                    throw new Error('no match found');
+                  })
+                  .catch(() => symbol);
+
+            resolveSymbol
+              .then(fullSymbol => {
+                console.log('[News] 获取新闻:', symbol, '->', fullSymbol);
+                return fetch(`${BACKEND_URL}/api/news/list?symbol=${encodeURIComponent(fullSymbol)}&limit=30`);
+              })
+              .then(res => {
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                return res.json();
+              })
+              .then(data => {
+                callback({
+                  title: `${symbol} News`,
+                  newsItems: (data.items || []).map(item => {
+                    const source = item.source || item.provider?.name || 'Unknown';
+                    const relatedCount = item.relatedSymbols?.length || 0;
+                    // 格式化 UTC+8 时间
+                    const date = new Date(item.published * 1000);
+                    const utc8Time = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+                    const month = utc8Time.getUTCMonth() + 1;
+                    const day = utc8Time.getUTCDate();
+                    const hours = String(utc8Time.getUTCHours()).padStart(2, '0');
+                    const minutes = String(utc8Time.getUTCMinutes()).padStart(2, '0');
+                    const timeStr = `${month}月${day}日 ${hours}:${minutes}`;
+                    // shortDescription 显示 UTC+8 时间和来源
+                    const shortDesc = relatedCount > 0
+                      ? `${timeStr} · ${source} · 相关 ${relatedCount} 个标的`
+                      : `${timeStr} · ${source}`;
+                    return {
+                      title: item.title,
+                      // TradingView 需要毫秒时间戳，后端返回的是秒级时间戳，需要乘以 1000
+                      published: item.published * 1000,
+                      source: source,
+                      shortDescription: shortDesc,
+                      link: item.link || (item.storyPath
+                        ? `https://www.tradingview.com${item.storyPath}`
+                        : undefined),
+                    };
+                  }),
+                });
+              })
+              .catch(err => {
+                console.error('[News] 新闻加载失败:', err);
+                callback({ title: 'News', newsItems: [] });
+              });
+          },
         };
 
         if (!hasSavedCharts) {
