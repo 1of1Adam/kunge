@@ -19,6 +19,15 @@ const config = {
       },
     ],
   },
+  // 使用 rewrite 而非 redirect，避免额外的网络往返
+  async rewrites() {
+    return [
+      {
+        source: '/tradingview',
+        destination: '/tradingview/index.html',
+      },
+    ];
+  },
   async redirects() {
     return [
       {

@@ -67,24 +67,24 @@
       async function initializeWidget() {
         let hasSavedCharts = false;
         let initialSettings = {};
-        try {
-          const charts = await saveLoadAdapter.getAllCharts();
-          const chartCount = Array.isArray(charts) ? charts.length : 0;
+
+        // 并行执行初始化请求，避免串行等待
+        const [chartsResult, settingsResult] = await Promise.allSettled([
+          saveLoadAdapter.getAllCharts(),
+          fetch(`${BACKEND_URL}/api/settings`).then(res => res.ok ? res.json() : null),
+        ]);
+
+        if (chartsResult.status === 'fulfilled') {
+          const chartCount = Array.isArray(chartsResult.value) ? chartsResult.value.length : 0;
           hasSavedCharts = chartCount > 0;
-        } catch (error) {
-          console.warn('[ChartStorage] 检查保存图表失败，使用默认配置:', error.message);
+        } else {
+          console.warn('[ChartStorage] 检查保存图表失败，使用默认配置:', chartsResult.reason?.message);
         }
 
-        try {
-          const response = await fetch(`${BACKEND_URL}/api/settings`);
-          if (response.ok) {
-            const payload = await response.json();
-            if (payload && typeof payload.settings === 'object' && payload.settings !== null) {
-              initialSettings = payload.settings;
-            }
-          }
-        } catch (error) {
-          console.warn('[Settings] 加载用户设置失败，将使用默认设置:', error.message);
+        if (settingsResult.status === 'fulfilled' && settingsResult.value?.settings) {
+          initialSettings = settingsResult.value.settings;
+        } else if (settingsResult.status === 'rejected') {
+          console.warn('[Settings] 加载用户设置失败，将使用默认设置:', settingsResult.reason?.message);
         }
 
         const widgetOptions = {
