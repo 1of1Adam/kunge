@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TradingView 图表</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <script type="text/javascript" src="charting_library/charting_library.js"></script>
-    <script type="text/javascript" src="./env.js"></script>
+    <link rel="stylesheet" href="/tradingview/custom-styles.css" />
+    <script type="text/javascript" src="/tradingview/charting_library/charting_library.js"></script>
+    <script type="text/javascript" src="/tradingview/env.js"></script>
     <style>
       html,
       body {
@@ -27,9 +28,9 @@
   <body>
     <div id="tv_chart_container"></div>
     <script type="module">
-      import TradingViewDatafeed from './datafeed.js';
-      import SaveLoadAdapter from './saveLoadAdapter.js';
-      import { createSDGIndicator } from './indicators/sdg.js';
+      import TradingViewDatafeed from '/tradingview/datafeed.js';
+      import SaveLoadAdapter from '/tradingview/saveLoadAdapter.js';
+      import { createSDGIndicator } from '/tradingview/indicators/sdg.js';
 
       function resolveBackendUrl() {
         const override = window.__BACKEND_URL__;
@@ -92,7 +93,7 @@
           interval: DEFAULT_INTERVAL,
           container: 'tv_chart_container',
           datafeed: datafeed,
-          library_path: 'charting_library/',
+          library_path: '/tradingview/charting_library/',
           locale: 'zh',
           timezone: 'Asia/Shanghai',
           fullscreen: true,
@@ -243,6 +244,13 @@
               () => console.warn('[ChartStorage] 自动保存失败'),
               { defaultChartName: '自动保存' }
             );
+          });
+
+          // Initialize OCR Import feature
+          import('/tradingview/ocrImportController.js').then(({ initOCRImport }) => {
+            initOCRImport(widget);
+          }).catch(err => {
+            console.warn('[OCRImport] Failed to initialize:', err);
           });
         });
       }
