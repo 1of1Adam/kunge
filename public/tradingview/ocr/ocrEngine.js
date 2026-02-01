@@ -88,6 +88,15 @@ async function initWorker() {
  * @returns {Promise<string>} Recognised text (digits only due to whitelist)
  */
 export async function recognizeImage(imageSource) {
+  console.log('[recognizeImage] Input type:', imageSource.constructor.name);
+  if (imageSource instanceof File || imageSource instanceof Blob) {
+    console.log('[recognizeImage] File/Blob details:', {
+      name: imageSource.name || 'N/A',
+      type: imageSource.type,
+      size: imageSource.size
+    });
+  }
+
   if (workerPromise === null) {
     workerPromise = initWorker();
   }
@@ -95,7 +104,9 @@ export async function recognizeImage(imageSource) {
   resetIdleTimer();
 
   const worker = await workerPromise;
+  console.log('[recognizeImage] Worker ready, calling recognize...');
   const { data } = await worker.recognize(imageSource);
+  console.log('[recognizeImage] OCR complete, text length:', data.text.length);
   return data.text;
 }
 
