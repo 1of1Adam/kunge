@@ -150,6 +150,23 @@
           ],
           studies_overrides: {},
           overrides: {
+            // 红涨绿跌：K 线图颜色对调（红涨绿跌）
+            'mainSeriesProperties.candleStyle.upColor': '#f23645',
+            'mainSeriesProperties.candleStyle.downColor': '#089981',
+            'mainSeriesProperties.candleStyle.borderUpColor': '#f23645',
+            'mainSeriesProperties.candleStyle.borderDownColor': '#089981',
+            'mainSeriesProperties.candleStyle.wickUpColor': '#f23645',
+            'mainSeriesProperties.candleStyle.wickDownColor': '#089981',
+            'mainSeriesProperties.hollowCandleStyle.upColor': '#f23645',
+            'mainSeriesProperties.hollowCandleStyle.downColor': '#089981',
+            'mainSeriesProperties.hollowCandleStyle.borderUpColor': '#f23645',
+            'mainSeriesProperties.hollowCandleStyle.borderDownColor': '#089981',
+            'mainSeriesProperties.haStyle.upColor': '#f23645',
+            'mainSeriesProperties.haStyle.downColor': '#089981',
+            'mainSeriesProperties.haStyle.borderUpColor': '#f23645',
+            'mainSeriesProperties.haStyle.borderDownColor': '#089981',
+            'mainSeriesProperties.barStyle.upColor': '#f23645',
+            'mainSeriesProperties.barStyle.downColor': '#089981',
           },
           widgetbar: {
             watchlist: true,
@@ -161,6 +178,12 @@
               ],
             },
           },
+
+          // 红涨绿跌：通过 CSS 变量覆盖 Watchlist/Details 面板的涨跌颜色
+          // 仅 Light 主题生效，Dark 主题保持默认
+          // 注意：不使用 custom_themes API，因为它要求提供完整的 7 色板，
+          // 而文档示例中的灰色(color2)值不是真实默认值，会导致分隔线变深
+          custom_css_url: '/tradingview/custom-theme-swap.css',
 
           // 自定义新闻数据提供商
           news_provider: function(symbol, callback) {

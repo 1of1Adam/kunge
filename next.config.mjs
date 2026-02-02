@@ -26,6 +26,10 @@ const config = {
         source: '/tradingview',
         destination: '/tradingview/index.html',
       },
+      {
+        source: '/tradingview/',
+        destination: '/tradingview/index.html',
+      },
     ];
   },
   async redirects() {
