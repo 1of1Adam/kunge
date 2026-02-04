@@ -1,3 +1,15 @@
 {
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/tradingview/:path*",
+      "destination": "https://tradingview-backend-production-0158.up.railway.app/tradingview/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tradingview",
+      "destination": "https://tradingview-backend-production-0158.up.railway.app/tradingview",
+      "permanent": true
+    }
+  ]
 }
