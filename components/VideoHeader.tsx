@@ -67,6 +67,45 @@ function proxyUrl(url: string) {
   return `/api/proxy?url=${encodeURIComponent(url)}`;
 }
 
+function toBase64Url(value: string) {
+  if (typeof window === 'undefined') return '';
+  try {
+    const bytes = new TextEncoder().encode(value);
+    let binary = '';
+    bytes.forEach((byte) => {
+      binary += String.fromCharCode(byte);
+    });
+    return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');
+  } catch {
+    return '';
+  }
+}
+
+function proxyHlsWithCaptions(hls: string, captions: Caption[]) {
+  const base = proxyUrl(hls);
+  if (!captions?.length) return base;
+  const serialized = captions.map(({ code, lang, label, src }) => ({
+    code,
+    lang,
+    label,
+    src,
+  }));
+  const encoded = toBase64Url(JSON.stringify(serialized));
+  if (!encoded) return base;
+  return `${base}&captions=${encodeURIComponent(encoded)}`;
+}
+
+function isIOSDevice() {
+  if (typeof window === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  const isIOSByUA = /iPhone|iPad|iPod/i.test(ua);
+  const isMacTouch =
+    navigator.platform === 'MacIntel' && typeof navigator.maxTouchPoints === 'number'
+      ? navigator.maxTouchPoints > 1
+      : false;
+  return isIOSByUA || isMacTouch;
+}
+
 function isProbablyPhone() {
   if (typeof window === 'undefined') return false;
 
@@ -292,7 +331,10 @@ export default function VideoHeader({ slug }: { slug: string }) {
         }
       }
 
-      const source = proxyUrl(entry.hls);
+      const shouldInjectHlsSubtitles = isIOSDevice() && Array.isArray(entry.captions);
+      const source = shouldInjectHlsSubtitles
+        ? proxyHlsWithCaptions(entry.hls, entry.captions || [])
+        : proxyUrl(entry.hls);
       const Hls = (window as any).Hls;
       if (Hls && Hls.isSupported()) {
         const hls = new Hls({
@@ -359,7 +401,13 @@ export default function VideoHeader({ slug }: { slug: string }) {
 
   return (
     <div className={styles.container} data-video-key={entry.key}>
-      <video ref={videoRef} className={styles.player} playsInline controls>
+      <video
+        ref={videoRef}
+        className={styles.player}
+        playsInline
+        controls
+        crossOrigin="anonymous"
+      >
         {entry.captions?.map((caption) => (
           <track
             key={`${entry.key}-${caption.code}`}
