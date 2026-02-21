@@ -294,6 +294,12 @@ async function handleProxy(req: Request) {
     contentType.includes('application/vnd.apple.mpegurl') ||
     contentType.includes('application/x-mpegurl') ||
     targetUrl.pathname.endsWith('.m3u8');
+  const lowerPath = targetUrl.pathname.toLowerCase();
+  const isVtt =
+    contentType.includes('text/vtt') ||
+    contentType.includes('application/x-subrip') ||
+    lowerPath.endsWith('.vtt') ||
+    lowerPath.endsWith('.webvtt');
 
   if (isM3U8 && req.method !== 'HEAD') {
     const text = await upstream.text();
@@ -313,6 +319,9 @@ async function handleProxy(req: Request) {
     if (HOP_BY_HOP_HEADERS.has(key.toLowerCase())) return;
     responseHeaders.set(key, value);
   });
+  if (isVtt) {
+    responseHeaders.set('content-type', 'text/vtt; charset=utf-8');
+  }
   responseHeaders.set('cache-control', 'no-store');
 
   return new Response(upstream.body, {
