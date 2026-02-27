@@ -100,38 +100,35 @@ body.encyclopedia-view {
 /* Mobile reading enhancement for chapter 2 figures (2.1~2.5) */
 @media (max-width: 768px) {
   .pin-figure-enhanced .pin-figure-block {
-    margin: 0.75rem 0 1.5rem;
+    margin: 0 0 1rem;
   }
 
   .pin-figure-enhanced .pin-figure-media {
     position: sticky;
-    top: calc(var(--fd-docs-row-3, 0px) + 6px);
-    z-index: 20;
-    height: 50vh;
-    height: 50dvh;
-    min-height: 260px;
-    max-height: 520px;
+    top: var(--pin-figure-top, var(--fd-docs-row-3));
+    z-index: 5;
+    width: 100vw;
+    max-width: none;
+    margin-inline: calc(50% - 50vw);
     overflow: hidden;
-    border-radius: 14px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    background: #f7f7f7;
+    border-radius: 0;
+    background: transparent;
   }
 
   .pin-figure-enhanced .pin-figure-media > p,
   .pin-figure-enhanced .pin-figure-media > figure {
     margin: 0;
-    height: 100%;
   }
 
   .pin-figure-enhanced .pin-figure-media img {
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: auto;
     margin: 0 !important;
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    background: #f7f7f7;
+    background: transparent;
   }
 
   .pin-figure-enhanced .pin-figure-content {
