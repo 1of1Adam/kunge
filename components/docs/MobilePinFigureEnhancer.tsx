@@ -8,23 +8,108 @@ type MobilePinFigureEnhancerProps = {
   children: ReactNode;
 };
 
+type ChapterPinRule = {
+  headingSelector: string;
+  startHeadingRe: RegExp;
+  boundaryHeadingRe: RegExp | null;
+  endTextRe?: RegExp;
+  slugs: Set<string>;
+};
+
 const MOBILE_MEDIA_QUERY = '(max-width: 768px)';
-const TARGET_SLUGS = new Set([
-  'al-brooks-trends/12-Chapter_2__Trend_Bars_Doji_Bars_and_Climaxes',
-  'al-brooks-trends/12-Chapter_2__Trend_Bars,_Doji_Bars,_and_Climaxes',
-]);
 const PIN_TOP_VAR = '--pin-figure-top';
 const PIN_OFFSET_SELECTORS = ['#nd-subnav', '[data-toc-popover]'] as const;
+const FIGURE_HEADING_SELECTOR = 'h2, h3';
 
-const FIGURE_SCOPE_RE = /^图\s*2\.(1|2|3|4|5)\b/;
-const FIGURE_2X_RE = /^图\s*2\.\d+\b/;
+const CHAPTER_PIN_RULES: ChapterPinRule[] = [
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*1\.1\s*[：:]/,
+    boundaryHeadingRe: /^图\s*1\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/11-Chapter_1__The_Spectrum_of_Price_Action__Extreme_Trends_to_Extreme_Trading_Ranges',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*2\.(1|2|3|4|5)\s*[：:]/,
+    boundaryHeadingRe: /^图\s*2\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/12-Chapter_2__Trend_Bars_Doji_Bars_and_Climaxes',
+      'al-brooks-trends/12-Chapter_2__Trend_Bars,_Doji_Bars,_and_Climaxes',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*3\.1\s*[：:]/,
+    boundaryHeadingRe: /^图\s*3\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/13-Chapter_3__Breakouts_Trading_Ranges_Tests_and_Reversals',
+      'al-brooks-trends/13-Chapter_3__Breakouts,_Trading_Ranges,_Tests,_and_Reversals',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*4\.1\s*[：:]/,
+    boundaryHeadingRe: /^图\s*4\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/14-Chapter_4__Bar_Basics__Signal_Bars_Entry_Bars_Setups_and_Candle_Patterns',
+      'al-brooks-trends/14-Chapter_4__Bar_Basics,_Signal_Bars,_Entry_Bars,_Setups,_and_Candle_Patterns',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*5\.\d+\s*[：:]/,
+    boundaryHeadingRe: /^图\s*5\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/15-Chapter_5__Signal_Bars__Reversal_Bars',
+      'al-brooks-trends/15-Chapter_5__Signal_Bars,_Reversal_Bars',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*6\.(1[6-9]|[2-9]\d+)\s*[：:]/,
+    boundaryHeadingRe: /^图\s*6\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/16-Chapter_6__Signal_Bars__Other_Types',
+      'al-brooks-trends/16-Chapter_6__Signal_Bars,_Other_Types',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*7\.\d+\s*[：:]/,
+    boundaryHeadingRe: /^图\s*7\.\d+\s*[：:]/,
+    slugs: new Set(['al-brooks-trends/17-Chapter_7__Outside_Bars']),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^图\s*8\.1\s*[：:]/,
+    boundaryHeadingRe: /^图\s*8\.\d+\s*[：:]/,
+    slugs: new Set([
+      'al-brooks-trends/18-Chapter_8__The_Importance_of_the_Close_of_the_Bar',
+    ]),
+  },
+  {
+    headingSelector: FIGURE_HEADING_SELECTOR,
+    startHeadingRe: /^两段式回调$/,
+    boundaryHeadingRe: null,
+    endTextRe: /K线\s*15\s*是低\s*2\s*做空入场K线/,
+    slugs: new Set(['al-brooks-trends/10-Part_I__Price_Action']),
+  },
+];
 
 function normalizeTitle(text: string): string {
   return text.replace(/\u00a0/g, ' ').trim();
 }
 
-function isTargetSlug(slug: string): boolean {
-  return TARGET_SLUGS.has(slug);
+function getChapterPinRule(slug: string): ChapterPinRule | null {
+  for (const rule of CHAPTER_PIN_RULES) {
+    if (rule.slugs.has(slug)) {
+      return rule;
+    }
+  }
+
+  return null;
 }
 
 function isMobileViewport(): boolean {
@@ -42,10 +127,15 @@ function hasImageContent(element: Element): boolean {
 function findBoundaryHeading(
   headings: HTMLHeadingElement[],
   currentIndex: number,
+  boundaryHeadingRe: RegExp | null,
 ): HTMLHeadingElement | null {
+  if (!boundaryHeadingRe) {
+    return null;
+  }
+
   for (let index = currentIndex + 1; index < headings.length; index += 1) {
     const title = normalizeTitle(headings[index].textContent || '');
-    if (FIGURE_2X_RE.test(title)) {
+    if (boundaryHeadingRe.test(title)) {
       return headings[index];
     }
   }
@@ -72,19 +162,29 @@ function moveContentUntilBoundary(
   firstNode: Element | null,
   boundary: Element | null,
   content: HTMLElement,
+  endTextRe?: RegExp,
 ): void {
   let next = firstNode;
   while (next && next !== boundary) {
     const current = next as HTMLElement;
     next = next.nextElementSibling;
     content.appendChild(current);
+
+    if (!endTextRe) {
+      continue;
+    }
+
+    const text = normalizeTitle(current.textContent || '');
+    if (endTextRe.test(text)) {
+      break;
+    }
   }
 }
 
-function enhancePinBlocks(root: HTMLElement): void {
-  if (root.dataset.pinFigureEnhanced === 'true') return;
-
-  const headings = Array.from(root.querySelectorAll<HTMLHeadingElement>('h3'));
+function enhancePinBlocks(root: HTMLElement, rule: ChapterPinRule): void {
+  const headings = Array.from(
+    root.querySelectorAll<HTMLHeadingElement>(rule.headingSelector),
+  );
   if (headings.length === 0) return;
 
   let patched = 0;
@@ -94,9 +194,9 @@ function enhancePinBlocks(root: HTMLElement): void {
     if (heading.dataset.pinFigureProcessed === 'true') continue;
 
     const title = normalizeTitle(heading.textContent || '');
-    if (!FIGURE_SCOPE_RE.test(title)) continue;
+    if (!rule.startHeadingRe.test(title)) continue;
 
-    const boundary = findBoundaryHeading(headings, i);
+    const boundary = findBoundaryHeading(headings, i, rule.boundaryHeadingRe);
     const imageHost = findImageHost(heading.nextElementSibling, boundary);
 
     if (!imageHost) continue;
@@ -117,7 +217,7 @@ function enhancePinBlocks(root: HTMLElement): void {
     block.appendChild(content);
     media.appendChild(imageHost);
 
-    moveContentUntilBoundary(nextFromOriginalFlow, boundary, content);
+    moveContentUntilBoundary(nextFromOriginalFlow, boundary, content, rule.endTextRe);
 
     heading.dataset.pinFigureProcessed = 'true';
     patched += 1;
@@ -152,7 +252,10 @@ export default function MobilePinFigureEnhancer({
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!isTargetSlug(slug)) return;
+    const rule = getChapterPinRule(slug);
+    if (!rule) return;
+    const activeRule: ChapterPinRule = rule;
+
     const root = containerRef.current;
     if (!root) return;
     const container: HTMLElement = root;
@@ -160,7 +263,7 @@ export default function MobilePinFigureEnhancer({
     function applyEnhance(): void {
       if (!isMobileViewport()) return;
       updatePinOffset(container);
-      enhancePinBlocks(container);
+      enhancePinBlocks(container, activeRule);
     }
 
     applyEnhance();
