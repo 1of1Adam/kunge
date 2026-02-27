@@ -11,6 +11,7 @@ import type { Metadata } from 'next';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 import ReadingPosition from './ReadingPosition';
 import VideoHeader from '@/components/VideoHeader';
+import MobilePinFigureEnhancer from '@/components/docs/MobilePinFigureEnhancer';
 
 export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const params = await props.params;
@@ -51,12 +52,14 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
           />
         ) : (
           <ReadingPosition>
-            <MDX
-              components={getMDXComponents({
-                // this allows you to link to other pages with relative file paths
-                a: createRelativeLink(source, page),
-              })}
-            />
+            <MobilePinFigureEnhancer slug={slugKey}>
+              <MDX
+                components={getMDXComponents({
+                  // this allows you to link to other pages with relative file paths
+                  a: createRelativeLink(source, page),
+                })}
+              />
+            </MobilePinFigureEnhancer>
           </ReadingPosition>
         )}
       </DocsBody>

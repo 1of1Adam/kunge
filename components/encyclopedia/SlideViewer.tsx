@@ -2,6 +2,11 @@
 
 import * as React from 'react';
 import type { TreeItem } from '@/lib/encyclopedia';
+import {
+  loadPartTranslations,
+  applyTranslationOverlay,
+  removeTranslationOverlay,
+} from '@/lib/slide-i18n';
 
 const BASE_WIDTH = 960;
 const BASE_HEIGHT = 540;
@@ -53,15 +58,19 @@ function extractPartFromId(id: string): string | null {
 
 interface SlideViewerProps {
   item: TreeItem;
+  lang: 'en' | 'zh';
 }
 
-export function SlideViewer({ item }: SlideViewerProps) {
+export function SlideViewer({ item, lang }: SlideViewerProps) {
   const [slideHtml, setSlideHtml] = React.useState<string | null>(null);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
   const [scale, setScale] = React.useState(1);
   const containerRef = React.useRef<HTMLDivElement>(null);
+  const wrapperRef = React.useRef<HTMLDivElement>(null);
+  const slideRef = React.useRef<HTMLDivElement>(null);
   const styleRef = React.useRef<HTMLStyleElement | null>(null);
+  const overlayCleanupRef = React.useRef<(() => void) | null>(null);
 
   const updateScale = React.useCallback(() => {
     if (!containerRef.current) return;
@@ -175,6 +184,61 @@ export function SlideViewer({ item }: SlideViewerProps) {
     };
   }, [item.id, item.slideNum, updateScale]);
 
+  // Apply / remove translation overlay
+  React.useEffect(() => {
+    overlayCleanupRef.current?.();
+    overlayCleanupRef.current = null;
+
+    if (lang !== 'zh' || !slideHtml || !item.slideNum) return;
+
+    const partKey = extractPartFromId(item.id);
+    if (!partKey) return;
+
+    let cancelled = false;
+
+    const apply = async () => {
+      const data = await loadPartTranslations(partKey);
+      if (cancelled || !data) return;
+
+      const slideTranslations = data[String(item.slideNum)];
+      if (!slideTranslations) return;
+
+      const wrapper = wrapperRef.current;
+      const player = slideRef.current;
+      if (!wrapper || !player) return;
+
+      overlayCleanupRef.current = applyTranslationOverlay(
+        wrapper,
+        player,
+        slideTranslations,
+        scale,
+      );
+    };
+
+    // Small delay to ensure DOM is laid out after slideHtml change
+    const timer = setTimeout(() => {
+      if (!cancelled) apply();
+    }, 60);
+
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+      overlayCleanupRef.current?.();
+      overlayCleanupRef.current = null;
+    };
+  }, [lang, slideHtml, item.id, item.slideNum, scale]);
+
+  // Cleanup overlay on lang switch to EN
+  React.useEffect(() => {
+    if (lang === 'en') {
+      const wrapper = wrapperRef.current;
+      const player = slideRef.current;
+      if (wrapper && player) {
+        removeTranslationOverlay(wrapper, player);
+      }
+    }
+  }, [lang]);
+
   React.useEffect(() => {
     return () => {
       if (styleRef.current) {
@@ -219,15 +283,25 @@ export function SlideViewer({ item }: SlideViewerProps) {
         style={{ width: `${displayWidth}px`, height: `${displayHeight}px` }}
       >
         <div
-          className="playerView"
+          ref={wrapperRef}
           style={{
             width: `${BASE_WIDTH}px`,
             height: `${BASE_HEIGHT}px`,
             transform: `scale(${scale})`,
             transformOrigin: 'top left',
+            position: 'relative',
           }}
-          dangerouslySetInnerHTML={{ __html: slideHtml }}
-        />
+        >
+          <div
+            ref={slideRef}
+            className="playerView"
+            style={{
+              width: `${BASE_WIDTH}px`,
+              height: `${BASE_HEIGHT}px`,
+            }}
+            dangerouslySetInnerHTML={{ __html: slideHtml }}
+          />
+        </div>
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ import {
   type TreeItem,
 } from '@/lib/encyclopedia';
 import { SlideViewer } from '@/components/encyclopedia/SlideViewer';
+import { LangToggle } from '@/components/encyclopedia/LangToggle';
 
 const DATA_URL = '/encyclopedia/encyclopedia_complete.json';
 const STORAGE_KEY = 'kunge-encyclopedia-state';
@@ -30,6 +31,7 @@ export default function EncyclopediaShell() {
   const [selectedItem, setSelectedItem] = React.useState<TreeItem | null>(null);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
+  const [lang, setLang] = React.useState<'en' | 'zh'>('en');
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -213,8 +215,11 @@ export default function EncyclopediaShell() {
   }
 
   return (
-    <div className="w-full h-full min-h-[60vh]">
-      <SlideViewer item={resolvedItem} />
+    <div className="w-full h-full min-h-[60vh] relative">
+      <div className="absolute top-2 right-2 z-20">
+        <LangToggle lang={lang} onToggle={() => setLang((l) => (l === 'en' ? 'zh' : 'en'))} />
+      </div>
+      <SlideViewer item={resolvedItem} lang={lang} />
     </div>
   );
 }
