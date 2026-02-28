@@ -78,16 +78,16 @@ const courses = [
   },
   {
     title: '价格行为三部曲·交易区间',
-    description: '第二卷：交易区间、订单管理、交易数学。内容建设中。',
+    description: '第二卷：聚焦交易区间、订单管理与交易数学，系统讲解突破、回调与交易者方程。',
     href: '/docs/al-brooks-trading-ranges',
-    tag: '建设中',
+    tag: '书籍简介',
     icon: bookIcon,
   },
   {
     title: '价格行为三部曲·反转',
-    description: '第三卷：趋势反转、日内交易、日线图、期权与最佳入场策略。内容建设中。',
+    description: '第三卷：聚焦趋势反转、日内交易、日线图与期权，提炼最佳入场与风控框架。',
     href: '/docs/al-brooks-reversals',
-    tag: '建设中',
+    tag: '书籍简介',
     icon: bookIcon,
   },
 ];
