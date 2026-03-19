@@ -2,8 +2,13 @@
 
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
 import { buttonVariants } from 'fumadocs-ui/components/ui/button';
-import { cn } from '@fumadocs/ui/cn';
-import { Airplay, Moon, Sun } from '@fumadocs/ui/icons';
+import { Monitor, Moon, Sun } from 'lucide-react';
+
+function cn(...inputs: (string | undefined | false | null)[]) {
+  return inputs.filter(Boolean).join(' ');
+}
+
+const Airplay = Monitor;
 import { cva } from 'class-variance-authority';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
