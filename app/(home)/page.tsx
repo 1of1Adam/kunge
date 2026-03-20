@@ -24,7 +24,7 @@ const courses = [
     title: 'K线猎人',
     description: '一个20年老股民的认知重建之路——沉浸式价格行为启蒙小说',
     href: '/docs/k-line-hunter',
-    tag: '25集连载',
+    tag: '连载小说',
     icon: novelIcon,
   },
   {
